@@ -63,7 +63,7 @@ export default function UserMenu() {
           onFocus={() => setDropdownOpen(true)}
           onBlur={() => setDropdownOpen(false)}
         >
-          <div className="flex flex-col text-xs font-semibold font-mabrybold text-slate-800 capitalize pt-1.5 pb-1 px-4">
+          <div className="flex flex-col text-sm font-semibold font-mabrybold text-slate-800 capitalize pt-1.5 pb-1 px-4">
             Selena gomes <span className="text-slate-500 font-mabry">@selenagomes</span>
           </div>
           <ul>
@@ -75,7 +75,7 @@ export default function UserMenu() {
                 href={""}
               >
                 <span className="block text-xs mb-0 font-semibold">
-                  <span className="text-slate-400 capitalize font-mabrybold">
+                  <span className="text-slate-900 capitalize font-mabrybold">
                     lihat profil
                   </span>
                 </span>
@@ -88,7 +88,7 @@ export default function UserMenu() {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
               >
-                <span className="block text-xs font-semibold font-mabrybold mb-0">
+                <span className="block text-sm text-gray-900 font-semibold font-mabry mb-0">
                   Akun Seting
                 </span>
               </Link>
@@ -100,7 +100,7 @@ export default function UserMenu() {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
               >
-                <span className="block text-xs font-semibold font-mabrybold mb-0">
+                <span className="block text-sm text-gray-900 font-semibold font-mabry mb-0">
                   Service status
                 </span>
               </Link>
@@ -112,7 +112,7 @@ export default function UserMenu() {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
               >
-                <span className="block text-xs font-semibold font-mabrybold mb-0">Help</span>
+                <span className="block text-sm text-gray-900 font-semibold font-mabry mb-0">Help</span>
               </Link>
             </li>
             <li className="border-b border-slate-200 last:border-0">
