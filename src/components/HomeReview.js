@@ -15,6 +15,16 @@ import pga from "@/img/pga.jpg";
 import callofduty from "@/img/callofduty.jpg";
 import starwar from "@/img/starwar.jpeg";
 
+import colosous from "@/img/thumbnail/colosous.jpg";
+import diablo from "@/img/thumbnail/diablo.jpg";
+import murdered from "@/img/thumbnail/murdered.jpg";
+import north from "@/img/thumbnail/north.jpg";
+import saboteur from "@/img/thumbnail/saboteur.jpg";
+import skyrim from "@/img/thumbnail/skyrim.jpg";
+import spiderman from "@/img/thumbnail/spiderman.jpg";
+import toad from "@/img/thumbnail/toad.jpg";
+import unpacking from "@/img/thumbnail/unpacking.jpg";
+
 export default function HomeReview() {
   let scrl = useRef(null);
   const shiftN = 230;
@@ -94,378 +104,360 @@ export default function HomeReview() {
             ref={scrl}
             onScroll={scrollCheck}
           >
-            <div
-              aria-hidden="true"
-              className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline bg-white"
-            >
-              <div className="w-[250px]">
-                <div
-                  className="flex flex-col rounded-[4px]"
-                  style={{
-                    boxShadow: "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                    border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <figure className="relative m-0 flex flex-1 items-center justify-center">
-                    <Image
-                      alt=""
-                      src={lastofus}
-                      width="100"
-                      height="100"
-                      decoding="async"
-                      data-nimg="1"
-                      className="h-[130px] w-full rounded-t object-cover"
-                      loading="lazy"
-                      style={{ color: "transparent" }}
-                    />
-                    <section className="absolute bottom-1 px-2 py-1 w-full">
-                      <div className="flex  items-center justify-end">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-full ">
-                          <CircularProgressbar
-                            value={69}
-                            text={`${69}%`}
-                            background
-                            backgroundPadding={6}
-                            styles={buildStyles({
-                              textSize: "30px",
-                              pathColor: "#fff",
-                              textColor: "#fff",
-                              trailColor: "transparent",
-                              backgroundColor: "#3e98c7",
-                            })}
-                          />
-                        </div>
-                      </div>
-                    </section>
-                  </figure>
-                  <div className="p-[0.5em]">
-                    <div className="min-h-[2.5em]">
-                      <span
-                        className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                        style={{
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          webkitBoxOrient: "vertical",
-                        }}
-                      >
-                        Lorem ipsum dolor sit amet
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={diablo}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div
-              aria-hidden="true"
-              className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline bg-white"
-            >
-              <div className="w-[250px]">
-                <div
-                  className="flex flex-col rounded-[4px]"
-                  style={{
-                    boxShadow: "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                    border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <figure className="relative m-0 flex flex-1 items-center justify-center">
-                    <Image
-                      alt=""
-                      src={cyberpunk}
-                      width="100"
-                      height="100"
-                      decoding="async"
-                      data-nimg="1"
-                      className="h-[130px] w-full rounded-t object-cover"
-                      loading="lazy"
-                      style={{ color: "transparent" }}
-                    />
-                    <section className="absolute bottom-1 px-2 py-1 w-full">
-                      <div className="flex  items-center justify-end">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-full ">
-                          <CircularProgressbar
-                            value={69}
-                            text={`${69}%`}
-                            background
-                            backgroundPadding={6}
-                            styles={buildStyles({
-                              textSize: "30px",
-                              pathColor: "#fff",
-                              textColor: "#fff",
-                              trailColor: "transparent",
-                              backgroundColor: "#3e98c7",
-                            })}
-                          />
-                        </div>
-                      </div>
-                    </section>
-                  </figure>
-                  <div className="p-[0.5em]">
-                    <div className="min-h-[2.5em]">
-                      <span
-                        className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                        style={{
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          webkitBoxOrient: "vertical",
-                        }}
-                      >
-                        Lorem ipsum dolor sit amet
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={colosous}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div
-              aria-hidden="true"
-              className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline bg-white"
-            >
-              <div className="w-[250px]">
-                <div
-                  className="flex flex-col rounded-[4px]"
-                  style={{
-                    boxShadow: "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                    border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <figure className="relative m-0 flex flex-1 items-center justify-center">
-                    <Image
-                      alt=""
-                      src={callofduty}
-                      width="100"
-                      height="100"
-                      decoding="async"
-                      data-nimg="1"
-                      className="h-[130px] w-full rounded-t object-cover"
-                      loading="lazy"
-                      style={{ color: "transparent" }}
-                    />
-                    <section className="absolute bottom-1 px-2 py-1 w-full">
-                      <div className="flex  items-center justify-end">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-full ">
-                          <CircularProgressbar
-                            value={69}
-                            text={`${69}%`}
-                            background
-                            backgroundPadding={6}
-                            styles={buildStyles({
-                              textSize: "30px",
-                              pathColor: "#fff",
-                              textColor: "#fff",
-                              trailColor: "transparent",
-                              backgroundColor: "#3e98c7",
-                            })}
-                          />
-                        </div>
-                      </div>
-                    </section>
-                  </figure>
-                  <div className="p-[0.5em]">
-                    <div className="min-h-[2.5em]">
-                      <span
-                        className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                        style={{
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          webkitBoxOrient: "vertical",
-                        }}
-                      >
-                        Lorem ipsum dolor sit amet
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={spiderman}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div
-              aria-hidden="true"
-              className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline bg-white"
-            >
-              <div className="w-[250px]">
-                <div
-                  className="flex flex-col rounded-[4px]"
-                  style={{
-                    boxShadow: "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                    border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <figure className="relative m-0 flex flex-1 items-center justify-center">
-                    <Image
-                      alt=""
-                      src={mine}
-                      width="100"
-                      height="100"
-                      decoding="async"
-                      data-nimg="1"
-                      className="h-[130px] w-full rounded-t object-cover"
-                      loading="lazy"
-                      style={{ color: "transparent" }}
-                    />
-                    <section className="absolute bottom-1 px-2 py-1 w-full">
-                      <div className="flex  items-center justify-end">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-full ">
-                          <CircularProgressbar
-                            value={69}
-                            text={`${69}%`}
-                            background
-                            backgroundPadding={6}
-                            styles={buildStyles({
-                              textSize: "30px",
-                              pathColor: "#fff",
-                              textColor: "#fff",
-                              trailColor: "transparent",
-                              backgroundColor: "#3e98c7",
-                            })}
-                          />
-                        </div>
-                      </div>
-                    </section>
-                  </figure>
-                  <div className="p-[0.5em]">
-                    <div className="min-h-[2.5em]">
-                      <span
-                        className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                        style={{
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          webkitBoxOrient: "vertical",
-                        }}
-                      >
-                        Lorem ipsum dolor sit amet
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={murdered}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div
-              aria-hidden="true"
-              className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline bg-white"
-            >
-              <div className="w-[250px]">
-                <div
-                  className="flex flex-col rounded-[4px]"
-                  style={{
-                    boxShadow: "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                    border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <figure className="relative m-0 flex flex-1 items-center justify-center">
-                    <Image
-                      alt=""
-                      src={pga}
-                      width="100"
-                      height="100"
-                      decoding="async"
-                      data-nimg="1"
-                      className="h-[130px] w-full rounded-t object-cover"
-                      loading="lazy"
-                      style={{ color: "transparent" }}
-                    />
-                    <section className="absolute bottom-1 px-2 py-1 w-full">
-                      <div className="flex  items-center justify-end">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-full ">
-                          <CircularProgressbar
-                            value={69}
-                            text={`${69}%`}
-                            background
-                            backgroundPadding={6}
-                            styles={buildStyles({
-                              textSize: "30px",
-                              pathColor: "#fff",
-                              textColor: "#fff",
-                              trailColor: "transparent",
-                              backgroundColor: "#3e98c7",
-                            })}
-                          />
-                        </div>
-                      </div>
-                    </section>
-                  </figure>
-                  <div className="p-[0.5em]">
-                    <div className="min-h-[2.5em]">
-                      <span
-                        className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                        style={{
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          webkitBoxOrient: "vertical",
-                        }}
-                      >
-                        Lorem ipsum dolor sit amet
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={unpacking}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div
-              aria-hidden="true"
-              className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline bg-white"
-            >
-              <div className="w-[250px]">
-                <div
-                  className="flex flex-col rounded-[4px]"
-                  style={{
-                    boxShadow: "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                    border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <figure className="relative m-0 flex flex-1 items-center justify-center">
-                    <Image
-                      alt=""
-                      src={starwar}
-                      width="100"
-                      height="100"
-                      decoding="async"
-                      data-nimg="1"
-                      className="h-[130px] w-full rounded-t object-cover"
-                      loading="lazy"
-                      style={{ color: "transparent" }}
-                    />
-                    <section className="absolute bottom-1 px-2 py-1 w-full">
-                      <div className="flex  items-center justify-end">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-full ">
-                          <CircularProgressbar
-                            value={69}
-                            text={`${69}%`}
-                            background
-                            backgroundPadding={6}
-                            styles={buildStyles({
-                              textSize: "30px",
-                              pathColor: "#fff",
-                              textColor: "#fff",
-                              trailColor: "transparent",
-                              backgroundColor: "#3e98c7",
-                            })}
-                          />
-                        </div>
-                      </div>
-                    </section>
-                  </figure>
-                  <div className="p-[0.5em]">
-                    <div className="min-h-[2.5em]">
-                      <span
-                        className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                        style={{
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          webkitBoxOrient: "vertical",
-                        }}
-                      >
-                        Lorem ipsum dolor sit amet
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={north}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             {/*  */}
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={skyrim}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
+                      </span>
+                    </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={saboteur}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
+                      </span>
+                    </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
+              <div className="flex w-full w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+                <div className="w-1/4">
+                  <Image
+                    src={toad}
+                    className="object-fill w-full rounded"
+                    alt=""
+                  />
+                </div>
+                <div className="w-3/4 flex flex-col space-y-2">
+                  <div className="flex justify-between ">
+                    <div className="">
+                      <span className="text-lg font-mabrybold leading-tight">
+                        A Solid Diablo Clone For The Vita.
+                      </span>
+                    </div>
+                    <div>
+                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span class="text-lg font-mabrybold">8.7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="leading-tight">
+                    <span className="font-mabry text-sm ">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king, who has been
+                      resurrected by a fairy in order to defeat the force...
+                    </span>
+                  </div>
+                  <div className="py-3">
+                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            
+            
+           
             <Link href={"/reviews"} className="text‑inherit mt-0 mr-2 mb-4 cursor-pointer no-underline">
               <div className="flex h-full w-[150px] flex-col justify-center text-center text-[#00aeef]">
                 <div className="text-base">

@@ -26,7 +26,7 @@ export default function Forums() {
       <div className="h-max flex py-12 pb-20 px-20 bg-white">
         <div className="flex w-full mx-auto space-x-8 justify-center2 items-center2">
           <div className="w-1/3 flex flex-col">
-            <div className="flex flex-col justify-center px-3 py-6 border shadow-lg rounded bg-[#fcfcfc]">
+            <div className="flex flex-col justify-center px-3 py-6 border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
               <div className="font-mabrybold text-lg text-center">
                 Request a Feature
               </div>

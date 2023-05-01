@@ -124,7 +124,7 @@ export default function Menu() {
                   className="block py-4 px-4 hover:bg-blue-500"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
-                  href={''}
+                  href={'/forums'}
                 >
                   <div className='flex space-x-3'>
                     <div className='w-10'>
@@ -145,7 +145,7 @@ export default function Menu() {
                   className="block py-4 px-4 hover:bg-blue-500"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
-                  href={'/forums'}
+                  href={'/guides'}
                 >
                   <div className='flex space-x-3'>
                     <div className='w-10'>
