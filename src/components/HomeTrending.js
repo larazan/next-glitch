@@ -12,10 +12,10 @@ export default function HomeTrending() {
     return (
       <>
       <div className='h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-yellow-50'>
-          <div className='flex flex-row mx-auto w-2/3 space-x-5 justify-center2 items-center'> 
+          <div className='flex flex-row mx-auto w-3/4 space-x-6 justify-center2 items-center'> 
             <span className='text-3xl font-mabrybold'>Trending</span>
           </div>
-          <div className='flex flex-row mx-auto w-2/3 space-x-5 justify-center2 items-center2'>
+          <div className='flex flex-row mx-auto w-3/4 space-x-6 justify-center2 items-center2'>
             <div className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 rounded" />
             </div>
@@ -32,7 +32,7 @@ export default function HomeTrending() {
               </span>
             </div>
           </div>
-          <div className='flex flex-row mx-auto w-2/3 space-x-5 justify-center2 items-center2'>
+          <div className='flex flex-row mx-auto w-3/4 space-x-6 justify-center2 items-center2'>
             <div className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 rounded" />
             </div>
@@ -49,7 +49,7 @@ export default function HomeTrending() {
               </span>
             </div>
           </div>
-          <div className='flex flex-row mx-auto w-2/3 space-x-5 justify-center2 items-center2'>
+          <div className='flex flex-row mx-auto w-3/4 space-x-6 justify-center2 items-center2'>
             <div className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 rounded" />
             </div>
@@ -66,7 +66,7 @@ export default function HomeTrending() {
               </span>
             </div>
           </div>
-          <div className='flex flex-row mx-auto w-2/3 space-x-5 justify-center2 items-center2'>
+          <div className='flex flex-row mx-auto w-3/4 space-x-6 justify-center2 items-center2'>
             <div className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 rounded" />
             </div>
@@ -84,7 +84,7 @@ export default function HomeTrending() {
             </div>
           </div>
 
-          <div className="flex  mx-auto w-2/3 space-x-5">
+          <div className="flex  mx-auto w-3/4 space-x-6">
           <div className="flex w-full pt-5">
                 <Link href={""} className="relative w-full inline-block text-lg group">
                   <span className="relative flex z-10  x-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">

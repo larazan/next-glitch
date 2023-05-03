@@ -7,6 +7,12 @@ import web from '@/img/web.png'
 import node from '@/img/node.png'
 import react from '@/img/react.png'
 
+import menu1 from '@/img/menu1.jpg'
+import menu2 from '@/img/menu2.jpg'
+import menu3 from '@/img/menu3.jpg'
+import menu4 from '@/img/menu4.jpg'
+import menu5 from '@/img/menu5.jpg'
+
 export default function Menu() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -86,7 +92,7 @@ export default function Menu() {
                 >
                   <div className='flex space-x-3'>
                     <div className='w-10'>
-                        <Image src={web} alt="" />
+                        <Image src={menu1} alt="" />
                     </div>
                     <div className='flex flex-col space-y-1'>
                         <div className='font-semibold font-mabrybold text-sm capitalize'>News / article</div>
@@ -107,7 +113,7 @@ export default function Menu() {
                 >
                   <div className='flex space-x-3'>
                     <div className='w-10'>
-                        <Image src={node} alt="" />
+                        <Image src={menu2} alt="" />
                     </div>
                     <div className='flex flex-col space-y-1'>
                         <div className='font-semibold font-mabrybold text-sm capitalize'>game reviews</div>

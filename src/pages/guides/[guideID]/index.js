@@ -93,7 +93,7 @@ export default function Guide() {
         </div>
       </div>
 
-      <section className="bg-[#f6f8f7]">
+      <div className="bg-[#f6f8f7]">
         <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-10 ">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
@@ -247,7 +247,7 @@ export default function Guide() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <Footer />
     </>
   );
