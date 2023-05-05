@@ -25,6 +25,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Mabry Black";
+  src: url('../fonts/MabryPro-Black.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

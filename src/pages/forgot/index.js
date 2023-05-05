@@ -11,27 +11,29 @@ export default function Forgot() {
             <Logo className="w-full h-8 text-red-600" />
           </Link>
         </div>
-        <div className="max-w-md w-full border-2 border-gray-800 rounded px-4 py-3 space-y-3 shadow-lg shadow-indigo-500/50">
-          <div className="mb-4">
-            <p className="text-slate-700 text-sm font-mabry">Email to send reset instructions to</p>
+        <div className="max-w-md w-full border-2 border-gray-800 rounded  space-y-3 shadow bg-white">
+          <div className="mb-4 border-b-2 border-gray-800 px-4 py-3">
+            <p className="text-slate-800 font-mabrybold">Email to send reset instructions to</p>
             {/* <h2 className="text-xl font-bold text-white">Join our community</h2> */}
           </div>
-          <div>
+          <div className="px-4 py-1">
             <input
-              className="w-full p-2 text-sm bg-gray-50 focus:outline-none outline-none focus:border-indigo-500 border border-gray-200 rounded text-gray-600 font-mabry"
+              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
               type="email"
               placeholder="Email"
             />
           </div>
           
-          <div>
+          <div className="flex space-x-2 px-4 pb-4">
+            <button className="w-full py-2 bg-white hover:bg-slate-900 hover:text-white border-2 border-gray-800 rounded text-sm font-bold text-slate-800 transition duration-200 font-mabrybold">
+              Cancel
+            </button>
             <button className="w-full py-2 bg-pink-400 hover:bg-pink-500 border-2 border-gray-800 rounded text-sm font-bold text-gray-50 transition duration-200 font-mabrybold">
               Send
             </button>
+            
           </div>
-          <button className="w-full py-2 bg-slate-100 hover:bg-slate-200 border-2 border-gray-800 rounded text-sm font-bold text-gray-700 transition duration-200 font-mabrybold">
-              Cancel
-            </button>
+          
          
         </div>
         <div className="flex max-w-md w-full p-2 justify-end">

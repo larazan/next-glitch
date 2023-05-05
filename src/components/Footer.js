@@ -3,10 +3,7 @@ import { Logo } from "@/components/Logo";
 export default function Footer() {
   return (
     <>
-      <footer
-        aria-label="Site Footer"
-        class="bg-black lg:grid lg:grid-cols-5"
-      >
+      <footer aria-label="Site Footer" class="bg-black lg:grid lg:grid-cols-5">
         <div class="relative block h-32 lg:col-span-2 lg:h-full">
           <img
             src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
@@ -16,25 +13,42 @@ export default function Footer() {
         </div>
 
         <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
-          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+          <div class="grid grid-cols-1 gap-10 sm:grid-cols-2">
             <div>
               <div class="mt-8 space-y-1 text-2xl font-mabrybold text-[#ffff00]">
-                <span>Subscribe to get tips and tactics to grow the way you want.</span>
+                <span>
+                  Subscribe to get tips and tactics to grow the way you want.
+                </span>
               </div>
               <div class="mt-4 flex w-full">
-            <input type="text" class="p-3 px-4 w-full border border-grey-light font-mabry rounded-l text-gray-900 text-md h-auto" placeholder="Your email address" />
-            <button class="bg-[#ffff00] text-black rounded-r h-auto text-xs p-3"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-7 h-7">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-</button>
-        </div>
+                <input
+                  type="text"
+                  class="p-3 px-4 w-full border border-grey-light font-mabry rounded-l text-gray-900 text-md h-auto"
+                  placeholder="Your email address"
+                />
+                <button class="bg-[#ffff00] text-black rounded-r h-auto text-xs p-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className="w-7 h-7"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
 
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
-
                 <nav aria-label="Footer Navigation - Services" class="mt-6">
-                  <ul class="space-y-2 text-md font-mabry">
+                  <ul class="space-y-2 text-md font-mabrybold">
                     <li>
                       <a
                         href="#"
@@ -85,7 +99,7 @@ export default function Footer() {
 
               <div>
                 <nav aria-label="Footer Navigation - Company" class="mt-6">
-                  <ul class="space-y-2 text-md font-mabry">
+                  <ul class="space-y-2 text-md font-mabrybold">
                     <li>
                       <a
                         href="#"
@@ -247,7 +261,7 @@ export default function Footer() {
               </nav>
 
               <p class="mt-8 text-md font-mabrybold text-[#ffff00] sm:mt-0">
-                &copy;  Company Name.
+                &copy; Company Name.
               </p>
             </div>
           </div>

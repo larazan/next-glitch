@@ -105,7 +105,7 @@ export default function HomeReview() {
             onScroll={scrollCheck}
           >
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={diablo}
@@ -144,7 +144,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={colosous}
@@ -183,7 +183,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={spiderman}
@@ -222,7 +222,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={murdered}
@@ -261,7 +261,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={unpacking}
@@ -300,7 +300,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={north}
@@ -339,7 +339,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={skyrim}
@@ -378,7 +378,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={saboteur}
@@ -417,7 +417,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-full w-[450px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
                 <div className="w-1/4">
                   <Image
                     src={toad}

@@ -14,6 +14,7 @@ module.exports = {
         mabry: ["Mabry Pro", "sans"],
         mabrybold: ["Mabry Bold", "sans"],
         mabryitalic: ["Mabry Italic", "sans"],
+        mabryblack: ["Mabry Black", "sans"],
       },
     },
   },

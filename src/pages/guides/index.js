@@ -34,7 +34,7 @@ export default function Guides() {
             <div className="flex  items-center space-x-2">
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 text-sm font-mabry rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-yellow-100 border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Sort</option>
                 <option value="US">United States</option>
@@ -44,7 +44,7 @@ export default function Guides() {
               </select>
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 text-sm font-mabry rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-yellow-100 border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Score</option>
                 <option value="US">United States</option>
@@ -54,7 +54,7 @@ export default function Guides() {
               </select>
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 font-mabry text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-yellow-100 border border-gray-800 text-gray-900 font-mabrybold text-md rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Platform</option>
                 <option value="US">United States</option>
@@ -64,7 +64,7 @@ export default function Guides() {
               </select>
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 text-sm font-mabry rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-yellow-100 border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Genre</option>
                 <option value="US">United States</option>
@@ -81,21 +81,21 @@ export default function Guides() {
         <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-10 pb-10">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
-              <div className="flex flex-col space-y-5 w-2/3 text-md font-mabry leading-tight pr-4 border-r">
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+              <div className="flex flex-col space-y-5 w-2/3 text-md font-mabry leading-tight pr-4 border-r border-gray-700">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -134,20 +134,20 @@ export default function Guides() {
                     </div>
                   </div>
                 </Link>
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabrybold leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -186,20 +186,20 @@ export default function Guides() {
                     </div>
                   </div>
                 </Link>
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabrybold leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -238,20 +238,20 @@ export default function Guides() {
                     </div>
                   </div>
                 </Link>
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabrybold leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -290,20 +290,20 @@ export default function Guides() {
                     </div>
                   </div>
                 </Link>
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabrybold leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -342,20 +342,20 @@ export default function Guides() {
                     </div>
                   </div>
                 </Link>
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabrybold leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -394,20 +394,20 @@ export default function Guides() {
                     </div>
                   </div>
                 </Link>
-                <Link href={""}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center bg-white px-4 py-4 rounded-md shadow">
+                <Link href={"/guides/2"}>
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
                     <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[16px] font-mabrybold">
+                      <div className="text-[19px] font-mabrybold leading-tight">
                         Build that thing you’ve been imagining
                       </div>
-                      <span className="text-[13px] leading-snug">
+                      <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex space-x-3 items-center text-red-600">
+                      <div className="flex pt-2 space-x-3 items-center text-red-600">
                         <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
@@ -450,7 +450,7 @@ export default function Guides() {
               <div className="w-1/3 ">
                 <div className="flex flex-col space-y-2 px-2 w-full">
                   <div>
-                    <span className="text-sm capitalize font-mabrybold">
+                    <span className="text-md capitalize font-mabrybold">
                       suggested topic
                     </span>
                   </div>

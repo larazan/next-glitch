@@ -14,38 +14,38 @@ export default function Register() {
             <Logo className="w-full h-8 text-red-600" />
           </Link>
         </div>
-        <div className="max-w-md w-full border-2 border-gray-800 rounded px-4 py-3 space-y-4 shadow-lg shadow-indigo-500/50">
-          <div className="mb-4">
-            <p className="text-slate-700 font-bold font-mabrybold">Register</p>
+        <div className="max-w-md w-full border-2 border-gray-800 rounded  space-y-3 shadow bg-white">
+          <div className="mb-4 border-b-2 border-gray-800 px-4 py-3 ">
+            <p className="text-slate-800 font-mabrybold">Register</p>
             {/* <h2 className="text-xl font-bold text-white">Join our community</h2> */}
           </div>
-          <div>
+          <div className="px-4 py-1">
             <input
-              className="w-full p-2 text-sm bg-gray-50 focus:outline-none outline-none focus:border-indigo-500 border border-gray-200 rounded text-gray-600 font-mabry"
+              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
               type="text"
               placeholder="Username"
             />
           </div>
-          <div>
+          <div className="px-4 py-1">
             <input
-              className="w-full p-2 text-sm bg-gray-50 focus:outline-none outline-none focus:border-indigo-500 border border-gray-200 rounded text-gray-600 font-mabry"
+              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
               type="email"
               placeholder="Email"
             />
           </div>
-          <div>
+          <div className="px-4 py-1">
             <input
-              className="w-full p-2 text-sm bg-gray-50 focus:outline-none outline-none focus:border-indigo-500 border border-gray-200 rounded text-gray-600 font-mabry"
+              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
               type="text"
               placeholder="Password"
             />
           </div>
-          <div>
-            <button className="w-full py-2 bg-indigo-600 hover:bg-indigo-700 border-2 border-gray-800 rounded text-sm font-bold text-gray-50 transition duration-200 font-mabrybold">
+          <div className="px-4 py-1">
+          <button className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 border-2 border-gray-800 rounded text-sm font-bold text-gray-50 transition duration-200 font-mabrybold">
               Register Now
             </button>
           </div>
-          <div className="text-xs leading-tight font-mabry">
+          <div className="px-4 pb-2 text-xs leading-tight font-mabry">
             By signing into Glitch, you agree to our{" "}
             <a href="#" className="text-blue-400">
               Terms of Services and Privacy Statement
@@ -149,7 +149,7 @@ export default function Register() {
               ></span>
             </Link>
           </div>
-          <div className="flex flex-col space-y-1 items-center border-2 p-2 border-gray-800 rounded">
+          <div className="flex flex-col space-y-1 items-center p-2">
             <span className="text-xs font-mabry">Already have an account?</span>
             {/* <Link href={"/login"}>
             <button className="py-2 px-3 bg-green-100 hover:bg-green-200 border-2 border-gray-800 rounded text-xs font-semibold text-blue-400 transition duration-200 shadow-lg shadow-indigo-500/50">
@@ -157,7 +157,7 @@ export default function Register() {
             </button>
             </Link> */}
             <Link href={"/login"} className="relative inline-block text-lg group">
-              <span className="relative z-10 block px-3 py-2  overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+              <span className="relative z-10 block px-7 py-2  overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                 <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-green-100 group-hover:bg-green-200"></span>
                 {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
                 <span className="relative">Sign In</span>

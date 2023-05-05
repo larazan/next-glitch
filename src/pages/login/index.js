@@ -11,31 +11,31 @@ export default function Login() {
             <Logo className="w-full h-8 text-red-600" />
           </Link>
         </div>
-        <div className="max-w-md w-full border-2 border-gray-800 rounded px-4 py-3 space-y-3 shadow-lg shadow-indigo-500/50">
-          <div className="mb-4">
-            <p className="text-slate-700 font-bold font-mabrybold">Sign In</p>
+        <div className="max-w-md w-full border-2 border-gray-800 rounded  space-y-3 shadow bg-white">
+          <div className="mb-4 border-b-2 border-gray-800 px-4 py-3 ">
+            <p className="text-slate-800 font-mabrybold">Sign In</p>
             {/* <h2 className="text-xl font-bold text-white">Join our community</h2> */}
           </div>
-          <div>
+          <div className="px-4 py-1">
             <input
-              className="w-full p-2 text-sm bg-gray-50 focus:outline-none outline-none focus:border-indigo-500 border border-gray-200 rounded text-gray-600 font-mabry"
+              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
               type="email"
               placeholder="Email"
             />
           </div>
-          <div>
+          <div className="px-4 py-1">
             <input
-              className="w-full p-2 text-sm bg-gray-50 focus:outline-none outline-none focus:border-indigo-500 border border-gray-200 rounded text-gray-600 font-mabry"
+              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
               type="text"
               placeholder="Password"
             />
           </div>
-          <div>
-            <button className="w-full py-2 bg-blue-600 hover:bg-blue-700 border-2 border-gray-800 rounded text-sm font-bold text-gray-50 transition duration-200 font-mabrybold">
+          <div className="px-4 py-1">
+            <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 border-2 border-gray-800 rounded text-sm font-bold text-gray-50 transition duration-200 font-mabrybold">
               Sign In
             </button>
           </div>
-          <div className="text-xs leading-tight font-mabry">
+          <div className="px-4 pb-2 text-xs leading-tight font-mabry">
             By signing into Glitch, you agree to our{" "}
             <a href="#" className="text-blue-400">
               Terms of Services and Privacy Statement
@@ -49,13 +49,8 @@ export default function Login() {
         </div> */}
         </div>
         <div className="flex max-w-md w-full p-2 justify-between">
-          <div className="flex flex-col space-y-1 items-center border-2 p-2 border-gray-800 rounded">
+          <div className="flex flex-col space-y-1 items-center  p-2 rounded">
             <span className="text-xs font-mabry">Don't have an account?</span>
-            {/* <Link href={"/register"}>
-              <button className="py-2 px-3 bg-green-100 hover:bg-green-200 border-2 border-gray-800 rounded text-xs font-semibold font-mabrybold text-blue-400 transition duration-200 shadow-lg shadow-indigo-500/50">
-                Create Account?
-              </button>
-            </Link> */}
             <Link href={"/register"} className="relative inline-block text-lg group">
               <span className="relative z-10 block px-3 py-2  overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                 <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-green-100 group-hover:bg-green-200"></span>
@@ -69,11 +64,6 @@ export default function Login() {
             </Link>
           </div>
           <div className="flex items-center">
-            {/* <Link href={"/forgot"}>
-              <button className="py-2 px-3 bg-red-100 hover:bg-red-200 border-2 border-gray-800 rounded text-xs font-semibold font-mabrybold text-blue-400 transition duration-200 shadow-lg shadow-indigo-500/50">
-                Forgot password?
-              </button>
-            </Link> */}
             <Link href={"/forgot"} className="relative inline-block text-lg group">
               <span className="relative z-10 block px-3 py-2  overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                 <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-red-100 group-hover:bg-red-200"></span>
