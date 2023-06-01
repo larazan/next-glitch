@@ -39,8 +39,8 @@ export default function Guide() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center border border-gray-800 rounded">
-            <div class="flex flex-col w-full ">
+          <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
+            <div className="flex flex-col w-full ">
               <div className="border-b border-gray-800 py-3 px-3 leading-tight">
                 <span className="text-sm font-mabry ">The Last of us</span>
               </div>
@@ -58,7 +58,7 @@ export default function Guide() {
                   Role-Playing, Action RPG
                 </div>
               </div>
-              <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
+              <div className="flex justify-between items-center border-gray-800 py-3 px-3">
                 <div className="text-sm font-mabrybold">Multiplayer</div>
                 <div className="text-sm font-mabry">No</div>
               </div>
@@ -108,15 +108,15 @@ export default function Guide() {
                             Facebook
                           </span>
                           <svg
-                            class="w-4 h-4 text-white"
+                            className="w-4 h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
                         </div>
@@ -127,7 +127,7 @@ export default function Guide() {
                             Twitter
                           </span>
                           <svg
-                            class="w-4 h-4 text-white"
+                            className="w-4 h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -322,40 +322,40 @@ export default function Guide() {
                 {/* TAGS */}
                 <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-4 py-2">
                   <span> Tags: </span>
-                  <div class="flex flex-wrap space-x-1 w-60">
+                  <div className="flex flex-wrap space-x-1 w-60">
                     <a
                       href="#"
-                      class="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-indigo-500 border border-indigo-500 py-1 px-2 rounded-full bg-indigo-200 capitalize "
+                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-indigo-500 border border-indigo-500 py-1 px-2 rounded-full bg-indigo-200 capitalize "
                     >
                       action
                     </a>{" "}
                     <a
                       href="#"
-                      class="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 py-1 px-2 rounded-full bg-green-200 capitalize "
+                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 py-1 px-2 rounded-full bg-green-200 capitalize "
                     >
                       adventure
                     </a>{" "}
                     <a
                       href="#"
-                      class="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-orange-500 border border-orange-500 py-1 px-2 rounded-full bg-orange-200 capitalize "
+                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-orange-500 border border-orange-500 py-1 px-2 rounded-full bg-orange-200 capitalize "
                     >
                       adventure
                     </a>{" "}
                     <a
                       href="#"
-                      class="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-blue-500 border border-blue-500 py-1 px-2 rounded-full bg-blue-200 capitalize "
+                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-blue-500 border border-blue-500 py-1 px-2 rounded-full bg-blue-200 capitalize "
                     >
                       rpg
                     </a>{" "}
                     <a
                       href="#"
-                      class="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-yellow-500 border border-yellow-500 py-1 px-2 rounded-full bg-yellow-200 capitalize "
+                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-yellow-500 border border-yellow-500 py-1 px-2 rounded-full bg-yellow-200 capitalize "
                     >
                       sport
                     </a>{" "}
                     <a
                       href="#"
-                      class="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 py-1 px-2 rounded-full bg-red-200 capitalize "
+                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 py-1 px-2 rounded-full bg-red-200 capitalize "
                     >
                       racing
                     </a>{" "}

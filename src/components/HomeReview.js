@@ -105,7 +105,7 @@ export default function HomeReview() {
             onScroll={scrollCheck}
           >
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={diablo}
@@ -121,8 +121,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -144,7 +144,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={colosous}
@@ -160,8 +160,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -183,7 +183,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={spiderman}
@@ -199,8 +199,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -222,7 +222,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={murdered}
@@ -238,8 +238,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -261,7 +261,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex  w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={unpacking}
@@ -277,8 +277,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -300,7 +300,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={north}
@@ -316,8 +316,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -339,7 +339,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={skyrim}
@@ -355,8 +355,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -378,7 +378,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={saboteur}
@@ -394,8 +394,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -417,7 +417,7 @@ export default function HomeReview() {
             </div>
             {/*  */}
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-[350px] space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={toad}
@@ -433,8 +433,8 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>

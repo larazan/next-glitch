@@ -49,7 +49,7 @@ export default function Menu() {
         <button
           ref={trigger}
           // className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ${dropdownOpen && 'bg-slate-200'}`}
-          className="flex  items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-1 bg-white opacity-90 hover:opacity-100"
+          className="flex  items-center shadow-menu justify-center rounded border-2 border-gray-800 px-3 py-1.5 space-x-1 bg-white opacity-90 hover:opacity-100"
           aria-haspopup="true"
           onClick={() => setDropdownOpen(!dropdownOpen)}
           aria-expanded={dropdownOpen}
@@ -65,7 +65,7 @@ export default function Menu() {
         
   
         <Transition
-          className="origin-top-right  absolute top-full right-0 -mr-2 md:-mr-16 sm:mr-0 min-w-80 w-64 bg-white border-2 border-gray-600 py-1.5 rounded shadow-lg overflow-hidden mt-4 md:mt-1"
+          className="origin-top-right shadow-menu  absolute top-full right-0 -mr-2 md:-mr-16 sm:mr-0 min-w-80 w-64 bg-white border-2 border-gray-600 py-1.5 rounded shadow-lg overflow-hidden mt-4 md:mt-1"
           show={dropdownOpen}
           enter="transition ease-out duration-200 transform"
           enterStart="opacity-0 -translate-y-2"

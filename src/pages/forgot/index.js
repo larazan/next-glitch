@@ -11,7 +11,7 @@ export default function Forgot() {
             <Logo className="w-full h-8 text-red-600" />
           </Link>
         </div>
-        <div className="max-w-md w-full border-2 border-gray-800 rounded  space-y-3 shadow bg-white">
+        <div className="max-w-md w-full border-2 border-gray-800 rounded shadow-stack-sm space-y-3 shadow bg-white">
           <div className="mb-4 border-b-2 border-gray-800 px-4 py-3">
             <p className="text-slate-800 font-mabrybold">Email to send reset instructions to</p>
             {/* <h2 className="text-xl font-bold text-white">Join our community</h2> */}
@@ -38,15 +38,12 @@ export default function Forgot() {
         </div>
         <div className="flex max-w-md w-full p-2 justify-end">
             <Link href={"/register"} className="relative inline-block text-lg group">
-              <span className="relative z-10 block px-3 py-2  overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+              <span className="relative z-10 block px-3 py-2 button overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                 <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-green-100 group-hover:bg-green-200"></span>
                 {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
                 <span className="relative">Sign Up</span>
               </span>
-              <span
-                className="absolute bottom-0 right-0 w-full h-9 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                data-rounded="rounded-lg"
-              ></span>
+              
             </Link>
         </div>
     

@@ -30,11 +30,11 @@ export default function Guides() {
       </div>
       <div className="h-max flex flex-col mt-2">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex justify-between w-full  px-8 py-4 border-y border-gray-800 bg-white">
-            <div className="flex  items-center space-x-2">
+          <div className="flex justify-between w-full  px-8 py-4 border-y border-gray-800 bg-yellow-200">
+            <div className="flex flex-wrap md:flex-nowrap items-center justify-between2 space-x-6">
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="input-select border border-gray-800 text-gray-900 text-md font-mabrybold rounded  "
               >
                 <option selected>Sort</option>
                 <option value="US">United States</option>
@@ -44,7 +44,7 @@ export default function Guides() {
               </select>
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="input-select border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Score</option>
                 <option value="US">United States</option>
@@ -54,7 +54,7 @@ export default function Guides() {
               </select>
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 font-mabrybold text-md rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="input-select border border-gray-800 text-gray-900 font-mabrybold text-md rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Platform</option>
                 <option value="US">United States</option>
@@ -64,7 +64,7 @@ export default function Guides() {
               </select>
               <select
                 id="countries"
-                class="bg-yellow-100 border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="input-select border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option selected>Genre</option>
                 <option value="US">United States</option>
@@ -83,7 +83,7 @@ export default function Guides() {
             <div className="flex w-full space-x-3">
               <div className="flex flex-col space-y-5 w-2/3 text-md font-mabry leading-tight pr-4 border-r border-gray-700">
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
@@ -135,7 +135,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
@@ -187,7 +187,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
@@ -239,7 +239,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
@@ -291,7 +291,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
@@ -343,7 +343,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>
@@ -395,7 +395,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md">
+                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3">
                       <Image src={cod} alt="" />
                     </div>

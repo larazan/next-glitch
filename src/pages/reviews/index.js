@@ -28,8 +28,9 @@ export default function Reviews() {
       <Header />
 
       <div className="h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-yellow-400">
-        <div className="flex flex-row mx-auto  space-x-6 justify-center2 items-center">
+        <div className="flex flex-col mx-auto  space-y-6 justify-center2 items-center">
           <span className="text-3xl font-mabrybold">Reviews</span>
+          
         </div>
       </div>
 
@@ -53,7 +54,7 @@ export default function Reviews() {
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <section className="mt-4 flex flex-row flex-wrap  mx-auto items-center2">
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={colosous}
@@ -69,8 +70,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -93,7 +94,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={diablo}
@@ -109,8 +110,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -132,7 +133,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={murdered}
@@ -148,8 +149,8 @@ export default function Reviews() {
                       </span>
                     </Link>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -171,7 +172,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={north}
@@ -187,8 +188,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -211,7 +212,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={saboteur}
@@ -227,8 +228,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -251,7 +252,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={skyrim}
@@ -267,8 +268,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -291,7 +292,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={spiderman}
@@ -307,8 +308,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -331,7 +332,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={toad}
@@ -347,8 +348,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -371,7 +372,7 @@ export default function Reviews() {
             </div>
 
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="w-1/4">
                   <Image
                     src={unpacking}
@@ -387,8 +388,8 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div class="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                        <span class="text-lg font-mabrybold">8.7</span>
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
                   </div>
@@ -410,24 +411,7 @@ export default function Reviews() {
               </div>
             </div>
 
-            <div className="flex w-full py-5">
-              <div className="mx-auto w-1/3 space-x-5">
-                <Link
-                  href={""}
-                  className="relative w-full inline-block text-lg group"
-                >
-                  <span className="relative flex z-10  x-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
-                    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                    {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
-                    <span className="relative">Load More</span>
-                  </span>
-                  <span
-                    className="absolute bottom-0 right-0 w-full h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                    data-rounded="rounded-lg"
-                  ></span>
-                </Link>
-              </div>
-            </div>
+            
           </section>
         </div>
       </div>

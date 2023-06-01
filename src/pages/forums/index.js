@@ -26,7 +26,7 @@ export default function Forums() {
       <div className="h-max flex py-12 pb-20 px-20 bg-[#f4f4f0]">
         <div className="flex w-full mx-auto space-x-8 justify-center2 items-center2">
           <div className="w-1/3 flex flex-col">
-            <div className="flex flex-col justify-center px-3 py-6 border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
+            <div className="flex flex-col justify-center shadow-stack-sm px-3 py-6 border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
               <div className="font-mabrybold text-lg text-center">
                 Request a Feature
               </div>
@@ -36,26 +36,21 @@ export default function Forums() {
               </div>
               <div className="flex w-full pt-5 justify-end">
                 <Link href={""} className="relative inline-block text-lg group">
-                  <span className="relative flex z-10  px-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                  <span className="relative button flex z-10  px-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                     <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                    {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
                     <span className="relative">Create Request?</span>
-                  </span>
-                  <span
-                    className="absolute bottom-0 right-0 w-full h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                    data-rounded="rounded-lg"
-                  ></span>
+                  </span>                  
                 </Link>
               </div>
             </div>
           </div>
           <div className="w-2/3 flex flex-col font-mabry leading-snug space-y-3">
-            <div class="">
-              <div class="relative flex items-center w-full h-12 border rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
-                <div class="grid place-items-center h-full w-12 text-gray-300">
+            <div className="">
+              <div className="relative flex items-center w-full h-12 border rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+                <div className="grid place-items-center h-full w-12 text-gray-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -70,7 +65,7 @@ export default function Forums() {
                 </div>
 
                 <input
-                  class="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+                  className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
                   type="text"
                   id="search"
                   placeholder="Search something.."
@@ -81,7 +76,7 @@ export default function Forums() {
               <span className="text-sm font-mabry">Showing</span>
               <select
                 id="countries"
-                class="bg-white text-gray-900 text-sm font-mabry focus:ring-blue-500 focus:border-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="bg-white text-gray-900 text-sm font-mabry focus:ring-blue-500 focus:border-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               >
                 <option>Sort</option>
                 <option value="US">Trending</option>
@@ -93,10 +88,10 @@ export default function Forums() {
             <div className="flex flex-col space-y-6">
               {/*  */}
               <div className="flex ">
-                <div class="flex-shrink  flex flex-col space-y-2  items-center">
-                  <button class="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
+                <div className="flex-shrink  flex flex-col space-y-2  items-center">
+                  <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
                     <svg
-                      class="inline-flex m-1"
+                      className="inline-flex m-1"
                       width="12"
                       height="6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +121,7 @@ export default function Forums() {
                     </span>
                     <a
                       href="#"
-                      class="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
+                      className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
                     >
                       open
                     </a>{" "}
@@ -158,10 +153,10 @@ export default function Forums() {
               </div>
               {/*  */}
               <div className="flex ">
-                <div class="flex-shrink  flex flex-col space-y-2  items-center">
-                  <button class="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
+                <div className="flex-shrink  flex flex-col space-y-2  items-center">
+                  <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
                     <svg
-                      class="inline-flex m-1"
+                      className="inline-flex m-1"
                       width="12"
                       height="6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +186,7 @@ export default function Forums() {
                     </span>
                     <a
                       href="#"
-                      class="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
+                      className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
                     >
                       open
                     </a>{" "}
@@ -223,10 +218,10 @@ export default function Forums() {
               </div>
               {/*  */}
               <div className="flex ">
-                <div class="flex-shrink  flex flex-col space-y-2  items-center">
-                  <button class="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
+                <div className="flex-shrink  flex flex-col space-y-2  items-center">
+                  <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
                     <svg
-                      class="inline-flex m-1"
+                      className="inline-flex m-1"
                       width="12"
                       height="6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -256,7 +251,7 @@ export default function Forums() {
                     </span>
                     <a
                       href="#"
-                      class="flex items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 px-2 rounded-full bg-red-200 capitalize "
+                      className="flex items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 px-2 rounded-full bg-red-200 capitalize "
                     >
                       closed
                     </a>{" "}

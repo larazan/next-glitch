@@ -113,16 +113,12 @@ export default function HomeTrending() {
 
           <div className="flex  mx-auto w-3/4 space-x-6">
           <div className="flex w-full pt-5">
-                <Link href={""} className="relative w-full inline-block text-lg group">
-                  <span className="relative flex z-10  x-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                <Link href={""} className="relative w-full inline-block  group text-center">
+                  <span className="relative flex button w-full x-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                     <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                    {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
-                    <span className="relative font-mabryblack">See All</span>
+                    <span className="relative text-lg font-mabryblack">See All</span>
                   </span>
-                  <span
-                    className="absolute bottom-0 right-0 w-full h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                    data-rounded="rounded-lg"
-                  ></span>
+                 
                 </Link>
               </div>
           </div>

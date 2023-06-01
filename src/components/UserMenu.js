@@ -119,7 +119,7 @@ export default function UserMenu() {
               <div
                 className="flex items-center space-x-2 py-1.5 px-4 "
               >
-                <button onClick={() => setDropdownOpen(!dropdownOpen)} className="flex  items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-2 bg-red-100 opacity-90 hover:opacity-100">
+                <button onClick={() => setDropdownOpen(!dropdownOpen)} className="flex shadow-menu items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-2 bg-red-100 opacity-90 hover:opacity-100">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

@@ -95,10 +95,10 @@ export default function Comment() {
                     </div>
                     <div className="py-3">
                       <div className="">
-                        <div class=" flex flex-col items-center2 w-full  border rounded focus-within:shadow-lg bg-white overflow-hidden">
+                        <div className=" flex flex-col items-center2 w-full  border rounded focus-within:shadow-lg bg-white overflow-hidden">
                           <div className="">
                             <textarea
-                              class="h-full2 w-full px-2 py-2 outline-none h-10 text-sm text-gray-700 pr-2"
+                              className="h-full2 w-full px-2 py-2 outline-none h-10 text-sm text-gray-700 pr-2"
                               placeholder="Leave a comment"
                             ></textarea>
                           </div>

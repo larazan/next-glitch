@@ -101,16 +101,11 @@ export default function Product() {
                   <span className="text-xs font-mabry">(50)</span>
                 </div>
               </div>
-              <Link href={""} className="relative inline-block text-lg group">
-                  <span className="relative flex z-10  px-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                <Link href={""} className="relative inline-block text-lg group">
+                  <span className="relative flex z-10 button px-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                     <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                    {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
                     <span className="relative">Add to cart</span>
                   </span>
-                  <span
-                    className="absolute bottom-0 right-0 w-full h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                    data-rounded="rounded-lg"
-                  ></span>
                 </Link>
             </div>
           </div>
@@ -252,23 +247,19 @@ export default function Product() {
             <div className="flex flex-col w-1/3 bg-white">
               <div className="flex w-full flex-col px-4 py-4 border-b border-gray-800">
                 <Link href={""} className="relative inline-block text-lg group">
-                  <span className="relative flex z-10  px-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                  <span className="relative flex z-10 button px-3 text-center w-full py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                     <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                    {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
                     <span className="relative">Add to cart</span>
                   </span>
-                  <span
-                    className="absolute bottom-0 right-0 w-full h-11 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                    data-rounded="rounded-lg"
-                  ></span>
+                
                 </Link>
 
                 <div className="flex w-full justify-center py-3">
                   <span className="text-sm font-mabrybold">5,226 sales</span>
                 </div>
 
-                <div className="flex justify-center border border-gray-800 rounded">
-                  <div class="flex flex-col w-full ">
+                <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
+                  <div className="flex flex-col w-full ">
                     <div className="border-b border-gray-800 py-3 px-3 leading-tight">
                       <span className="text-sm font-mabry ">
                         Roronoa Zoro Action Figure One Piece Grandista Zorro
@@ -286,7 +277,7 @@ export default function Product() {
                       <div className="text-sm font-mabrybold">Berat</div>
                       <div className="text-sm font-mabry">0,3 kg</div>
                     </div>
-                    <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
+                    <div className="flex justify-between items-center border-gray-800 py-3 px-3">
                       <div className="text-sm font-mabrybold">Material</div>
                       <div className="text-sm font-mabry">Pvc</div>
                     </div>
@@ -294,9 +285,9 @@ export default function Product() {
                 </div>
               </div>
               <div className="flex w-full flex-col px-4 py-4 ">
-                <div class="mb-1 tracking-wide ">
+                <div className="mb-1 tracking-wide ">
                   <div className="flex justify-between">
-                    <h2 class="text-gray-800 font-semibold mt-1 font-mabrybold">
+                    <h2 className="text-gray-800 font-semibold mt-1 font-mabrybold">
                       Rating
                     </h2>
                     <div className="flex items-center space-x-1 ">
@@ -321,85 +312,85 @@ export default function Product() {
                     </div>
                   </div>
 
-                  <div class="  pb-3">
-                    <div class="flex items-center mt-1">
-                      <div class="mr-3 text-xs font-mabry ">
-                        <div class="flex items-center space-x-1">
+                  <div className="  pb-3">
+                    <div className="flex items-center mt-1">
+                      <div className="mr-3 text-xs font-mabry ">
+                        <div className="flex items-center space-x-1">
                           <div>5</div>
-                          <span class="tracking-tight">starts</span>
+                          <span className="tracking-tight">starts</span>
                         </div>
                       </div>
-                      <div class="w-3/5">
-                        <div class="bg-white w-full rounded-sm border border-gray-800 h-3.5">
-                          <div class=" w-7/12 bg-green-200 rounded-sm h-3"></div>
+                      <div className="w-3/5">
+                        <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                          <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div>
                         </div>
                       </div>
-                      <div class="mr-3 font-mabry pl-3">
-                        <span class="text-xs">51%</span>
+                      <div className="mr-3 font-mabry pl-3">
+                        <span className="text-xs">51%</span>
                       </div>
                     </div>
-                    <div class="flex items-center mt-1">
-                      <div class="mr-3 text-xs font-mabry ">
-                        <div class="flex items-center space-x-1">
+                    <div className="flex items-center mt-1">
+                      <div className="mr-3 text-xs font-mabry ">
+                        <div className="flex items-center space-x-1">
                           <div>4</div>
-                          <span class="tracking-tight">starts</span>
+                          <span className="tracking-tight">starts</span>
                         </div>
                       </div>
-                      <div class="w-3/5">
-                        <div class="bg-white w-full rounded-sm border border-gray-800 h-3.5">
-                          <div class=" w-2/12 bg-green-200 rounded-sm h-3"></div>
+                      <div className="w-3/5">
+                        <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                          <div className=" w-2/12 bg-green-200 rounded-sm h-3"></div>
                         </div>
                       </div>
-                      <div class="mr-3 font-mabry pl-3">
-                        <span class="text-xs">21%</span>
+                      <div className="mr-3 font-mabry pl-3">
+                        <span className="text-xs">21%</span>
                       </div>
                     </div>
-                    <div class="flex items-center mt-1">
-                      <div class="mr-3 text-xs font-mabry ">
-                        <div class="flex items-center space-x-1">
+                    <div className="flex items-center mt-1">
+                      <div className="mr-3 text-xs font-mabry ">
+                        <div className="flex items-center space-x-1">
                           <div>3</div>
-                          <span class="tracking-tight">starts</span>
+                          <span className="tracking-tight">starts</span>
                         </div>
                       </div>
-                      <div class="w-3/5">
-                        <div class="bg-white w-full rounded-sm border border-gray-800 h-3.5">
-                          <div class=" w-1/12 bg-green-200 rounded-sm h-3"></div>
+                      <div className="w-3/5">
+                        <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                          <div className=" w-1/12 bg-green-200 rounded-sm h-3"></div>
                         </div>
                       </div>
-                      <div class="mr-3 font-mabry pl-3">
-                        <span class="text-xs">5%</span>
+                      <div className="mr-3 font-mabry pl-3">
+                        <span className="text-xs">5%</span>
                       </div>
                     </div>
-                    <div class="flex items-center mt-1">
-                      <div class="mr-3 text-xs font-mabry ">
-                        <div class="flex items-center space-x-1">
+                    <div className="flex items-center mt-1">
+                      <div className="mr-3 text-xs font-mabry ">
+                        <div className="flex items-center space-x-1">
                           <div>2</div>
-                          <span class="tracking-tight">starts</span>
+                          <span className="tracking-tight">starts</span>
                         </div>
                       </div>
-                      <div class="w-3/5">
-                        <div class="bg-white w-full rounded-sm border border-gray-800 h-3.5">
-                          {/* <div class=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
+                      <div className="w-3/5">
+                        <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                          {/* <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
                         </div>
                       </div>
-                      <div class="mr-3 font-mabry pl-3">
-                        <span class="text-xs">0%</span>
+                      <div className="mr-3 font-mabry pl-3">
+                        <span className="text-xs">0%</span>
                       </div>
                     </div>
-                    <div class="flex items-center mt-1">
-                      <div class="mr-3 text-xs font-mabry ">
-                        <div class="flex items-center space-x-1">
+                    <div className="flex items-center mt-1">
+                      <div className="mr-3 text-xs font-mabry ">
+                        <div className="flex items-center space-x-1">
                           <div>1</div>
-                          <span class="tracking-tight">starts</span>
+                          <span className="tracking-tight">starts</span>
                         </div>
                       </div>
-                      <div class="w-3/5">
-                        <div class="bg-white w-full rounded-sm border border-gray-800 h-3.5">
-                          {/* <div class=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
+                      <div className="w-3/5">
+                        <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                          {/* <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
                         </div>
                       </div>
-                      <div class="mr-3 font-mabry pl-3">
-                        <span class="text-xs">0%</span>
+                      <div className="mr-3 font-mabry pl-3">
+                        <span className="text-xs">0%</span>
                       </div>
                     </div>
                   </div>

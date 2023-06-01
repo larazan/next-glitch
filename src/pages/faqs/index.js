@@ -25,7 +25,11 @@ export default function Faqs() {
 
         <div className="h-max flex py-12 pb-20 px-20 bg-[#f2f2f2]">
           <div className="flex w-full mx-auto space-y-6 justify-center2 items-center">
-            <div className="w-1/3 text-3xl font-mabrybold">Any Question?</div>
+            <div className="flex w-1/3 font-mabrybold mx-auto">
+              <div className="mx-auto">
+              <div className="bg-mint mx-auto hover:bg-white border-2 border-gray-800 shadow text-black uppercase px-2 font-display text-2xl transform rotate-6">Any Question?</div>
+              </div>         
+            </div>
             <div className="w-2/3 flex flex-col font-mabry leading-snug space-y-10">
                 <div className="flex flex-col ">
                     <h3 className="text-lg font-mabrybold">What are private projects?</h3>
