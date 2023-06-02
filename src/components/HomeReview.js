@@ -121,7 +121,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -160,7 +160,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -199,7 +199,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -238,7 +238,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -277,7 +277,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -316,7 +316,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -355,7 +355,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -394,7 +394,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -433,7 +433,7 @@ export default function HomeReview() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex shadow-menu h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>

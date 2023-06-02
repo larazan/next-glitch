@@ -29,10 +29,10 @@ export default function Reviews() {
 
       <div className=" flex justify-center text-sm mt-16">
         <header className="py-8">
-          <h1 class="font-black text-5xl  text-center font-mabryblack">
+          <h1 className="font-black text-5xl  text-center font-mabryblack">
             Starter Kits
           </h1>{" "}
-          <p class="bg-white text-center text-2xl mb-1 font-mabryitalic">
+          <p className="bg-white text-center text-2xl mb-1 font-mabryitalic">
             Jump-start your new Statamic site with beautifully designed site
             packages or meticulous developer boilerplates.
           </p>
@@ -419,67 +419,67 @@ export default function Reviews() {
         </div>
       </div>
 
-      <div class=" h-max flex pb-6 pt-10 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+      <div className=" h-max flex pb-6 pt-10 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <nav>
-          <ul class="pagination">
+          <ul className="pagination">
             <li
               aria-disabled="true"
               aria-label="« Previous"
-              class="page-item disabled"
+              className="page-item disabled"
             >
-              <span aria-hidden="true" class="page-link">
+              <span aria-hidden="true" className="page-link">
                 ‹
               </span>
             </li>{" "}
-            <li aria-current="page" class="page-item active">
-              <span class="page-link">1</span>
+            <li aria-current="page" className="page-item active">
+              <span className="page-link">1</span>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=2" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=2" className="page-link">
                 2
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=3" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=3" className="page-link">
                 3
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=4" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=4" className="page-link">
                 4
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=5" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=5" className="page-link">
                 5
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=6" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=6" className="page-link">
                 6
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=7" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=7" className="page-link">
                 7
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=8" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=8" className="page-link">
                 8
               </a>
             </li>{" "}
-            <li class="page-item">
-              <a href="https://statamic.com/addons?page=9" class="page-link">
+            <li className="page-item">
+              <a href="https://statamic.com/addons?page=9" className="page-link">
                 9
               </a>
             </li>{" "}
-            <li class="page-item">
+            <li className="page-item">
               <a
                 href="https://statamic.com/addons?page=2"
                 rel="next"
                 aria-label="Next »"
-                class="page-link"
+                className="page-link"
               >
                 ›
               </a>
@@ -505,9 +505,9 @@ export default function Reviews() {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M15 19l-7-7 7-7"
                     />
                   </svg>
@@ -544,9 +544,9 @@ export default function Reviews() {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M9 5l7 7-7 7"
                     />
                   </svg>

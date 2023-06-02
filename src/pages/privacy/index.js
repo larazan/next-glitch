@@ -17,11 +17,11 @@ const privacy = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
-        <div class="bg-splatter-x relative py-12">
-          <article class="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
-            <div class="bg-rain h-full w-8 hidden md:block absolute top-0 left-0 -ml-16 mt-8"></div>{" "}
+        <div className="bg-splatter-x relative py-12">
+          <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
+            <div className="bg-rain h-full w-8 hidden md:block absolute top-0 left-0 -ml-16 mt-8"></div>{" "}
             <h1 className="text-3xl font-mabryblack">Privacy Policy</h1>{" "}
-            <p class="py-4 leading-tight text-pink-400 font-mabryitalic text-2xl">
+            <p className="py-4 leading-tight text-pink-400 font-mabryitalic text-2xl">
               Last updated on November 1, 2022.
             </p>{" "}
             <h2 className="font-mabrybold text-lg">Overview</h2>{" "}

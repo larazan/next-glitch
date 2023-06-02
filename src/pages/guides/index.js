@@ -27,19 +27,19 @@ export default function Guides() {
 
       <div className=" flex justify-center text-sm mt-16">
         <header className="py-8">
-          <h1 class="font-black text-5xl  text-center font-mabryblack">Starter Kits</h1>{" "}
-          <p class="bg-white text-center text-2xl mb-1 font-mabryitalic">
+          <h1 className="font-black text-5xl  text-center font-mabryblack">Starter Kits</h1>{" "}
+          <p className="bg-white text-center text-2xl mb-1 font-mabryitalic">
             Jump-start your new Statamic site with beautifully designed site
             packages or meticulous developer boilerplates.
           </p>
         </header>
       </div>
       <div className="h-max flex flex-col mt-2">
-        <div class="flex items-center">
-          <div class="bg-mint border w-full shadow-bleed-teal-sm  p-4 font-mono flex flex-wrap md:flex-nowrap items-center md:space-x-6">
+        <div className="flex items-center">
+          <div className="bg-mint border w-full shadow-bleed-teal-sm  p-4 font-mono flex flex-wrap md:flex-nowrap items-center md:space-x-6">
             <select
               name="version"
-              class="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
+              className="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
             >
               <option value="all">Platform</option>
               <option value="all">All</option>
@@ -48,7 +48,7 @@ export default function Guides() {
             </select>
             <select
               name="sort"
-              class="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
+              className="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
             >
               <option value="most-popular">Sort by Most Popular</option>{" "}
               <option value="name">Sort by Name</option>{" "}
@@ -56,7 +56,7 @@ export default function Guides() {
             </select>{" "}
             <select
               name="layout"
-              class="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
+              className="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
             >
               <option>Genre</option> <option value="arcade">Arcade</option>
               <option value="arcade">RPG</option>

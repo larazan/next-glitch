@@ -95,48 +95,30 @@ export default function Comment() {
                     </div>
                     <div className="py-3">
                       <div className="">
-                        <div className=" flex flex-col items-center2 w-full  border rounded focus-within:shadow-lg bg-white overflow-hidden">
-                          <div className="">
+                      <div className=" flex flex-col items-center2 w-full shadow-menu border-2 border-gray-800 rounded focus-within:shadow-lg bg-white overflow-hidden">
+                        <div className="">
                             <textarea
-                              className="h-full2 w-full px-2 py-2 outline-none h-10 text-sm text-gray-700 pr-2"
-                              placeholder="Leave a comment"
+                            className="h-full2 w-full px-2 py-2 outline-none h-10 text-sm text-gray-700 pr-2"
+                            placeholder="Leave a comment"
                             ></textarea>
-                          </div>
-                          <div className="flex px-2 py-2 items-center justify-between border-t">
+                        </div>
+                        <div className="flex px-2 py-1 items-center justify-between border-t border-gray-800">
                             <button className="bg-gray-200 rounded p-1.5 hover:bg-gray-300 text-gray-500 hover:text-gray-600">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                strokeWidth={1.5}
-                                stroke="currentColor"
-                                className="w-6 h-6 "
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
-                                />
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                               </svg>
                             </button>
-                            <div className="flex w-full py-2 justify-end">
-                              <Link
-                                href={""}
-                                className="relative inline-block text-lg group"
-                              >
-                                <span className="relative flex z-10  px-3 py-2 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                            <div className="flex w-full py-1 justify-end">
+                              <Link href={""} className="relative inline-block text-lg group">
+                                <span className="relative flex z-10 button px-3 py-2 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                                   <span className="absolute inset-0 w-full h-full px-3 py-3 rounded bg-pink-200 group-hover:bg-pink-300"></span>
-                                  {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
                                   <span className="relative">Submit</span>
                                 </span>
-                                <span
-                                  className="absolute bottom-0 right-0 w-full h-9 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded group-hover:mb-00 group-hover:mr-00"
-                                  data-rounded="rounded-lg"
-                                ></span>
+                                
                               </Link>
                             </div>
-                          </div>
                         </div>
+                      </div>
                       </div>
                     </div>
                   </div>

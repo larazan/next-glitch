@@ -250,46 +250,46 @@ const detail = () => {
               </div>
               <div className="w-1/3 bg-green-100">
                 <div className="flex flex-col space-y-5">
-                <div class="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
+                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
                   <a
                     href="https://statamic.com/blog/statamic-4-unleashed"
-                    class="relative"
+                    className="relative"
                   >
                     <Image
                       src={lastofus2}
                       alt=""
-                      class="w-full"
+                      className="w-full"
                     />{" "}
-                    <div class="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
+                    <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </a>{" "}
-                  <div class="px-3 py-2 flex flex-col justify-between leading-tight">
-                    <h3 class="font-mabrybold text-md">
+                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                    <h3 className="font-mabrybold text-md">
                       <a href="https://statamic.com/blog/statamic-4-unleashed">
                         Statamic 4 Has Been Unleashed
                       </a>
                     </h3>{" "}
-                    <div class="font-mabry text-xs">May 9th, 2023</div>
+                    <div className="font-mabry text-xs">May 9th, 2023</div>
                   </div>
                 </div>
-                <div class="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
+                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
                   <a
                     href="https://statamic.com/blog/statamic-4-unleashed"
-                    class="relative"
+                    className="relative"
                   >
                     <Image
                       src={godofwar}
                       alt=""
-                      class="w-full"
+                      className="w-full"
                     />{" "}
-                    <div class="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
+                    <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </a>{" "}
-                  <div class="px-3 py-2 flex flex-col justify-between leading-tight">
-                    <h3 class="font-mabrybold text-md">
+                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                    <h3 className="font-mabrybold text-md">
                       <a href="https://statamic.com/blog/statamic-4-unleashed">
                         Statamic 4 Has Been Unleashed
                       </a>
                     </h3>{" "}
-                    <div class="font-mabry text-xs">May 9th, 2023</div>
+                    <div className="font-mabry text-xs">May 9th, 2023</div>
                   </div>
                 </div>
                 </div>

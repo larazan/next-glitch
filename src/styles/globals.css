@@ -255,3 +255,20 @@ menu, ol, ul {
   color: rgb(25 26 27/var(--tw-text-opacity));
   line-height: 1.625;
 }
+
+
+
+/* .badge {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  right: -12px;
+  bottom: auto;
+  left: auto;
+  border-radius: 9999px;
+  --tw-text-opacity: 1;
+  color: rgba(255,255,255,var(--tw-text-opacity));
+  font-size: 14px;
+  height: 16px;
+  line-height: 1em;
+} */

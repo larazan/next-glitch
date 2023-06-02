@@ -1,14 +1,15 @@
-import Link from 'next/link'
-import Router from 'next/router'
-import { useEffect, useState } from 'react'
-import { Logo } from '@/components/Logo'
-import Menu from './Menu'
-import UserMenu from './UserMenu'
+import Link from "next/link";
+import Router from "next/router";
+import { useEffect, useState } from "react";
+import { Logo } from "@/components/Logo";
+import Menu from "./Menu";
+import UserMenu from "./UserMenu";
+import CartMenu from "./CartMenu";
 
 export default function Header() {
   return (
     <>
-    <header className="fixed z-20 hidden md:flex h-10 md:h-14 w-full top-0 md:m-0 px-6 md:px-8 py-6 md:py-3  items-center justify-between bg-white border-b shadow">
+      <header className="fixed z-20 hidden md:flex h-10 md:h-14 w-full top-0 md:m-0 px-6 md:px-6 py-6 md:py-3  items-center justify-between bg-white border-b shadow">
         <div className="flex w-full md:w-3/5 justify-between space-x-4">
           <div className="flex justify-between w-full md:w-[100px]">
             {/* <button className="h-8 w-8 md:hidden">
@@ -29,9 +30,8 @@ export default function Header() {
             </button> */}
             <div className="flex justify-center items-center">
               <Link href={"/"}>
-                <Logo className="h-6 text-red-600" /> 
+                <Logo className="h-6 text-red-600" />
               </Link>
-              
             </div>
             <button className="h-8 w-8 md:hidden">
               <svg
@@ -71,7 +71,7 @@ export default function Header() {
               </svg>
             </button>
 
-            <button className="h-8 w-8 md:hidden" >
+            <button className="h-8 w-8 md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -87,7 +87,7 @@ export default function Header() {
                 />
               </svg>
             </button>
-            <button className="h-8 w-8 md:hidden" >
+            <button className="h-8 w-8 md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -103,44 +103,56 @@ export default function Header() {
                 />
               </svg>
             </button>
-            
           </div>
-          <div class="relative flex items-center w-full shadow-menu rounded h-9 border-2 border-gray-800 focus-within:shadow-lg bg-white overflow-hidden">
-        <div class="grid place-items-center h-full w-12 text-gray-800">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-        </div>
+          <div className="relative flex items-center w-full shadow-menu rounded h-9 border-2 border-gray-800 focus-within:shadow-lg bg-white overflow-hidden">
+            <div className="grid place-items-center h-full w-12 text-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
 
-        <input
-        class=" h-full w-full outline-none text-sm font-mabry text-gray-800 pr-2"
-        type="text"
-        id="search"
-        placeholder="Search something.." /> 
-    </div>
-          
+            <input
+              className=" h-full w-full outline-none text-sm font-mabry text-gray-800 pr-2"
+              type="text"
+              id="search"
+              placeholder="Search something.."
+            />
+          </div>
         </div>
         <div className="flex flex-row space-x-3">
-        
           <div className="flex space-x-1.5">
             <Menu />
             <Link href={"/login"}>
-            <button className="flex button bg-mint items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 space-x-2 bg-green-100 opacity-90 hover:opacity-100">
-              <span className="text-xs font-semibold font-mabrybold">Masuk</span>
-            </button>
+              <button className="flex button bg-mint items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 space-x-2 bg-green-100 opacity-90 hover:opacity-100">
+                <span className="text-xs font-semibold font-mabrybold">
+                  Masuk
+                </span>
+              </button>
             </Link>
             <Link href={"/register"}>
-            <button className="flex button items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 space-x-2 bg-yellow-100 opacity-90 hover:opacity-100">
-              <span className="text-xs font-semibold font-mabrybold">Daftar</span>
-            </button>
+              <button className="flex button items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 space-x-2 bg-yellow-100 opacity-90 hover:opacity-100">
+                <span className="text-xs font-semibold font-mabrybold">
+                  Daftar
+                </span>
+              </button>
             </Link>
+            
+            <CartMenu />
             <UserMenu />
           </div>
-          
-          
         </div>
-       
       </header>
     </>
-  )
+  );
 }
