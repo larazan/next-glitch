@@ -6,7 +6,7 @@ import pup from '@/img/pupdate.svg'
 export default function Notice() {
   return (
     <>
-    <div className="mt-14 flex space-x-5 px-24 py-3 bg-red-50">
+    <div className="mt-14 flex space-x-5 px-24 py-3 bg-pink-200">
         <div className='w-10'>
             <Image src={pup} className="w-full" alt='' />
         </div>

@@ -1,4 +1,5 @@
 import { Logo } from "@/components/Logo";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -50,21 +51,21 @@ export default function Footer() {
                 <nav aria-label="Footer Navigation - Services" className="mt-6">
                   <ul className="space-y-2 text-md font-mabrybold">
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href={'/faqs'}
                         className="text-white transition hover:text-[#ffff00]"
                       >
                         Help
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href={'/about'}
                         className="text-white transition hover:text-[#ffff00]"
                       >
-                        University
-                      </a>
+                        About
+                      </Link>
                     </li>
 
                     <li>
@@ -77,21 +78,21 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href={'/terms'}
                         className="text-white transition hover:text-[#ffff00]"
                       >
                         Terms of Service
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href={'/privacy'}
                         className="text-white transition hover:text-[#ffff00]"
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

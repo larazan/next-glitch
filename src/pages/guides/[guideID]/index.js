@@ -29,7 +29,7 @@ export default function Guide() {
         </div>
         <div className="flex flex-col w-1/3 px-3 py-4 space-y-4">
           <div className="flex w-full space-x-3">
-            <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+            <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
               <span className="text-lg font-mabrybold">8.7</span>
             </div>
             <div className="flex w-2/3 flex-col">
@@ -103,7 +103,7 @@ export default function Guide() {
                   <div className=" flex justify-between items-center text-base md:text-sm text-green-500 font-bold">
                     <div className="flex justify-end space-x-2">
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
+                        <div className="flex rounded border shadow-menu py-1.5 px-2 border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
                           <span className="text-white font-mabrybold">
                             Facebook
                           </span>
@@ -122,7 +122,7 @@ export default function Guide() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                        <div className="flex rounded border shadow-menu py-1.5 px-2 border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
                           <span className="text-white font-mabrybold">
                             Twitter
                           </span>
@@ -137,7 +137,7 @@ export default function Guide() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 border-gray-800 bg-gray-800 hover:bg-black fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                        <div className="flex rounded border shadow-menu py-1.5 px-2 border-gray-800 bg-gray-800 hover:bg-black fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"

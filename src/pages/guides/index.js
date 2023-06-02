@@ -26,53 +26,43 @@ export default function Guides() {
       <Header />
 
       <div className=" flex justify-center text-sm mt-16">
-        <Image src={leon} alt="" className="rounded-3xl my-6" />
+        <header className="py-8">
+          <h1 class="font-black text-5xl  text-center font-mabryblack">Starter Kits</h1>{" "}
+          <p class="bg-white text-center text-2xl mb-1 font-mabryitalic">
+            Jump-start your new Statamic site with beautifully designed site
+            packages or meticulous developer boilerplates.
+          </p>
+        </header>
       </div>
       <div className="h-max flex flex-col mt-2">
-        <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex justify-between w-full  px-8 py-4 border-y border-gray-800 bg-yellow-200">
-            <div className="flex flex-wrap md:flex-nowrap items-center justify-between2 space-x-6">
-              <select
-                id="countries"
-                className="input-select border border-gray-800 text-gray-900 text-md font-mabrybold rounded  "
-              >
-                <option selected>Sort</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option>
-              </select>
-              <select
-                id="countries"
-                className="input-select border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              >
-                <option selected>Score</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option>
-              </select>
-              <select
-                id="countries"
-                className="input-select border border-gray-800 text-gray-900 font-mabrybold text-md rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              >
-                <option selected>Platform</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option>
-              </select>
-              <select
-                id="countries"
-                className="input-select border border-gray-800 text-gray-900 text-md font-mabrybold rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              >
-                <option selected>Genre</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="FR">France</option>
-                <option value="DE">Germany</option>
-              </select>
-            </div>
+        <div class="flex items-center">
+          <div class="bg-mint border w-full shadow-bleed-teal-sm  p-4 font-mono flex flex-wrap md:flex-nowrap items-center md:space-x-6">
+            <select
+              name="version"
+              class="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
+            >
+              <option value="all">Platform</option>
+              <option value="all">All</option>
+              <option value="blog">Android (10)</option>
+              <option value="boilerplate">PC (9)</option>
+            </select>
+            <select
+              name="sort"
+              class="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
+            >
+              <option value="most-popular">Sort by Most Popular</option>{" "}
+              <option value="name">Sort by Name</option>{" "}
+              <option value="newest">Sort by Newest</option>
+            </select>{" "}
+            <select
+              name="layout"
+              class="input-select text-sm z-1 border border-gray-800 text-gray-900 text-md font-mabrybold"
+            >
+              <option>Genre</option> <option value="arcade">Arcade</option>
+              <option value="arcade">RPG</option>
+              <option value="arcade">Adventure</option>
+              <option value="arcade">Sport</option>
+            </select>
           </div>
         </div>
       </div>

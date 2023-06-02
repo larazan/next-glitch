@@ -202,8 +202,7 @@ a {
   --tw-shadow-colored: 3px 3px 0 var(--tw-shadow-color);
   -webkit-appearance: none;
   background-color: rgb(255 255 255/var(--tw-bg-opacity));
-  background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 14 10'%3E%3Cpath d='m9.211 7.6 4.484-4.868a1.202 1.202 0 0 0 0-1.6l-.737-.8a.985.985 0 0 0-1.475 0L7 5.198 2.517.33a.985.985 0 0 0-1.475 0l-.737.8a1.202 1.202 0 0 0 0 1.601L4.79 7.6 7 10l2.211-2.4z'/%3E%3C/svg%3E);
-  /* background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 14 10'%3E%3Cpath d='m9.211 7.6 4.484-4.868a1.202 1.202 0 0 0 0-1.6l-.737-.8a.985.985 0 0 0-1.475 0L7 5.198 2.517.33a.985.985 0 0 0-1.475 0l-.737.8a1.202 1.202 0 0 0 0 1.601L4.79 7.6 7 10l2.211-2.4z'/%3E%3C/svg%3E); */
+  background-image: url('../img/chev-down.svg');
   background-position: 96% 50%;
   background-repeat: no-repeat;
   border-radius: 0;
@@ -212,4 +211,40 @@ a {
   position: relative;
   width: 100%;
   z-index: 1;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: 10;
+}
+menu, ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination .active .page-link {
+  --tw-bg-opacity: 1;
+  --tw-shadow: 0 3px 1px #faf77d;
+  --tw-shadow-colored: 0 3px 1px var(--tw-shadow-color);
+  background-color: rgb(250 247 125/var(--tw-bg-opacity));
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+.pagination .page-link {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  border-width: 1px;
+  border: 1px solid #000;
+  display: block;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.pagination .page-item a:hover {
+  background-color: #b8fff3;
 }

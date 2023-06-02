@@ -43,7 +43,7 @@ export default function UserMenu() {
         aria-haspopup="true"
         onClick={() => setDropdownOpen(!dropdownOpen)}
         aria-expanded={dropdownOpen}
-        className="rounded-full border-2 border-gray-800"
+        className="rounded-full border-2 border-gray-800 shadow-menu"
       >
         <Avatar name="Selena gomes" size={"30"} round={true} />
       </button>

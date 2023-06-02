@@ -27,11 +27,16 @@ export default function Reviews() {
       </Head>
       <Header />
 
-      <div className="h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-yellow-400">
-        <div className="flex flex-col mx-auto  space-y-6 justify-center2 items-center">
-          <span className="text-3xl font-mabrybold">Reviews</span>
-          
-        </div>
+      <div className=" flex justify-center text-sm mt-16">
+        <header className="py-8">
+          <h1 class="font-black text-5xl  text-center font-mabryblack">
+            Starter Kits
+          </h1>{" "}
+          <p class="bg-white text-center text-2xl mb-1 font-mabryitalic">
+            Jump-start your new Statamic site with beautifully designed site
+            packages or meticulous developer boilerplates.
+          </p>
+        </header>
       </div>
 
       <div className="h-max flex pt-6 flex-col  px-10 justify-center2 items-center2 bg-[#f6f8f7]">
@@ -70,7 +75,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -110,7 +115,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -149,7 +154,7 @@ export default function Reviews() {
                       </span>
                     </Link>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -188,7 +193,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -228,7 +233,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -268,7 +273,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -308,7 +313,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -348,7 +353,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -388,7 +393,7 @@ export default function Reviews() {
                       </span>
                     </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
                       </div>
                     </div>
@@ -410,13 +415,80 @@ export default function Reviews() {
                 </div>
               </div>
             </div>
-
-            
           </section>
         </div>
       </div>
 
-      <div className="h-max flex pb-6 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+      <div class=" h-max flex pb-6 pt-10 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+        <nav>
+          <ul class="pagination">
+            <li
+              aria-disabled="true"
+              aria-label="« Previous"
+              class="page-item disabled"
+            >
+              <span aria-hidden="true" class="page-link">
+                ‹
+              </span>
+            </li>{" "}
+            <li aria-current="page" class="page-item active">
+              <span class="page-link">1</span>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=2" class="page-link">
+                2
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=3" class="page-link">
+                3
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=4" class="page-link">
+                4
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=5" class="page-link">
+                5
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=6" class="page-link">
+                6
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=7" class="page-link">
+                7
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=8" class="page-link">
+                8
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a href="https://statamic.com/addons?page=9" class="page-link">
+                9
+              </a>
+            </li>{" "}
+            <li class="page-item">
+              <a
+                href="https://statamic.com/addons?page=2"
+                rel="next"
+                aria-label="Next »"
+                class="page-link"
+              >
+                ›
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      {/* <div className="h-max flex pb-6 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <div className="flex justify-between items-center w-full  px-4 py-4 rounded border-2 border-gray-800 bg-white">
             <div>
@@ -484,7 +556,7 @@ export default function Reviews() {
             <div className="text-sm font-mabry">Showing 1-9 of 60825</div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
