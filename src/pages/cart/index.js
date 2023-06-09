@@ -6,6 +6,10 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import ant from "@/img/products/ant.jpg";
+import apes from "@/img/products/apes.jpg";
+import basket from "@/img/products/basket.jpg";
+
 const cart = () => {
   return (
     <>
@@ -17,240 +21,196 @@ const cart = () => {
       </Head>
       <Header />
       <section className="py-28">
-        <div class="max-w-md mx-auto   md:max-w-5xl">
-          <div class="md:flex ">
-            <div class="w-full p-4 px-5 py-5">
-              <div class="md:grid md:grid-cols-3 gap-2 ">
-                <div class="col-span-2 p-5">
-                  <h1 class="text-xl font-medium ">Shopping Cart</h1>
+        <div className="max-w-md mx-auto   md:max-w-5xl">
+          <div className="md:flex ">
+            <div className="w-full p-4 px-5 py-5">
+              <div className="md:grid md:grid-cols-3 gap-2 ">
+                <div className="col-span-2 p-5">
+                  <h1 className="text-xl font-mabryblack ">Your Cart</h1>
 
-                  <div class="flex justify-between items-center mt-6 pt-6">
-                    <div class="flex  items-center">
-                      <img
-                        src="https://i.imgur.com/EEguU02.jpg"
-                        width="60"
-                        class="rounded-full "
-                      />
+                  <div className="flex justify-between items-center pt-6 pb-2 border-b font-mabrybold">
+                    <div className="flex items-center">
+                      <span className="text-sm text-gray-600">Description</span>
+                    </div>
 
-                      <div class="flex flex-col ml-3">
-                        <span class="md:text-md font-medium">Chicken momo</span>
-                        <span class="text-xs font-light text-gray-400">
+                    <div className="flex justify-center items-center">
+                      <div className="pr-8 flex ">
+                        <span className="text-sm text-gray-600">Quantity</span>
+                      </div>
+
+                      <div className="pr-8 ">
+                        <span className="text-sm text-gray-600">Subtotal</span>
+                      </div>
+                      <div>
+                        <i className="fa fa-close text-xs font-medium"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-between items-center pt-3">
+                    <div className="flex  items-center">
+                      <Image src={ant} width="60" className="rounded " />
+
+                      <div className="flex flex-col ml-3 leading-snug">
+                        <span className="md:text-md font-mabrybold">
+                          Chicken momo
+                        </span>
+                        <span className="font-mabryblack text-xs text-indigo-600">
+                          Rp 500.000
+                        </span>
+                        <span className="text-xs font-mabry text-gray-400">
                           #41551
                         </span>
                       </div>
                     </div>
 
-                    <div class="flex justify-center items-center">
-                      <div class="pr-8 flex ">
-                        <span class="font-semibold">-</span>
+                    <div className="flex justify-center items-center">
+                      <div className="px-3 py-2 mr-8 flex border rounded-sm">
+                        <button className="font-semibold">-</button>
                         <input
-                          type="text"
-                          class="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+                          type="number"
+                          className="focus:outline-none h-6 w-8 text-sm px-2 mx-2 font-mabry"
                           value="1"
                         />
-                        <span class="font-semibold">+</span>
+                        <button className="font-semibold">+</button>
                       </div>
 
-                      <div class="pr-8 ">
-                        <span class="text-xs font-medium">$10.50</span>
-                      </div>
                       <div>
-                        <i class="fa fa-close text-xs font-medium"></i>
+                        <span className="text-sm font-mabryblack text-indigo-600">
+                          Rp 500.000
+                        </span>
                       </div>
                     </div>
                   </div>
 
-                  <div class="flex justify-between items-center pt-6 mt-6 border-t">
-                    <div class="flex  items-center">
-                      <img
-                        src="https://i.imgur.com/Uv2Yqzo.jpg"
-                        width="60"
-                        class="rounded-full "
+                  <div className="flex justify-between items-center pt-3 ">
+                    <div className="flex  items-center">
+                      <Image src={apes} width="60" className="rounded " />
+
+                      <div className="flex flex-col ml-3 leading-snug">
+                        <span className="md:text-md font-mabrybold">
+                          Chicken momo
+                        </span>
+                        <span className="font-mabryblack text-xs text-indigo-600">
+                          Rp 500.000
+                        </span>
+                        <span className="text-xs font-mabry text-gray-400">
+                          #41551
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <div className="px-3 py-2 mr-8 flex border rounded-sm">
+                        <button className="font-semibold">-</button>
+                        <input
+                          type="number"
+                          className="focus:outline-none h-6 w-8 text-sm px-2 mx-2 font-mabry"
+                          value="1"
+                        />
+                        <button className="font-semibold">+</button>
+                      </div>
+
+                      <div>
+                        <span className="text-sm font-mabryblack text-indigo-600">
+                          Rp 500.000
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-between items-center pt-3">
+                    <div className="flex  items-center">
+                      <Image src={basket} width="60" className="rounded " />
+
+                      <div className="flex flex-col ml-3 leading-snug">
+                        <span className="md:text-md font-mabrybold">
+                          Chicken momo
+                        </span>
+                        <span className="font-mabryblack text-xs text-indigo-600">
+                          Rp 500.000
+                        </span>
+                        <span className="text-xs font-mabry text-gray-400">
+                          #41551
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <div className="px-3 py-2 mr-8 flex border rounded-sm">
+                        <button className="font-semibold">-</button>
+                        <input
+                          type="number"
+                          className="focus:outline-none h-6 w-8 text-sm px-2 mx-2 font-mabry"
+                          value="1"
+                        />
+                        <button className="font-semibold">+</button>
+                      </div>
+
+                      <div>
+                        <span className="text-sm font-mabryblack text-indigo-600">
+                          Rp 500.000
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center mt-6 pt-6 border-t space-x-2">
+                    <div className="flex items-center">
+                      <i className="fa fa-arrow-left text-sm pr-2"></i>
+                      <span className="text-md font-mabrybold">
+                        Apply discount code:
+                      </span>
+                    </div>
+
+                    <div className="flex justify-center items-center space-x-2">
+                      <input
+                        type="text"
+                        className="py-1.5 px-4 w-full border border-gray-500 font-mabry rounded text-gray-900 text-md "
+                        placeholder="discount code"
                       />
-
-                      <div class="flex flex-col ml-3 ">
-                        <span class="text-md font-medium w-auto">
-                          Spicy Mexican potatoes
-                        </span>
-                        <span class="text-xs font-light text-gray-400">
-                          #66999
-                        </span>
-                      </div>
-                    </div>
-
-                    <div class="flex justify-center items-center">
-                      <div class="pr-8 flex">
-                        <span class="font-semibold">-</span>
-                        <input
-                          type="text"
-                          class="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
-                          value="1"
-                        />
-                        <span class="font-semibold">+</span>
-                      </div>
-
-                      <div class="pr-8">
-                        <span class="text-xs font-medium">$10.50</span>
-                      </div>
-                      <div>
-                        <i class="fa fa-close text-xs font-medium"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="flex justify-between items-center mt-6 pt-6 border-t">
-                    <div class="flex  items-center">
-                      <img
-                        src="https://i.imgur.com/xbTAITF.jpg"
-                        width="60"
-                        class="rounded-full "
-                      />
-
-                      <div class="flex flex-col ml-3 ">
-                        <span class="text-md font-medium">Breakfast</span>
-                        <span class="text-xs font-light text-gray-400">
-                          #86577
-                        </span>
-                      </div>
-                    </div>
-
-                    <div class="flex justify-center items-center">
-                      <div class="pr-8 flex">
-                        <span class="font-semibold">-</span>
-                        <input
-                          type="text"
-                          class="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
-                          value="1"
-                        />
-                        <span class="font-semibold">+</span>
-                      </div>
-
-                      <div class="pr-8">
-                        <span class="text-xs font-medium">$10.50</span>
-                      </div>
-                      <div>
-                        <i class="fa fa-close text-xs font-medium"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="flex justify-between items-center mt-6 pt-6 border-t">
-                    <div class="flex items-center">
-                      <i class="fa fa-arrow-left text-sm pr-2"></i>
-                      <span class="text-md  font-medium text-blue-500">
-                        Continue Shopping
-                      </span>
-                    </div>
-
-                    <div class="flex justify-center items-end">
-                      <span class="text-sm font-medium text-gray-400 mr-1">
-                        Subtotal:
-                      </span>
-                      <span class="text-lg font-bold text-gray-800 ">
-                        {" "}
-                        $24.90
-                      </span>
+                      <Link href={"/login"}>
+                        <button className="flex button bg-mint items-center justify-center rounded border-2 border-gray-800 px-4 py-3 space-x-2 bg-green-100 opacity-90 hover:opacity-100">
+                          <span className="text-xs font-semibold uppercase font-mabrybold">
+                            apply
+                          </span>
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
-                <div class=" p-5 bg-gray-800 rounded overflow-visible">
-                  <span class="text-xl font-medium text-gray-100 block pb-3">
-                    Card Details
+
+                <div className="relative  bg-indigo-500 rounded overflow-visible">
+                  <span className="text-xl p-5 font-mabryblack text-gray-100 block pb-3">
+                    Cart Total
                   </span>
 
-                  <span class="text-xs text-gray-400 ">Card Type</span>
-
-                  <div class="overflow-visible flex justify-between items-center mt-2">
-                    <div class="rounded w-52 h-28 bg-gray-500 py-2 px-4 relative right-10">
-                      <span class="italic text-lg font-medium text-gray-200 underline">
-                        VISA
-                      </span>
-
-                      <div class="flex justify-between items-center pt-4 ">
-                        <span class="text-xs text-gray-200 font-medium">
-                          ****
-                        </span>
-                        <span class="text-xs text-gray-200 font-medium">
-                          ****
-                        </span>
-                        <span class="text-xs text-gray-200 font-medium">
-                          ****
-                        </span>
-                        <span class="text-xs text-gray-200 font-medium">
-                          ****
-                        </span>
-                      </div>
-
-                      <div class="flex justify-between items-center mt-3">
-                        <span class="text-xs  text-gray-200">
-                          Giga Tamarashvili
-                        </span>
-                        <span class="text-xs  text-gray-200">12/18</span>
+                  <div className="flex p-5 flex-col w-full ">
+                    
+                    <div className="flex justify-between items-center border-b border-white text-white py-3 px-3">
+                      <div className="text-sm font-mabrybold">Subtotal</div>
+                      <div className="text-sm font-mabrybold">Rp. 2.000.000</div>
+                    </div>
+                    <div className="flex justify-between items-center text-white pt-3 px-3">
+                      <div className="text-md font-mabrybold">Shipping</div>
+                      
+                    </div>
+                    <div className="flex justify-between items-center text-white py-2 px-3">
+                      <div className="text-xs font-mabry">Shipping</div>
+                      <div className="text-xs font-mabry">
+                        -
                       </div>
                     </div>
-
-                    <div class="flex justify-center  items-center flex-col">
-                      <img
-                        src="https://img.icons8.com/color/96/000000/mastercard-logo.png"
-                        width="40"
-                        class="relative right-5"
-                      />
-                      <span class="text-xs font-medium text-gray-200 bottom-2 relative right-5">
-                        mastercard.
-                      </span>
+                    <div className="flex justify-between items-center text-white py-3 px-3">
+                      <div className="text-sm font-mabrybold">Order total</div>
+                      <div className="text-sm font-mabryblack">Rp. 2.000.000</div>
                     </div>
                   </div>
-
-                  <div class="flex justify-center flex-col pt-3">
-                    <label class="text-xs text-gray-400 ">Name on Card</label>
-                    <input
-                      type="text"
-                      class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                      placeholder="Giga Tamarashvili"
-                    />
+                  <div className="absolute bottom-5 flex justify-center w-full mx-auto px-5">
+                    <button className="h-10 w-full bg-orange-500 text-sm font-mabrybold uppercase rounded focus:outline-none text-white hover:bg-orange-600">
+                      go to CheckOut
+                    </button>
                   </div>
-
-                  <div class="flex justify-center flex-col pt-3">
-                    <label class="text-xs text-gray-400 ">Card Number</label>
-                    <input
-                      type="text"
-                      class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                      placeholder="****     ****      ****      ****"
-                    />
-                  </div>
-
-                  <div class="grid grid-cols-3 gap-2 pt-2 mb-3">
-                    <div class="col-span-2 ">
-                      <label class="text-xs text-gray-400">
-                        Expiration Date
-                      </label>
-                      <div class="grid grid-cols-2 gap-2">
-                        <input
-                          type="text"
-                          class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                          placeholder="mm"
-                        />
-                        <input
-                          type="text"
-                          class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                          placeholder="yyyy"
-                        />
-                      </div>
-                    </div>
-
-                    <div class="">
-                      <label class="text-xs text-gray-400">CVV</label>
-                      <input
-                        type="text"
-                        class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                        placeholder="XXX"
-                      />
-                    </div>
-                  </div>
-
-                  <button class="h-12 w-full bg-blue-500 rounded focus:outline-none text-white hover:bg-blue-600">
-                    Check Out
-                  </button>
                 </div>
               </div>
             </div>

@@ -6,23 +6,11 @@ import Menu from "./Menu";
 import UserMenu from "./UserMenu";
 import MiniCart from "./MiniCart";
 import Notification from "./Notification";
-import AdsModal from "./AdsModal";
-import SearchModal from "./SearchModal";
 
 export default function Header() {
-  const [adsModalOpen, setAdsModalOpen] = useState(false);
-  const [searchModalOpen, setSearchModalOpen] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAdsModalOpen(true);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <>
-      <header className="fixed z-20 hidden md:flex h-10 md:h-14 w-full top-0 md:m-0 px-6 md:px-6 py-6 md:py-3  items-center justify-between bg-pink-200 border-b2 shadow2">
+      <header className="fixed z-20 hidden md:flex h-10 md:h-14 w-full top-0 md:m-0 px-6 md:px-6 py-6 md:py-3  items-center justify-between bg-white border-b shadow">
         <div className="flex w-full md:w-3/5 justify-between space-x-4">
           <div className="flex justify-between w-full md:w-[100px]">
             {/* <button className="h-8 w-8 md:hidden">
@@ -144,47 +132,9 @@ export default function Header() {
           </div>
         </div>
         <div className="flex flex-row space-x-3">
-          <div className="flex space-x-2 items-center">
+          <div className="flex space-x-3 items-center">
             <Menu />
-            <div className="flex md:hidden">
-              <button
-                className="relative flex shadow-menu items-center justify-center rounded-full border-2 border-gray-800 px-1 py-1 bg-white opacity-90 hover:opacity-100"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setSearchModalOpen(true);
-                }}
-                aria-controls="search-modal"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 md:w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={3}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                  />
-                </svg>
-              </button>
-            </div>
-            <SearchModal
-              id="search-modal"
-              searchId="search"
-              modalOpen={searchModalOpen}
-              setModalOpen={setSearchModalOpen}
-            />
-            <AdsModal
-              id="search-modal"
-              searchId="search"
-              modalOpen={adsModalOpen}
-              setModalOpen={setAdsModalOpen}
-            />
-            <MiniCart />
-            <Link href={"/login"}>
+            {/* <Link href={"/login"}>
               <button className="flex button bg-mint items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 space-x-2 bg-green-100 opacity-90 hover:opacity-100">
                 <span className="text-xs font-semibold font-mabrybold">
                   Masuk
@@ -197,15 +147,14 @@ export default function Header() {
                   Daftar
                 </span>
               </button>
-            </Link>
+            </Link> */}
             
-            {/* <Notification /> */}
-            
-            {/* <UserMenu /> */}
+            <Notification />
+            <MiniCart />
+            <UserMenu />
           </div>
         </div>
       </header>
-     
     </>
   );
 }

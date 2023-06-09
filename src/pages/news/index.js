@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from 'next/head'
 
-import Header from '@/components/Header'
+import Header2 from '@/components/Header2'
 import Footer from '@/components/Footer'
 
 import pencil from "@/img/home-pencil.svg";
@@ -28,7 +28,7 @@ export default function News() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header2 />
       <div className="relative mt-12 block h-80 lg:col-span-2 lg:h-full">
           <Image
             src={dingdong}

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Notice from '@/components/Notice'
+import CookieConfirm from '@/components/CookieConfirm'
 import Hero from '@/components/Hero'
 import HomeReview from '@/components/HomeReview'
 import HomeSpotlight from '@/components/HomeSpotlight'
@@ -38,6 +39,7 @@ export default function Home() {
         <HomeReview />
         {/*  */}
         <HomeSpotlight />
+        <CookieConfirm />
         <Footer />
       </main>
     </>

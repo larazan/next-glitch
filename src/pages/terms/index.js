@@ -20,7 +20,7 @@ const terms = () => {
         <div className="bg-splatter-x relative py-12">
           <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
             <div className="bg-rain h-full w-8 hidden md:block absolute top-0 left-0 -ml-16 mt-8"></div>{" "}
-            <h1 className="text-3xl font-mabryblack">Terms &amp; Conditions</h1>{" "}
+            <h1 className="bg-mint w-full hover:bg-white border-2 border-gray-800 shadow text-black uppercase px-2 font-mabryblack text-2xl transform -rotate-1">Terms &amp; Conditions</h1>{" "}
             <p className="py-4 leading-tight text-pink-400 font-mabryitalic text-2xl">
               This stuff is boring, but important. In short, be a decent human
               being.
