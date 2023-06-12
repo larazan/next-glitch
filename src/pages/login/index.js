@@ -50,7 +50,7 @@ export default function Login() {
         </div>
         <div className="flex max-w-md w-full p-2 justify-between">
           <div className="flex flex-col space-y-1 items-center  p-2 rounded">
-            <span className="text-xs font-mabry">Don't have an account?</span>
+            <span className="text-xs font-mabry">Don&apos;t have an account?</span>
             <Link href={"/register"} className="relative inline-block text-lg group">
               <span className="relative z-10 block px-3 py-2 button overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                 <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-green-100 group-hover:bg-green-200"></span>

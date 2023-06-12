@@ -423,8 +423,7 @@ export default function Reviews() {
         <nav>
           <ul className="pagination">
             <li
-              aria-disabled="true"
-              aria-label="« Previous"
+              
               className="page-item disabled"
             >
               <span aria-hidden="true" className="page-link">

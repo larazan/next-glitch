@@ -49,7 +49,7 @@ const cart = () => {
 
                   <div className="flex justify-between items-center pt-3">
                     <div className="flex  items-center">
-                      <Image src={ant} width="60" className="rounded " />
+                      <Image src={ant} width="60" className="rounded " alt="" />
 
                       <div className="flex flex-col ml-3 leading-snug">
                         <span className="md:text-md font-mabrybold">
@@ -85,7 +85,7 @@ const cart = () => {
 
                   <div className="flex justify-between items-center pt-3 ">
                     <div className="flex  items-center">
-                      <Image src={apes} width="60" className="rounded " />
+                      <Image src={apes} width="60" className="rounded " alt="" />
 
                       <div className="flex flex-col ml-3 leading-snug">
                         <span className="md:text-md font-mabrybold">
@@ -121,7 +121,7 @@ const cart = () => {
 
                   <div className="flex justify-between items-center pt-3">
                     <div className="flex  items-center">
-                      <Image src={basket} width="60" className="rounded " />
+                      <Image src={basket} width="60" className="rounded " alt="" />
 
                       <div className="flex flex-col ml-3 leading-snug">
                         <span className="md:text-md font-mabrybold">

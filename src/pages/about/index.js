@@ -30,7 +30,7 @@ export default function About() {
                     <Image src={about} alt="" />
                 </div>
                 <span className="text-5xl font-mabrybold leading-tight text-indigo-700">
-                We make Glitch so it's easier for you to make the web.
+                We make Glitch so it&apos;s easier for you to make the web.
                 </span>
             </div>
             <div className="text-2xl font-mabry leading-relaxed">

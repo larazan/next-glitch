@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Comment() {
   return (
@@ -14,7 +15,7 @@ export default function Comment() {
               <div className="space-y-2 md:space-y-4 md:py-4">
                 <div className="flex">
                   <div className="flex-shrink-0 mr-0">
-                    <img
+                    <Image
                       className="mt-2 border border-gray-600 rounded-full w-8 h-8 sm:w-10 sm:h-10"
                       src="https://images.unsplash.com/photo-1604426633861-11b2faead63c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
                       alt=""
@@ -56,7 +57,7 @@ export default function Comment() {
 
                 <div className="flex">
                   <div className="flex-shrink-0 mr-0">
-                    <img
+                    <Image
                       className="mt-2 border border-gray-600 rounded-full w-8 h-8 sm:w-10 sm:h-10"
                       src="https://images.unsplash.com/photo-1604426633861-11b2faead63c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
                       alt=""
@@ -126,7 +127,7 @@ export default function Comment() {
 
                 <div className="flex">
                   <div className="flex-shrink-0 mr-0">
-                    <img
+                    <Image
                       className="mt-2 border border-gray-600 rounded-full w-8 h-8 sm:w-10 sm:h-10"
                       src="https://images.unsplash.com/photo-1604426633861-11b2faead63c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
                       alt=""
@@ -166,7 +167,7 @@ export default function Comment() {
                     <div className="space-y-4">
                       <div className="flex">
                         <div className="flex-shrink-0 mr-0">
-                          <img
+                          <Image
                             className="mt-3 border border-gray-600 rounded-full w-6 h-6 sm:w-8 sm:h-8"
                             src="https://images.unsplash.com/photo-1604426633861-11b2faead63c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
                             alt=""

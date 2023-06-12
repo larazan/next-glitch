@@ -25,7 +25,7 @@ export default function Review() {
 
       <div className="flex w-full mt-14">
         <div className="w-2/3 -z-10">
-          <Image src={lastofus} quality={100} />
+          <Image src={lastofus} quality={100} alt="" />
         </div>
         <div className="flex flex-col w-1/3 px-3 py-4 space-y-4">
           <div className="flex w-full space-x-3">
@@ -208,7 +208,7 @@ export default function Review() {
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
 
                 <div className="flex w-full items-center font-mabry px-4 py-8">
-                  <img
+                  <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
                     src="http://i.pravatar.cc/300"
                     alt="Avatar of Author"

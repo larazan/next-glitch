@@ -70,7 +70,7 @@ export default function Forum() {
                     </span>
                   </div>
                   <div className="flex items-center cursor-pointer space-x-2">
-                    <img
+                    <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
                       src="http://i.pravatar.cc/300"
                       alt="Avatar of Author"
@@ -93,10 +93,10 @@ export default function Forum() {
                   <div>
                     <span className="py-2 font-mabry text-[15px] text-slate-500">
                       Feedback and community is essential for growth and
-                      improvement, which is why we're introducing a Commenting
+                      improvement, which is why we&apos;re introducing a Commenting
                       System on Snack Prompt. This will allow users to provide
                       valuable insights, suggestions, and encouragement on each
-                      other's prompts. We're excited to see the community
+                      other&apos;s prompts. We&apos;re excited to see the community
                       flourish as users learn from one another and help refine
                       their AI prompt skills.
                     </span>

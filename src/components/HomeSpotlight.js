@@ -102,7 +102,7 @@ export default function HomeSpotlight() {
               </div>
 
               <div className="flex flex-row flex-wrap w-full  py-2 overflow-hidden text-sm font-mabry leading-snug text-justify text-gray-700">
-              Farith "Matthew" Huamancaja (born July 19, 1998) is a Peruvian Dota 2 player who is currently playing for Evil Geniuses.
+              Farith &quot;Matthew&quot; Huamancaja (born July 19, 1998) is a Peruvian Dota 2 player who is currently playing for Evil Geniuses.
               His career high for assists in a single professional match is 42. He achieved this feat while playing for Infamous as Bounty Hunter in Game 1 of their Upper Bracket series against Noblewingz during Season 8 of the Dota 2 BEAT Invitational.
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function HomeSpotlight() {
               </div>
 
               <div className="flex flex-row flex-wrap w-full  py-2 overflow-hidden text-sm font-mabry leading-snug text-justify text-gray-700">
-              Farith "Matthew" Huamancaja (born July 19, 1998) is a Peruvian Dota 2 player who is currently playing for Evil Geniuses.
+              Farith &quot;Matthew&quot; Huamancaja (born July 19, 1998) is a Peruvian Dota 2 player who is currently playing for Evil Geniuses.
               His career high for assists in a single professional match is 42. He achieved this feat while playing for Infamous as Bounty Hunter in Game 1 of their Upper Bracket series against Noblewingz during Season 8 of the Dota 2 BEAT Invitational.
               </div>
             </div>

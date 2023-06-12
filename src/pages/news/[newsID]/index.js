@@ -27,7 +27,7 @@ const detail = () => {
 
       <div className="">
         <div className="absolute2 -z-10">
-          <Image src={mine} quality={100} />
+          <Image src={mine} quality={100} alt="" />
         </div>
       </div>
       <section className="bg-[#f6f8f7]">
@@ -231,7 +231,7 @@ const detail = () => {
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
 
                 <div className="flex w-full items-center font-mabry px-4 py-8">
-                  <img
+                  <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
                     src="http://i.pravatar.cc/300"
                     alt="Avatar of Author"

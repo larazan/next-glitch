@@ -38,7 +38,7 @@ export default function Faqs() {
                     </p>
                 </div>
                 <div className="flex flex-col ">
-                    <h3 className="text-lg font-mabrybold">What is "always-on"?</h3>
+                    <h3 className="text-lg font-mabrybold">What is &quot;always-on&quot;?</h3>
                     <p className="">
                     With the Starter plan, full-stack apps go to sleep after five minutes of inactivity. Your app wakes up when it has visitors, but they might see a loading screen. This keeps our servers happy. Always-on apps don’t sleep when inactive and only editing time counts against your project hours.
                     </p>

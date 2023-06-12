@@ -101,7 +101,7 @@ export default function Forums() {
                     <div>49</div>
                   </button>
                   <div className="cursor-pointer">
-                    <img
+                    <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
                       src="http://i.pravatar.cc/300"
                       alt="Avatar of Author"
@@ -128,7 +128,7 @@ export default function Forums() {
                   </div>
                   <span className="py-1 font-mabry text-[15px] text-slate-500">
                     We know that organization is key to productivity, which is
-                    why we're excited to introduce Prompt Lists. This feature..
+                    why we&apos;re excited to introduce Prompt Lists. This feature..
                   </span>
                 </div>
                 <div className="flex w-18 ">
@@ -166,7 +166,7 @@ export default function Forums() {
                     <div>49</div>
                   </button>
                   <div className="cursor-pointer">
-                    <img
+                    <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
                       src="http://i.pravatar.cc/300"
                       alt="Avatar of Author"
@@ -193,7 +193,7 @@ export default function Forums() {
                   </div>
                   <span className="py-1 font-mabry text-[15px] text-slate-500">
                     We know that organization is key to productivity, which is
-                    why we're excited to introduce Prompt Lists. This feature..
+                    why we&apos;re excited to introduce Prompt Lists. This feature..
                   </span>
                 </div>
                 <div className="flex w-18 ">
@@ -231,7 +231,7 @@ export default function Forums() {
                     <div>49</div>
                   </button>
                   <div className="cursor-pointer">
-                    <img
+                    <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
                       src="http://i.pravatar.cc/300"
                       alt="Avatar of Author"
@@ -258,7 +258,7 @@ export default function Forums() {
                   </div>
                   <span className="py-1 font-mabry text-[15px] text-slate-500">
                     We know that organization is key to productivity, which is
-                    why we're excited to introduce Prompt Lists. This feature..
+                    why we&apos;re excited to introduce Prompt Lists. This feature..
                   </span>
                 </div>
                 <div className="flex w-18 ">

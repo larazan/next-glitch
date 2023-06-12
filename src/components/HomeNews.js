@@ -71,7 +71,7 @@ export default function HomeNews() {
               <section className="absolute bottom-4 px-4 py-2 w-full ">
                 <div className="flex w-full items-center justify-between space-x-2 ">
                   <div className="flex w-2/3 items-center justify-start ">
-                    <img
+                    <Image
                       className="object-cover h-8 rounded-full"
                       src="https://thumbs.dreamstime.com/b/default-avatar-photo-placeholder-profile-icon-eps-file-easy-to-edit-default-avatar-photo-placeholder-profile-icon-124557887.jpg"
                       alt="Avatar"
@@ -115,7 +115,7 @@ export default function HomeNews() {
               <section className="absolute bottom-4  px-4 py-2 w-full ">
                 <div className="flex w-full items-center justify-between space-x-2 ">
                   <div className="flex w-2/3 items-center justify-start ">
-                    <img
+                    <Image
                       className="object-cover h-8 rounded-full"
                       src="https://thumbs.dreamstime.com/b/default-avatar-photo-placeholder-profile-icon-eps-file-easy-to-edit-default-avatar-photo-placeholder-profile-icon-124557887.jpg"
                       alt="Avatar"
@@ -159,7 +159,7 @@ export default function HomeNews() {
               <section className="absolute bottom-4 px-4 py-2 w-full ">
                 <div className="flex w-full items-center justify-between space-x-2 ">
                   <div className="flex w-2/3 items-center justify-start ">
-                    <img
+                    <Image
                       className="object-cover h-8 rounded-full"
                       src="https://thumbs.dreamstime.com/b/default-avatar-photo-placeholder-profile-icon-eps-file-easy-to-edit-default-avatar-photo-placeholder-profile-icon-124557887.jpg"
                       alt="Avatar"
