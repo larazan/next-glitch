@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
@@ -7,11 +7,53 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 import lastofus from "@/img/lastofus.jpg";
+import lastofus1 from "@/img/lastofus1.jpg";
+import lastofus2 from "@/img/lastofus2.jpg";
+import lastofus3 from "@/img/lastofus3.jpg";
+import lastofus4 from "@/img/lastofus4.jpg";
+import lastofus5 from "@/img/lastofus5.jpg";
+import lastofus6 from "@/img/lastofus6.jpg";
+import pravatar from "@/img/300.jpg";
+
+import arrowLeft from "@/img/icon_arrow-left.png";
+import arrowRight from "@/img/icon_arrow-right.png";
+
 
 export default function Review() {
   //   useEffect(() => {
   //     window.scrollTo(0, 0);
   //   }, []);
+
+  let scrl = useRef(null);
+  const shiftN = 230;
+  const [scrollX, setscrollX] = useState(0);
+  const [scrolEnd, setscrolEnd] = useState(false);
+
+  const slide = (shift) => {
+    scrl.current.scrollLeft += shift;
+    setscrollX(scrollX + shift);
+
+    if (
+      Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <=
+      scrl.current.offsetWidth
+    ) {
+      setscrolEnd(true);
+    } else {
+      setscrolEnd(false);
+    }
+  };
+
+  const scrollCheck = () => {
+    setscrollX(scrl.current.scrollLeft);
+    if (
+      Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <=
+      scrl.current.offsetWidth
+    ) {
+      setscrolEnd(true);
+    } else {
+      setscrolEnd(false);
+    }
+  };
 
   return (
     <>
@@ -23,7 +65,10 @@ export default function Review() {
       </Head>
       <Header />
 
-      <div className="flex w-full mt-14">
+      <div className="mt-16 px-4">
+        <div className="w-full bg-green-100 h-20"></div>
+      </div>
+      <div className="flex w-full mt-4">
         <div className="w-2/3 -z-10">
           <Image src={lastofus} quality={100} alt="" />
         </div>
@@ -151,6 +196,168 @@ export default function Review() {
                   <p className="py-3"></p>
                 </div>
 
+                {/*  */}
+                <div className="relative">
+                
+                <div className="relative">
+                  {scrollX !== 0 && (
+                    <div className=" top-[30%] left-0 ">
+                      <Image
+                        className="none absolute top-[35%] left-0 z-10 cursor-pointer"
+                        src={arrowLeft}
+                        alt="arrow left"
+                        decoding="auto"
+                        fetchpriority="auto"
+                        onClick={() => slide(-shiftN)}
+                      />
+                    </div>
+                  )}
+                  {!scrolEnd && (
+                    <div className=" top-[30%] right-0">
+                      <Image
+                        data-testid="arrow-right-pilihan-kitabisa"
+                        className="none absolute top-[35%] right-0 z-10 cursor-pointer"
+                        alt="arrow right"
+                        src={arrowRight}
+                        decoding="auto"
+                        fetchpriority="auto"
+                        onClick={() => slide(+shiftN)}
+                      />
+                    </div>
+                  )}
+
+                  {/*  */}
+                  <div
+                    className="mb-[1em] flex flex-row overflow-x-hidden scroll-smooth"
+                    ref={scrl}
+                    onScroll={scrollCheck}
+                  >
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[280px]">
+                        <div
+                          className="flex flex-col rounded-[4px]"
+                          style={{
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                          }}
+                        >
+                          <figure className="relative m-0 flex flex-1 items-center justify-center">
+                            <Image
+                              alt=""
+                              src={lastofus1}
+                              width="100"
+                              height="100"
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
+                            />
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[280px]">
+                        <div
+                          className="flex flex-col rounded-[4px]"
+                          style={{
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                          }}
+                        >
+                          <figure className="relative m-0 flex flex-1 items-center justify-center">
+                            <Image
+                              alt=""
+                              src={lastofus2}
+                              width="100"
+                              height="100"
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
+                            />
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[280px]">
+                        <div
+                          className="flex flex-col rounded-[4px]"
+                          style={{
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                          }}
+                        >
+                          <figure className="relative m-0 flex flex-1 items-center justify-center">
+                            <Image
+                              alt=""
+                              src={lastofus3}
+                              width="100"
+                              height="100"
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
+                            />
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[280px]">
+                        <div
+                          className="flex flex-col rounded-[4px]"
+                          style={{
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                          }}
+                        >
+                          <figure className="relative m-0 flex flex-1 items-center justify-center">
+                            <Image
+                              alt=""
+                              src={lastofus4}
+                              width="100"
+                              height="100"
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
+                            />
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[280px]">
+                        <div
+                          className="flex flex-col rounded-[4px]"
+                          style={{
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                          }}
+                        >
+                          <figure className="relative m-0 flex z-0 flex-1 items-center justify-center">
+                            <Image
+                              alt=""
+                              src={lastofus5}
+                              width="100"
+                              height="100"
+                              className="h-full z-0 w-full rounded object-cover"
+                              style={{ color: "transparent" }}
+                            />
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                    
+                  </div>
+                </div>
+              </div>
+                {/*  */}
+
                 {/* SOURCE */}
                 <div className="md:text-sm text-gray-500 px-4 py-3 font-mabry">
                   Source:{" "}
@@ -210,8 +417,10 @@ export default function Review() {
                 <div className="flex w-full items-center font-mabry px-4 py-8">
                   <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
-                    src="http://i.pravatar.cc/300"
+                    src={pravatar}
                     alt="Avatar of Author"
+                    width={200}
+                    height={200}
                   />
                   <div className="flex flex-col px-2">
                     <p className="font-mabrybold text-base md:text-xl leading-none ">

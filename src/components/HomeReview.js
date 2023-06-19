@@ -71,9 +71,9 @@ export default function HomeReview() {
 
         <div className="relative flex flex-row mx-auto w-3/4 justify-between items-center">
           {scrollX !== 0 && (
-            <div className="absolute top-[40%] left-0">
+            <div className="top-[40%] left-0">
               <Image
-                className="none absolute left-0 z-1 cursor-pointer"
+                className="none absolute top-[40%] left-0 z-10 cursor-pointer"
                 aria-hidden="true"
                 src={arrowLeft}
                 alt="arrow left"
@@ -84,10 +84,10 @@ export default function HomeReview() {
             </div>
           )}
           {!scrolEnd && (
-            <div className="absolute top-[40%] right-0">
+            <div className="top-[40%] right-0">
               <Image
                 data-testid="arrow-right-pilihan-kitabisa"
-                className="none absolute top-[40%] right-0 z-1 cursor-pointer"
+                className="none absolute top-[40%] right-0 z-10 cursor-pointer"
                 aria-hidden="true"
                 alt="arrow right"
                 src={arrowRight}

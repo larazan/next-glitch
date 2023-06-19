@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import mine from "@/img/mine.jpg";
 import lastofus2 from "@/img/lastofus2.jpg";
 import godofwar from "@/img/godofwar.jpg";
+import pravatar from "@/img/300.jpg";
 
 const detail = () => {
   //   useEffect(() => {
@@ -233,7 +234,7 @@ const detail = () => {
                 <div className="flex w-full items-center font-mabry px-4 py-8">
                   <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
-                    src="http://i.pravatar.cc/300"
+                    src={pravatar}
                     alt="Avatar of Author"
                   />
                   <div className="flex flex-col px-2">

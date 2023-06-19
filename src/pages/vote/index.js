@@ -1,6 +1,23 @@
+import {getRandomColor,createImageFromInitials} from '@/utils/Utils'
+import Image from 'next/image';
+
 export default function Vote() {
+  let name = "Jhon Smith";
+	let imgSrc = "";
+
   return (
     <>
+    <div className='w-full mx-auto py-12'>
+    <img
+				id='preview'
+				src={
+					imgSrc.length <= 0
+						? createImageFromInitials(500, name, getRandomColor())
+						: imgSrc
+				}
+				alt='profile-pic'
+			/>
+    </div>
       <div className="h-max flex space-x-5 py-12 px-20 bg-white">
         <div className="flex flex-col space-y-1.5">
           <div>
