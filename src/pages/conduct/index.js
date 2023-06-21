@@ -18,14 +18,14 @@ const conduct = () => {
       <Header />
       <div className="bg-splatter-x relative py-12">
         <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
-          <div class="container bg-white mx-auto rounded-xl">
-            <div class="px-4">
-              <h1 class="py-8 leading-tight text-3xl md:text-5xl text-base  font-display font-bold tracking-wide text-center">
+          <div className="container bg-white mx-auto rounded-xl">
+            <div className="px-4">
+              <h1 className="py-8 leading-tight text-3xl md:text-5xl text-base  font-display font-bold tracking-wide text-center">
                 Code of Conduct
               </h1>
             </div>{" "}
-            <div class=" bg-primary-dark md:rounded-xl md:max-w-5xl md:mx-auto py-8 px-4 md:p-8">
-              <div class="prose max-w-lg mx-auto owl">
+            <div className=" bg-primary-dark md:rounded-xl md:max-w-5xl md:mx-auto py-8 px-4 md:p-8">
+              <div className="prose max-w-lg mx-auto owl">
                 <h2 id="our-pledge">Our Pledge</h2>{" "}
                 <p>
                   In the interest of fostering an open and welcoming
@@ -42,7 +42,7 @@ const conduct = () => {
                   Examples of behavior that contributes to creating a positive
                   environment include:
                 </p>{" "}
-                <ul class="bullet-list">
+                <ul className="bullet-list">
                   <li>Using welcoming and inclusive language</li>{" "}
                   <li>
                     Being respectful of differing viewpoints and experiences
@@ -54,7 +54,7 @@ const conduct = () => {
                 <p>
                   Examples of unacceptable behavior by participants include:
                 </p>{" "}
-                <ul class="bullet-list">
+                <ul className="bullet-list">
                   <li>
                     The use of sexualized language or imagery and unwelcome
                     sexual attention or advances

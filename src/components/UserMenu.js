@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import Avatar from "react-avatar";
 import Image from "next/image";
 import Transition from "@/utils/Transition";
+
+import Ava from "./Ava";
 
 export default function UserMenu() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -45,7 +46,8 @@ export default function UserMenu() {
         aria-expanded={dropdownOpen}
         className="rounded-full border-2 border-gray-800 shadow-menu"
       >
-        <Avatar name="Selena gomes" size={"30"} round={true} />
+        {/* <Avatar name="Selena gomes" size={"30"} round={true} /> */}
+        <Ava username={'Selena gomes'} />
       </button>
 
       <Transition

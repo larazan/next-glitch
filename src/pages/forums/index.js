@@ -8,8 +8,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 import about from "@/img/about-hello.svg";
-import sumail from "@/img/sumail.jpg";
-import mathew from "@/img/mathew.jpg";
+import pravatar from "@/img/300.jpg";
+
 
 export default function Forums() {
   return (
@@ -103,7 +103,7 @@ export default function Forums() {
                   <div className="cursor-pointer">
                     <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
-                      src="http://i.pravatar.cc/300"
+                      src={pravatar}
                       alt="Avatar of Author"
                     />
                   </div>
@@ -168,7 +168,7 @@ export default function Forums() {
                   <div className="cursor-pointer">
                     <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
-                      src="http://i.pravatar.cc/300"
+                      src={pravatar}
                       alt="Avatar of Author"
                     />
                   </div>
@@ -233,7 +233,7 @@ export default function Forums() {
                   <div className="cursor-pointer">
                     <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
-                      src="http://i.pravatar.cc/300"
+                      src={pravatar}
                       alt="Avatar of Author"
                     />
                   </div>

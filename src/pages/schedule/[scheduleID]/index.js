@@ -37,13 +37,13 @@ export default function Detail() {
           </div>
 
           <article>
-            <div class="relative bg-purple-100 p-6 pl-8 rounded-lg md:p-8 md:pl-10 owl overflow-hidden">
-              <div class="absolute w-2 h-full left-0 top-0 bottom-0 bg-purple-700 rounded-l"></div>{" "}
-              <h3 class="max-w-lg text-purple-700 font-mabrybold text-2xl leading-tight">
+            <div className="relative bg-purple-100 p-6 pl-8 rounded-lg md:p-8 md:pl-10 owl overflow-hidden">
+              <div className="absolute w-2 h-full left-0 top-0 bottom-0 bg-purple-700 rounded-l"></div>{" "}
+              <h3 className="max-w-lg text-purple-700 font-mabrybold text-2xl leading-tight">
                 Talk about your latest project, the great tool you found or the
                 problem you just solved recently?
               </h3>{" "}
-              <ul class="py-4 pl-4 list-reset list-bullets list-disc font-mabry">
+              <ul className="py-4 pl-4 list-reset list-bullets list-disc font-mabry">
                 <li>Talks are 15 minutes without Q&amp;A</li>{" "}
                 <li>
                   We have <b>HDMI</b> &amp; <b>USB-C</b> available and the
@@ -53,9 +53,9 @@ export default function Detail() {
               <div>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfTaa-_wOFOQv3dZ7Ord9TJ3vN8wNdzUY5VQqzFiTg_WMQwEw/viewform?c=0&amp;w=1"
-                  class=""
+                  className=""
                 >
-                  <div class="bg-purple-800 hover:bg-purple-700 rounded-md font-mabry text-white inline-flex items-center h-10 px-4">
+                  <div className="bg-purple-800 hover:bg-purple-700 rounded-md font-mabry text-white inline-flex items-center h-10 px-4">
                     {" "}
                     <span>Submit your talk</span>{" "}
                   </div>

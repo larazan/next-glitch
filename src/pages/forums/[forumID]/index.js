@@ -10,6 +10,8 @@ import Comment from "@/components/Comment";
 
 import gmb from "@/img/gmb.png";
 
+import pravatar from "@/img/300.jpg";
+
 export default function Forum() {
   return (
     <>
@@ -72,7 +74,7 @@ export default function Forum() {
                   <div className="flex items-center cursor-pointer space-x-2">
                     <Image
                       className="w-7 h-7 border border-gray-700 rounded-full"
-                      src="http://i.pravatar.cc/300"
+                      src={pravatar}
                       alt="Avatar of Author"
                     />
                     <span className="text-sm text-pink-300 hover:text-pink-400 font-mabrybold capitalize">

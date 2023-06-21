@@ -22,33 +22,33 @@ export default function Hero() {
       <div className="relative2 max-w-5xl2 mx-auto mt-0 pt-20 pb-12 sm:pt-14 sm:pb-14 lg:pt-12 bg-pink-200">
         <div className=" text-slate-900 font-bold text-4xl px-11 sm:text-5xl lg:text-6xl tracking-tight dark:text-white ">
           <div className="flex flex-wrap space-y-3 justify-around items-center leading-none font-mabry">
-            <h1 class="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
+            <h1 className="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
               <span>Custom Website Design!</span>
             </h1>
-            <h2 class="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
               <span>Faster Websites</span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
               <span>Ecommerce</span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
               <span>Blogs</span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
               <span>Portfolios</span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
               <span>CMS</span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
               <span>Web Page Design</span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
               <span>
                 Improved SERP<small>s</small>
               </span>
             </h2>
-            <h2 class="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
+            <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
               <span>SEO Friendly</span>
             </h2>
 

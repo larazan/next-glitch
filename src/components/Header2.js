@@ -7,10 +7,11 @@ import UserMenu from "./UserMenu";
 import MiniCart from "./MiniCart";
 import Notification from "./Notification";
 
+
 export default function Header() {
   return (
     <>
-      <header className="fixed z-20 hidden md:flex h-10 md:h-14 w-full top-0 md:m-0 px-6 md:px-6 py-6 md:py-3  items-center justify-between bg-white border-b shadow">
+      <header className="fixed z-20 hidden md:flex h-10 md:h-14 w-full top-0 md:m-0 px-6 md:px-6 py-6 md:py-3  items-center justify-between bg-pink-200 border-b shadow">
         <div className="flex w-full md:w-3/5 justify-between space-x-4">
           <div className="flex justify-between w-full md:w-[100px]">
             {/* <button className="h-8 w-8 md:hidden">

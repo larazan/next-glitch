@@ -72,7 +72,7 @@ export default function HomeReview() {
         <div className="relative flex flex-row mx-auto w-3/4 justify-between items-center">
           {scrollX !== 0 && (
             <div className="top-[40%] left-0">
-              <Image
+              {/* <Image
                 className="none absolute top-[40%] left-0 z-10 cursor-pointer"
                 aria-hidden="true"
                 src={arrowLeft}
@@ -80,12 +80,21 @@ export default function HomeReview() {
                 decoding="auto"
                 fetchpriority="auto"
                 onClick={() => slide(-shiftN)}
-              />
+              /> */}
+              <button
+              onClick={() => slide(-shiftN)} 
+                className="none absolute top-[40%] left-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+</svg>
+
+
+              </button>
             </div>
           )}
           {!scrolEnd && (
             <div className="top-[40%] right-0">
-              <Image
+              {/* <Image
                 data-testid="arrow-right-pilihan-kitabisa"
                 className="none absolute top-[40%] right-0 z-10 cursor-pointer"
                 aria-hidden="true"
@@ -94,7 +103,15 @@ export default function HomeReview() {
                 decoding="auto"
                 fetchpriority="auto"
                 onClick={() => slide(+shiftN)}
-              />
+              /> */}
+              <button
+              onClick={() => slide(+shiftN)} 
+                className="none absolute top-[40%] right-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+</svg>
+
+              </button>
             </div>
           )}
 

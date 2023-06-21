@@ -1,5 +1,6 @@
-import {getRandomColor,createImageFromInitials} from '@/utils/Utils'
 import Image from 'next/image';
+
+import Ava from "@/components/Ava"
 
 export default function Vote() {
   let name = "Jhon Smith";
@@ -8,15 +9,7 @@ export default function Vote() {
   return (
     <>
     <div className='w-full mx-auto py-12'>
-    <img
-				id='preview'
-				src={
-					imgSrc.length <= 0
-						? createImageFromInitials(500, name, getRandomColor())
-						: imgSrc
-				}
-				alt='profile-pic'
-			/>
+      <Ava username={name} />
     </div>
       <div className="h-max flex space-x-5 py-12 px-20 bg-white">
         <div className="flex flex-col space-y-1.5">
