@@ -5,11 +5,9 @@ import Transition from "@/utils/Transition";
 
 import nike from "@/img/nike.jpg"
 
-function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
-  // const [searchModalOpen, setSearchModalOpen] = useState(false);
+function AdsModal({ id, modalOpen, setModalOpen }) {
 
   const modalContent = useRef(null);
-  const searchInput = useRef(null);
 
   // close on click outside
   useEffect(() => {

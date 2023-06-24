@@ -24,7 +24,7 @@ export default function Forum() {
       <Header />
       <Notice />
 
-      <div className="h-max flex py-12 pb-20 px-20 bg-[#f4f4f0]">
+      <div className="h-max flex py-12 pb-20 px-20 bg-[#bcebdb]">
         <div className="flex w-full mx-auto space-x-8 justify-center2 items-center2">
           <div className="w-1/3 flex flex-col">
             <div className="flex flex-col justify-center shadow-stack-sm px-3 py-6 border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
@@ -77,12 +77,12 @@ export default function Forum() {
                       src={pravatar}
                       alt="Avatar of Author"
                     />
-                    <span className="text-sm text-pink-300 hover:text-pink-400 font-mabrybold capitalize">
+                    <span className="text-sm text-pink-400 hover:text-pink-500 font-mabrybold capitalize">
                       eder teixeira
                     </span>
                   </div>
                   <div className="mt-1.5 flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-400">
+                    <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
                     <a
@@ -93,7 +93,7 @@ export default function Forum() {
                     </a>{" "}
                   </div>
                   <div>
-                    <span className="py-2 font-mabry text-[15px] text-slate-500">
+                    <span className="py-2 font-mabry text-[15px] text-slate-800">
                       Feedback and community is essential for growth and
                       improvement, which is why we&apos;re introducing a Commenting
                       System on Snack Prompt. This will allow users to provide

@@ -10,7 +10,6 @@ import Footer from "@/components/Footer";
 import about from "@/img/about-hello.svg";
 import pravatar from "@/img/300.jpg";
 
-
 export default function Forums() {
   return (
     <>
@@ -23,7 +22,7 @@ export default function Forums() {
       <Header />
       <Notice />
 
-      <div className="h-max flex py-12 pb-20 px-20 bg-[#f4f4f0]">
+      <div className="h-max flex py-12 pb-20 px-20 bg-[#bcebdb]">
         <div className="flex w-full mx-auto space-x-8 justify-center2 items-center2">
           <div className="w-1/3 flex flex-col">
             <div className="flex flex-col justify-center shadow-stack-sm px-3 py-6 border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
@@ -116,7 +115,7 @@ export default function Forums() {
                     </span>
                   </div>
                   <div className="flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-400">
+                    <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
                     <a
@@ -126,13 +125,13 @@ export default function Forums() {
                       open
                     </a>{" "}
                   </div>
-                  <span className="py-1 font-mabry text-[15px] text-slate-500">
+                  <span className="py-1 font-mabry text-[15px] text-slate-800">
                     We know that organization is key to productivity, which is
                     why we&apos;re excited to introduce Prompt Lists. This feature..
                   </span>
                 </div>
                 <div className="flex w-18 ">
-                  <button className="flex font-mabry text-slate-500 text-sm space-x-1">
+                  <button className="flex font-mabry text-slate-800 text-sm space-x-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -181,7 +180,7 @@ export default function Forums() {
                     </span>
                   </div>
                   <div className="flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-400">
+                    <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
                     <a
@@ -191,13 +190,13 @@ export default function Forums() {
                       open
                     </a>{" "}
                   </div>
-                  <span className="py-1 font-mabry text-[15px] text-slate-500">
+                  <span className="py-1 font-mabry text-[15px] text-slate-800">
                     We know that organization is key to productivity, which is
                     why we&apos;re excited to introduce Prompt Lists. This feature..
                   </span>
                 </div>
                 <div className="flex w-18 ">
-                  <button className="flex font-mabry text-slate-500 text-sm space-x-1">
+                  <button className="flex font-mabry text-slate-800 text-sm space-x-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -246,7 +245,7 @@ export default function Forums() {
                     </span>
                   </div>
                   <div className="flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-400">
+                    <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
                     <a
@@ -256,13 +255,13 @@ export default function Forums() {
                       closed
                     </a>{" "}
                   </div>
-                  <span className="py-1 font-mabry text-[15px] text-slate-500">
+                  <span className="py-1 font-mabry text-[15px] text-slate-800">
                     We know that organization is key to productivity, which is
                     why we&apos;re excited to introduce Prompt Lists. This feature..
                   </span>
                 </div>
                 <div className="flex w-18 ">
-                  <button className="flex font-mabry text-slate-500 text-sm space-x-1">
+                  <button className="flex font-mabry text-slate-800 text-sm space-x-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

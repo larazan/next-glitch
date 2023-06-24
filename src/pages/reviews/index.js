@@ -89,11 +89,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -128,11 +124,7 @@ export default function Reviews() {
                       resurrected by a fairy in order to defeat the force...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -167,11 +159,7 @@ export default function Reviews() {
                       enjoyed my time with ...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -207,11 +195,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -247,11 +231,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -287,11 +267,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -327,11 +303,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -367,11 +339,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -407,11 +375,7 @@ export default function Reviews() {
                       experienced bef...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>

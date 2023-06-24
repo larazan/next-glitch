@@ -26,26 +26,26 @@ export default function Hero() {
               <span>Custom Website Design!</span>
             </h1>
             <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
-              <span>Faster Websites</span>
+              <span>Mobile games</span>
             </h2>
             <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
-              <span>Ecommerce</span>
+              <span>Pc games</span>
             </h2>
             <h2 className="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
-              <span>Blogs</span>
+              <span>Xbox</span>
             </h2>
             <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
-              <span>Portfolios</span>
+              <span>Nintendo</span>
             </h2>
             <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
-              <span>CMS</span>
+              <span>News</span>
             </h2>
             <h2 className="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
-              <span>Web Page Design</span>
+              <span>Play station</span>
             </h2>
             <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
               <span>
-                Improved SERP<small>s</small>
+                Esport<small>s</small>
               </span>
             </h2>
             <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">

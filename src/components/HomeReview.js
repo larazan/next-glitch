@@ -82,13 +82,23 @@ export default function HomeReview() {
                 onClick={() => slide(-shiftN)}
               /> */}
               <button
-              onClick={() => slide(-shiftN)} 
-                className="none absolute top-[40%] left-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-</svg>
-
-
+                onClick={() => slide(-shiftN)}
+                className="none absolute top-[35%] left-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={3}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 19.5L8.25 12l7.5-7.5"
+                  />
+                </svg>
               </button>
             </div>
           )}
@@ -105,12 +115,23 @@ export default function HomeReview() {
                 onClick={() => slide(+shiftN)}
               /> */}
               <button
-              onClick={() => slide(+shiftN)} 
-                className="none absolute top-[40%] right-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-</svg>
-
+                onClick={() => slide(+shiftN)}
+                className="none absolute top-[35%] right-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={3}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
               </button>
             </div>
           )}
@@ -151,11 +172,6 @@ export default function HomeReview() {
                       resurrected by a fairy in order to defeat the force...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -189,11 +205,6 @@ export default function HomeReview() {
                       the role of the recently deceased king, who has been
                       resurrected by a fairy in order to defeat the force...
                     </span>
-                  </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
                   </div>
                 </div>
               </div>
@@ -229,11 +240,6 @@ export default function HomeReview() {
                       resurrected by a fairy in order to defeat the force...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -267,11 +273,6 @@ export default function HomeReview() {
                       the role of the recently deceased king, who has been
                       resurrected by a fairy in order to defeat the force...
                     </span>
-                  </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
                   </div>
                 </div>
               </div>
@@ -307,11 +308,6 @@ export default function HomeReview() {
                       resurrected by a fairy in order to defeat the force...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -345,11 +341,6 @@ export default function HomeReview() {
                       the role of the recently deceased king, who has been
                       resurrected by a fairy in order to defeat the force...
                     </span>
-                  </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
                   </div>
                 </div>
               </div>
@@ -385,11 +376,6 @@ export default function HomeReview() {
                       resurrected by a fairy in order to defeat the force...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -423,11 +409,6 @@ export default function HomeReview() {
                       the role of the recently deceased king, who has been
                       resurrected by a fairy in order to defeat the force...
                     </span>
-                  </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
                   </div>
                 </div>
               </div>
@@ -463,19 +444,15 @@ export default function HomeReview() {
                       resurrected by a fairy in order to defeat the force...
                     </span>
                   </div>
-                  <div className="py-3">
-                    <button className="font-mabrybold px-0.5 py-1 text-sm hover:bg-pink-300 border-b-2 border-pink-300 text-pink-700">
-                      Read more
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
             {/*  */}
-            
-            
-           
-            <Link href={"/reviews"} className="text‑inherit mt-0 mr-2 mb-4 cursor-pointer no-underline">
+
+            <Link
+              href={"/reviews"}
+              className="text‑inherit mt-0 mr-2 mb-4 cursor-pointer no-underline"
+            >
               <div className="flex h-full w-[150px] flex-col justify-center text-center text-[#00aeef]">
                 <div className="text-base">
                   <svg
@@ -499,7 +476,9 @@ export default function HomeReview() {
                     ></path>
                   </svg>
                 </div>
-                <span className="m-0 text-base font-mabrybold">Lihat Semua</span>
+                <span className="m-0 text-base font-mabrybold">
+                  Lihat Semua
+                </span>
               </div>
             </Link>
             {/*  */}

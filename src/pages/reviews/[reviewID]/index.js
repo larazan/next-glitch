@@ -5,6 +5,8 @@ import Head from "next/head";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Report from "@/components/Report";
+import Rate from "@/components/Rate";
 
 import lastofus from "@/img/lastofus.jpg";
 import lastofus1 from "@/img/lastofus1.jpg";
@@ -18,8 +20,9 @@ import pravatar from "@/img/300.jpg";
 import arrowLeft from "@/img/icon_arrow-left.png";
 import arrowRight from "@/img/icon_arrow-right.png";
 
-
 export default function Review() {
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const [rateModalOpen, setRateModalOpen] = useState(false);
   //   useEffect(() => {
   //     window.scrollTo(0, 0);
   //   }, []);
@@ -77,10 +80,21 @@ export default function Review() {
             <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
               <span className="text-lg font-mabrybold">8.7</span>
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-2/3 flex-col leading-snug">
               <div className="text-sm font-mabrybold">User Score</div>
-              <div className="text-xs font-mabry">
-                Generally favorable reviews based on 201 Ratings
+              <div className="text-xs font-mabry leading-snug">
+                Generally favorable reviews based on 201 Ratings {" "} 
+                <span 
+                  className="shadow-menu bg-orange-600 border border-gray-800 px-1 text-xs text-white rounded cursor-pointer"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setRateModalOpen(true);
+                  }}
+                >Rate now</span>
+                 <Rate
+                        modalOpen={rateModalOpen}
+                        setModalOpen={setRateModalOpen}
+                      />
               </div>
             </div>
           </div>
@@ -124,14 +138,28 @@ export default function Review() {
             </div>
 
             <div className="flex w-1/3 items-center">
-              <div className="flex flex-wrap text-xs font-mabry hover:underline underline-offset-4 cursor-pointer">
-                <span className="m-0.5">PlayStation 5</span>
-                <span className="m-0.5">Nintendo</span>
-                <span className="m-0.5">PC</span>
-                <span className="m-0.5">Xbox</span>
-                <span className="m-0.5">Console</span>
-                <span className="m-0.5">Google</span>
-                <span className="m-0.5">Smartphone</span>
+              <div className="flex flex-wrap text-xs font-mabry  cursor-pointer">
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  PlayStation 5
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  Nintendo
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  PC
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  Xbox
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  Console
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  Google
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-4">
+                  Smartphone
+                </span>
               </div>
             </div>
           </div>
@@ -147,27 +175,89 @@ export default function Review() {
                 <div className="font-mabry">
                   <div className=" flex justify-between items-center text-base md:text-sm text-green-500 font-bold">
                     <div className="flex justify-end space-x-2">
-                    <button>
+                      <button>
                         <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
-                          <span className="text-white font-mabrybold">Facebook</span>
-                          <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd"></path></svg>
+                          <span className="text-white font-mabrybold">
+                            Facebook
+                          </span>
+                          <svg
+                            className="w-4 h-4 text-white"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                              clipRule="evenodd"
+                            ></path>
+                          </svg>
                         </div>
                       </button>
                       <button>
                         <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                        <span className="text-white font-mabrybold">Twitter</span>
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+                          <span className="text-white font-mabrybold">
+                            Twitter
+                          </span>
+                          <svg
+                            className="w-4 h-4 text-white"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                          </svg>
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 text-white">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-</svg>
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black  hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={1.5}
+                            stroke="currentColor"
+                            className="w-4 h-4 text-white"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                            />
+                          </svg>
 
-                          <span className="text-white font-mabry">Copy url</span>
+                          <span className="text-white font-mabry">
+                            Copy url
+                          </span>
                         </div>
                       </button>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setReportModalOpen(true);
+                        }}
+                      >
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-white hover:bg-white text-black hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            className="w-4 h-4"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+
+                          <span className="text-black font-mabry">Report</span>
+                        </div>
+                      </button>
+                      <Report
+                        modalOpen={reportModalOpen}
+                        setModalOpen={setReportModalOpen}
+                      />
                     </div>
                   </div>
                 </div>
@@ -198,164 +288,162 @@ export default function Review() {
 
                 {/*  */}
                 <div className="relative">
-                
-                <div className="relative">
-                  {scrollX !== 0 && (
-                    <div className=" top-[30%] left-0 ">
-                      <Image
-                        className="none absolute top-[35%] left-0 z-10 cursor-pointer"
-                        src={arrowLeft}
-                        alt="arrow left"
-                        decoding="auto"
-                        fetchpriority="auto"
-                        onClick={() => slide(-shiftN)}
-                      />
-                    </div>
-                  )}
-                  {!scrolEnd && (
-                    <div className=" top-[30%] right-0">
-                      <Image
-                        data-testid="arrow-right-pilihan-kitabisa"
-                        className="none absolute top-[35%] right-0 z-10 cursor-pointer"
-                        alt="arrow right"
-                        src={arrowRight}
-                        decoding="auto"
-                        fetchpriority="auto"
-                        onClick={() => slide(+shiftN)}
-                      />
-                    </div>
-                  )}
+                  <div className="relative">
+                    {scrollX !== 0 && (
+                      <div className=" top-[30%] left-0 ">
+                        <Image
+                          className="none absolute top-[35%] left-0 z-10 cursor-pointer"
+                          src={arrowLeft}
+                          alt="arrow left"
+                          decoding="auto"
+                          fetchpriority="auto"
+                          onClick={() => slide(-shiftN)}
+                        />
+                      </div>
+                    )}
+                    {!scrolEnd && (
+                      <div className=" top-[30%] right-0">
+                        <Image
+                          data-testid="arrow-right-pilihan-kitabisa"
+                          className="none absolute top-[35%] right-0 z-10 cursor-pointer"
+                          alt="arrow right"
+                          src={arrowRight}
+                          decoding="auto"
+                          fetchpriority="auto"
+                          onClick={() => slide(+shiftN)}
+                        />
+                      </div>
+                    )}
 
-                  {/*  */}
-                  <div
-                    className="mb-[1em] flex flex-row overflow-x-hidden scroll-smooth"
-                    ref={scrl}
-                    onScroll={scrollCheck}
-                  >
-                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
-                      <div className="w-[280px]">
-                        <div
-                          className="flex flex-col rounded-[4px]"
-                          style={{
-                            boxShadow:
-                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                          }}
-                        >
-                          <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <Image
-                              alt=""
-                              src={lastofus1}
-                              width="100"
-                              height="100"
-                              className="h-full w-full rounded object-cover"
-                              style={{ color: "transparent" }}
-                            />
-                          </figure>
+                    {/*  */}
+                    <div
+                      className="mb-[1em] flex flex-row overflow-x-hidden scroll-smooth"
+                      ref={scrl}
+                      onScroll={scrollCheck}
+                    >
+                      <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                        <div className="w-[280px]">
+                          <div
+                            className="flex flex-col rounded-[4px]"
+                            style={{
+                              boxShadow:
+                                "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                              border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                            }}
+                          >
+                            <figure className="relative m-0 flex flex-1 items-center justify-center">
+                              <Image
+                                alt=""
+                                src={lastofus1}
+                                width="100"
+                                height="100"
+                                className="h-full w-full rounded object-cover"
+                                style={{ color: "transparent" }}
+                              />
+                            </figure>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/*  */}
-                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
-                      <div className="w-[280px]">
-                        <div
-                          className="flex flex-col rounded-[4px]"
-                          style={{
-                            boxShadow:
-                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                          }}
-                        >
-                          <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <Image
-                              alt=""
-                              src={lastofus2}
-                              width="100"
-                              height="100"
-                              className="h-full w-full rounded object-cover"
-                              style={{ color: "transparent" }}
-                            />
-                          </figure>
+                      {/*  */}
+                      <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                        <div className="w-[280px]">
+                          <div
+                            className="flex flex-col rounded-[4px]"
+                            style={{
+                              boxShadow:
+                                "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                              border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                            }}
+                          >
+                            <figure className="relative m-0 flex flex-1 items-center justify-center">
+                              <Image
+                                alt=""
+                                src={lastofus2}
+                                width="100"
+                                height="100"
+                                className="h-full w-full rounded object-cover"
+                                style={{ color: "transparent" }}
+                              />
+                            </figure>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/*  */}
-                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
-                      <div className="w-[280px]">
-                        <div
-                          className="flex flex-col rounded-[4px]"
-                          style={{
-                            boxShadow:
-                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                          }}
-                        >
-                          <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <Image
-                              alt=""
-                              src={lastofus3}
-                              width="100"
-                              height="100"
-                              className="h-full w-full rounded object-cover"
-                              style={{ color: "transparent" }}
-                            />
-                          </figure>
+                      {/*  */}
+                      <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                        <div className="w-[280px]">
+                          <div
+                            className="flex flex-col rounded-[4px]"
+                            style={{
+                              boxShadow:
+                                "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                              border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                            }}
+                          >
+                            <figure className="relative m-0 flex flex-1 items-center justify-center">
+                              <Image
+                                alt=""
+                                src={lastofus3}
+                                width="100"
+                                height="100"
+                                className="h-full w-full rounded object-cover"
+                                style={{ color: "transparent" }}
+                              />
+                            </figure>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/*  */}
-                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
-                      <div className="w-[280px]">
-                        <div
-                          className="flex flex-col rounded-[4px]"
-                          style={{
-                            boxShadow:
-                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                          }}
-                        >
-                          <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <Image
-                              alt=""
-                              src={lastofus4}
-                              width="100"
-                              height="100"
-                              className="h-full w-full rounded object-cover"
-                              style={{ color: "transparent" }}
-                            />
-                          </figure>
+                      {/*  */}
+                      <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                        <div className="w-[280px]">
+                          <div
+                            className="flex flex-col rounded-[4px]"
+                            style={{
+                              boxShadow:
+                                "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                              border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                            }}
+                          >
+                            <figure className="relative m-0 flex flex-1 items-center justify-center">
+                              <Image
+                                alt=""
+                                src={lastofus4}
+                                width="100"
+                                height="100"
+                                className="h-full w-full rounded object-cover"
+                                style={{ color: "transparent" }}
+                              />
+                            </figure>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/*  */}
-                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
-                      <div className="w-[280px]">
-                        <div
-                          className="flex flex-col rounded-[4px]"
-                          style={{
-                            boxShadow:
-                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
-                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
-                          }}
-                        >
-                          <figure className="relative m-0 flex z-0 flex-1 items-center justify-center">
-                            <Image
-                              alt=""
-                              src={lastofus5}
-                              width="100"
-                              height="100"
-                              className="h-full z-0 w-full rounded object-cover"
-                              style={{ color: "transparent" }}
-                            />
-                          </figure>
+                      {/*  */}
+                      <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                        <div className="w-[280px]">
+                          <div
+                            className="flex flex-col rounded-[4px]"
+                            style={{
+                              boxShadow:
+                                "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                              border: "0.5px solid rgba(0, 0, 0, 0.1)",
+                            }}
+                          >
+                            <figure className="relative m-0 flex z-0 flex-1 items-center justify-center">
+                              <Image
+                                alt=""
+                                src={lastofus5}
+                                width="100"
+                                height="100"
+                                className="h-full z-0 w-full rounded object-cover"
+                                style={{ color: "transparent" }}
+                              />
+                            </figure>
+                          </div>
                         </div>
                       </div>
+                      {/*  */}
                     </div>
-                    {/*  */}
-                    
                   </div>
                 </div>
-              </div>
                 {/*  */}
 
                 {/* SOURCE */}

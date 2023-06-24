@@ -1,14 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Report from "@/components/Report";
 
+import pravatar from "@/img/300.jpg";
 import lastofus from "@/img/lastofus.jpg";
+import { Help } from "@/components/Help";
 
 export default function Guide() {
+  const [reportModalOpen, setReportModalOpen] = useState(false);
   //   useEffect(() => {
   //     window.scrollTo(0, 0);
   //   }, []);
@@ -79,14 +83,14 @@ export default function Guide() {
             </div>
 
             <div className="flex w-1/3 items-center">
-              <div className="flex flex-wrap text-xs font-mabry hover:underline underline-offset-4 cursor-pointer">
-                <span className="m-0.5">PlayStation 5</span>
-                <span className="m-0.5">Nintendo</span>
-                <span className="m-0.5">PC</span>
-                <span className="m-0.5">Xbox</span>
-                <span className="m-0.5">Console</span>
-                <span className="m-0.5">Google</span>
-                <span className="m-0.5">Smartphone</span>
+              <div className="flex flex-wrap text-xs font-mabry  cursor-pointer">
+                <span className="m-0.5 hover:underline underline-offset-4">PlayStation 5</span>
+                <span className="m-0.5 hover:underline underline-offset-4">Nintendo</span>
+                <span className="m-0.5 hover:underline underline-offset-4">PC</span>
+                <span className="m-0.5 hover:underline underline-offset-4">Xbox</span>
+                <span className="m-0.5 hover:underline underline-offset-4">Console</span>
+                <span className="m-0.5 hover:underline underline-offset-4">Google</span>
+                <span className="m-0.5 hover:underline underline-offset-4">Smartphone</span>
               </div>
             </div>
           </div>
@@ -158,6 +162,24 @@ export default function Guide() {
                           </span>
                         </div>
                       </button>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setReportModalOpen(true);
+                        }}
+                      >
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-white hover:bg-white text-black hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+  <path fillRule="evenodd" d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z" clipRule="evenodd" />
+</svg>
+
+                          <span className="text-black font-mabry">Report</span>
+                        </div>
+                      </button>
+                      <Report
+                        modalOpen={reportModalOpen}
+                        setModalOpen={setReportModalOpen}
+                      />
                     </div>
                   </div>
                 </div>
@@ -266,47 +288,7 @@ export default function Guide() {
                   </button>
                 </div>
 
-                <div className=" mt-4 py-3 flex border border-gray-800 rounded justify-center space-x-2 items-center">
-                  <div>
-                    <span className="font-mabry text-sm">
-                      Did this content help you?
-                    </span>
-                  </div>
-                  <div className="flex space-x-2">
-                    <Link href={''}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-5 h-5 hover:text-pink-700"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z"
-                      />
-                    </svg>
-                    </Link>
-                    <Link href={''}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-5 h-5  hover:text-pink-700"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M7.5 15h2.25m8.024-9.75c.011.05.028.1.052.148.591 1.2.924 2.55.924 3.977a8.96 8.96 0 01-.999 4.125m.023-8.25c-.076-.365.183-.75.575-.75h.908c.889 0 1.713.518 1.972 1.368.339 1.11.521 2.287.521 3.507 0 1.553-.295 3.036-.831 4.398C20.613 14.547 19.833 15 19 15h-1.053c-.472 0-.745-.556-.5-.96a8.95 8.95 0 00.303-.54m.023-8.25H16.48a4.5 4.5 0 01-1.423-.23l-3.114-1.04a4.5 4.5 0 00-1.423-.23H6.504c-.618 0-1.217.247-1.605.729A11.95 11.95 0 002.25 12c0 .434.023.863.068 1.285C2.427 14.306 3.346 15 4.372 15h3.126c.618 0 .991.724.725 1.282A7.471 7.471 0 007.5 19.5a2.25 2.25 0 002.25 2.25.75.75 0 00.75-.75v-.633c0-.573.11-1.14.322-1.672.304-.76.93-1.33 1.653-1.715a9.04 9.04 0 002.86-2.4c.498-.634 1.226-1.08 2.032-1.08h.384"
-                      />
-                    </svg>
-                    </Link>
-                  </div>
-                </div>
+                <Help />
 
                 {/* SOURCE */}
                 <div className="md:text-sm text-gray-500 px-4 py-3 font-mabry">
@@ -367,7 +349,7 @@ export default function Guide() {
                 <div className="flex w-full items-center font-mabry px-4 py-8">
                   <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
-                    src="http://i.pravatar.cc/300"
+                    src={pravatar}
                     alt="Avatar of Author"
                   />
                   <div className="flex flex-col px-2">

@@ -44,7 +44,7 @@ function Ava({ username, size }) {
         </div>
       </div> */}
       <div
-        class=" sb-avatar sb-avatar--text"
+        className=" sb-avatar sb-avatar--text"
         style={{ 
             display: 'inline-block', 
             verticalAlign: 'middle', 
@@ -55,7 +55,7 @@ function Ava({ username, size }) {
         }}
       >
         <div
-          class=" sb-avatar__text"
+          className=" sb-avatar__text"
           style={{
             width: '30px', 
             height: '30px', 

@@ -178,8 +178,7 @@ export default function Header() {
               setModalOpen={setSearchModalOpen}
             />
             <AdsModal
-              id="search-modal"
-              searchId="search"
+              id="ads-modal"
               modalOpen={adsModalOpen}
               setModalOpen={setAdsModalOpen}
             />
