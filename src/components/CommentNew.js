@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import pravatar from "@/img/300.jpg";
 
-export default function Comment() {
+export default function CommentNew() {
   return (
     <>
       <div className="mb-12 pb-2">
@@ -14,21 +14,21 @@ export default function Comment() {
           </div>
           <div className="py-0">
             <div className="antialiased md:p-3 mx-auto max-w-screen-sm bg-transparent">
-              <div className="space-y-2 md:space-y-4 md:py-4">
-                <div className="flex">
-                  <div className="flex-shrink-0 mr-0">
+              <div className="space-y-2 md:space-y-2 ">
+                
+                <div className="flex ">
+                  <div className="pt-2 flex-shrink-0 mr-0">
                     <Image
-                      className="mt-2 border border-gray-600 rounded-full w-8 h-8 sm:w-10 sm:h-10"
+                      className="mt-2 border-2 shadow border-white rounded-full w-10 h-10 md:w-12 sm:h-12"
                       src={pravatar}
                       alt=""
                     />
+                    <strong className="font-mabrybold text-sm">Sarah</strong>
                   </div>
                   <div className="flex-1 px-4 py-2 sm:px-4 sm:py-2 leading-relaxed space-y-1">
-                    <strong className="font-mabrybold">Sarah</strong>{" "}
-                    <p className="text-[15px] leading-tight">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                    </p>
-                    <div className="flex space-x-2">
+                    <div className="relative bubble text-[15px] leading-tight flex flex-col space-y-1">
+                      <span className="pb-2"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</span>
+                      <div className="absolute bottom-1 right-4 flex space-x-2">
                       <div className="flex space-x-1 cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -45,32 +45,33 @@ export default function Comment() {
                           />
                         </svg>
 
-                        <span className="text-xs text-gray-400">1 like</span>
+                        <span className="text-xs text-slate-800">1 like</span>
                       </div>
-                      <span className="text-xs text-gray-400">
+                      <span className="text-xs text-slate-800">
                         April 16, 2023
                       </span>
                       <span className="text-xs font-mabrybold cursor-pointer text-gray-500 underline">
                         Reply
                       </span>
                     </div>
+                    </div>
+                    
                   </div>
                 </div>
 
                 <div className="flex">
-                  <div className="flex-shrink-0 mr-0">
+                  <div className="pt-2 flex-shrink-0 mr-0">
                     <Image
-                      className="mt-2 border border-gray-600 rounded-full w-8 h-8 sm:w-10 sm:h-10"
+                      className="mt-2 border-2 shadow border-white rounded-full w-10 h-10 md:w-12 sm:h-12"
                       src={pravatar}
                       alt=""
                     />
+                    <strong className="font-mabrybold text-sm">Sarah</strong>
                   </div>
                   <div className="flex-1 px-4 py-2 sm:px-4 sm:py-2 leading-relaxed space-y-1">
-                    <strong className="font-mabrybold">Sarah</strong>{" "}
-                    <p className="text-[15px] leading-tight">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                    </p>
-                    <div className="flex space-x-2">
+                    <div className="relative bubble text-[15px] leading-tight flex flex-col space-y-1">
+                      <span className="pb-2"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</span>
+                      <div className="absolute bottom-1 right-4 flex space-x-2">
                       <div className="flex space-x-1 cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -87,14 +88,15 @@ export default function Comment() {
                           />
                         </svg>
 
-                        <span className="text-xs text-gray-400">1 like</span>
+                        <span className="text-xs text-slate-800">1 like</span>
                       </div>
-                      <span className="text-xs text-gray-400">
+                      <span className="text-xs text-slate-800">
                         April 16, 2023
                       </span>
                       <span className="text-xs font-mabrybold cursor-pointer text-gray-500 underline">
                         Reply
                       </span>
+                    </div>
                     </div>
                     <div className="py-3">
                       <div className="">
@@ -128,19 +130,19 @@ export default function Comment() {
                 </div>
 
                 <div className="flex">
-                  <div className="flex-shrink-0 mr-0">
+                  <div className="pt-2 flex-shrink-0 mr-0">
                     <Image
-                      className="mt-2 border border-gray-600 rounded-full w-8 h-8 sm:w-10 sm:h-10"
+                      className="mt-2 border-2 shadow border-white rounded-full w-10 h-10 md:w-12 sm:h-12"
                       src={pravatar}
                       alt=""
                     />
+                    <strong className="font-mabrybold">Sarah</strong>
                   </div>
                   <div className="flex-1 px-4 py-2 sm:px-4 sm:py-2 leading-relaxed space-y-1">
-                    <strong className="font-mabrybold">Sarah</strong>{" "}
-                    <p className="text-[15px] leading-tight">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                    </p>
-                    <div className="flex space-x-2">
+                    
+                  <div className="relative bubble text-[15px] leading-tight flex flex-col space-y-1">
+                      <span className="pb-2"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</span>
+                      <div className="absolute bottom-1 right-4 flex space-x-2">
                       <div className="flex space-x-1 cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -157,58 +159,57 @@ export default function Comment() {
                           />
                         </svg>
 
-                        <span className="text-xs text-gray-400">1 like</span>
+                        <span className="text-xs text-slate-800">1 like</span>
                       </div>
-                      <span className="text-xs text-gray-400">
+                      <span className="text-xs text-slate-800">
                         April 16, 2023
                       </span>
                       <span className="text-xs font-mabrybold cursor-pointer text-gray-500 underline">
                         Reply
                       </span>
                     </div>
+                    </div>
                     <div className="space-y-4">
                       <div className="flex">
-                        <div className="flex-shrink-0 mr-0">
+                        <div className="pt-2 flex-shrink-0 mr-0">
                           <Image
-                            className="mt-3 border border-gray-600 rounded-full w-6 h-6 sm:w-8 sm:h-8"
+                            className="mt-3 border-2 border-white rounded-full w-6 h-6 md:w-8 md:h-8"
                             src={pravatar}
                             alt=""
                           />
+                          <strong className="font-mabrybold text-xs">Sarah</strong>
                         </div>
                         <div className="flex-1 px-4 py-2 sm:px-4 sm:py-2 leading-relaxed space-y-1">
-                          <strong className="font-mabrybold">Sarah</strong>{" "}
-                          <p className="text-[15px] leading-tight">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr.
-                          </p>
-                          <div className="flex space-x-2">
-                            <div className="flex space-x-1 cursor-pointer">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                strokeWidth={1.3}
-                                stroke="currentColor"
-                                className="w-4 h-4"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-                                />
-                              </svg>
+                          
+                        <div className="relative bubble text-[15px] leading-tight flex flex-col space-y-1">
+                      <span className="pb-2"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</span>
+                      <div className="absolute bottom-1 right-4 flex space-x-2">
+                      <div className="flex space-x-1 cursor-pointer">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth={1.3}
+                          stroke="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                          />
+                        </svg>
 
-                              <span className="text-xs text-gray-400">
-                                1 like
-                              </span>
-                            </div>
-                            <span className="text-xs text-gray-400">
-                              April 16, 2023
-                            </span>
-                            <span className="text-xs font-mabrybold cursor-pointer text-gray-500 underline">
-                              Reply
-                            </span>
-                          </div>
+                        <span className="text-xs text-slate-800">1 like</span>
+                      </div>
+                      <span className="text-xs text-slate-800">
+                        April 16, 2023
+                      </span>
+                      <span className="text-xs font-mabrybold cursor-pointer text-gray-500 underline">
+                        Reply
+                      </span>
+                    </div>
+                    </div>
                         </div>
                       </div>
                     </div>

@@ -6,7 +6,7 @@ import Head from "next/head";
 import Notice from "@/components/Notice";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Comment from "@/components/Comment";
+import CommentNew from "@/components/CommentNew";
 
 import gmb from "@/img/gmb.png";
 
@@ -134,7 +134,7 @@ export default function Forum() {
                       </div>
                     </div>
                   </div>
-                  <Comment />
+                  <CommentNew />
                 </div>
               </div>
               {/*  */}

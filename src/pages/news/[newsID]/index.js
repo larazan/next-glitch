@@ -6,11 +6,13 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Report from "@/components/Report";
+import Comment from "@/components/Comment";
 
 import mine from "@/img/mine.jpg";
 import lastofus2 from "@/img/lastofus2.jpg";
 import godofwar from "@/img/godofwar.jpg";
 import pravatar from "@/img/300.jpg";
+import { Help } from "@/components/Help";
 
 const detail = () => {
   const [reportModalOpen, setReportModalOpen] = useState(false);
@@ -196,6 +198,8 @@ const detail = () => {
                   </p>
                 </div>
 
+                <Help />
+
                 <div className="md:text-sm text-gray-500 px-4 py-3 font-mabry">
                   Source:{" "}
                   <a
@@ -266,7 +270,7 @@ const detail = () => {
                     </p>
                   </div>
                 </div>
-                {/* <DetailComment /> */}
+                <Comment />
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
               </div>
               <div className="w-1/3 bg-green-100">
