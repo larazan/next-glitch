@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Report from "@/components/Report";
 import Rate from "@/components/Rate";
+import ReviewLine from "@/components/ReviewLine";
 
 import lastofus from "@/img/lastofus.jpg";
 import lastofus1 from "@/img/lastofus1.jpg";
@@ -519,6 +520,8 @@ export default function Review() {
                     </p>
                   </div>
                 </div>
+
+                <ReviewLine />
                 {/* <DetailComment /> */}
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
               </div>
