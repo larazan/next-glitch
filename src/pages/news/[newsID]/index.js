@@ -14,7 +14,7 @@ import godofwar from "@/img/godofwar.jpg";
 import pravatar from "@/img/300.jpg";
 import { Help } from "@/components/Help";
 
-const detail = () => {
+export default function Detail() {
   const [reportModalOpen, setReportModalOpen] = useState(false);
   //   useEffect(() => {
   //     window.scrollTo(0, 0);
@@ -328,4 +328,3 @@ const detail = () => {
   );
 };
 
-export default detail;
