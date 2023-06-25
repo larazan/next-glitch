@@ -42,7 +42,7 @@ export default function Schedule() {
                         <span className="font-mabry leading-tight text-sm">Special offers from our restaurant partners</span>
                     </div>
                     <div className="">
-                        <Image src={tournament} className="object-cover h-48 w-60"/>
+                        <Image src={tournament} className="object-cover h-48 w-60" alt=""/>
                     </div>
                 </div>
                 <div className="w-[380px] flex flex-row ">
@@ -51,7 +51,7 @@ export default function Schedule() {
                         <span className="font-mabry leading-tight text-sm">Special offers from our restaurant partners</span>
                     </div>
                     <div className="">
-                        <Image src={festival} className="object-cover h-48 w-60"/>
+                        <Image src={festival} className="object-cover h-48 w-60" alt="" />
                     </div>
                 </div>
                 <div className="w-[380px] flex flex-row ">
@@ -60,7 +60,7 @@ export default function Schedule() {
                         <span className="font-mabry leading-tight text-sm">Special offers from our restaurant partners</span>
                     </div>
                     <div className="">
-                        <Image src={tournament} className="object-cover h-48 w-60"/>
+                        <Image src={tournament} className="object-cover h-48 w-60" alt="" />
                     </div>
                 </div>
                 <div className="w-[380px] flex flex-row ">
@@ -69,7 +69,7 @@ export default function Schedule() {
                         <span className="font-mabry leading-tight text-sm">Special offers from our restaurant partners</span>
                     </div>
                     <div className="">
-                        <Image src={festival} className="object-cover h-48 w-60"/>
+                        <Image src={festival} className="object-cover h-48 w-60" alt="" />
                     </div>
                 </div>
             </div>
