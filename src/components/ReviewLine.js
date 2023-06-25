@@ -19,7 +19,18 @@ export default function ReviewLine() {
           <div>
             <span className="font-mabrybold text-lg">Ratings</span>
           </div>
-          <div>
+          <div className="flex flex-col">
+            <div className="flex w-full space-x-3  items-center">
+              <div className="flex mt-2 h-14 w-14 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                <span className="text-lg font-mabrybold">8.7</span>
+              </div>
+              <div className="flex w-2/3 flex-col leading-tight">
+                <div className="text-sm font-mabrybold">User Score</div>
+                <div className="text-sm font-mabry leading-tight">
+                  Generally favorable reviews based on 201 Ratings
+                </div>
+              </div>
+            </div>
             <div class="flex flex-wrap items-center justify-center2 mt-2">
               <div class="flex-initial flex flex-col justify-center items-center">
                 <svg
@@ -229,7 +240,7 @@ export default function ReviewLine() {
               </div>
             </div>
           </div>
-          <div className="flex justify-end">
+          <div className="flex justify-end mt-4">
             <button className="flex space-x-1 items-center font-mabry uppercase text-xs ">
               <span>See all reviews</span>
               <svg
