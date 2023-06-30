@@ -131,7 +131,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      class="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
                       checked
                     />
                   </div>
