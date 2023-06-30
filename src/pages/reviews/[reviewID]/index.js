@@ -72,7 +72,7 @@ export default function Review() {
       <div className="mt-16 px-4">
         <div className="w-full bg-green-100 h-20"></div>
       </div>
-      <div className="flex w-full mt-4">
+      <div className="container w-full md:max-w-4xl mx-auto flex items-center mt-4 px-2 md:px-4">
         <div className="w-2/3 -z-10">
           <Image src={lastofus} quality={100} alt="" />
         </div>
@@ -81,22 +81,22 @@ export default function Review() {
             <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
               <span className="text-lg font-mabrybold">8.7</span>
             </div>
-            <div className="flex w-2/3 flex-col leading-snug">
+            <div className="flex w-2/3 flex-col leading-tight">
               <div className="text-sm font-mabrybold">User Score</div>
               <div className="text-xs font-mabry leading-snug">
                 Generally favorable reviews based on 201 Ratings {" "} 
-                <span 
-                  className="shadow-menu bg-orange-600 border border-gray-800 px-1 text-xs text-white rounded cursor-pointer"
+              </div>
+              <div 
+                  className="flex w-16 shadow-menu bg-orange-600 border border-gray-800 px-1 text-xs text-white rounded cursor-pointer"
                   onClick={(e) => {
                     e.stopPropagation();
                     setRateModalOpen(true);
                   }}
-                >Rate now</span>
+                >Rate now</div>
                  <Rate
                         modalOpen={rateModalOpen}
                         setModalOpen={setRateModalOpen}
                       />
-              </div>
             </div>
           </div>
           <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
@@ -126,10 +126,10 @@ export default function Review() {
           </div>
         </div>
       </div>
-      <div className="h-max flex flex-col">
+      <div className=" h-max flex flex-col ">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex justify-between w-full  px-8 py-4 border-y border-gray-800 bg-white">
-            <div className="flex flex-col w-2/3 items-center2">
+          <div className="flex w-full justify-between px-8 py-4 border-y border-gray-800 bg-white">
+            <div className="flex flex-col w-2/3 ">
               <div className="text-lg font-mabrybold">
                 The last of us part I
               </div>
@@ -138,27 +138,27 @@ export default function Review() {
               </div>
             </div>
 
-            <div className="flex w-1/3 items-center">
-              <div className="flex flex-wrap text-xs font-mabry  cursor-pointer">
-                <span className="m-0.5 hover:underline underline-offset-4">
+            <div className="flex  justify-end ">
+              <div className="flex flex-wrap justify-end text-xs font-mabry  cursor-pointer">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   PlayStation 5
                 </span>
-                <span className="m-0.5 hover:underline underline-offset-4">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   Nintendo
                 </span>
-                <span className="m-0.5 hover:underline underline-offset-4">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   PC
                 </span>
-                <span className="m-0.5 hover:underline underline-offset-4">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   Xbox
                 </span>
-                <span className="m-0.5 hover:underline underline-offset-4">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   Console
                 </span>
-                <span className="m-0.5 hover:underline underline-offset-4">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   Google
                 </span>
-                <span className="m-0.5 hover:underline underline-offset-4">
+                <span className="m-0.5 hover:underline underline-offset-2">
                   Smartphone
                 </span>
               </div>
@@ -168,8 +168,8 @@ export default function Review() {
       </div>
 
       <section className="bg-[#f6f8f7]">
-        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-10 ">
-          <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
+        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-6 px-2 md:px-4">
+          <div className="w-full  text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
               <div className="w-2/3">
                 {/* SOCMED */}

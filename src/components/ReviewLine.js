@@ -22,7 +22,7 @@ export default function ReviewLine() {
           <div className="flex flex-col">
             <div className="flex w-full space-x-3  items-center">
               <div className="flex mt-2 h-14 w-14 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
-                <span className="text-lg font-mabrybold">8.7</span>
+                <span className="text-2xl font-mabrybold">8.7</span>
               </div>
               <div className="flex w-2/3 flex-col leading-tight">
                 <div className="text-sm font-mabrybold">User Score</div>

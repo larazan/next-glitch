@@ -49,7 +49,7 @@ export default function Menu() {
         <button
           ref={trigger}
           // className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ${dropdownOpen && 'bg-slate-200'}`}
-          className="flex  items-center shadow-menu justify-center rounded border-2 border-gray-800 px-3 py-1.5 space-x-1 bg-white opacity-90 hover:opacity-100"
+          className="flex  items-center shadow-menu justify-center rounded border-2 border-gray-800 px-1.5 md:px-3 py-1.5 space-x-1 bg-white opacity-90 hover:opacity-100"
           aria-haspopup="true"
           onClick={() => setDropdownOpen(!dropdownOpen)}
           aria-expanded={dropdownOpen}
@@ -85,12 +85,12 @@ export default function Menu() {
             <ul>
               <li className="">
                 <Link
-                  className="block py-4 px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/news'}
                 >
-                  <div className='flex space-x-3'>
+                  <div className='flex space-x-2 md:space-x-3'>
                     <div className='w-10'>
                         📄
                     </div>
@@ -106,12 +106,12 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block py-4 px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/reviews'}
                 >
-                  <div className='flex space-x-3'>
+                  <div className='flex space-x-2 md:space-x-3'>
                     <div className='w-10'>
                     📚
                     </div>
@@ -127,12 +127,12 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block py-4 px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/forums'}
                 >
-                  <div className='flex space-x-3'>
+                  <div className='flex space-x-2 md:space-x-3'>
                     <div className='w-10'>
                     💡
                     </div>
@@ -148,12 +148,12 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block py-4 px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/guides'}
                 >
-                  <div className='flex space-x-3'>
+                  <div className='flex space-x-2 md:space-x-3'>
                     <div className='w-10'>
                     📘
                     </div>
@@ -169,12 +169,12 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block py-4 px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/products'}
                 >
-                  <div className='flex space-x-3'>
+                  <div className='flex space-x-2 md:space-x-3'>
                     <div className='w-10'>
                     💰
                     </div>

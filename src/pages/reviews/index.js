@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
@@ -15,8 +15,10 @@ import skyrim from "@/img/thumbnail/skyrim.jpg";
 import spiderman from "@/img/thumbnail/spiderman.jpg";
 import toad from "@/img/thumbnail/toad.jpg";
 import unpacking from "@/img/thumbnail/unpacking.jpg";
+import Filter from "@/components/Filter";
 
 export default function Reviews() {
+  
   return (
     <>
       <Head>
@@ -39,23 +41,9 @@ export default function Reviews() {
         </header>
       </div>
 
-      <div className="h-max flex pt-6 flex-col  px-10 justify-center2 items-center2 bg-[#f6f8f7]">
-        <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
-          <div className="flex justify-between w-full  px-4 py-4 rounded border-2 border-gray-800 bg-white">
-            <div className="text-sm font-mabry">Showing 1-9 of 60825</div>
-            <div className="flex space-x-2">
-              <div className="text-sm font-mabry underline underline-offset-4 cursor-pointer">
-                Clear
-              </div>
-              <div className="text-sm font-mabry underline underline-offset-4 cursor-pointer">
-                Filter
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Filter />
 
-      <div className="h-max flex flex-col px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+      <div className="h-max flex flex-col px-4 md:px-6 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <section className="mt-4 flex flex-row flex-wrap  mx-auto items-center2">
             <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">

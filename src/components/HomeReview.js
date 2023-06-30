@@ -59,8 +59,8 @@ export default function HomeReview() {
 
   return (
     <>
-      <div className="h-max flex py-14 flex-col space-y-4 px-10 justify-center2 items-center2 bg-orange-100">
-        <div className="flex flex-row mx-auto w-3/4 space-x-6 items-center2">
+      <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-orange-100">
+        <div className="flex flex-row mx-auto w-11/12 md:w-3/4 space-x-6 items-center2">
           <span className="text-3xl font-mabrybold">Review</span>
           {/* <a>
             <span className="m-0 text-sm text-red-400 font-semibold">
@@ -69,7 +69,7 @@ export default function HomeReview() {
           </a> */}
         </div>
 
-        <div className="relative flex flex-row mx-auto w-3/4 justify-between items-center">
+        <div className="relative flex flex-row mx-auto w-11/12 md:w-3/4 justify-between items-center">
           {scrollX !== 0 && (
             <div className="top-[40%] left-0">
               {/* <Image
