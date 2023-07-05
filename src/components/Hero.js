@@ -19,12 +19,42 @@ export default function Hero() {
   SwiperCore.use([Autoplay]);
   return (
     <>
-      <div className="relative2 max-w-5xl2 mx-auto mt-0 pt-20 pb-12 sm:pt-14 sm:pb-14 lg:pt-12 bg-pink-200">
-        <div className=" text-slate-900 font-bold text-4xl px-11 sm:text-5xl lg:text-6xl tracking-tight dark:text-white ">
-          <div className="flex flex-wrap space-y-3 justify-around items-center leading-none font-mabry">
-            <h1 className="font-mabryblack heading-box-text1 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
-              <span>Custom Website Design!</span>
+      <div className="relative2 max-w-5xl2 mx-auto mt-0 pt-20 pb-12 sm:pt-14 sm:pb-14 lg:pt-12 bg-[#f8f4f2]">
+        <section className="flex relative px-6 flex-col md:flex-row justify-between items-center my-2 md:my-4 w-full mx-auto max-w-7xl">
+          <div className="">
+            <h1 className="font-mabrybold text-3xl md:text-5xl text-center md:text-left max-w-[700px] px-5 leading-[2.5rem] md:leading-tigth">
+              <span className="leading-3">Online mental health care</span>
+              <br className="hidden md:block" />
+              <span className="leading-3"> anywhere, anytime</span>
             </h1>
+            <p className="font-mabry text-base text-gray-700 max-w-[450px] mt-4 px-5 text-center mx-auto lg:mx-0 md:text-left leading-[1.5rem]">
+              24x7, on-demand care on your phone, be it in the middle of a
+              hectic work day, or when you can't sleep at night. Our experts are
+              available to you at the click of a button!
+            </p>
+            <div className="mt-8 mb-24 md:mb-0 px-5">
+              <Link
+                href="https://nowandme.sng.link/Dqsa0/4x5h?pcn=expert_landing&amp;pscn=hero-btn&amp;_smtype=3"
+                target="_blank"
+              >
+                <button className="font-mabry shadow-menu bg-orange-500 text-white  font-medium rounded-xl focus:ring-3 focus:ring-x-orange-100 relative overflow-hidden px-5 bg-x-orange-500  focus:outline-none focus:ring-3 focus:ring-x-orange-100 dark:focus:ring-0 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed w-full md:w-auto py-3 transform transition duration-200 hover:scale-[1.04] ">
+                  Download the App
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Image
+                src={leon}
+                alt=""
+                className="w-[600px] h-[400px] rounded-lg object-cover"
+              />
+            </div>
+          </div>
+        </section>
+        <div className="pt-4 text-slate-900 font-bold text-4xl px-11 sm:text-5xl lg:text-6xl tracking-tight dark:text-white ">
+          <div className="flex flex-wrap space-y-3 justify-around items-center leading-none font-mabry">
             <h2 className="font-mabryblack heading-box-text2 text-3xl sm:text-3xl md:text-3xl lg:text-5xl whitespace-nowrap">
               <span>Mobile games</span>
             </h2>
@@ -92,8 +122,6 @@ export default function Hero() {
               Get started
             </span>
           </Link> */}
-          <Image src={leon} alt="" className="rounded-lg" />
-          
         </div>
       </div>
     </>

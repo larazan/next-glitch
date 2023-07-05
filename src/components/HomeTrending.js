@@ -11,7 +11,7 @@ import minecraft from '@/img/mine.jpg'
 export default function HomeTrending() {
     return (
       <>
-      <div className='h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-yellow-50'>
+      <div className=' h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-white border-t'>
           <div className='flex flex-row mx-auto w-11/12 md:w-3/4 space-x-6 justify-center2 items-center'> 
             <span className='text-2xl md:text-3xl font-mabryblack'>Trending</span>
           </div>

@@ -59,8 +59,8 @@ export default function HomeReview() {
 
   return (
     <>
-      <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-orange-100">
-        <div className="flex flex-row mx-auto w-11/12 md:w-3/4 space-x-6 items-center2">
+      <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-white border-t">
+        <div className="flex flex-row mx-auto w-11/12 md:w-12/12 space-x-6 items-center2">
           <span className="text-3xl font-mabrybold">Review</span>
           {/* <a>
             <span className="m-0 text-sm text-red-400 font-semibold">
@@ -69,7 +69,7 @@ export default function HomeReview() {
           </a> */}
         </div>
 
-        <div className="relative flex flex-row mx-auto w-11/12 md:w-3/4 justify-between items-center">
+        <div className="relative flex flex-row mx-auto w-11/12 md:w-12/12 justify-between items-center">
           {scrollX !== 0 && (
             <div className="top-[40%] left-0">
               {/* <Image
@@ -83,7 +83,7 @@ export default function HomeReview() {
               /> */}
               <button
                 onClick={() => slide(-shiftN)}
-                className="none absolute top-[35%] left-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu"
+                className="none absolute top-[35%] -left-5 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ export default function HomeReview() {
               /> */}
               <button
                 onClick={() => slide(+shiftN)}
-                className="none absolute top-[35%] right-0 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu"
+                className="none absolute top-[35%] -right-5 z-10 cursor-pointer rounded-full px-2 py-2 bg-[#fd9c0c] border-2 border-gray-800 shadow-menu"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

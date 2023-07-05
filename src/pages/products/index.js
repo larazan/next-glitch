@@ -5,6 +5,7 @@ import Head from "next/head";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Filter from "@/components/Filter";
 
 import ant from "@/img/products/ant.jpg";
 import apes from "@/img/products/apes.jpg";
@@ -52,21 +53,7 @@ export default function Products() {
         </div>
       </div>
 
-      <div className="h-max flex pt-6 flex-col px-10 justify-center2 items-center2 bg-[#f6f8f7]">
-        <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
-          <div className="flex justify-between w-full  px-4 py-4 rounded border border-gray-800 bg-white">
-            <div className="text-sm font-mabry">Showing 1-9 of 60825</div>
-            <div className="flex space-x-2">
-              <div className="text-sm font-mabry hover:underline underline-offset-4 cursor-pointer">
-                Clear
-              </div>
-              <div className="text-sm font-mabry hover:underline underline-offset-4 cursor-pointer">
-                Filter
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Filter />
 
       <div className="h-max flex flex-col px-8 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">

@@ -2,13 +2,16 @@ import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import deadspace from "@/img/deadspace.jpg";
-import cod from "@/img/cod.jpg";
-import pga from "@/img/pga.jpg";
-import finalfantasy from "@/img/finalfantasy.jpg";
-import godofwar from "@/img/godofwar.jpg";
+import among from "@/img/among.jpg";
+import ark from "@/img/ark.jpg";
+import bloons from "@/img/bloons.jpg";
+import cities from "@/img/cities.jpg";
+import dying from "@/img/dying.jpg";
+import fallout from "@/img/fallout.jpg";
+import fifa from "@/img/fifa.jpg";
+import reddead from "@/img/red-dead.jpg";
 
-export default function HomeNews() {
+export default function NewRelease() {
   let scrl = useRef(null);
   const shiftN = 230;
   const [scrollX, setscrollX] = useState(0);
@@ -39,12 +42,13 @@ export default function HomeNews() {
       setscrolEnd(false);
     }
   };
-  return (
-    <>
-      <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-white border-t">
+
+    return (
+      <>
+        <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-[#f8f4f2] border-t">
         <div className="flex flex-row justify-between mx-auto w-11/12 md:w-12/12 space-x-6 items-center">
           <Link href={"/"} className="flex space-x-1 items-center hover:opacity-80">
-            <span className="text-xl font-mabrybold">Most Popular</span>
+            <span className="text-xl font-mabrybold">New Release</span>
             <div>
               <span>
                 <svg
@@ -165,97 +169,185 @@ export default function HomeNews() {
             onScroll={scrollCheck}
           >
             <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
-              <div className="flex w-[260px] ">
-                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden  ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
                   <Link href="/" className="relative">
                     <Image
-                      src={deadspace}
+                      src={among}
                       alt=""
                       className="w-full object-cover"
                     />{" "}
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
-                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
                     <h3 className="font-mabrybold text-md">
-                      <Link href="/">Statamic 4 Has Been Unleashed</Link>
+                      <Link href="/">Among Us</Link>
                     </h3>{" "}
-                    <div className="font-mabry text-xs">May 9th, 2023</div>
+                    
                   </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[260px] ">
-                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden  ">
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
                   <Link href="/" className="relative">
-                    <Image src={godofwar} alt="" className="w-full" />{" "}
+                    <Image
+                      src={ark}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
-                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
                     <h3 className="font-mabrybold text-md">
-                      <Link href="/">Statamic 4 Has Been Unleashed</Link>
+                      <Link href="/">Among Us</Link>
                     </h3>{" "}
-                    <div className="font-mabry text-xs">May 9th, 2023</div>
+                    
                   </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[260px] ">
-                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden  ">
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
                   <Link href="/" className="relative">
-                    <Image src={cod} alt="" className="w-full" />{" "}
+                    <Image
+                      src={bloons}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
-                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
                     <h3 className="font-mabrybold text-md">
-                      <Link href="/">Statamic 4 Has Been Unleashed</Link>
+                      <Link href="/">Among Us</Link>
                     </h3>{" "}
-                    <div className="font-mabry text-xs">May 9th, 2023</div>
+                    
                   </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[260px] ">
-                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden  ">
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
                   <Link href="/" className="relative">
-                    <Image src={pga} alt="" className="w-full" />{" "}
+                    <Image
+                      src={cities}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
-                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
                     <h3 className="font-mabrybold text-md">
-                      <Link href="/">Statamic 4 Has Been Unleashed</Link>
+                      <Link href="/">Among Us</Link>
                     </h3>{" "}
-                    <div className="font-mabry text-xs">May 9th, 2023</div>
+                    
                   </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
                 </div>
               </div>
             </div>
             {/*  */}
-            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-white ">
-              <div className="flex  w-[260px] ">
-                <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden  ">
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
                   <Link href="/" className="relative">
-                    <Image src={finalfantasy} alt="" className="w-full" />{" "}
+                    <Image
+                      src={dying}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
-                  <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
                     <h3 className="font-mabrybold text-md">
-                      <Link href="/">Statamic 4 Has Been Unleashed</Link>
+                      <Link href="/">Among Us</Link>
                     </h3>{" "}
-                    <div className="font-mabry text-xs">May 9th, 2023</div>
+                    
                   </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
                 </div>
               </div>
             </div>
             {/*  */}
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
+                  <Link href="/" className="relative">
+                    <Image
+                      src={fallout}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
+                    <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
+                  </Link>{" "}
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
+                    <h3 className="font-mabrybold text-md">
+                      <Link href="/">Among Us</Link>
+                    </h3>{" "}
+                    
+                  </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
+                  <Link href="/" className="relative">
+                    <Image
+                      src={fifa}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
+                    <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
+                  </Link>{" "}
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
+                    <h3 className="font-mabrybold text-md">
+                      <Link href="/">Among Us</Link>
+                    </h3>{" "}
+                    
+                  </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="transition-all duration-150 flex mr-[1em] mb-[1em] bg-pink-200 ">
+              <div className="flex w-[200px] ">
+                <div className="relative rounded bg-white border border-gray-800  group flex flex-col overflow-hidden  ">
+                  <Link href="/" className="relative">
+                    <Image
+                      src={reddead}
+                      alt=""
+                      className="w-full object-cover"
+                    />{" "}
+                    <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
+                  </Link>{" "}
+                  <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
+                    <h3 className="font-mabrybold text-md">
+                      <Link href="/">Among Us</Link>
+                    </h3>{" "}
+                    
+                  </div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+         
           </div>
         </div>
       </div>
-    </>
-  );
+      </>
+    );
 }

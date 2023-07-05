@@ -450,3 +450,8 @@ input[type="radio"]:checked + label{
 	border-right-color: #fff;
 	filter: drop-shadow(0 0.0625rem 0 rgba(0, 0, 0, .1));
 }
+
+.clipPlatform {
+  -webkit-clip-path: polygon(0 150px,120px 0,100% 70px,100% 100%,0 100%);
+  clip-path: polygon(0 150px,120px 0,100% 70px,100% 100%,0 100%);
+}
