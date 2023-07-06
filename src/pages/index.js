@@ -20,6 +20,7 @@ import headphone from '@/img/home-headphones.svg'
 import book from '@/img/home-book-green.svg'
 import app from '@/img/home-app-yellow.svg'
 import Talk from '@/components/Talk'
+import { Alert } from '@/components/Alert'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -47,6 +48,7 @@ export default function Home() {
         <HomeSpotlight />
         <CookieConfirm />
         <Talk />
+        {/* <Alert /> */}
         <Footer />
       </main>
     </>

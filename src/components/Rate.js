@@ -46,16 +46,16 @@ function Rate({ modalOpen, setModalOpen }) {
           ref={modalContent}
           className="bg-white overflow-auto shadow-menu max-w-lg p-4 w-full max-h-full rounded-lg shadow-lg"
         >
-         <div class="mt-2 text-center">
-            <h3 class="text-xl font-semibold leading-6 text-blue-600" id="modal-headline">Rate your experience</h3>
-            <div class="mt-2">
-                <p class="px-3 text-sm leading-5 text-gray-600">
+         <div className="mt-2 text-center">
+            <h3 className="text-xl font-semibold leading-6 text-blue-600" id="modal-headline">Rate your experience</h3>
+            <div className="mt-2">
+                <p className="px-3 text-sm leading-5 text-gray-600">
                     We would love to know what you think of our service! Please take a moment to rate us.
                 </p>
             </div>
-            <div class="flex flex-wrap items-center justify-center mt-2">
-                <div class="flex-initial">
-                    <svg class="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
+            <div className="flex flex-wrap items-center justify-center mt-2">
+                <div className="flex-initial">
+                    <svg className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
                         viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                         <title>Very Disappointed</title>
                         <g id="line">
@@ -75,8 +75,8 @@ function Rate({ modalOpen, setModalOpen }) {
                     </svg>
 
                 </div>
-                <div class="flex-initial">
-                    <svg class="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
+                <div className="flex-initial">
+                    <svg className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
                         viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                         <title>Disappointed</title>
                         <g id="line">
@@ -92,8 +92,8 @@ function Rate({ modalOpen, setModalOpen }) {
                     </svg>
 
                 </div>
-                <div class="flex-initial">
-                    <svg class="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
+                <div className="flex-initial">
+                    <svg className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
                         viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                         <title>Neutral</title>
                         <g id="line">
@@ -107,8 +107,8 @@ function Rate({ modalOpen, setModalOpen }) {
                         </g>
                     </svg>
                 </div>
-                <div class="flex-initial">
-                    <svg class="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
+                <div className="flex-initial">
+                    <svg className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
                         viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                         <title>Happy</title>
                         <g id="line">
@@ -124,8 +124,8 @@ function Rate({ modalOpen, setModalOpen }) {
                     </svg>
 
                 </div>
-                <div class="flex-initial">
-                    <svg class="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
+                <div className="flex-initial">
+                    <svg className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
                         viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                         <title>Very Happy</title>
                         <g id="line">
@@ -145,17 +145,17 @@ function Rate({ modalOpen, setModalOpen }) {
                 </div>
             </div>
         </div>
-        <div class="px-4 py-3 sm:px-6 sm:flex sm:justify-center sm:flex-row-reverse">
-            <span class="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
+        <div className="px-4 py-3 sm:px-6 sm:flex sm:justify-center sm:flex-row-reverse">
+            <span className="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
                 <button type="button"
-                    class="inline-flex justify-center w-full px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-500 focus:outline-none focus:border-blue-900 focus:shadow-outline-blue sm:text-sm sm:leading-5"
+                    className="inline-flex justify-center w-full px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-500 focus:outline-none focus:border-blue-900 focus:shadow-outline-blue sm:text-sm sm:leading-5"
                     >
                     Submit Rating
                 </button>
             </span>
-            <span class="flex w-full mt-3 rounded-md shadow-sm sm:mt-0 sm:w-auto">
+            <span className="flex w-full mt-3 rounded-md shadow-sm sm:mt-0 sm:w-auto">
                 <button type="button"
-                    class="inline-flex justify-center w-full px-4 py-2 text-base font-medium leading-6 text-gray-600 transition duration-150 ease-in-out bg-white border border-gray-600 rounded-md shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue sm:text-sm sm:leading-5"
+                    className="inline-flex justify-center w-full px-4 py-2 text-base font-medium leading-6 text-gray-600 transition duration-150 ease-in-out bg-white border border-gray-600 rounded-md shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue sm:text-sm sm:leading-5"
                     >
                     No, Thanks
                 </button>

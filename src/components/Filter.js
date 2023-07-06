@@ -216,7 +216,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      class="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
                       checked
                     />
                   </div>
@@ -303,7 +303,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      class="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
                       checked
                     />
                   </div>
@@ -392,7 +392,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      class="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
                       checked
                     />
                   </div>
@@ -412,11 +412,11 @@ export default function Filter({ open }) {
                       id="A3-yes"
                       name="A3-confirmation"
                       value="yes"
-                      class="opacity-0 absolute h-5 w-5"
+                      className="opacity-0 absolute h-5 w-5"
                     />
-                    <div class="bg-white border-2 rounded-md border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
+                    <div className="bg-white border-2 rounded-md border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
                       <svg
-                        class="fill-current hidden w-3 h-3 text-blue-600 pointer-events-none"
+                        className="fill-current hidden w-3 h-3 text-blue-600 pointer-events-none"
                         version="1.1"
                         viewBox="0 0 17 12"
                         xmlns="http://www.w3.org/2000/svg"
@@ -442,11 +442,11 @@ export default function Filter({ open }) {
                       id="A3-yes"
                       name="A3-confirmation"
                       value="yes"
-                      class="opacity-0 absolute h-5 w-5"
+                      className="opacity-0 absolute h-5 w-5"
                     />
-                    <div class="bg-white border-2 rounded-md border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
+                    <div className="bg-white border-2 rounded-md border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
                       <svg
-                        class="fill-current hidden w-3 h-3 text-blue-600 pointer-events-none"
+                        className="fill-current hidden w-3 h-3 text-blue-600 pointer-events-none"
                         version="1.1"
                         viewBox="0 0 17 12"
                         xmlns="http://www.w3.org/2000/svg"
@@ -472,11 +472,11 @@ export default function Filter({ open }) {
                       id="A3-yes"
                       name="A3-confirmation"
                       value="yes"
-                      class="opacity-0 absolute h-5 w-5"
+                      className="opacity-0 absolute h-5 w-5"
                     />
-                    <div class="bg-white border-2 rounded-md border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
+                    <div className="bg-white border-2 rounded-md border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
                       <svg
-                        class="fill-current hidden w-3 h-3 text-blue-600 pointer-events-none"
+                        className="fill-current hidden w-3 h-3 text-blue-600 pointer-events-none"
                         version="1.1"
                         viewBox="0 0 17 12"
                         xmlns="http://www.w3.org/2000/svg"

@@ -3,7 +3,7 @@ import React from 'react'
 export const Pagination = () => {
   return (
     <>
-    <div className=" h-max flex pb-6 pt-10 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+    <div className=" h-max flex pb-6 pt-10 flex-col space-y-10 px-8 justify-center2 items-center2 ">
         <nav>
           <ul className="pagination">
             <li
