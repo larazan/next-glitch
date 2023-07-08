@@ -384,7 +384,7 @@ export default function Forums() {
       </div>
       
 
-      <Linklert />
+      <Alert />
       <Footer />
     </>
   );
