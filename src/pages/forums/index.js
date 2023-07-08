@@ -34,7 +34,7 @@ export default function Forums() {
             
             <div className="flex w-full flex-col space-y-4">
               <div className="flex w-full">
-                <a
+                <Link
                   className="relative w-full inline-block  group text-center"
                   href="/"
                 >
@@ -44,7 +44,7 @@ export default function Forums() {
                       Start a discussion
                     </span>
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="flex w-full">
                 <ul className="w-full space-y-2">
@@ -124,7 +124,21 @@ export default function Forums() {
             </div>
           </div>
           <div className="w-full md:w-2/3 flex flex-col font-mabry leading-snug space-y-3">
+          <div className="md:hidden flex w-full">
+                <Link
+                  className="relative w-full inline-block  group text-center"
+                  href="/"
+                >
+                  <span className="relative flex shadow-menu w-full x-3 py-2 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded-full ">
+                    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-full bg-[#fcc31e] group-hover:bg-yellow-300"></span>
+                    <span className="relative text-[22px] font-mabryblack">
+                      Start a discussion
+                    </span>
+                  </span>
+                </Link>
+              </div>
             <div className="">
+              
               <div className="relative flex items-center w-full h-12 border-2 border-gray-700 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
                 <div className="grid place-items-center h-full w-12 text-gray-700">
                   <svg
@@ -198,12 +212,12 @@ export default function Forums() {
                     <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
                     >
                       open
-                    </a>{" "}
+                    </Link>{" "}
                   </div>
                   <span className="py-1 font-mabry text-[15px] text-slate-800">
                     We know that organization is key to productivity, which is
@@ -264,12 +278,12 @@ export default function Forums() {
                     <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
                     >
                       open
-                    </a>{" "}
+                    </Link>{" "}
                   </div>
                   <span className="py-1 font-mabry text-[15px] text-slate-800">
                     We know that organization is key to productivity, which is
@@ -330,12 +344,12 @@ export default function Forums() {
                     <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 px-2 rounded-full bg-red-200 capitalize "
                     >
                       closed
-                    </a>{" "}
+                    </Link>{" "}
                   </div>
                   <span className="py-1 font-mabry text-[15px] text-slate-800">
                     We know that organization is key to productivity, which is
@@ -370,7 +384,7 @@ export default function Forums() {
       </div>
       
 
-      <Alert />
+      <Linklert />
       <Footer />
     </>
   );

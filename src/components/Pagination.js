@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export const Pagination = () => {
   return (
@@ -18,54 +19,54 @@ export const Pagination = () => {
               <span className="page-link">1</span>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=2" className="page-link">
+              <Link href="https://statamic.com/addons?page=2" className="page-link">
                 2
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=3" className="page-link">
+              <Link href="https://statamic.com/addons?page=3" className="page-link">
                 3
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=4" className="page-link">
+              <Link href="https://statamic.com/addons?page=4" className="page-link">
                 4
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=5" className="page-link">
+              <Link href="https://statamic.com/addons?page=5" className="page-link">
                 5
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=6" className="page-link">
+              <Link href="https://statamic.com/addons?page=6" className="page-link">
                 6
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=7" className="page-link">
+              <Link href="https://statamic.com/addons?page=7" className="page-link">
                 7
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=8" className="page-link">
+              <Link href="https://statamic.com/addons?page=8" className="page-link">
                 8
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a href="https://statamic.com/addons?page=9" className="page-link">
+              <Link href="https://statamic.com/addons?page=9" className="page-link">
                 9
-              </a>
+              </Link>
             </li>{" "}
             <li className="page-item">
-              <a
+              <Link
                 href="https://statamic.com/addons?page=2"
                 rel="next"
                 aria-label="Next »"
                 className="page-link"
               >
                 ›
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

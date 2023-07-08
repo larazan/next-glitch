@@ -64,12 +64,12 @@ export default function Forum() {
                     <span className="text-xs font-mabry text-slate-800">
                       6 days ago
                     </span>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
                     >
                       open
-                    </a>{" "}
+                    </Link>{" "}
                   </div>
                   <div className="py-2">
                     <span className="py-2 font-mabry text-[16px] text-slate-800">
