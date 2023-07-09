@@ -448,7 +448,7 @@ export default function Review() {
                 {/*  */}
 
                 {/* SOURCE */}
-                <div className="md:text-sm text-gray-500 px-4 py-3 font-mabry">
+                <div className="md:text-sm text-gray-500 px-2 md:px-4 py-3 font-mabry">
                   Source:{" "}
                   <a
                     href="https://mydramalist.com/article/an-ultra-fan-guide-to-lee-elijah"
@@ -459,7 +459,7 @@ export default function Review() {
                 </div>
 
                 {/* TAGS */}
-                <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-4 py-2">
+                <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-2 md:px-4 py-2">
                   <span> Tags: </span>
                   <div className="flex flex-wrap space-x-1 w-60">
                     <a
@@ -503,7 +503,7 @@ export default function Review() {
 
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
 
-                <div className="flex w-full items-center font-mabry px-4 py-8">
+                <div className="flex w-full items-center font-mabry px-2 py-4 md:px-4 md:py-8">
                   <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
                     src={pravatar}
@@ -525,7 +525,7 @@ export default function Review() {
                 {/* <DetailComment /> */}
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
               </div>
-              <div className="w-1/3 bg-green-100"></div>
+              <div className="hidden md:block w-1/3 bg-green-100"></div>
             </div>
           </div>
         </div>

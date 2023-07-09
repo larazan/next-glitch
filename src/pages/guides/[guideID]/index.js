@@ -27,20 +27,24 @@ export default function Guide() {
       </Head>
       <Header />
 
-      <div className="flex w-full mt-14">
-        <div className="w-2/3 -z-10">
+      <div className="mt-16 px-4">
+        <div className="w-full bg-green-100 h-20"></div>
+      </div>
+      <div className="container w-full md:max-w-4xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
+        <div className="w-full md:w-2/3 -z-10">
           <Image src={lastofus} quality={100} alt="" />
         </div>
-        <div className="flex flex-col w-1/3 px-3 py-4 space-y-4">
+        <div className="flex flex-col w-full  md:w-1/3 px-3 py-4 space-y-4">
           <div className="flex w-full space-x-3">
             <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
               <span className="text-lg font-mabrybold">8.7</span>
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-2/3 flex-col leading-tight">
               <div className="text-sm font-mabrybold">User Score</div>
-              <div className="text-xs font-mabry">
-                Generally favorable reviews based on 201 Ratings
+              <div className="text-xs font-mabry leading-snug">
+                Generally favorable reviews based on 201 Ratings {" "} 
               </div>
+             
             </div>
           </div>
           <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
@@ -62,7 +66,7 @@ export default function Guide() {
                   Role-Playing, Action RPG
                 </div>
               </div>
-              <div className="flex justify-between items-center border-gray-800 py-3 px-3">
+              <div className="flex justify-between items-center  border-gray-800 py-3 px-3">
                 <div className="text-sm font-mabrybold">Multiplayer</div>
                 <div className="text-sm font-mabry">No</div>
               </div>
@@ -70,10 +74,10 @@ export default function Guide() {
           </div>
         </div>
       </div>
-      <div className="h-max flex flex-col">
+      <div className=" h-max flex flex-col ">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex justify-between w-full  px-8 py-4 border-y border-gray-800 bg-white">
-            <div className="flex flex-col w-2/3 items-center2">
+          <div className="flex flex-col md:flex-row w-full md:justify-between px-3 py-2 md:px-8 md:py-4 border-y border-gray-800 bg-white">
+            <div className="flex flex-col w-full md:w-2/3 ">
               <div className="text-lg font-mabrybold">
                 The last of us part I
               </div>
@@ -82,15 +86,29 @@ export default function Guide() {
               </div>
             </div>
 
-            <div className="flex w-1/3 items-center">
-              <div className="flex flex-wrap text-xs font-mabry  cursor-pointer">
-                <span className="m-0.5 hover:underline underline-offset-4">PlayStation 5</span>
-                <span className="m-0.5 hover:underline underline-offset-4">Nintendo</span>
-                <span className="m-0.5 hover:underline underline-offset-4">PC</span>
-                <span className="m-0.5 hover:underline underline-offset-4">Xbox</span>
-                <span className="m-0.5 hover:underline underline-offset-4">Console</span>
-                <span className="m-0.5 hover:underline underline-offset-4">Google</span>
-                <span className="m-0.5 hover:underline underline-offset-4">Smartphone</span>
+            <div className="flex md:justify-end ">
+              <div className="flex flex-wrap justify-end text-xs font-mabry  cursor-pointer">
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  PlayStation 5
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  Nintendo
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  PC
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  Xbox
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  Console
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  Google
+                </span>
+                <span className="m-0.5 hover:underline underline-offset-2">
+                  Smartphone
+                </span>
               </div>
             </div>
           </div>
@@ -101,18 +119,18 @@ export default function Guide() {
         <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-10 ">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 {/* SOCMED */}
                 <div className="font-mabry">
                   <div className=" flex justify-between items-center text-base md:text-sm text-green-500 font-bold">
-                    <div className="flex justify-end space-x-2">
+                  <div className="flex justify-end space-x-2">
                       <button>
-                        <div className="flex rounded border shadow-menu py-1.5 px-2 border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
-                          <span className="text-white font-mabrybold">
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-blue-500/50 ">
+                          <span className="hidden md:block text-white font-mabrybold">
                             Facebook
                           </span>
                           <svg
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -126,12 +144,12 @@ export default function Guide() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border shadow-menu py-1.5 px-2 border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                          <span className="text-white font-mabrybold">
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
+                          <span className="hidden md:block text-white font-mabrybold">
                             Twitter
                           </span>
                           <svg
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -141,14 +159,14 @@ export default function Guide() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border shadow-menu py-1.5 px-2 border-gray-800 bg-gray-800 hover:bg-black fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black  hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
                             stroke="currentColor"
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                           >
                             <path
                               strokeLinecap="round"
@@ -157,7 +175,7 @@ export default function Guide() {
                             />
                           </svg>
 
-                          <span className="text-white font-mabry">
+                          <span className="hidden md:block text-white font-mabry">
                             Copy url
                           </span>
                         </div>
@@ -169,11 +187,20 @@ export default function Guide() {
                         }}
                       >
                         <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-white hover:bg-white text-black hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-  <path fillRule="evenodd" d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z" clipRule="evenodd" />
-</svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            className="w-5 h-5 md:w-4 md:h-4"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
 
-                          <span className="text-black font-mabry">Report</span>
+                          <span className="hidden md:block text-black font-mabry">Report</span>
                         </div>
                       </button>
                       <Report
@@ -242,7 +269,7 @@ export default function Guide() {
                   </p>
                 </div>
 
-                <div className="flex py-3 border-y-2 justify-end space-x-2">
+                <div className="flex py-3 border-y-2 justify-between md:justify-end space-x-2">
                   <button>
                     <div className="flex rounded border py-2 px-3 border-gray-800 bg-gray-800 hover:bg-black fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-2 hover:shadow-sky-500/50">
                       <svg
@@ -291,7 +318,7 @@ export default function Guide() {
                 <Help />
 
                 {/* SOURCE */}
-                <div className="md:text-sm text-gray-500 px-4 py-3 font-mabry">
+                <div className="md:text-sm text-gray-500 px-2 md:px-4 py-3 font-mabry">
                   Source:{" "}
                   <a
                     href="https://mydramalist.com/article/an-ultra-fan-guide-to-lee-elijah"
@@ -302,7 +329,7 @@ export default function Guide() {
                 </div>
 
                 {/* TAGS */}
-                <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-4 py-2">
+                <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-2 md:px-4 py-2">
                   <span> Tags: </span>
                   <div className="flex flex-wrap space-x-1 w-60">
                     <a
@@ -346,7 +373,7 @@ export default function Guide() {
 
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
 
-                <div className="flex w-full items-center font-mabry px-4 py-8">
+                <div className="flex w-full items-center font-mabry px-2 md:px-4 py-4 md:py-8">
                   <Image
                     className="w-16 h-16 border border-gray-700 rounded-full mr-4"
                     src={pravatar}
@@ -364,7 +391,7 @@ export default function Guide() {
                 {/* <DetailComment /> */}
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
               </div>
-              <div className="w-1/3 bg-green-100"></div>
+              <div className="hidden md:block w-1/3 bg-green-100"></div>
             </div>
           </div>
         </div>
