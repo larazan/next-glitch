@@ -31,7 +31,7 @@ export default function ReviewLine() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-wrap items-center justify-center2 mt-2">
+            <div className="flex flex-wrap items-center justify-around md:justify-start mt-2">
               <div className="flex-initial flex flex-col justify-center items-center">
                 <svg
                   className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
@@ -46,14 +46,14 @@ export default function ReviewLine() {
                       r="23"
                       fill="none"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M28,46c1.5805-2.5575,4.9043-4.1349,8.4211-4.0038C39.6499,42.1166,42.5622,43.6595,44,46"
                     />
                     <path d="M30,32.9252c0,1.6567-1.3448,3-3,3c-1.6553,0-3-1.3433-3-3c0-1.6553,1.3447-3,3-3C28.6552,29.9252,30,31.27,30,32.9252" />
@@ -64,10 +64,10 @@ export default function ReviewLine() {
                       y1="24"
                       y2="28"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <line
                       x1="49"
@@ -75,10 +75,10 @@ export default function ReviewLine() {
                       y1="24"
                       y2="28"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </g>
                 </svg>
@@ -98,16 +98,16 @@ export default function ReviewLine() {
                       r="23"
                       fill="none"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <path d="M30,31c0,1.6568-1.3448,3-3,3c-1.6553,0-3-1.3433-3-3c0-1.6552,1.3447-3,3-3C28.6552,28,30,29.3448,30,31" />
                     <path d="M48,31c0,1.6568-1.3447,3-3,3s-3-1.3433-3-3c0-1.6552,1.3447-3,3-3S48,29.3448,48,31" />
                     <path
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M28,46c1.5805-2.5575,4.9043-4.1349,8.4211-4.0038C39.6499,42.1166,42.5622,43.6595,44,46"
                     />
                   </g>
@@ -128,7 +128,7 @@ export default function ReviewLine() {
                       r="23"
                       fill="none"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <line
                       x1="27"
@@ -136,10 +136,10 @@ export default function ReviewLine() {
                       y1="43"
                       y2="43"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <path d="M30,31c0,1.6568-1.3448,3-3,3c-1.6553,0-3-1.3433-3-3c0-1.6552,1.3447-3,3-3C28.6552,28,30,29.3448,30,31" />
                     <path d="M48,31c0,1.6568-1.3447,3-3,3s-3-1.3433-3-3c0-1.6552,1.3447-3,3-3S48,29.3448,48,31" />
@@ -160,29 +160,29 @@ export default function ReviewLine() {
                       cy="36"
                       r="23"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M45.8147,45.2268a15.4294,15.4294,0,0,1-19.6294,0"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M31.6941,33.4036a4.7262,4.7262,0,0,0-8.6382,0"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M48.9441,33.4036a4.7262,4.7262,0,0,0-8.6382,0"
                     />
                   </g>
@@ -202,36 +202,36 @@ export default function ReviewLine() {
                       cy="36"
                       r="23"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M50.595,41.64a11.5554,11.5554,0,0,1-.87,4.49c-12.49,3.03-25.43.34-27.49-.13a11.4347,11.4347,0,0,1-.83-4.36h.11s14.8,3.59,28.89.07Z"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M49.7251,46.13c-1.79,4.27-6.35,7.23-13.69,7.23-7.41,0-12.03-3.03-13.8-7.36C24.2951,46.47,37.235,49.16,49.7251,46.13Z"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M31.6941,32.4036a4.7262,4.7262,0,0,0-8.6382,0"
                     />
                     <path
                       fill="none"
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       stroke-miterlimit="10"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M48.9441,32.4036a4.7262,4.7262,0,0,0-8.6382,0"
                     />
                   </g>
@@ -273,7 +273,69 @@ export default function ReviewLine() {
             pagination={{ clickable: true }}
           >
             <SwiperSlide>
-              <div className="bg-white w-[350px] rounded-md px-6 py-3 pb-6 shadow-lg hover:shadow-2xl transition duration-500">
+              <div className="bg-white w-[250px] md:w-[350px] rounded-md px-6 py-3 pb-6 shadow-lg hover:shadow-2xl transition duration-500">
+                <div className="mt-2">
+                  <div className="flex justify-between items-center pb-4 border-b">
+                    <div className=" flex items-center space-x-4">
+                      <div className="">
+                        <Image
+                          className="w-10 h-10 rounded-full"
+                          src={pravatar}
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col md:flex-row text-sm font-semibold font-mabrybold">
+                        <div><span>John Lucas •</span></div>
+                        <span className="font-mabry"> 5 minutes ago</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex mt-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-yellow-400"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-yellow-400"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-yellow-400"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-yellow-400"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  </div>
+                  <p className="mt-3 text-[17px] text-gray-600 font-mabry leading-tight">
+                    But I must explain to you how all this mistaken idea of
+                    denouncing pleasure and praising pain was born and I will
+                    give you a complete account of the system, and expound the
+                    actual teachings of the great explorer of the truth, the
+                    master-builder of human happines.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-white w-[250px] md:w-[350px] rounded-md px-6 py-3 pb-6 shadow-lg hover:shadow-2xl transition duration-500">
                 <div className="mt-2">
                   <div className="flex justify-between items-center pb-4 border-b">
                     <div className=" flex items-center space-x-4">
@@ -335,69 +397,7 @@ export default function ReviewLine() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-white w-[350px] rounded-md px-6 py-3 pb-6 shadow-lg hover:shadow-2xl transition duration-500">
-                <div className="mt-2">
-                  <div className="flex justify-between items-center pb-4 border-b">
-                    <div className=" flex items-center space-x-4">
-                      <div className="">
-                        <Image
-                          className="w-10 h-10 rounded-full"
-                          src={pravatar}
-                          alt=""
-                        />
-                      </div>
-                      <div className="text-sm font-semibold font-mabrybold">
-                        John Lucas •{" "}
-                        <span className="font-mabry"> 5 minutes ago</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex mt-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-yellow-400"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-yellow-400"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-yellow-400"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-yellow-400"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  </div>
-                  <p className="mt-3 text-[17px] text-gray-600 font-mabry leading-tight">
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth, the
-                    master-builder of human happines.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-white w-[350px] rounded-md px-6 py-3 pb-6 shadow-lg hover:shadow-2xl transition duration-500">
+              <div className="bg-white w-[250px] md:w-[350px] rounded-md px-6 py-3 pb-6 shadow-lg hover:shadow-2xl transition duration-500">
                 <div className="mt-2">
                   <div className="flex justify-between items-center pb-4 border-b">
                     <div className=" flex items-center space-x-4">

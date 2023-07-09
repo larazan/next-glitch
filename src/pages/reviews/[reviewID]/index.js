@@ -72,11 +72,11 @@ export default function Review() {
       <div className="mt-16 px-4">
         <div className="w-full bg-green-100 h-20"></div>
       </div>
-      <div className="container w-full md:max-w-4xl mx-auto flex items-center mt-4 px-2 md:px-4">
-        <div className="w-2/3 -z-10">
+      <div className="container w-full md:max-w-4xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
+        <div className="w-full md:w-2/3 -z-10">
           <Image src={lastofus} quality={100} alt="" />
         </div>
-        <div className="flex flex-col w-1/3 px-3 py-4 space-y-4">
+        <div className="flex flex-col w-full  md:w-1/3 px-3 py-4 space-y-4">
           <div className="flex w-full space-x-3">
             <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
               <span className="text-lg font-mabrybold">8.7</span>
@@ -128,8 +128,8 @@ export default function Review() {
       </div>
       <div className=" h-max flex flex-col ">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex w-full justify-between px-8 py-4 border-y border-gray-800 bg-white">
-            <div className="flex flex-col w-2/3 ">
+          <div className="flex flex-col md:flex-row w-full md:justify-between px-3 py-2 md:px-8 md:py-4 border-y border-gray-800 bg-white">
+            <div className="flex flex-col w-full md:w-2/3 ">
               <div className="text-lg font-mabrybold">
                 The last of us part I
               </div>
@@ -138,7 +138,7 @@ export default function Review() {
               </div>
             </div>
 
-            <div className="flex  justify-end ">
+            <div className="flex md:justify-end ">
               <div className="flex flex-wrap justify-end text-xs font-mabry  cursor-pointer">
                 <span className="m-0.5 hover:underline underline-offset-2">
                   PlayStation 5
@@ -168,21 +168,21 @@ export default function Review() {
       </div>
 
       <section className="bg-[#f6f8f7]">
-        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-6 px-2 md:px-4">
-          <div className="w-full  text-lg text-gray-800 leading-normal">
-            <div className="flex w-full space-x-3">
-              <div className="w-2/3">
+        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-6 px-3 md:px-4">
+          <div className="w-full text-lg text-gray-800 leading-normal">
+            <div className="flex w-full md:space-x-3">
+              <div className="w-full md:w-2/3">
                 {/* SOCMED */}
                 <div className="font-mabry">
                   <div className=" flex justify-between items-center text-base md:text-sm text-green-500 font-bold">
                     <div className="flex justify-end space-x-2">
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
-                          <span className="text-white font-mabrybold">
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-blue-500/50 ">
+                          <span className="hidden md:block text-white font-mabrybold">
                             Facebook
                           </span>
                           <svg
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -196,12 +196,12 @@ export default function Review() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                          <span className="text-white font-mabrybold">
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
+                          <span className="hidden md:block text-white font-mabrybold">
                             Twitter
                           </span>
                           <svg
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -211,14 +211,14 @@ export default function Review() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black  hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black  hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
                             stroke="currentColor"
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                           >
                             <path
                               strokeLinecap="round"
@@ -227,7 +227,7 @@ export default function Review() {
                             />
                           </svg>
 
-                          <span className="text-white font-mabry">
+                          <span className="hidden md:block text-white font-mabry">
                             Copy url
                           </span>
                         </div>
@@ -243,7 +243,7 @@ export default function Review() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5 md:w-4 md:h-4"
                           >
                             <path
                               fillRule="evenodd"
@@ -252,7 +252,7 @@ export default function Review() {
                             />
                           </svg>
 
-                          <span className="text-black font-mabry">Report</span>
+                          <span className="hidden md:block text-black font-mabry">Report</span>
                         </div>
                       </button>
                       <Report

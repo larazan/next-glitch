@@ -38,7 +38,7 @@ export default function Filter({ open }) {
                   <select
                     className="flex w-full items-center justify-between rounded border-2 border-gray-700 bg-white p-3 ring-1 ring-gray-300"
                     id="question"
-                    onChange={(e) => setValue(e.target.value)}
+                    // onChange={(e) => setValue(e.target.value)}
                     value={value}
                   >
                     <option value="">Pilih jawaban</option>

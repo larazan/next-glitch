@@ -377,10 +377,12 @@ export default function Forums() {
                   </button>
                 </div>
               </div>
+              {/*  */}
+              <Pagination />
             </div>
           </div>
         </div>
-        <Pagination />
+        
       </div>
       
 

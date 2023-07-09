@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import lastofus from "@/img/lastofus.jpg";
 import leon from "@/img/leon.png";
 import cod from "@/img/cod.jpg";
+import { Pagination } from "@/components/Pagination";
 
 export default function Guides() {
   //   useEffect(() => {
@@ -71,22 +72,24 @@ export default function Guides() {
         <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-10 pb-10">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
-              <div className="flex flex-col space-y-5 w-2/3 text-md font-mabry leading-tight pr-4 border-r border-gray-700">
+              <div className="flex flex-col space-y-5 w-full text-md font-mabry leading-tight pr-0 border-gray-700">
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
                       <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -94,7 +97,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -102,14 +105,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -118,27 +121,29 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[19px] font-mabrybold leading-tight">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -146,7 +151,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -154,14 +159,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -170,27 +175,29 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[19px] font-mabrybold leading-tight">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -198,7 +205,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -206,14 +213,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -222,27 +229,29 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[19px] font-mabrybold leading-tight">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -250,7 +259,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -258,14 +267,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -274,27 +283,29 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[19px] font-mabrybold leading-tight">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -302,7 +313,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -310,14 +321,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -326,27 +337,29 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[19px] font-mabrybold leading-tight">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -354,7 +367,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -362,14 +375,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -378,27 +391,29 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 px-4 py-4 rounded-md shadow-md shadow-stack-sm">
-                    <div className="w-1/3">
-                      <Image src={cod} alt="" />
+                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                    <div className="w-1/3 ">
+                      <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex w-2/3 flex-col space-y-1">
-                      <div className="text-[19px] font-mabrybold leading-tight">
+                    <div className="relative flex w-2/3 flex-col space-y-1">
+                      <div className="text-[19px] font-mabryblack hover:text-pink-700 leading-tight">
                         Build that thing you’ve been imagining
                       </div>
                       <span className="text-[16px] leading-tight">
                         Millions of people use Glitch to express themselves, try
                         new things, and help others learn. We’re fun and easy,
+                        Millions of people use Glitch to express themselves, try
+                        new things, and help others learn. We’re fun and easy,
                       </span>
-                      <div className="flex pt-2 space-x-3 items-center text-red-600">
-                        <div className="text-[10px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
+                      <div className="absolute bottom-0 flex pt-2 space-x-3 items-center text-red-600">
+                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
                           call of duty
                         </div>
                         <div className="flex space-x-1 items-center">
@@ -406,7 +421,7 @@ export default function Guides() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -414,14 +429,14 @@ export default function Guides() {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span className="text-[11px] font-mabry">Anna</span>
+                          <span className="text-[12px] font-mabry">Anna</span>
                         </div>
                         <div className="flex space-x-1 items-center text-red-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-5 h-5"
                           >
                             <path
                               fillRule="evenodd"
@@ -430,14 +445,15 @@ export default function Guides() {
                             />
                           </svg>
 
-                          <span className="text-[11px] font-mabry">100</span>
+                          <span className="text-[12px] font-mabry">100</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </Link>
               </div>
-              <div className="w-1/3 ">
+             
+              <div className="hidden w-1/3 ">
                 <div className="flex flex-col space-y-2 px-2 w-full">
                   <div>
                     <span className="text-md capitalize font-mabrybold">
@@ -485,7 +501,9 @@ export default function Guides() {
                 </div>
               </div>
             </div>
+
           </div>
+          <Pagination />
         </div>
       </section>
       <Footer />

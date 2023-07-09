@@ -318,13 +318,13 @@ menu, ol, ul {
 }
 .heading-box-text {
   -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-strokeWidth: 1px;
   -webkit-text-stroke-color: #000;
   text-shadow: -2px 2px #000;
 }
 @media only screen and (max-width: 1024px) {
   .heading-box-text {
-      -webkit-text-stroke-width: 1px;
+      -webkit-text-strokeWidth: 1px;
       text-shadow: -1px 1px #000;
   }
 }
@@ -357,7 +357,7 @@ menu, ol, ul {
   letter-spacing: 0.05em;
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-strokeWidth: 1.5px;
   -webkit-text-stroke-color: #000;
   text-shadow: -2.5px 2.5px #000;
   box-shadow: -4px 5px #000;
@@ -402,7 +402,7 @@ menu, ol, ul {
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-skew-y: -2deg;
   -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-strokeWidth: 1.5px;
   -webkit-text-stroke-color: #000;
   text-shadow: -2.5px 2.5px #000;
   box-shadow: -4px 5px #000;
