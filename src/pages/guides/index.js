@@ -10,6 +10,7 @@ import lastofus from "@/img/lastofus.jpg";
 import leon from "@/img/leon.png";
 import cod from "@/img/cod.jpg";
 import { Pagination } from "@/components/Pagination";
+import GoTop from "@/components/GoTop";
 
 export default function Guides() {
   //   useEffect(() => {
@@ -25,6 +26,7 @@ export default function Guides() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
 
       <div className=" flex justify-center text-sm mt-16">
         <header className="py-8">
@@ -74,7 +76,7 @@ export default function Guides() {
             <div className="flex w-full space-x-3">
               <div className="flex flex-col space-y-5 w-full text-md font-mabry leading-tight pr-0 border-gray-700">
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className=" flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
@@ -128,7 +130,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className=" flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
@@ -182,7 +184,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className=" flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
@@ -236,7 +238,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className=" flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
@@ -290,7 +292,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className=" flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
@@ -344,7 +346,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className="flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>
@@ -398,7 +400,7 @@ export default function Guides() {
                   </div>
                 </Link>
                 <Link href={"/guides/2"}>
-                  <div className="relative flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
+                  <div className=" flex flex-row w-full mx-auto space-x-3 md:space-x-4 justify-center2 items-center2 bg-white border-2 border-gray-700 hover:border-pink-700 px-2 py-2 md:px-4 md:py-4 rounded-md shadow-md shadow-stack-sm">
                     <div className="w-1/3 ">
                       <Image src={cod} alt="" className="w-full h-full object-cover" />
                     </div>

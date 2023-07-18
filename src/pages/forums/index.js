@@ -11,6 +11,7 @@ import about from "@/img/about-hello.svg";
 import pravatar from "@/img/300.jpg";
 import { Alert } from "@/components/Alert";
 import { Pagination } from "@/components/Pagination";
+import GoTop from "@/components/GoTop";
 
 export default function Forums() {
   return (
@@ -23,6 +24,7 @@ export default function Forums() {
       </Head>
       <Header />
       <Notice />
+      <GoTop />
       <div className="h-max flex py-5 md:py-8 flex-col px-4 md:px-10  bg-[#35adce]">
         <div className="flex flex-row  items-center">
           <span className="text-3xl font-mabryblack">Welcome to discussion</span>
@@ -36,9 +38,9 @@ export default function Forums() {
               <div className="flex w-full">
                 <Link
                   className="relative w-full inline-block  group text-center"
-                  href="/"
+                  href="/forums/create"
                 >
-                  <span className="relative flex shadow-menu w-full x-3 py-2 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded-full ">
+                  <span className="relative flex shadow-menu w-full py-2 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded-full ">
                     <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-full bg-[#fcc31e] group-hover:bg-yellow-300"></span>
                     <span className="relative text-[22px] font-mabryblack">
                       Start a discussion
@@ -123,8 +125,9 @@ export default function Forums() {
               </div> */}
             </div>
           </div>
-          <div className="w-full md:w-2/3 flex flex-col font-mabry leading-snug space-y-3">
-          <div className="md:hidden flex w-full">
+          <div className="w-full md:w-2/3 flex flex-col font-mabry leading-snug ">
+            
+              <div className="md:hidden flex w-full">
                 <Link
                   className="relative w-full inline-block  group text-center"
                   href="/"
@@ -137,249 +140,253 @@ export default function Forums() {
                   </span>
                 </Link>
               </div>
-            <div className="">
-              
-              <div className="relative flex items-center w-full h-12 border-2 border-gray-700 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
-                <div className="grid place-items-center h-full w-12 text-gray-700">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                    />
-                  </svg>
-                </div>
+              <div className="">
+                
+                <div className="relative flex items-center w-full h-12 border-2 border-gray-700 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+                  <div className="grid place-items-center h-full w-12 text-gray-700">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </div>
 
-                <input
-                  className="peer h-full w-full outline-none text-sm md:text-md text-gray-800 pr-2"
-                  type="text"
-                  id="search"
-                  placeholder="Search something.."
-                />
+                  <input
+                    className="peer h-full w-full outline-none text-sm md:text-md text-gray-800 pr-2"
+                    type="text"
+                    id="search"
+                    placeholder="Search something.."
+                  />
+                </div>
               </div>
-            </div>
-            <div className="flex space-x-1">
-              <span className="text-md font-mabrybold">Showing</span>
-              <select
-                id="countries"
-                className="bg-white text-gray-900 text-sm font-mabry focus:ring-blue-500 focus:border-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              >
-                <option>Sort</option>
-                <option value="US">Trending</option>
-                <option value="CA">Top</option>
-                <option value="FR">New</option>
-              </select>
-              <span className="text-md font-mabrybold">post</span>
-            </div>
-            <div className="flex flex-col space-y-6">
-              {/*  */}
-              <div className="flex border-2 border-gray-700 p-3 hover:border-blue-500 cursor-pointer">
-                <div className="flex-shrink  flex flex-col space-y-2  items-center">
-                  <button className="border border-gray-500 p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
-                    <svg
-                      className="inline-flex m-1"
-                      width="12"
-                      height="6"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m0 6 6-6 6 6z"></path>
-                    </svg>
-                    <div>49</div>
-                  </button>
-                  <div className="cursor-pointer">
-                    <Image
-                      className="w-7 h-7 border border-gray-700 rounded-full"
-                      src={pravatar}
-                      alt="Avatar of Author"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-col ml-4">
-                  <div className="pb-1.5 cursor-pointer text-md font-mabrybold hover:text-indigo-600 leading-tight">
-                    <span>
-                      Prompt for Teams: Create Teams, Share Prompts &
-                      Collaborate (at work)
-                    </span>
-                  </div>
-                  <div className="flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-800">
-                      6 days ago
-                    </span>
-                    <Link
-                      href="#"
-                      className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
-                    >
-                      open
-                    </Link>{" "}
-                  </div>
-                  <span className="py-1 font-mabry text-[15px] text-slate-800">
-                    We know that organization is key to productivity, which is
-                    why we&apos;re excited to introduce Prompt Lists. This
-                    feature..
-                  </span>
-                </div>
-                <div className="flex w-18 ">
-                  <button className="flex font-mabry text-slate-800 text-sm space-x-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-5 h-5"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+              <div className="flex space-x-1 py-3">
+                <span className="text-md font-mabrybold">Showing</span>
+                <select
+                  id="countries"
+                  className="bg-white text-gray-900 text-sm font-mabry focus:ring-blue-500 focus:border-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                >
+                  <option>Sort</option>
+                  <option value="US">Trending</option>
+                  <option value="CA">Top</option>
+                  <option value="FR">New</option>
+                </select>
+                <span className="text-md font-mabrybold">post</span>
+              </div>
+              
+              <div className="flex flex-col space-y-6">
+                {/*  */}
+                <div className="flex border-2 border-gray-700 p-3 hover:border-blue-500 cursor-pointer">
+                  <div className="flex-shrink  flex flex-col space-y-2  items-center">
+                    <button className="border border-gray-500 p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
+                      <svg
+                        className="inline-flex m-1"
+                        width="12"
+                        height="6"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="m0 6 6-6 6 6z"></path>
+                      </svg>
+                      <div>49</div>
+                    </button>
+                    <div className="cursor-pointer">
+                      <Image
+                        className="w-7 h-7 border border-gray-700 rounded-full"
+                        src={pravatar}
+                        alt="Avatar of Author"
                       />
-                    </svg>
-                    <span>4</span>
-                  </button>
-                </div>
-              </div>
-              {/*  */}
-              <div className="flex border-2 border-gray-700 p-3">
-                <div className="flex-shrink  flex flex-col space-y-2  items-center">
-                  <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
-                    <svg
-                      className="inline-flex m-1"
-                      width="12"
-                      height="6"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m0 6 6-6 6 6z"></path>
-                    </svg>
-                    <div>49</div>
-                  </button>
-                  <div className="cursor-pointer">
-                    <Image
-                      className="w-7 h-7 border border-gray-700 rounded-full"
-                      src={pravatar}
-                      alt="Avatar of Author"
-                    />
+                    </div>
                   </div>
-                </div>
-                <div className="flex flex-col ml-4">
-                  <div className="pb-1.5 cursor-pointer text-md font-mabrybold hover:text-indigo-600 leading-tight">
-                    <span>
-                      Prompt for Teams: Create Teams, Share Prompts &
-                      Collaborate (at work)
+                  <div className="flex flex-col ml-4">
+                    <Link href={"/forums/2"}>
+                    <div className="pb-1.5 cursor-pointer text-md font-mabrybold hover:text-indigo-600 leading-tight">
+                      <span>
+                        Prompt for Teams: Create Teams, Share Prompts &
+                        Collaborate (at work)
+                      </span>
+                    </div>
+                    </Link>
+                    <div className="flex space-x-1">
+                      <span className="text-xs font-mabry text-slate-800">
+                        6 days ago
+                      </span>
+                      <Link
+                        href="#"
+                        className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
+                      >
+                        open
+                      </Link>{" "}
+                    </div>
+                    <span className="py-1 font-mabry text-[15px] text-slate-800">
+                      We know that organization is key to productivity, which is
+                      why we&apos;re excited to introduce Prompt Lists. This
+                      feature..
                     </span>
                   </div>
-                  <div className="flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-800">
-                      6 days ago
-                    </span>
-                    <Link
-                      href="#"
-                      className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
-                    >
-                      open
-                    </Link>{" "}
+                  <div className="flex w-18 ">
+                    <button className="flex font-mabry text-slate-800 text-sm space-x-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                        />
+                      </svg>
+                      <span>4</span>
+                    </button>
                   </div>
-                  <span className="py-1 font-mabry text-[15px] text-slate-800">
-                    We know that organization is key to productivity, which is
-                    why we&apos;re excited to introduce Prompt Lists. This
-                    feature..
-                  </span>
                 </div>
-                <div className="flex w-18 ">
-                  <button className="flex font-mabry text-slate-800 text-sm space-x-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-5 h-5"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                {/*  */}
+                <div className="flex border-2 border-gray-700 p-3">
+                  <div className="flex-shrink  flex flex-col space-y-2  items-center">
+                    <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
+                      <svg
+                        className="inline-flex m-1"
+                        width="12"
+                        height="6"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="m0 6 6-6 6 6z"></path>
+                      </svg>
+                      <div>49</div>
+                    </button>
+                    <div className="cursor-pointer">
+                      <Image
+                        className="w-7 h-7 border border-gray-700 rounded-full"
+                        src={pravatar}
+                        alt="Avatar of Author"
                       />
-                    </svg>
-                    <span>4</span>
-                  </button>
-                </div>
-              </div>
-              {/*  */}
-              <div className="flex border-2 border-gray-700 p-3">
-                <div className="flex-shrink  flex flex-col space-y-2  items-center">
-                  <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
-                    <svg
-                      className="inline-flex m-1"
-                      width="12"
-                      height="6"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m0 6 6-6 6 6z"></path>
-                    </svg>
-                    <div>49</div>
-                  </button>
-                  <div className="cursor-pointer">
-                    <Image
-                      className="w-7 h-7 border border-gray-700 rounded-full"
-                      src={pravatar}
-                      alt="Avatar of Author"
-                    />
+                    </div>
                   </div>
-                </div>
-                <div className="flex flex-col ml-4">
-                  <div className="pb-1.5 cursor-pointer text-md font-mabrybold hover:text-indigo-600 leading-tight">
-                    <span>
-                      Prompt for Teams: Create Teams, Share Prompts &
-                      Collaborate (at work)
+                  <div className="flex flex-col ml-4">
+                    <div className="pb-1.5 cursor-pointer text-md font-mabrybold hover:text-indigo-600 leading-tight">
+                      <span>
+                        Prompt for Teams: Create Teams, Share Prompts &
+                        Collaborate (at work)
+                      </span>
+                    </div>
+                    <div className="flex space-x-1">
+                      <span className="text-xs font-mabry text-slate-800">
+                        6 days ago
+                      </span>
+                      <Link
+                        href="#"
+                        className="flex items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 px-2 rounded-full bg-green-200 capitalize "
+                      >
+                        open
+                      </Link>{" "}
+                    </div>
+                    <span className="py-1 font-mabry text-[15px] text-slate-800">
+                      We know that organization is key to productivity, which is
+                      why we&apos;re excited to introduce Prompt Lists. This
+                      feature..
                     </span>
                   </div>
-                  <div className="flex space-x-1">
-                    <span className="text-xs font-mabry text-slate-800">
-                      6 days ago
-                    </span>
-                    <Link
-                      href="#"
-                      className="flex items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 px-2 rounded-full bg-red-200 capitalize "
-                    >
-                      closed
-                    </Link>{" "}
+                  <div className="flex w-18 ">
+                    <button className="flex font-mabry text-slate-800 text-sm space-x-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                        />
+                      </svg>
+                      <span>4</span>
+                    </button>
                   </div>
-                  <span className="py-1 font-mabry text-[15px] text-slate-800">
-                    We know that organization is key to productivity, which is
-                    why we&apos;re excited to introduce Prompt Lists. This
-                    feature..
-                  </span>
                 </div>
-                <div className="flex w-18 ">
-                  <button className="flex font-mabry text-slate-800 text-sm space-x-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-5 h-5"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                {/*  */}
+                <div className="flex border-2 border-gray-700 p-3">
+                  <div className="flex-shrink  flex flex-col space-y-2  items-center">
+                    <button className="border p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
+                      <svg
+                        className="inline-flex m-1"
+                        width="12"
+                        height="6"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="m0 6 6-6 6 6z"></path>
+                      </svg>
+                      <div>49</div>
+                    </button>
+                    <div className="cursor-pointer">
+                      <Image
+                        className="w-7 h-7 border border-gray-700 rounded-full"
+                        src={pravatar}
+                        alt="Avatar of Author"
                       />
-                    </svg>
-                    <span>4</span>
-                  </button>
+                    </div>
+                  </div>
+                  <div className="flex flex-col ml-4">
+                    <div className="pb-1.5 cursor-pointer text-md font-mabrybold hover:text-indigo-600 leading-tight">
+                      <span>
+                        Prompt for Teams: Create Teams, Share Prompts &
+                        Collaborate (at work)
+                      </span>
+                    </div>
+                    <div className="flex space-x-1">
+                      <span className="text-xs font-mabry text-slate-800">
+                        6 days ago
+                      </span>
+                      <Link
+                        href="#"
+                        className="flex items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 px-2 rounded-full bg-red-200 capitalize "
+                      >
+                        closed
+                      </Link>{" "}
+                    </div>
+                    <span className="py-1 font-mabry text-[15px] text-slate-800">
+                      We know that organization is key to productivity, which is
+                      why we&apos;re excited to introduce Prompt Lists. This
+                      feature..
+                    </span>
+                  </div>
+                  <div className="flex w-18 ">
+                    <button className="flex font-mabry text-slate-800 text-sm space-x-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                        />
+                      </svg>
+                      <span>4</span>
+                    </button>
+                  </div>
                 </div>
+                {/*  */}
+                <Pagination />
               </div>
-              {/*  */}
-              <Pagination />
-            </div>
+            
           </div>
         </div>
         

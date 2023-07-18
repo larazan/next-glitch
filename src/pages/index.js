@@ -21,6 +21,7 @@ import book from '@/img/home-book-green.svg'
 import app from '@/img/home-app-yellow.svg'
 import Talk from '@/components/Talk'
 import { Alert } from '@/components/Alert'
+import GoTop from '@/components/GoTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,6 +36,7 @@ export default function Home() {
       </Head>
       <Header />
       <Notice />
+      <GoTop />
       <Hero /> 
       <main className="">
         <HomeNews />
@@ -45,7 +47,7 @@ export default function Home() {
         {/*  */}
         <HomeReview />
         {/*  */}
-        <HomeSpotlight />
+        {/* <HomeSpotlight /> */}
         <CookieConfirm />
         <Talk />
         {/* <Alert /> */}

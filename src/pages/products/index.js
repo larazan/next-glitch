@@ -35,6 +35,7 @@ import ironman from "@/img/products/ironman.jpg";
 import inuyasa from "@/img/products/inuyasa.jpg";
 import warhammer from "@/img/products/warhammer.jpg";
 import venom from "@/img/products/venom.jpg";
+import GoTop from "@/components/GoTop";
 
 export default function Products() {
   return (
@@ -46,6 +47,7 @@ export default function Products() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
 
       <div className="h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-yellow-400">
         <div className="flex flex-row mx-auto  space-x-6 justify-center2 items-center">
@@ -61,7 +63,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={ant}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -101,7 +103,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={apes}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -141,7 +143,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={basket}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -181,7 +183,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={batman}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -221,7 +223,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={blackpanther}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -261,7 +263,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={captain}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -301,7 +303,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={ironman}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -341,7 +343,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={kyubi}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -381,7 +383,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={naruto}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -421,7 +423,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={shohoku}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -461,7 +463,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={spiderman}
                     className="object-fill w-full rounded-md rounded-b-none "
@@ -501,7 +503,7 @@ export default function Products() {
             {/*  */}
             <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
-                <div className="relative md:flex-shrink-0 border-b">
+                <div className=" md:flex-shrink-0 border-b">
                   <Image
                     src={wolferine}
                     className="object-fill w-full rounded-md rounded-b-none "

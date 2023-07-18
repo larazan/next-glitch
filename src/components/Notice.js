@@ -13,7 +13,7 @@ export default function Notice() {
   return (
     <>
     {show ? 
-      <div className="flex z-20 justify-between mt-12 md:mt-14 space-x-5 px-4 md:px-24 py-3 bg-[#ff8079]">
+      <div className="flex z-20 justify-between mt-12 md:mt-14 space-x-5 px-3 md:px-14 py-3 bg-[#ff8079]">
         <div className="flex space-x-5 items-center">
           <div className="w-10">
             <Image src={pup} className="w-full" alt="" />

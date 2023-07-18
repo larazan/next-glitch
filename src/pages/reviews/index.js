@@ -16,6 +16,7 @@ import spiderman from "@/img/thumbnail/spiderman.jpg";
 import toad from "@/img/thumbnail/toad.jpg";
 import unpacking from "@/img/thumbnail/unpacking.jpg";
 import Filter from "@/components/Filter";
+import GoTop from "@/components/GoTop";
 
 export default function Reviews() {
   
@@ -28,6 +29,7 @@ export default function Reviews() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
 
       <div className=" flex justify-center text-sm mt-16">
         <header className="py-8">

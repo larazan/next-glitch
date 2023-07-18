@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 import antman from "@/img/antman.jpg";
+import GoTop from "@/components/GoTop";
 
 export default function Product() {
   return (
@@ -18,6 +19,7 @@ export default function Product() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
 
       <div className="h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-slate-300">
         <div className="flex flex-row mx-auto  space-x-6 justify-center2 items-center">

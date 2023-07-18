@@ -23,9 +23,9 @@ export default function Hero() {
         <section className="flex relative px-6 flex-col md:flex-row justify-between items-center my-2 md:my-4 w-full mx-auto max-w-7xl">
           <div className="">
             <h1 className="font-mabrybold text-3xl md:text-5xl text-center md:text-left max-w-[700px] px-5 leading-[2.5rem] md:leading-tigth">
-              <span className="leading-3">Online mental health care</span>
+              <span className="leading-3">Desktop, Console and Mobile Games Platforms</span>
               <br className="hidden md:block" />
-              <span className="leading-3"> anywhere, anytime</span>
+              <span className="leading-3"> </span>
             </h1>
             <p className="font-mabry text-base text-gray-700 max-w-[450px] mt-4 px-5 text-center mx-auto lg:mx-0 md:text-left leading-[1.5rem]">
               24x7, on-demand care on your phone, be it in the middle of a
@@ -79,7 +79,7 @@ export default function Hero() {
               </span>
             </h2>
             <h2 className="font-mabryblack heading-box-text3 text-3xl sm:text-3xl md:text-3xl lg:text-5xl sm:text-right whitespace-nowrap">
-              <span>SEO Friendly</span>
+              <span>Indie Games</span>
             </h2>
 
             {/* <span className="text-red-500 font-mabrybold">Glitch is the friendly place where everyone builds the web.</span>{' '}

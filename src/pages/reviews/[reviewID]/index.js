@@ -20,6 +20,7 @@ import pravatar from "@/img/300.jpg";
 
 import arrowLeft from "@/img/icon_arrow-left.png";
 import arrowRight from "@/img/icon_arrow-right.png";
+import GoTop from "@/components/GoTop";
 
 export default function Review() {
   const [reportModalOpen, setReportModalOpen] = useState(false);
@@ -68,6 +69,7 @@ export default function Review() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
 
       <div className="mt-16 px-4">
         <div className="w-full bg-green-100 h-20"></div>

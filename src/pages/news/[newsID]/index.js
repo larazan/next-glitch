@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Report from "@/components/Report";
 import Comment from "@/components/Comment";
+import GoTop from "@/components/GoTop";
 
 import mine from "@/img/mine.jpg";
 import lastofus2 from "@/img/lastofus2.jpg";
@@ -29,7 +30,7 @@ export default function Detail() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
+      <GoTop />
       <section className="bg-[#f6f8f7] mt-12 md:mt-0">
         <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-16  px-2 md:px-4">
           <div className="flex flex-col py-4">
