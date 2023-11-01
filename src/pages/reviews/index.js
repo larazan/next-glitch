@@ -59,11 +59,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -95,11 +95,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         A Solid Diablo Clone For The Vita.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -130,7 +130,7 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between space-x-1">
-                    <Link href={"/"} className="hover:text-green-600">
+                    <Link href={"/reviews/2"} className="hover:text-green-600">
                       <span className="text-lg font-mabrybold leading-tight">
                         No rest for this detective...
                       </span>
@@ -165,11 +165,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -201,11 +201,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -237,11 +237,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -273,11 +273,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -309,11 +309,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
@@ -345,11 +345,11 @@ export default function Reviews() {
                 </div>
                 <div className="w-3/4 flex flex-col space-y-2">
                   <div className="flex justify-between ">
-                    <div className="">
+                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
                       <span className="text-lg font-mabrybold leading-tight">
                         An Adventure On A Colossal Scale.
                       </span>
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
                         <span className="text-lg font-mabrybold">8.7</span>
