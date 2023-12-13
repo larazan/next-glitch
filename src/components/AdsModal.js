@@ -36,7 +36,7 @@ function AdsModal({ id, modalOpen, setModalOpen }) {
       {/* Modal dialog */}
       <Transition
         id={id}
-        className="fixed inset-0 z-50 overflow-hidden flex items-start top-1/3 mb-4 justify-center transform px-4 sm:px-6"
+        className="fixed inset-0 z-50 overflow-hidden flex items-start top-[20%] md:top-1/3 mb-4 justify-center transform px-4 sm:px-6"
         role="dialog"
         aria-modal="true"
         show={modalOpen}
@@ -59,7 +59,7 @@ function AdsModal({ id, modalOpen, setModalOpen }) {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5 md:w-6 md:h-6"
+                className="w-5 h-5 md:w-6 md:h-6 text-gray-900"
               >
                 <path
                   strokeLinecap="round"

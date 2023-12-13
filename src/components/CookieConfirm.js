@@ -25,7 +25,7 @@ export default function CookieConfirm() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5 md:w-6 md:h-6"
+                className="w-5 h-5 md:w-6 md:h-6 text-gray-900"
               >
                 <path
                   strokeLinecap="round"
@@ -35,7 +35,7 @@ export default function CookieConfirm() {
               </svg>
             </div>
           </div>
-          <div className=" md:flex w-full items-center -mx-3">
+          <div className=" md:flex w-full items-center">
             <div className="md:w-4/6 w-full md:flex-row md:items-center flex flex-col space-x-4 space-y-3 md:space-y-0 px-3 mb-5 md:mb-0">
               <div className="w-12 flex justify-start2">
                 <Image src={cookiee} alt="" />
@@ -48,14 +48,14 @@ export default function CookieConfirm() {
             <div className="md:w-2/6 flex flex-row md:flex-row-reverse2 justify-between w-full space-x-2 px-3 text-center">
               <button
                 id="btn"
-                className="w-1/2 md:w-36 flex justify-center py-2 px-3 border-2 border-gray-900 bg-white font-mabrybold text-sm hover:underline"
+                className="w-1/2 md:w-36 flex justify-center py-2 px-3 border-2 text-gray-900 border-gray-900 bg-white font-mabrybold text-sm hover:underline"
                 onClick={handleClick}
               >
                 Accept
               </button>
               <button
                 id="btn"
-                className="w-1/2 md:w-36 flex justify-center py-2 px-3 border-2 border-gray-900 bg-white font-mabrybold text-sm hover:underline"
+                className="w-1/2 md:w-36 flex justify-center py-2 px-3 border-2 text-gray-900 border-gray-900 bg-white font-mabrybold text-sm hover:underline"
               >
                 Decline
               </button>

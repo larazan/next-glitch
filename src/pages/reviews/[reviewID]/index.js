@@ -71,11 +71,11 @@ export default function Review() {
       <Header />
       <GoTop />
 
-      <div className="mt-16 px-4">
+      <div className="mt-16 px-4 bg-white">
         <div className="w-full bg-green-100 h-20"></div>
       </div>
-      <div className="container w-full md:max-w-4xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
-        <div className="w-full md:w-2/3 -z-10">
+      <div className="container bg-white w-full md:max-w-4xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
+        <div className="w-full md:w-2/3 z-10">
           <Image src={lastofus} quality={100} alt="" />
         </div>
         <div className="flex flex-col w-full  md:w-1/3 px-3 py-4 space-y-4">
@@ -102,9 +102,9 @@ export default function Review() {
             </div>
           </div>
           <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
-            <div className="flex flex-col w-full ">
+            <div className="flex flex-col w-full text-gray-900">
               <div className="border-b border-gray-800 py-3 px-3 leading-tight">
-                <span className="text-sm font-mabry ">The Last of us</span>
+                <span className="text-sm font-mabry text-gray-900">The Last of us</span>
               </div>
               <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
                 <div className="text-sm font-mabrybold">Rating</div>
@@ -128,11 +128,11 @@ export default function Review() {
           </div>
         </div>
       </div>
-      <div className=" h-max flex flex-col ">
+      <div className=" h-max flex flex-col bg-white">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
           <div className="flex flex-col md:flex-row w-full md:justify-between px-3 py-2 md:px-8 md:py-4 border-y border-gray-800 bg-white">
             <div className="flex flex-col w-full md:w-2/3 ">
-              <div className="text-lg font-mabrybold">
+              <div className="text-lg font-mabrybold text-gray-900">
                 The last of us part I
               </div>
               <div className="text-xs font-mabry text-gray-500">
@@ -141,7 +141,7 @@ export default function Review() {
             </div>
 
             <div className="flex md:justify-end ">
-              <div className="flex flex-wrap justify-end text-xs font-mabry  cursor-pointer">
+              <div className="flex flex-wrap justify-end text-xs font-mabry  cursor-pointer text-gray-900">
                 <span className="m-0.5 hover:underline underline-offset-2">
                   PlayStation 5
                 </span>
@@ -507,13 +507,13 @@ export default function Review() {
 
                 <div className="flex w-full items-center font-mabry px-2 py-4 md:px-4 md:py-8">
                   <Image
-                    className="w-16 h-16 border border-gray-700 rounded-full mr-4"
+                    className="w-16 h-16 border border-gray-700 rounded-full mr-1 md:mr-4"
                     src={pravatar}
                     alt="Avatar of Author"
                     width={200}
                     height={200}
                   />
-                  <div className="flex flex-col px-2">
+                  <div className="flex flex-col space-y-1 px-2">
                     <p className="font-mabrybold text-base md:text-xl leading-none ">
                       Jo Bloggerson
                     </p>

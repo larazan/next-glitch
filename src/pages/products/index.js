@@ -36,6 +36,7 @@ import inuyasa from "@/img/products/inuyasa.jpg";
 import warhammer from "@/img/products/warhammer.jpg";
 import venom from "@/img/products/venom.jpg";
 import GoTop from "@/components/GoTop";
+import { Pagination } from "@/components/Pagination";
 
 export default function Products() {
   return (
@@ -49,19 +50,19 @@ export default function Products() {
       <Header />
       <GoTop />
 
-      <div className="h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-yellow-400">
-        <div className="flex flex-row mx-auto  space-x-6 justify-center2 items-center">
-          <span className="text-3xl font-mabrybold">Deals</span>
+      <div className="h-max flex mt-12 py-5 flex-col space-y-10 px-10 justify-center2 items-center2 bg-yellow-400">
+        <div className="flex flex-row mx-auto space-x-6 justify-center2 items-center">
+          <span className="text-3xl font-mabryblack text-gray-900">Deals</span>
         </div>
       </div>
 
       <Filter />
 
-      <div className="h-max flex flex-col px-8 justify-center2 items-center2 bg-[#f6f8f7]">
+      <div className="h-max flex flex-col mt-5 px-4 md:px-6 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
-          <section className="flex flex-row flex-wrap mx-auto justify-center2 items-center3">
+          <section className="grid gap-3 md:gap-4 grid-cols-2 md:grid-cols-3 flex2 flex-row2 flex-wrap2 mx-auto justify-center2 items-center3">
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -70,38 +71,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link> 
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -110,38 +113,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -150,38 +155,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -190,38 +197,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -230,38 +239,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -270,38 +281,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -310,38 +323,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -350,38 +365,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -390,38 +407,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -430,38 +449,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -470,38 +491,40 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full px-2 py-4 md:w-1/3 lg:w-1/3  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -510,32 +533,34 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2  h-16 font-mabry">
-                  <span>
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                  <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
                 </div>
                 <div className="flex w-full mt-2 px-3 h-14 border-t border-gray-600 ">
                   <div className="w-3/5 flex items-center">
-                    <span className="text-sm font-mabrybold">Rp 1.400.000</span>
+                    <span className="text-sm font-mabrybold  text-gray-900">Rp 1.400.000</span>
                   </div>
-                  <div className="flex w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
+                  <div className="flex flex-col md:flex-row w-2/5 border-l border-gray-600 space-x-1 justify-center items-center">
                     <div className="flex items-center justify-center space-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-xs font-mabry">5.0</span>
+                      
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      
+                      <span className="text-xs font-mabry text-gray-900">5.0</span>
                     </div>
-                    <span className="text-xs font-mabry">(224)</span>
+                    <span className="text-xs font-mabry text-gray-900">(86)</span>
                   </div>
                 </div>
               </div>
@@ -544,8 +569,10 @@ export default function Products() {
           </section>
         </div>
       </div>
+      
+      <Pagination />
 
-      <div className="h-max flex pb-6 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+      {/* <div className="h-max flex pb-6 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <div className="flex justify-between items-center w-full  px-4 py-4 rounded border border-gray-800 bg-white">
             <div>
@@ -613,7 +640,7 @@ export default function Products() {
             <div className="text-sm font-mabry">Showing 1-9 of 60825</div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );

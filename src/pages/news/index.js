@@ -32,7 +32,7 @@ export default function News() {
       </Head>
       <Header />
       <GoTop />
-      <div className="relative mt-16 block min-h-80 lg:col-span-2 lg:h-full">
+      <div className="relative mt-16 block min-h-80 lg:col-span-2 lg:h-full bg-white">
         <div className="py-8 flex mx-auto w-11/12  space-x-6">
           <div className="flex flex-col w-1/2 space-y-0.5 leading-tight">
             <div className="flex space-x-2 items-center">
@@ -121,17 +121,17 @@ export default function News() {
           </div>
         </section> */}
           <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={''} className=''>
+            <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
             <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
                   <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
                 <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
               <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
@@ -141,17 +141,17 @@ export default function News() {
           </div>
 
           <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={''} className=''>
+            <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
             <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
                   <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
                 <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
               <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
@@ -161,17 +161,17 @@ export default function News() {
           </div>
 
           <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={''} className=''>
+            <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
             <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
                   <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
                 <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
               <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
@@ -181,17 +181,17 @@ export default function News() {
           </div>
 
           <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={''} className=''>
+            <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
             <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
                   <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
                 <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
               <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
@@ -201,17 +201,17 @@ export default function News() {
           </div>
 
           <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={''} className=''>
+            <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
             <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
                   <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
                 <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
               <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
@@ -221,17 +221,17 @@ export default function News() {
           </div>
           
           <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={''} className=''>
+            <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
             <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
                   <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
                 <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
               <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
@@ -240,11 +240,11 @@ export default function News() {
             </div>
           </div>
 
-          <div className="flex  mx-auto w-3/4 space-x-6">
+          <div className="flex  mx-auto md:w-3/4 space-x-6">
             <div className="flex w-full pt-5">
               <Link
                 href={""}
-                className="relative w-full inline-block  group text-center"
+                className="relative w-full inline-block group text-center"
               >
                 <span className="relative flex button w-full x-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                   <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>

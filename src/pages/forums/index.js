@@ -27,7 +27,7 @@ export default function Forums() {
       <GoTop />
       <div className="h-max mt-12 flex py-5 md:py-8 flex-col px-4 md:px-10  bg-[#35adce]">
         <div className="flex flex-row  items-center">
-          <span className="text-3xl font-mabryblack">
+          <span className="text-3xl font-mabryblack text-gray-900">
             Welcome to discussion
           </span>
         </div>
@@ -188,7 +188,7 @@ export default function Forums() {
                 </div>
 
                 <input
-                  className="peer h-full w-full outline-none text-sm md:text-md text-gray-800 pr-2"
+                  className="peer h-full w-full outline-none bg-white text-sm md:text-md text-gray-800 pr-2"
                   type="text"
                   id="search"
                   placeholder="Search something.."
@@ -196,7 +196,9 @@ export default function Forums() {
               </div>
             </div>
             <div className="flex space-x-1 py-3">
-              <span className="text-md font-mabrybold text-gray-900">Showing</span>
+              <span className="text-md font-mabrybold text-gray-900">
+                Showing
+              </span>
               <select
                 id="countries"
                 className="bg-white text-gray-900 text-sm font-mabry  focus:ring-blue-500 focus:border-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -209,7 +211,7 @@ export default function Forums() {
               <span className="text-md font-mabrybold text-gray-900">post</span>
             </div>
 
-            <div className="flex flex-col space-y-6">
+            <div className="flex flex-col space-y-4 md:space-y-6">
               {/*  */}
               <div className="flex border-2 border-gray-700 p-3 hover:border-blue-500 cursor-pointer">
                 <div className="flex-shrink  flex flex-col space-y-2  items-center">
@@ -222,7 +224,7 @@ export default function Forums() {
                     >
                       <path d="m0 6 6-6 6 6z"></path>
                     </svg>
-                    <div>49</div>
+                    <div className="text-gray-900">49</div>
                   </button>
                   <div className="cursor-pointer">
                     <Image
@@ -290,7 +292,7 @@ export default function Forums() {
                     >
                       <path d="m0 6 6-6 6 6z"></path>
                     </svg>
-                    <div>49</div>
+                    <div className="text-gray-900">49</div>
                   </button>
                   <div className="cursor-pointer">
                     <Image
@@ -356,7 +358,7 @@ export default function Forums() {
                     >
                       <path d="m0 6 6-6 6 6z"></path>
                     </svg>
-                    <div>49</div>
+                    <div className="text-gray-900">49</div>
                   </button>
                   <div className="cursor-pointer">
                     <Image

@@ -31,8 +31,8 @@ export default function Reviews() {
       <Header />
       <GoTop />
 
-      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16">
-      <header className="py-8">
+      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16 bg-white">
+        <header className="py-8">
           <h1 className="font-black text-3xl md:text-5xl text-gray-900 text-center font-mabryblack">
             Starter Kits
           </h1>{" "}
@@ -49,7 +49,7 @@ export default function Reviews() {
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <section className="mt-4 flex flex-row flex-wrap mx-auto items-center2">
             
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -83,9 +83,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -119,9 +119,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -155,9 +155,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -191,9 +191,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -227,9 +227,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -263,9 +263,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -299,9 +299,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -335,9 +335,9 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
               <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
@@ -371,7 +371,7 @@ export default function Reviews() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
           </section>
         </div>

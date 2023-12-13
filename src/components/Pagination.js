@@ -5,7 +5,7 @@ export const Pagination = () => {
   return (
     <>
      <div className='flex bg-white items-center justify-center'>
-      <div className="flex items-center justify-center mt-12 mb-10 space-x-2">
+      <div className="flex items-center justify-center mt-4 mb-4 space-x-2">
         <button
           disabled=""
           className="border border-[#E4E4E4] rounded-full p-1.5 md:p-2 text-[#191919] disabled:text-[#A3A3A3] disabled:cursor-not-allowed hover:text-white hover:bg-orange-500"

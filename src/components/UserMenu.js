@@ -137,7 +137,7 @@ export default function UserMenu() {
                     />
                   </svg>
 
-                  <span className="text-xs font-semibold font-mabrybold">Logout</span>
+                  <span className="text-xs font-semibold font-mabrybold text-gray-900">Logout</span>
                 </button>
               </div>
             </li>

@@ -11,6 +11,7 @@ import CommentNew from "@/components/CommentNew";
 import gmb from "@/img/gmb.png";
 
 import pravatar from "@/img/300.jpg";
+import GoTop from "@/components/GoTop";
 
 export default function Forum() {
   return (
@@ -22,9 +23,10 @@ export default function Forum() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Notice />
+      <GoTop />
+      {/* <Notice /> */}
 
-      <div className="h-max flex py-12 pb-20 px-4 md:px-10 bg-white">
+      <div className="h-max flex mt-10 py-12 pb-20 px-2 md:px-10 bg-white">
         <div className="flex flex-col md:flex-row w-full mx-auto space-y-4 md:space-x-8 justify-center2 items-center2">
           <div className="w-full md:w-2/3 flex flex-col font-mabry leading-snug space-y-3">
             <div className="flex flex-col space-y-6 ">
@@ -40,11 +42,11 @@ export default function Forum() {
                     >
                       <path d="m0 6 6-6 6 6z"></path>
                     </svg>
-                    <div>49</div>
+                    <div className="text-gray-900">49</div>
                   </button>
                 </div>
                 <div className="flex flex-col ml-4 ">
-                  <div className="pb-1.5 cursor-pointer text-2xl font-mabrybold hover:text-indigo-600 leading-tight">
+                  <div className="pb-1.5 cursor-pointer text-2xl text-gray-900 font-mabrybold hover:text-indigo-600 leading-tight">
                     <span>
                       Prompt for Teams: Create Teams, Share Prompts &
                       Collaborate (at work)
@@ -164,10 +166,10 @@ export default function Forum() {
           </div>
           <div className="w-full md:w-1/3 flex flex-col">
             <div className="flex flex-col justify-center shadow-stack-sm px-3 py-6 border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
-              <div className="font-mabrybold text-lg text-center">
+              <div className="font-mabrybold text-lg text-center text-gray-900">
                 Request a Feature
               </div>
-              <div className="font-mabry text-sm text-center py-3">
+              <div className="font-mabry text-sm text-center py-3 text-gray-900">
                 👉 Let us know what feature that you would like to see us work
                 on next. Why the feature is needed?
               </div>

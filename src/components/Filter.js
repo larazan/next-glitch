@@ -16,13 +16,13 @@ export default function Filter({ open }) {
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <div className="flex flex-col  w-full  rounded border-2 border-gray-800 bg-white">
             <div className="flex  border-gray-700 justify-between py-4 px-4">
-              <div className="text-sm font-mabry">Showing 1-9 of 6025</div>
+              <div className="text-sm font-mabry text-gray-900">Showing 1-9 of 6025</div>
               <div className="flex space-x-2">
-                <div className="text-sm font-mabry hover:underline underline-offset-2 cursor-pointer">
+                <div className="text-sm font-mabry text-gray-900 hover:underline underline-offset-2 cursor-pointer">
                   Clear
                 </div>
                 <div 
-                    className="text-sm font-mabry hover:underline underline-offset-2 cursor-pointer"
+                    className="text-sm font-mabry text-gray-900 hover:underline underline-offset-2 cursor-pointer"
                     onClick={filterOpenClick}
                 >
                  { filterOpen ? 'Close' : 'Filter'}
@@ -132,7 +132,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink bg-white"
                       checked
                     />
                   </div>
@@ -217,7 +217,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink bg-white"
                       checked
                     />
                   </div>
@@ -304,7 +304,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink bg-white"
                       checked
                     />
                   </div>
@@ -393,7 +393,7 @@ export default function Filter({ open }) {
                       id="radio1"
                       type="radio"
                       name="radio"
-                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink"
+                      className="w-6 h-6 inline-block rounded-full border border-grey flex-no-shrink bg-white"
                       checked
                     />
                   </div>

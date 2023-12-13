@@ -42,9 +42,6 @@ export default function Header() {
         <div className="flex flex-row space-x-3">
           <div className="flex space-x-2 items-center">
             
-      
-            
-            
             <UserMenu />
             <MiniCart />
             <Menu />
