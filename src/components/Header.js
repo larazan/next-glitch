@@ -83,7 +83,7 @@ export default function Header() {
             
             <div className="flex md:hidden">
               <button
-                className="relative flex shadow-menu items-center justify-center rounded-full border-2 border-gray-800 px-1 py-1 bg-white opacity-90 hover:opacity-100"
+                className="relative flex shadow-menu items-center justify-center rounded-full border-2 text-gray-900 border-gray-800 px-1 py-1 bg-white opacity-90 hover:opacity-100"
                 onClick={(e) => {
                   e.stopPropagation();
                   setSearchModalOpen(true);
@@ -106,17 +106,8 @@ export default function Header() {
                 </svg>
               </button>
             </div>
-            <SearchModal
-              id="search-modal"
-              searchId="search"
-              modalOpen={searchModalOpen}
-              setModalOpen={setSearchModalOpen}
-            />
-            <AdsModal
-              id="ads-modal"
-              modalOpen={adsModalOpen}
-              setModalOpen={setAdsModalOpen}
-            />
+            
+            
             <MiniCart />
             <Menu />
             <Link href={"/login"} className="hidden md:flex">
@@ -140,7 +131,17 @@ export default function Header() {
           </div>
         </div>
       </header>
-     
+      <SearchModal
+              id="search-modal"
+              searchId="search"
+              modalOpen={searchModalOpen}
+              setModalOpen={setSearchModalOpen}
+            />
+      <AdsModal
+              id="ads-modal"
+              modalOpen={adsModalOpen}
+              setModalOpen={setAdsModalOpen}
+            />
     </>
   );
 }

@@ -47,12 +47,12 @@ export default function News() {
             </div>
             <Link
               href={"/news/2"}
-              className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600"
+              className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 text-slate-900"
             >
               Pokemon Go Developer Niantic Shuttering LA Studio, Canceling
               Marvel: World of Heroes
             </Link>
-            <span className="text-[14px] md:text-[17px] leading-tight md:leading-snug font-mabry">
+            <span className="text-[14px] md:text-[17px] leading-tight md:leading-snug font-mabry text-slate-900">
               The concept lined up perfectly with The Pokémon Companys flagship
               game series, and the mobile game went on to huge success. However,
               it looks as though that success wont be repeated for the
@@ -70,7 +70,7 @@ export default function News() {
       </div>
 
       <div className="h-max w-full flex py-4 md:py-6 space-x-6 px-4 md:px-10 justify-center2 items-center2 bg-white">
-        <div className="w-4/6 flex-col space-y-4 md:space-y-7">
+        <div className="w-full md:w-4/6 flex-col space-y-4 md:space-y-7">
           <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
             <span className="text-3xl font-mabryblack">Latest news</span>
           </div>
@@ -120,169 +120,122 @@ export default function News() {
             </div>
           </div>
         </section> */}
+          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+            <Link href={''} className=''>
+              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
+            </Link>
+            <div className='flex flex-col space-y-0.5 leading-tight'>
+              <div className="flex space-x-2 items-center">
+                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
+                </Link>
+                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
+              </div>
+              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+                Build that thing you’ve been imagining
+              </Link>
+              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
+                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
+              </span>
+            </div>
+          </div>
 
-          <div className="flex flex-row mx-auto w-full md:w-3/42 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300">
-            <Link href={""} className="">
-              <Image
-                src={minecraft}
-                alt=""
-                className="object-cover h-36 w-96 rounded"
-              />
+          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+            <Link href={''} className=''>
+              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
-            <div className="flex flex-col space-y-0.5 leading-tight">
+            <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={""} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">
-                    NEWS
-                  </span>
+                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">
-                  April 16, 2023
-                </span>
+                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link
-                href={"/news/2"}
-                className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600"
-              >
+              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
-              <span className="text-[14px] leading-tight md:leading-snug font-mabry">
-                Millions of people use Glitch to express themselves, try new
-                things, and help others learn. We’re fun and easy, so you spend
-                less time setting up and more time exploring, experimenting,
-                making mistakes and growing.
+              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
+                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
               </span>
             </div>
           </div>
-          <div className="flex flex-row mx-auto w-full md:w-3/42 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300">
-            <Link href={""} className="">
-              <Image
-                src={minecraft}
-                alt=""
-                className="object-cover h-36 w-96 rounded"
-              />
+
+          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+            <Link href={''} className=''>
+              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
-            <div className="flex flex-col space-y-0.5 leading-tight">
+            <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={""} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">
-                    NEWS
-                  </span>
+                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">
-                  April 16, 2023
-                </span>
+                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link
-                href={"/news/2"}
-                className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600"
-              >
+              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
-              <span className="text-[14px] leading-tight md:leading-snug font-mabry">
-                Millions of people use Glitch to express themselves, try new
-                things, and help others learn. We’re fun and easy, so you spend
-                less time setting up and more time exploring, experimenting,
-                making mistakes and growing.
+              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
+                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
               </span>
             </div>
           </div>
-          <div className="flex flex-row mx-auto w-full md:w-3/42 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300">
-            <Link href={""} className="">
-              <Image
-                src={minecraft}
-                alt=""
-                className="object-cover h-36 w-96 rounded"
-              />
+
+          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+            <Link href={''} className=''>
+              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
-            <div className="flex flex-col space-y-0.5 leading-tight">
+            <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={""} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">
-                    NEWS
-                  </span>
+                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">
-                  April 16, 2023
-                </span>
+                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link
-                href={"/news/2"}
-                className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600"
-              >
+              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
-              <span className="text-[14px] leading-tight md:leading-snug font-mabry">
-                Millions of people use Glitch to express themselves, try new
-                things, and help others learn. We’re fun and easy, so you spend
-                less time setting up and more time exploring, experimenting,
-                making mistakes and growing.
+              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
+                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
               </span>
             </div>
           </div>
-          <div className="flex flex-row mx-auto w-full md:w-3/42 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300">
-            <Link href={""} className="">
-              <Image
-                src={minecraft}
-                alt=""
-                className="object-cover h-36 w-96 rounded"
-              />
+
+          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+            <Link href={''} className=''>
+              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
-            <div className="flex flex-col space-y-0.5 leading-tight">
+            <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={""} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">
-                    NEWS
-                  </span>
+                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">
-                  April 16, 2023
-                </span>
+                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link
-                href={"/news/2"}
-                className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600"
-              >
+              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
-              <span className="text-[14px] leading-tight md:leading-snug font-mabry">
-                Millions of people use Glitch to express themselves, try new
-                things, and help others learn. We’re fun and easy, so you spend
-                less time setting up and more time exploring, experimenting,
-                making mistakes and growing.
+              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
+                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
               </span>
             </div>
           </div>
-          <div className="flex flex-row mx-auto w-full md:w-3/42 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300">
-            <Link href={""} className="">
-              <Image
-                src={minecraft}
-                alt=""
-                className="object-cover h-36 w-96 rounded"
-              />
+          
+          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+            <Link href={''} className=''>
+              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
-            <div className="flex flex-col space-y-0.5 leading-tight">
+            <div className='flex flex-col space-y-0.5 leading-tight'>
               <div className="flex space-x-2 items-center">
-                <Link href={""} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">
-                    NEWS
-                  </span>
+                <Link href={''} className="p-0.5 bg-[#ffff00]">
+                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">
-                  April 16, 2023
-                </span>
+                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
               </div>
-              <Link
-                href={"/news/2"}
-                className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600"
-              >
+              <Link href={''} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
                 Build that thing you’ve been imagining
               </Link>
-              <span className="text-[14px] leading-tight md:leading-snug font-mabry">
-                Millions of people use Glitch to express themselves, try new
-                things, and help others learn. We’re fun and easy, so you spend
-                less time setting up and more time exploring, experimenting,
-                making mistakes and growing.
+              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
+                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
               </span>
             </div>
           </div>
@@ -303,7 +256,7 @@ export default function News() {
             </div>
           </div>
         </div>
-        <div className="w-2/6">
+        <div className="hidden md:block w-2/6">
           <div className="flex flex-col space-y-5">
             <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
               <a

@@ -49,7 +49,7 @@ export default function Menu() {
         <button
           ref={trigger}
           // className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ${dropdownOpen && 'bg-slate-200'}`}
-          className="flex  items-center shadow-menu justify-center rounded border-2 border-gray-800 px-1.5 md:px-3 py-1.5 space-x-1 bg-white opacity-90 hover:opacity-100"
+          className="flex  items-center shadow-menu justify-center rounded border-2 border-gray-800 px-1.5 md:px-3 py-1.5 space-x-1 text-gray-900 bg-white opacity-90 hover:opacity-100"
           aria-haspopup="true"
           onClick={() => setDropdownOpen(!dropdownOpen)}
           aria-expanded={dropdownOpen}
@@ -59,7 +59,7 @@ export default function Menu() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </span>
-          <span className="text-xs font-semibold font-mabrybold">Menu</span>
+          <span className="text-xs text-gray-900 font-semibold font-mabrybold">Menu</span>
          
         </button>
         
@@ -95,7 +95,7 @@ export default function Menu() {
                         📄
                     </div>
                     <div className='flex flex-col space-y-1'>
-                        <div className='font-semibold font-mabrybold text-sm capitalize'>News / article</div>
+                        <div className='font-semibold font-mabrybold text-sm text-gray-900 capitalize'>News / article</div>
                         <span className='text-xs font-mabry text-gray-900 leading-4'>
                             Your very own basic web page, ready for you to customize.
                         </span>
@@ -116,7 +116,7 @@ export default function Menu() {
                     📚
                     </div>
                     <div className='flex flex-col space-y-1'>
-                        <div className='font-semibold font-mabrybold text-sm capitalize'>game reviews</div>
+                        <div className='font-semibold font-mabrybold text-sm text-gray-900 capitalize'>game reviews</div>
                         <span className='text-xs font-mabry text-gray-900 leading-4'>
                         A simple Node app built with Fastify, instantly up and running.
                         </span>
@@ -137,7 +137,7 @@ export default function Menu() {
                     💡
                     </div>
                     <div className='flex flex-col space-y-1'>
-                        <div className='font-semibold font-mabrybold text-sm capitalize'>forum / discussions</div>
+                        <div className='font-semibold font-mabrybold text-sm text-gray-900 capitalize'>forum / discussions</div>
                         <span className='text-xs font-mabry text-gray-900 leading-4'>
                         Get started with a new React project on Glitch!
                         </span>
@@ -158,7 +158,7 @@ export default function Menu() {
                     📘
                     </div>
                     <div className='flex flex-col space-y-1'>
-                        <div className='font-semibold font-mabrybold text-sm capitalize'>guide / walkthrough</div>
+                        <div className='font-semibold font-mabrybold text-sm text-gray-900 capitalize'>guide / walkthrough</div>
                         <span className='text-xs font-mabry text-gray-900 leading-4'>
                         Get started with a new React project on Glitch!
                         </span>
@@ -179,7 +179,7 @@ export default function Menu() {
                     💰
                     </div>
                     <div className='flex flex-col space-y-1'>
-                        <div className='font-semibold font-mabrybold text-sm capitalize'>best deals</div>
+                        <div className='font-semibold font-mabrybold text-sm text-gray-900 capitalize'>best deals</div>
                         <span className='text-xs font-mabry text-gray-900 leading-4'>
                             Your very own basic web page, ready for you to customize.
                         </span>

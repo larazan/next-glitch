@@ -41,7 +41,7 @@ export default function MiniCart() {
       <div className="relative inline-flex ml-3 z-20">
         <button
           ref={trigger}
-          className="relative flex shadow-menu items-center justify-center rounded-full border-2 border-gray-800 px-1 py-1 bg-[#77d87e] opacity-90 hover:opacity-100"
+          className="relative flex shadow-menu items-center justify-center rounded-full border-2 border-gray-800 px-1 py-1 text-gray-900 bg-[#77d87e] opacity-90 hover:opacity-100"
           aria-haspopup="true"
           onClick={() => setDropdownOpen(!dropdownOpen)}
           aria-expanded={dropdownOpen}
@@ -95,7 +95,7 @@ export default function MiniCart() {
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={"/news"}
                 >
-                  <div className="flex justify-between ">
+                  <div className="flex justify-between text-gray-900">
                     <div className="flex w-3/5 space-x-2">
                       <div className="h-14 w-14 bg-green-200"></div>
                       <div className="flex flex-col">
@@ -107,7 +107,7 @@ export default function MiniCart() {
                       </div>
                     </div>
                     <div className="flex w-2/3 justify-end">
-                      <span className="font-mabrybold text-xs">Rp. 30.000</span>
+                      <span className="font-mabrybold text-gray-900 text-xs">Rp. 30.000</span>
                     </div>
                   </div>
                 </Link>
@@ -325,7 +325,7 @@ export default function MiniCart() {
                       </g>
                     </g>
                   </svg>
-                  <h3 className="text-sm md:text-md font-mabrybold pt-8">
+                  <h3 className="text-sm md:text-md font-mabrybold pt-8 text-gray-900">
                     Your cart is empty.
                   </h3>
                 </div>
@@ -340,7 +340,7 @@ export default function MiniCart() {
                       <span className="relative flex button w-full px-2 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                         <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
                         <span className="relative text-md font-mabrybold">
-                          Cart
+                          Checkout
                         </span>
                       </span>
                     </Link>

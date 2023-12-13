@@ -28,10 +28,12 @@ export default function Guides() {
       <Header />
       <GoTop />
 
-      <div className=" flex justify-center text-sm mt-16">
+      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16">
         <header className="py-8">
-          <h1 className="font-black text-5xl  text-center font-mabryblack">Starter Kits</h1>{" "}
-          <p className="bg-white text-center text-2xl mb-1 font-mabryitalic">
+          <h1 className="font-black text-3xl md:text-5xl text-gray-900 text-center font-mabryblack">
+            Starter Kits
+          </h1>{" "}
+          <p className="bg-white text-center leading-tight text-gray-900 text-lg md:text-2xl mb-1 font-mabryitalic">
             Jump-start your new Statamic site with beautifully designed site
             packages or meticulous developer boilerplates.
           </p>

@@ -31,12 +31,12 @@ export default function Reviews() {
       <Header />
       <GoTop />
 
-      <div className=" flex justify-center text-sm mt-16">
-        <header className="py-8">
-          <h1 className="font-black text-5xl  text-center font-mabryblack">
+      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16">
+      <header className="py-8">
+          <h1 className="font-black text-3xl md:text-5xl text-gray-900 text-center font-mabryblack">
             Starter Kits
           </h1>{" "}
-          <p className="bg-white text-center text-2xl mb-1 font-mabryitalic">
+          <p className="bg-white text-center leading-tight text-gray-900 text-lg md:text-2xl mb-1 font-mabryitalic">
             Jump-start your new Statamic site with beautifully designed site
             packages or meticulous developer boilerplates.
           </p>
@@ -45,330 +45,334 @@ export default function Reviews() {
 
       <Filter />
 
-      <div className="h-max flex flex-col px-4 md:px-6 bg-[#f6f8f7]">
+      <div className="h-max flex flex-col px-2 md:px-6 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
-          <section className="mt-4 flex flex-row flex-wrap  mx-auto items-center2">
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+          <section className="mt-4 flex flex-row flex-wrap mx-auto items-center2">
+            
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={colosous}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={diablo}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
                         A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
                       If you have played any Diablo game, then you already know
                       what Dungeon Hunter: Alliance will be like. You take on
-                      the role of the recently deceased king, who has been
-                      resurrected by a fairy in order to defeat the force...
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={murdered}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between space-x-1">
-                    <Link href={"/reviews/2"} className="hover:text-green-600">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        No rest for this detective...
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Murdered: Soul Suspect took me by surprise. It is a game
-                      that received mixed reviews when it was released and yet,
-                      after fully completing the game, I found that I really
-                      enjoyed my time with ...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={north}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={saboteur}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={skyrim}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={spiderman}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={toad}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
 
-            <div className="transition-all duration-150 flex w-full px-3 py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-3 py-4 shadow-stack-sm hover:shadow-stack-yellow-sm">
-                <div className="w-1/4">
+            <div className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+                <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={unpacking}
                     className="object-fill w-full rounded"
                     alt=""
                   />
+                  <div className="flex leading-tight">
+                    <span className="text-[11px] font-semibold capitalize leading-tight text-gray-800 font-mabrybold">Jason Diaz esteban</span>
+                  </div>
                 </div>
-                <div className="w-3/4 flex flex-col space-y-2">
-                  <div className="flex justify-between ">
-                    <Link href={"/reviews/an-adventure-on-a-colossal-scale"} className="">
-                      <span className="text-lg font-mabrybold leading-tight">
-                        An Adventure On A Colossal Scale.
+                <div className="w-3/4 flex flex-col space-y-1.5">
+                  <div className="flex justify-between">
+                    <div className="leading-tight">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                        A Solid Diablo Clone For The Vita.
                       </span>
-                    </Link>
+                    </div>
                     <div>
-                      <div className="flex  h-12 w-12 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2 shadow-menu">
-                        <span className="text-lg font-mabrybold">8.7</span>
+                      <div className="flex shadow-menu h-10 w-10 md:h-10 md:w-10 items-center justify-center border border-gray-800 bg-green-300 rounded-full px-2 py-2">
+                        <span className="text-lg font-mabrybold text-gray-900 leading-tight">8.7</span>
                       </div>
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm ">
-                      Let me start by saying, after playing Shadow of the
-                      Colossus, I can completely understand why it has the
-                      reputation, as a cult classic, that it has. It is a unique
-                      experience that, quite honestly, I haven’t really
-                      experienced bef...
+                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                      If you have played any Diablo game, then you already know
+                      what Dungeon Hunter: Alliance will be like. You take on
+                      the role of the recently deceased king...
                     </span>
                   </div>
-                  
                 </div>
               </div>
             </div>
+            
           </section>
         </div>
       </div>

@@ -85,7 +85,7 @@ export default function UserMenu() {
             </li>
             <li className="last:border-0">
               <Link
-                className="block pt-3 py-1 px-4 hover:bg-gray-800 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
+                className="block pt-3 py-1 px-4 hover:bg-gray-200 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
                 to="settings"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
@@ -97,7 +97,7 @@ export default function UserMenu() {
             </li>
             <li className="last:border-0">
               <Link
-                className="block py-1 px-4 hover:bg-gray-800 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
+                className="block py-1 px-4 hover:bg-gray-200 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
                 to="settings/account"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
@@ -109,7 +109,7 @@ export default function UserMenu() {
             </li>
             <li className="border-b border-slate-00 last:border-0">
               <Link
-                className="block pb-3 py-1 px-4 hover:bg-gray-800 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
+                className="block pb-3 py-1 px-4 hover:bg-gray-200 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
                 to="settings/account"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}

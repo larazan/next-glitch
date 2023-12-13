@@ -47,27 +47,14 @@ export default function NewRelease() {
       <>
         <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-[#f8f4f2] border-t">
         <div className="flex flex-row justify-between mx-auto w-11/12 md:w-12/12 space-x-6 items-center">
-          <Link href={"/"} className="flex space-x-1 items-center hover:opacity-80">
-            <span className="text-xl font-mabrybold">New Release</span>
-            <div>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={3}
-                  stroke="currentColor"
-                  className="w-4 h-4"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                  />
-                </svg>
+          <div className="flex space-x-2 items-center ">
+            <span className="text-xl font-mabrybold text-gray-900">New Release</span>
+            <Link href={"/"} className="flex items-end hover:opacity-80 underline underline-offset-2">
+              <span className="text-xs font-semibold text-gray-500 uppercase">
+                See All
               </span>
-            </div>
-          </Link>
+            </Link>
+          </div>
           <div className="flex space-x-1">
             <div
               onClick={() => slide(-shiftN)}
@@ -180,12 +167,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -202,12 +189,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -224,12 +211,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -246,12 +233,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -268,12 +255,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -290,12 +277,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -312,12 +299,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>
@@ -334,12 +321,12 @@ export default function NewRelease() {
                     <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                   </Link>{" "}
                   <div className="px-1.5 py-2 flex flex-col space-y-2 justify-between leading-tight">
-                    <h3 className="font-mabrybold text-md">
+                    <h3 className="font-mabrybold text-md text-gray-900">
                       <Link href="/">Among Us</Link>
                     </h3>{" "}
                     
                   </div>
-                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px]">Base Game</div>
+                  <div className="pb-1 pr-1 flex justify-end font-mabry uppercase text-[10px] text-gray-900">Base Game</div>
                 </div>
               </div>
             </div>

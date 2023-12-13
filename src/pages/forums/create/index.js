@@ -8,7 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Alert } from "@/components/Alert";
 
-export default function Forums() {
+export default function Create() {
     return (
       <>
         <Head>
@@ -20,40 +20,40 @@ export default function Forums() {
         <Header />
         <div className="h-max flex py-5 md:py-8 flex-col px-4 md:px-10 mt-14  bg-[#35adce]">
             <div className="flex flex-row  items-center">
-            <span className="text-3xl font-mabryblack">Create your thread</span>
+            <span className="text-3xl font-mabryblack text-gray-900">Create your thread</span>
             </div>
         </div>
 
-        <div className="h-max  py-12 pb-20 px-4 md:px-12 bg-[#f9fafb]">
+        <div className="h-max py-2 md:py-12 pb-20 px-4 md:px-12 bg-[#f9fafb]">
             <div className=" w-full mx-auto md:w-10/12 justify-center items-center">
                 
             <div class="pt-4 grid gap-4 gap-y-5 text-sm grid-cols-1 md:grid-cols-5">
               <div class="md:col-span-5">
-              <h3 className="font-mabrybold text-lg">Create a new thread</h3>
-                    <div className="py-2 ">
+              <h3 className="font-mabrybold text-lg text-gray-900">Create a new thread</h3>
+                    <div className="py-2 text-gray-900">
                     Make sure you've read our rules before proceeding.
                     </div>
-                    <span>
+                    <span className="text-gray-900">
 Please search for your question before posting your thread by using the search box in the navigation bar.
 Want to share large code snippets? Share them through our pastebin.
                     </span>
               </div>
 
               <div class="md:col-span-5">
-                <label for="subject" className="font-mabrybold">Subject</label>
+                <label for="subject" className="font-mabrybold text-gray-900">Subject</label>
                 <input type="text" name="subject" id="subject" class="h-10 border mt-1 rounded px-4 w-full bg-white" value="" />
                 <span className="font-mabry text-gray-400">Maximum 60 character</span>
               </div>
 
               <div class="md:col-span-5">
-                <label for="tags" className="font-mabrybold">Tags</label>
+                <label for="tags" className="font-mabrybold text-gray-900">Tags</label>
                 <input type="text" name="tags" id="tags" class="h-10 border mt-1 rounded px-4 w-full bg-white" value="" />
               </div>
 
               <div class="md:col-span-5">
-                <label for="address" className="font-mabrybold">Body</label>
+                <label for="address" className="font-mabrybold text-gray-900">Body</label>
                 <form>
-    <div class="mb-4 w-full bg-gray-50 rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600">
+    <div class="mb-4 w-full bg-gray-50 mt-2 rounded md:rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600">
         <div class="flex justify-between items-center py-2 px-3 border-b dark:border-gray-600">
             <div class="flex flex-wrap items-center divide-gray-200 sm:divide-x dark:divide-gray-600">
                 <div class="flex items-center space-x-1 sm:pr-4">

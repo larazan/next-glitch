@@ -30,7 +30,7 @@ const GoTop = () => {
         {isVisible && (
           <div
             onClick={scrollToTop}
-            className="fixed p-3 opacity-80 rounded-full bg-red-600 bottom-5 right-3 text-white hover:bg-red-700 lg:bottom-5 lg:right-5 cursor-pointer shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
+            className="fixed p-3 opacity-90 rounded-full bg-red-600 bottom-5 right-3 text-white hover:bg-red-700 lg:bottom-5 lg:right-5 cursor-pointer shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
           >
             <svg
               aria-hidden="true"

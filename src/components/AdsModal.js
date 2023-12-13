@@ -7,23 +7,23 @@ import nike from "@/img/nike.jpg"
 
 function AdsModal({ id, modalOpen, setModalOpen }) {
 
-  const modalContent = useRef(null);
+  // const modalContent = useRef(null);
 
   // close on click outside
-  useEffect(() => {
-    const clickHandler = ({ target }) => {
-      if (!modalOpen || modalContent.current.contains(target)) return;
-      setModalOpen(false);
-    };
-    document.addEventListener("click", clickHandler);
-    return () => document.removeEventListener("click", clickHandler);
-  });
+  // useEffect(() => {
+  //   const clickHandler = ({ target }) => {
+  //     if (!modalOpen || modalContent.current.contains(target)) return;
+  //     setModalOpen(false);
+  //   };
+  //   document.addEventListener("click", clickHandler);
+  //   return () => document.removeEventListener("click", clickHandler);
+  // });
 
   return (
     <>
       {/* Modal backdrop */}
       <Transition
-        className="fixed inset-0 bg-slate-900 bg-opacity-70 z-50 transition-opacity"
+        className="fixed inset-0 bg-slate-800 bg-opacity-70 z-50 transition-opacity"
         show={modalOpen}
         enter="transition ease-out duration-200"
         enterStart="opacity-0"
@@ -48,9 +48,27 @@ function AdsModal({ id, modalOpen, setModalOpen }) {
         leaveEnd="opacity-0 translate-y-4"
       >
         <div
-          ref={modalContent}
-          className="bg-white overflow-auto max-w-2xl w-full max-h-full rounded2 shadow-lg"
+          // ref={modalContent}
+          className="relative bg-white overflow-auto max-w-2xl w-full max-h-full rounded2 shadow-lg"
         >
+          <div className="absolute top-1 right-1 flex justify-end">
+            <div className="cursor-pointer px-1 py-1 rounded-full border border-gray-900 bg-white" onClick={() => setModalOpen(false)}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-5 h-5 md:w-6 md:h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          </div>
           {/* Search form */}
           <section className="overflow-hidden  shadow-2xl md:grid md:grid-cols-3">
             <Image
@@ -60,11 +78,11 @@ function AdsModal({ id, modalOpen, setModalOpen }) {
             />
 
             <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
-              <p className="text-sm font-semibold uppercase tracking-widest">
+              <p className="text-sm font-semibold uppercase tracking-widest text-gray-900">
                 Run with the pack
               </p>
 
-              <h2 className="mt-6 font-black uppercase">
+              <h2 className="mt-6 font-black uppercase text-gray-900">
                 <span className="text-4xl font-black sm:text-5xl lg:text-6xl">
                   Get 20% off
                 </span>
@@ -75,13 +93,13 @@ function AdsModal({ id, modalOpen, setModalOpen }) {
               </h2>
 
               <a
-                className="mt-8 inline-block w-full bg-black py-4 text-sm font-bold uppercase tracking-widest text-white"
+                className="mt-8 inline-block w-full bg-black  py-4 text-sm font-bold uppercase tracking-widest text-white"
                 href=""
               >
                 Get Discount
               </a>
 
-              <p className="mt-8 text-xs font-medium uppercase text-gray-400">
+              <p className="mt-8 text-xs font-medium uppercase text-gray-600">
                 Offer valid until 24th March, 2021 *
               </p>
             </div>

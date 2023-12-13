@@ -23,7 +23,7 @@ export default function Hero() {
         <section className="flex relative px-6 flex-col md:flex-row justify-between items-center my-2 md:my-4 w-full mx-auto max-w-7xl">
           <div className="">
             <h1 className="font-mabrybold text-3xl md:text-5xl text-center md:text-left max-w-[700px] px-5 leading-[2.5rem] md:leading-tigth">
-              <span className="leading-3">Desktop, Console and Mobile Games Platforms</span>
+              <span className="leading-3 text-gray-900">Desktop, Console and Mobile Games Platforms</span>
               <br className="hidden md:block" />
               <span className="leading-3"> </span>
             </h1>
@@ -37,7 +37,7 @@ export default function Hero() {
                 href="https://nowandme.sng.link/Dqsa0/4x5h?pcn=expert_landing&amp;pscn=hero-btn&amp;_smtype=3"
                 target="_blank"
               >
-                <button className="font-mabry shadow-menu bg-orange-500 text-white  font-medium rounded-xl focus:ring-3 focus:ring-x-orange-100 relative overflow-hidden px-5 bg-x-orange-500  focus:outline-none focus:ring-3 focus:ring-x-orange-100 dark:focus:ring-0 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed w-full md:w-auto py-3 transform transition duration-200 hover:scale-[1.04] ">
+                <button className="font-mabrybold shadow-menu bg-orange-500 text-white2  text-gray-900 font-medium rounded-xl focus:ring-3 focus:ring-x-orange-100 relative overflow-hidden px-5 bg-x-orange-500  focus:outline-none focus:ring-3 focus:ring-x-orange-100 dark:focus:ring-0 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed w-full md:w-auto py-3 transform transition duration-200 hover:scale-[1.04] ">
                   Download the App
                 </button>
               </Link>

@@ -16,16 +16,16 @@ export default function Filter({ open }) {
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <div className="flex flex-col  w-full  rounded border-2 border-gray-800 bg-white">
             <div className="flex  border-gray-700 justify-between py-4 px-4">
-              <div className="text-sm font-mabry">Showing 1-9 of 60825</div>
+              <div className="text-sm font-mabry">Showing 1-9 of 6025</div>
               <div className="flex space-x-2">
-                <div className="text-sm font-mabry underline underline-offset-4 cursor-pointer">
+                <div className="text-sm font-mabry hover:underline underline-offset-2 cursor-pointer">
                   Clear
                 </div>
                 <div 
-                    className="text-sm font-mabry underline underline-offset-4 cursor-pointer"
+                    className="text-sm font-mabry hover:underline underline-offset-2 cursor-pointer"
                     onClick={filterOpenClick}
                 >
-                  Filter
+                 { filterOpen ? 'Close' : 'Filter'}
                 </div>
               </div>
             </div>
@@ -33,27 +33,28 @@ export default function Filter({ open }) {
             <>
             <div className="flex border-b-2 border-gray-700 w-full  py-4 px-4">
               <div className="w-full flex flex-col space-y-1">
-                <span className="font-mabrybold text-lg">Sort by</span>
+                <span className="font-mabrybold text-lg text-gray-900">Sort by</span>
                 <div className="w-full">
                   <select
-                    className="flex w-full items-center justify-between rounded border-2 border-gray-700 bg-white p-3 ring-1 ring-gray-300"
+                    className="flex w-full items-center text-gray-900 justify-between rounded border-2 border-gray-700 bg-white p-3 ring-1 ring-gray-300"
                     id="question"
                     // onChange={(e) => setValue(e.target.value)}
                     value={value}
                   >
-                    <option value="">Pilih jawaban</option>
-                    <option value={"true"}>Ya</option>
-                    <option value={"false"}>Tidak</option>
+                    <option value="">Pilih</option>
+                    <option value={"true"}>Newest</option>
+                    <option value={"false"}>Trending</option>
+                    <option value={"false"}>Top</option>
                   </select>
                 </div>
               </div>
             </div>
             <div className="flex border-b-2 border-gray-700 w-full  py-4 px-4">
               <div className="w-full flex flex-col space-y-1">
-                <span className="font-mabrybold text-lg">Rating</span>
+                <span className="font-mabrybold text-lg text-gray-900">Rating</span>
                 <div className="flex flex-col w-full space-y-1.5">
                   <div className="flex justify-between items-center">
-                    <div className="flex space-x-.5">
+                    <div className="flex space-x-.5 text-gray-900">
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +136,7 @@ export default function Filter({ open }) {
                       checked
                     />
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center text-gray-900">
                     <div className="flex space-x-.5">
                       <span>
                         <svg
@@ -220,7 +221,7 @@ export default function Filter({ open }) {
                       checked
                     />
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center text-gray-900">
                     <div className="flex space-x-.5">
                       <span>
                         <svg
@@ -307,7 +308,7 @@ export default function Filter({ open }) {
                       checked
                     />
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center text-gray-900">
                     <div className="flex space-x-.5">
                       <span>
                         <svg
@@ -399,7 +400,7 @@ export default function Filter({ open }) {
                 </div>
               </div>
             </div>
-            <div className="flex w-full py-4 px-4">
+            <div className="flex w-full py-4 px-4 text-gray-900">
               <div className="w-full flex flex-col space-x-1">
                 <span className="font-mabrybold text-lg">Showing</span>
                 <div className="flex flex-col w-full space-y-1">
