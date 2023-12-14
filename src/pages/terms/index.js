@@ -20,7 +20,7 @@ const terms = () => {
         <Header />
         <GoTop />
 
-        <div className="bg-splatter-x relative py-12">
+        <div className="bg-splatter-x relative py-12 bg-[#ecf7f8]">
           <article className="max-w-3xl mx-auto relative z-10 py-8 px-6 md:px-4 markdown">
             <div className="bg-rain h-full w-8 hidden md:block absolute top-0 left-0 -ml-16 mt-8"></div>{" "}
             <h1 className="bg-mint w-full hover:bg-white border-2 border-gray-800 shadow text-black uppercase px-2 font-mabryblack text-2xl transform -rotate-1">Terms &amp; Conditions</h1>{" "}
