@@ -26,7 +26,7 @@ const GoTop = () => {
 
   return (
     <>
-      <div className="fixed bg-pink bottom-3 right-3  cursor-pointer">
+      <div className="fixed bg-pink bottom-3 right-3 z-50 cursor-pointer">
         {isVisible && (
           <div
             onClick={scrollToTop}

@@ -29,8 +29,10 @@ export default function Guide() {
       <Header />
       <GoTop />
 
-      <div className="mt-16 px-4 bg-white">
-        <div className="w-full bg-green-100 h-20"></div>
+      <div className="flex mx-auto w-full pt-16 pb-2 px-4 bg-white">
+        <div className="flex justify-center items-center w-full bg-green-100 h-20">
+          <div className="text-gray-500">advertising</div>
+        </div>
       </div>
       <div className="container w-full bg-white md:max-w-4xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
         <div className="w-full md:w-2/3 z-10">
@@ -52,7 +54,7 @@ export default function Guide() {
           <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
             <div className="flex flex-col w-full ">
               <div className="border-b border-gray-800 py-3 px-3 leading-tight">
-                <span className="text-sm font-mabry text-gray-900">The Last of us</span>
+                <span className="text-sm font-mabrybold text-gray-900">The Last of us</span>
               </div>
               <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
                 <div className="text-sm font-mabrybold text-gray-900">Rating</div>
@@ -118,7 +120,7 @@ export default function Guide() {
       </div>
 
       <div className="bg-[#f6f8f7]">
-        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-10 ">
+        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-6 ">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
               <div className="w-full md:w-2/3">

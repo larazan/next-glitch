@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const Pagination = () => {
   return (
     <>
-     <div className='flex bg-white items-center justify-center'>
+     <div className='flex py-5 bg-transparent items-center justify-center'>
       <div className="flex items-center justify-center mt-4 mb-4 space-x-2">
         <button
           disabled=""

@@ -117,13 +117,13 @@ export default function Header() {
                 </span>
               </button>
             </Link>
-            <Link href={"/register"} className="hidden md:flex">
+            {/* <Link href={"/register"} className="hidden md:flex">
               <button className="flex button items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 bg-yellow-100 opacity-90 hover:opacity-100">
                 <span className="text-xs font-semibold font-mabrybold">
                   Daftar
                 </span>
               </button>
-            </Link>
+            </Link> */}
             
             {/* <Notification /> */}
             

@@ -28,7 +28,8 @@ export default function Guides() {
       <Header />
       <GoTop />
 
-      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16 bg-white">
+      <div className="flex mx-auto w-full bg-white">
+      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16">
         <header className="py-8">
           <h1 className="font-black text-3xl md:text-5xl text-gray-900 text-center font-mabryblack">
             Starter Kits
@@ -39,6 +40,7 @@ export default function Guides() {
           </p>
         </header>
       </div>
+    </div>   
       <div className="h-max flex flex-col mt-2">
         <div className="flex items-center">
           <div className="bg-mint border w-full shadow-bleed-teal-sm  p-4 font-mono flex flex-wrap md:flex-nowrap items-center md:space-x-6">

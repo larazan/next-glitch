@@ -58,7 +58,7 @@ export default function Products() {
 
       <Filter />
 
-      <div className="h-max flex flex-col mt-5 px-4 md:px-6 justify-center2 items-center2 bg-[#f6f8f7]">
+      <div className="h-max flex flex-col pt-5 px-4 md:px-6 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <section className="grid gap-3 md:gap-4 grid-cols-2 md:grid-cols-3 flex2 flex-row2 flex-wrap2 mx-auto justify-center2 items-center3">
             {/*  */}
@@ -87,7 +87,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -129,7 +129,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -171,7 +171,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -213,7 +213,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -255,7 +255,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -297,7 +297,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -339,7 +339,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -381,7 +381,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -423,7 +423,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -465,7 +465,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -507,7 +507,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -549,7 +549,7 @@ export default function Products() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -568,9 +568,11 @@ export default function Products() {
             {/*  */}
           </section>
         </div>
+
+        <Pagination />
       </div>
       
-      <Pagination />
+      
 
       {/* <div className="h-max flex pb-6 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">

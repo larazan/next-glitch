@@ -32,9 +32,9 @@ export default function News() {
       </Head>
       <Header />
       <GoTop />
-      <div className="relative mt-16 block min-h-80 lg:col-span-2 lg:h-full bg-white">
-        <div className="py-8 flex mx-auto w-11/12  space-x-6">
-          <div className="flex flex-col w-1/2 space-y-0.5 leading-tight">
+      <div className="relative mt-12 md:mt-14 block min-h-80 lg:col-span-2 lg:h-full bg-pink-100">
+        <div className="py-8 flex flex-col-reverse md:flex-row mx-auto w-11/12  md:space-x-6">
+          <div className="flex flex-col w-full md:w-1/2 space-y-0.5 pt-2 leading-tight">
             <div className="flex space-x-2 items-center">
               <Link href={""} className="p-0.5 bg-[#ffff00]">
                 <span className="font-mabryblack text-xs text-slate-900">
@@ -59,7 +59,7 @@ export default function News() {
               long-awaited Marvel game.
             </span>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <Image
               src={dingdong}
               alt=""
@@ -120,7 +120,7 @@ export default function News() {
             </div>
           </div>
         </section> */}
-          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
             <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
@@ -140,7 +140,7 @@ export default function News() {
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
             <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
@@ -160,7 +160,7 @@ export default function News() {
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
             <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
@@ -180,7 +180,7 @@ export default function News() {
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
             <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
@@ -200,7 +200,7 @@ export default function News() {
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
             <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
@@ -220,7 +220,7 @@ export default function News() {
             </div>
           </div>
           
-          <div className='flex flex-row mx-auto w-full md:w-3/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
+          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
             <Link href={"/news/news-one"} className=''>
               <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
             </Link>
@@ -240,7 +240,7 @@ export default function News() {
             </div>
           </div>
 
-          <div className="flex  mx-auto md:w-3/4 space-x-6">
+          <div className="flex  mx-auto md:w-4/4 space-x-6">
             <div className="flex w-full pt-5">
               <Link
                 href={""}

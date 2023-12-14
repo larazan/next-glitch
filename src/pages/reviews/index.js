@@ -17,6 +17,7 @@ import toad from "@/img/thumbnail/toad.jpg";
 import unpacking from "@/img/thumbnail/unpacking.jpg";
 import Filter from "@/components/Filter";
 import GoTop from "@/components/GoTop";
+import { Pagination } from "@/components/Pagination";
 
 export default function Reviews() {
   
@@ -31,7 +32,8 @@ export default function Reviews() {
       <Header />
       <GoTop />
 
-      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16 bg-white">
+    <div className="flex mx-auto w-full bg-white">
+      <div className=" flex justify-center mx-auto w-11/12 text-sm mt-16">
         <header className="py-8">
           <h1 className="font-black text-3xl md:text-5xl text-gray-900 text-center font-mabryblack">
             Starter Kits
@@ -42,6 +44,7 @@ export default function Reviews() {
           </p>
         </header>
       </div>
+    </div>    
 
       <Filter />
 
@@ -50,7 +53,7 @@ export default function Reviews() {
           <section className="mt-4 flex flex-row flex-wrap mx-auto items-center2">
             
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={colosous}
@@ -86,7 +89,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800  hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={diablo}
@@ -98,9 +101,9 @@ export default function Reviews() {
                   </div>
                 </div>
                 <div className="w-3/4 flex flex-col space-y-1.5">
-                  <div className="flex justify-between">
-                    <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                  <div className="flex justify-between ">
+                    <div className="leading-tight ">
+                      <span className="text-lg font-mabrybold leading-tight  hover:text-blue-400">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -122,7 +125,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={murdered}
@@ -158,7 +161,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={north}
@@ -194,7 +197,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={saboteur}
@@ -230,7 +233,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={skyrim}
@@ -266,7 +269,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={spiderman}
@@ -302,7 +305,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={toad}
@@ -338,7 +341,7 @@ export default function Reviews() {
             </Link>
 
             <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={unpacking}
@@ -375,75 +378,10 @@ export default function Reviews() {
             
           </section>
         </div>
+        <Pagination />
       </div>
 
-      <div className=" h-max flex pb-6 pt-10 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
-        <nav>
-          <ul className="pagination">
-            <li
-              
-              className="page-item disabled"
-            >
-              <span aria-hidden="true" className="page-link">
-                ‹
-              </span>
-            </li>{" "}
-            <li aria-current="page" className="page-item active">
-              <span className="page-link">1</span>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=2" className="page-link">
-                2
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=3" className="page-link">
-                3
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=4" className="page-link">
-                4
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=5" className="page-link">
-                5
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=6" className="page-link">
-                6
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=7" className="page-link">
-                7
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=8" className="page-link">
-                8
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a href="https://statamic.com/addons?page=9" className="page-link">
-                9
-              </a>
-            </li>{" "}
-            <li className="page-item">
-              <a
-                href="https://statamic.com/addons?page=2"
-                rel="next"
-                aria-label="Next »"
-                className="page-link"
-              >
-                ›
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      
 
       {/* <div className="h-max flex pb-6 flex-col space-y-10 px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
