@@ -16,9 +16,9 @@ export default function Header() {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const controlNavbar = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 30) {
       if (window.scrollY > lastScrollY) {
-        setShow("border-b shadow-md");
+        setShow("border-b border-gray-300 shadow-md");
       } else {
         setShow("shadow-sm");
       }

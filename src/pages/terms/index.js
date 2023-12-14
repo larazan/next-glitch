@@ -5,6 +5,7 @@ import Head from "next/head";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GoTop from "@/components/GoTop";
 
 const terms = () => {
 
@@ -17,15 +18,17 @@ const terms = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
+        <GoTop />
+
         <div className="bg-splatter-x relative py-12">
-          <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
+          <article className="max-w-3xl mx-auto relative z-10 py-8 px-6 md:px-4 markdown">
             <div className="bg-rain h-full w-8 hidden md:block absolute top-0 left-0 -ml-16 mt-8"></div>{" "}
             <h1 className="bg-mint w-full hover:bg-white border-2 border-gray-800 shadow text-black uppercase px-2 font-mabryblack text-2xl transform -rotate-1">Terms &amp; Conditions</h1>{" "}
             <p className="py-4 leading-tight text-pink-400 font-mabryitalic text-2xl">
               This stuff is boring, but important. In short, be a decent human
               being.
             </p>{" "}
-            <p className="py-2 font-mabry">
+            <p className="py-2 font-mabry text-gray-900">
               By using the this website (“Service”), or any services of
               STATAMIC, you are agreeing to be bound by the following terms and
               conditions (“Terms of Service”). IF YOU ARE ENTERING INTO THIS
@@ -38,7 +41,7 @@ const terms = () => {
               YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS, YOU MUST NOT
               ACCEPT THIS AGREEMENT AND MAY NOT USE THE&nbsp;SERVICES.
             </p>{" "}
-            <p className="py-2 font-mabry">
+            <p className="py-2 font-mabry text-gray-900">
               If we make material changes to these Terms, we will notify you by
               email or by posting a notice on our site before the changes are
               effective. Any new features that augment or enhance the current
@@ -47,7 +50,7 @@ const terms = () => {
               after any such changes shall constitute your consent to
               such&nbsp;changes.
             </p>{" "}
-            <p className="py-2 font-mabry">
+            <p className="py-2 font-mabry text-gray-900">
               Violation of any of the terms below will result in the termination
               of your Account. While we prohibit such conduct and Content on the
               Service, you understand and agree that we cannot be responsible
@@ -55,8 +58,8 @@ const terms = () => {
               exposed to such materials. You agree to use the Service at your
               own&nbsp;risk.
             </p>{" "}
-            <h3 className="py-3 font-mabryblack text-lg">Account&nbsp;Terms</h3>{" "}
-            <ul className="list-disc space-y-2 font-mabry">
+            <h3 className="py-3 font-mabryblack text-lg text-gray-900">Account&nbsp;Terms</h3>{" "}
+            <ul className="list-disc ml-4 space-y-2 font-mabry text-gray-900">
               <li>
                 You must be 13 years or older or have permission from a parent
                 or legal guardian to use this&nbsp;Service.
@@ -88,8 +91,8 @@ const terms = () => {
                 copyright or trademark&nbsp;laws).
               </li>
             </ul>{" "}
-            <h3 className="py-3 font-mabryblack text-lg">Copyright and Content&nbsp;Ownership</h3>{" "}
-            <ul className="list-disc space-y-2 font-mabry">
+            <h3 className="py-3 font-mabryblack text-lg text-gray-900">Copyright and Content&nbsp;Ownership</h3>{" "}
+            <ul className="list-disc ml-4 space-y-2 font-mabry text-gray-900">
               <li>
                 We claim no intellectual property rights over the material you
                 provide to the Service. Your profile and materials uploaded
@@ -108,8 +111,8 @@ const terms = () => {
                 from&nbsp;Statamic.
               </li>
             </ul>{" "}
-            <h3 className="py-3 font-mabryblack text-lg">General&nbsp;Conditions</h3>{" "}
-            <ul className="list-disc space-y-2 font-mabry">
+            <h3 className="py-3 font-mabryblack text-lg text-gray-900">General&nbsp;Conditions</h3>{" "}
+            <ul className="list-disc ml-4 space-y-2 font-mabry text-gray-900">
               <li>
                 Your use of the Service is at your sole risk. The service is
                 provided on an “as is” and “as available”&nbsp;basis.
@@ -173,12 +176,12 @@ const terms = () => {
                 the&nbsp;service.
               </li>
             </ul>{" "}
-            <p className="font-mabry py-3">
+            <p className="font-mabry py-3 text-gray-900">
               Any questions about these Terms of Service should be addressed
               to&nbsp;<a href="mailto:hello@statamic.com">hello@statamic.com</a>
               .
             </p>{" "}
-            <p className="font-mabry">
+            <p className="font-mabry text-gray-900">
               <em>Last updated: November 30th,&nbsp;2020.</em>
             </p>
           </article>

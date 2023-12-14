@@ -41,7 +41,7 @@ export default function Guides() {
         </header>
       </div>
     </div>   
-      <div className="h-max flex flex-col mt-2">
+      <div className="h-max flex flex-col">
         <div className="flex items-center">
           <div className="bg-mint border w-full shadow-bleed-teal-sm  p-4 font-mono flex flex-wrap md:flex-nowrap items-center md:space-x-6">
             <select

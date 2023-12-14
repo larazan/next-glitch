@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import about from '@/img/about-hello.svg'
 import sumail from "@/img/sumail.jpg";
 import mathew from "@/img/mathew.jpg";
+import GoTop from "@/components/GoTop";
 
 export default function About() {
     return (
@@ -21,19 +22,20 @@ export default function About() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
-        <Notice />
+        {/* <Notice /> */}
+        <GoTop />
 
-        <div className="h-max flex py-12 px-20 bg-[#f2f2f2]">
+        <div className="h-max flex py-24 px-6 md:px-20 bg-[#f2f2f2]">
           <div className="flex flex-col mx-auto space-y-6 justify-center2 items-center">
-            <div className="flex space-x-6 items-center">
+            <div className="flex flex-col space-y-3 leading-tight md:flex-row md:space-x-6 items-center">
                 <div>
-                    <Image src={about} alt="" />
+                    <Image src={about} alt="" className="" />
                 </div>
-                <span className="text-5xl font-mabrybold leading-tight text-indigo-700">
+                <span className="text-3xl md:text-5xl  font-mabrybold leading-tight text-[#694dff]">
                 We make Glitch so it&apos;s easier for you to make the web.
                 </span>
             </div>
-            <div className="text-2xl font-mabry leading-relaxed">
+            <div className="text-lg md:text-2xl font-mabry leading-tight md:leading-relaxed text-gray-900">
                 <p className="py-3">
                 Glitch is the place where millions of creators, professionals and educators build the open web together. Our job is to give you fast, fun tools for building the website of your dreams.
                 </p>
@@ -46,8 +48,8 @@ export default function About() {
                 <p className="py-3"></p>
                 <p className="py-3"></p>
             </div>
-            <div className="flex flex-row flex-wrap mx-auto ">
-          <div className="relative transition-all duration-150 flex w-full px-6 py-4 md:w-1/2 lg:w-1/3">
+            <div className="flex2 flex-row2 flex-wrap2 grid gap-5 grid-cols-1 md:grid-cols-2 mx-auto ">
+          <div className="relative border rounded-lg bg-gray-200 transition-all duration-150 flex w-full px-6 py-4 ">
             <div className="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 ">
               <div className="flex">
                 <Image
@@ -55,17 +57,17 @@ export default function About() {
                   className="object-fill w-10 h-10 rounded"
                   alt=""
                 />
-                <h1 className="flex items-end px-4 text-lg font-mabrybold leading-tight">
+                <h1 className="flex items-end px-4 text-lg font-mabrybold leading-tight text-gray-900">
                     Anil Dash, CEO
                 </h1>
               </div>
 
-              <div className="flex flex-row flex-wrap w-full  py-2 overflow-hidden text-md font-mabry leading-snug text-justify text-gray-700">
+              <div className="flex flex-row flex-wrap w-full py-2 overflow-hidden text-md font-mabry leading-snug text-justify text-gray-700">
               Anil fell in love with the web right at its start and he has been working to help people create their own pieces of the web ever since. He helped create some of the earliest social media publishing tools, was a former board member of Stack Overflow, and you can find him on Twitter talking about the music of Prince.
               </div>
             </div>
           </div>
-          <div className="relative transition-all duration-150 flex w-full px-6 py-4 md:w-1/2 lg:w-1/3">
+          <div className="relative border rounded-lg bg-gray-200 transition-all duration-150 flex w-full px-6 py-4 ">
             <div className="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 ">
               <div className="flex">
                 <Image
@@ -73,7 +75,7 @@ export default function About() {
                   className="object-fill w-10 h-10 rounded"
                   alt=""
                 />
-                <h1 className="flex items-end px-4 text-lg font-mabrybold leading-tight">
+                <h1 className="flex items-end px-4 text-lg font-mabrybold leading-tight text-gray-900">
                     Jenn Schiffer, Director of Community
                 </h1>
               </div>
@@ -83,7 +85,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="relative transition-all duration-150 flex w-full px-6 py-4 md:w-1/2 lg:w-1/3">
+          <div className="relative border rounded-lg bg-gray-200 transition-all duration-150 flex w-full px-6 py-4 ">
             <div className="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 ">
               <div className="flex">
                 <Image
@@ -91,7 +93,7 @@ export default function About() {
                   className="object-fill w-10 h-10 rounded"
                   alt=""
                 />
-                <h1 className="flex items-end text-lg px-4 font-mabrybold leading-tight">
+                <h1 className="flex items-end text-lg px-4 font-mabrybold leading-tight text-gray-900">
                 Jesse von Doom, Head of Product
                 </h1>
               </div>
@@ -101,7 +103,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="relative transition-all duration-150 flex w-full px-6 py-4 md:w-1/2 lg:w-1/3">
+          <div className="relative border rounded-lg bg-gray-200 transition-all duration-150 flex w-full px-6 py-4 ">
             <div className="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 ">
               <div className="flex">
                 <Image
@@ -109,7 +111,7 @@ export default function About() {
                   className="object-fill w-10 h-10 rounded"
                   alt=""
                 />
-                <h1 className="flex items-end text-lg px-4 font-mabrybold leading-tight">
+                <h1 className="flex items-end text-lg px-4 font-mabrybold leading-tight text-gray-900">
                 Vatsal Patel, Head of Operations
                 </h1>
               </div>

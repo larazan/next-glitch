@@ -72,7 +72,7 @@ export default function News() {
       <div className="h-max w-full flex py-4 md:py-6 space-x-6 px-4 md:px-10 justify-center2 items-center2 bg-white">
         <div className="w-full md:w-4/6 flex-col space-y-4 md:space-y-7">
           <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
-            <span className="text-3xl font-mabryblack">Latest news</span>
+            <span className="text-3xl font-mabryblack text-gray-900">Latest news</span>
           </div>
 
           {/* <section className="flex flex-row flex-wrap mx-auto w-3/4 justify-center2 items-center3">
