@@ -7,17 +7,17 @@ import nike from "@/img/nike.jpg"
 
 function AdsModal({ id, modalOpen, setModalOpen }) {
 
-  // const modalContent = useRef(null);
+  const modalContent = useRef(null);
 
   // close on click outside
-  // useEffect(() => {
-  //   const clickHandler = ({ target }) => {
-  //     if (!modalOpen || modalContent.current.contains(target)) return;
-  //     setModalOpen(false);
-  //   };
-  //   document.addEventListener("click", clickHandler);
-  //   return () => document.removeEventListener("click", clickHandler);
-  // });
+  useEffect(() => {
+    const clickHandler = ({ target }) => {
+      if (!modalOpen || modalContent.current.contains(target)) return;
+      setModalOpen(false);
+    };
+    document.addEventListener("click", clickHandler);
+    return () => document.removeEventListener("click", clickHandler);
+  });
 
   return (
     <>
@@ -48,7 +48,7 @@ function AdsModal({ id, modalOpen, setModalOpen }) {
         leaveEnd="opacity-0 translate-y-4"
       >
         <div
-          // ref={modalContent}
+          ref={modalContent}
           className="relative bg-white overflow-auto max-w-2xl w-full max-h-full rounded2 shadow-lg"
         >
           <div className="absolute top-1 right-1 flex justify-end">

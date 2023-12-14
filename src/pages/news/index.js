@@ -32,7 +32,7 @@ export default function News() {
       </Head>
       <Header />
       <GoTop />
-      <div className="relative mt-12 md:mt-14 block min-h-80 lg:col-span-2 lg:h-full bg-pink-100">
+      <div className="relative mt-12 md:mt-14 block min-h-80 lg:col-span-2 lg:h-full bg-white">
         <div className="py-8 flex flex-col-reverse md:flex-row mx-auto w-11/12  md:space-x-6">
           <div className="flex flex-col w-full md:w-1/2 space-y-0.5 pt-2 leading-tight">
             <div className="flex space-x-2 items-center">

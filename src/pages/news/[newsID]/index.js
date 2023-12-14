@@ -31,8 +31,13 @@ export default function Detail() {
       </Head>
       <Header />
       <GoTop />
-      <section className="bg-[#f6f8f7] mt-12 md:mt-0">
-        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-16  px-2 md:px-4">
+      <div className="flex mx-auto w-full pt-16 pb-2 px-4 bg-white">
+        <div className="flex justify-center items-center w-full bg-green-100 h-20">
+          <div className="text-gray-500">advertising</div>
+        </div>
+      </div>
+      <section className="bg-[#f6f8f7] mt-2 md:mt-0 px-2">
+        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-4  px-2 md:px-4">
           {/* breadcrumb */}
           <nav className="text-sm my-0" aria-label="Breadcrumb">
             <ol className="list-none p-0 inline-flex">
@@ -63,7 +68,7 @@ export default function Detail() {
             </ol>
           </nav>
           <div className="flex flex-col py-2 md:py-4">
-            <span className="font-mabryblack text-2xl pb-2 text-gray-900">
+            <span className="font-mabryblack leading-tight md:leading-snug text-2xl pb-2 text-gray-900">
               Silent Hill 2 Remake Dev Bloober Team Giving Up Psychological
               Horror for 'Mass Market'
             </span>

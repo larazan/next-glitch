@@ -12,6 +12,28 @@ import SearchModal from "./SearchModal";
 export default function Header() {
   const [adsModalOpen, setAdsModalOpen] = useState(false);
   const [searchModalOpen, setSearchModalOpen] = useState(false);
+  const [show, setShow] = useState("translate-y-0");
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY > 100) {
+      if (window.scrollY > lastScrollY) {
+        setShow("border-b shadow-md");
+      } else {
+        setShow("shadow-sm");
+      }
+    } else {
+      setShow("translate-y-0");
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, [lastScrollY]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -22,7 +44,9 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed z-20 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between bg-[#f8f4f2] border-b2 shadow2">
+      <header
+        className={`fixed z-20 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between bg-[#f8f4f2] border-b2 shadow2 ${show} `}
+      >
         <div className="flex w-full md:w-3/5 justify-between space-x-4">
           <div className="flex justify-between w-full md:w-[100px]">
             {/* <button className="h-8 w-8 md:hidden">
@@ -46,11 +70,6 @@ export default function Header() {
                 <Logo className="h-6 text-red-600" />
               </Link>
             </div>
-          
-           
-
-           
-           
           </div>
           <div className="relative hidden md:flex items-center w-full shadow-menu rounded-full h-9 border-2 border-gray-800 focus-within:shadow-lg bg-white overflow-hidden">
             <div className="grid place-items-center h-full w-12 text-gray-800">
@@ -80,7 +99,6 @@ export default function Header() {
         </div>
         <div className="flex flex-row space-x-3">
           <div className="flex space-x-2 items-center">
-            
             <div className="flex md:hidden">
               <button
                 className="relative flex shadow-menu items-center justify-center rounded-full border-2 text-gray-900 border-gray-800 px-1 py-1 bg-white opacity-90 hover:opacity-100"
@@ -106,8 +124,7 @@ export default function Header() {
                 </svg>
               </button>
             </div>
-            
-            
+
             <MiniCart />
             <Menu />
             <Link href={"/login"} className="hidden md:flex">
@@ -124,24 +141,24 @@ export default function Header() {
                 </span>
               </button>
             </Link> */}
-            
+
             {/* <Notification /> */}
-            
+
             {/* <UserMenu /> */}
           </div>
         </div>
       </header>
       <SearchModal
-              id="search-modal"
-              searchId="search"
-              modalOpen={searchModalOpen}
-              setModalOpen={setSearchModalOpen}
-            />
+        id="search-modal"
+        searchId="search"
+        modalOpen={searchModalOpen}
+        setModalOpen={setSearchModalOpen}
+      />
       <AdsModal
-              id="ads-modal"
-              modalOpen={adsModalOpen}
-              setModalOpen={setAdsModalOpen}
-            />
+        id="ads-modal"
+        modalOpen={adsModalOpen}
+        setModalOpen={setAdsModalOpen}
+      />
     </>
   );
 }

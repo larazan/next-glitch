@@ -26,7 +26,61 @@ export default function Forum() {
       <GoTop />
       {/* <Notice /> */}
 
-      <div className="h-max flex mt-10 py-12 pb-20 px-2 md:px-10 bg-white">
+      <div className="h-max flex flex-col mt-10 py-12 pb-20 px-2 md:px-10 bg-white">
+        <div className="flex justify-between pb-3">
+          <nav className="text-sm my-0" aria-label="Breadcrumb">
+            <ol className="list-none p-0 inline-flex">
+              <li className="flex items-center">
+                <a
+                  href="#"
+                  className="capitalize text-gray-400 font-mabrybold hover:underline"
+                >
+                  Home
+                </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-gray-400 w-4 h-4 icon icon-tabler icon-tabler-backslash"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M7 5l10 14" />
+                </svg>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  href="#"
+                  className="text-gray-400 capitalize font-mabrybold hover:underline"
+                  aria-current="page"
+                >
+                  community
+                </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-gray-400 w-4 h-4 icon icon-tabler icon-tabler-backslash"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M7 5l10 14" />
+                </svg>
+              </li>
+            </ol>
+          </nav>
+        </div>
         <div className="flex flex-col md:flex-row w-full mx-auto space-y-4 md:space-x-8 justify-center2 items-center2">
           <div className="w-full md:w-2/3 flex flex-col font-mabry leading-snug space-y-3">
             <div className="flex flex-col space-y-6 ">
