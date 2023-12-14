@@ -104,29 +104,29 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href="/profile"
                         className="text-white transition hover:text-[#ffff00]"
                       >
-                        Pricing
-                      </a>
+                        Profile
+                      </Link>
                     </li>
 
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href="/schedule"
                         className="text-white transition hover:text-[#ffff00]"
                       >
-                        Discover
-                      </a>
+                        Schedule
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href="/login"
                         className="text-white transition hover:text-[#ffff00]"
                       >
-                        Jobs
-                      </a>
+                        Setting
+                      </Link>
                     </li>
                   </ul>
                 </nav>
