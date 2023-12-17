@@ -47,7 +47,7 @@ export default function Header() {
       <header
         className={`fixed z-20 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between bg-[#f8f4f2] border-b2 shadow2 ${show} `}
       >
-        <div className="flex w-full md:w-3/5 justify-between space-x-4">
+        <div className="flex w-full md:w-3/12 justify-between space-x-4">
           <div className="flex justify-between w-full md:w-[100px]">
             {/* <button className="h-8 w-8 md:hidden">
               <svg
@@ -71,6 +71,33 @@ export default function Header() {
               </Link>
             </div>
           </div>
+          {/* <div className="relative hidden md:flex items-center w-full shadow-menu rounded-full h-9 border-2 border-gray-800 focus-within:shadow-lg bg-white overflow-hidden">
+            <div className="grid place-items-center h-full w-12 text-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
+
+            <input
+              className=" h-full w-full outline-none text-sm font-mabry text-gray-800 pr-2"
+              type="text"
+              id="search"
+              placeholder="Search something.."
+            />
+          </div> */}
+        </div>
+        <div className="w-6/12">
           <div className="relative hidden md:flex items-center w-full shadow-menu rounded-full h-9 border-2 border-gray-800 focus-within:shadow-lg bg-white overflow-hidden">
             <div className="grid place-items-center h-full w-12 text-gray-800">
               <svg
@@ -97,7 +124,7 @@ export default function Header() {
             />
           </div>
         </div>
-        <div className="flex flex-row space-x-3">
+        <div className="w-3/12 flex flex-row space-x-3 justify-end">
           <div className="flex space-x-2 items-center">
             <div className="flex md:hidden">
               <button
@@ -145,7 +172,6 @@ export default function Header() {
 
             {/* <Notification /> */}
 
-            {/* <UserMenu /> */}
           </div>
         </div>
       </header>

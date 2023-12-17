@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
+import { Logo } from "@/components/Logo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoTop from "@/components/GoTop";
@@ -28,11 +29,16 @@ const checkout = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
-        <GoTop />
+     
 
       <div className="grid  md:grid-cols-2 lg:px-20 xl:px-32 ">
-        <div className="px-6 pt-8 pb-8 bg-white border-r shadow">
+      
+        <div className="px-6 pt-8 pb-2 bg-white border-r shadow">
+            <div className="pb-10 flex justify-center items-center">
+              <Link href={"/"}>
+                <Logo className="h-10 text-red-600" />
+              </Link>
+            </div>
           <p className="text-xl font-medium capitalize text-gray-800">
             Contact Information
           </p>
@@ -609,6 +615,10 @@ const checkout = () => {
             </svg>
             <span>Return to cart</span>
           </Link>
+
+          <div className="mt-6 pt-1.5 border-t">
+            <span className="text-xs text-gray-500">All rights reserved IGN</span>
+          </div>
         </div>
         <div className="mt-0 bg-[#f5f7f9] px-6 pt-8 lg:mt-0 pb-10">
           <p className="text-xl font-medium capitalize text-gray-800">
@@ -661,7 +671,6 @@ const checkout = () => {
       </div>
 
 
-      <Footer />
     </>
   );
 };
