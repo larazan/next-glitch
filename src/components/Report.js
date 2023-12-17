@@ -44,12 +44,17 @@ function Report({ modalOpen, setModalOpen }) {
       >
         <div
           ref={modalContent}
-          className="bg-white overflow-auto shadow-menu max-w-lg pb-4 w-full max-h-full rounded2 shadow-lg"
+          className="bg-white overflow-auto shadow-menu max-w-lg p-4 w-full max-h-full rounded-lg shadow-lg"
         >
-          <div className="mb-4 border-b-2 border-gray-800 px-4 py-3 ">
-            <p className="text-slate-800 font-mabrybold">Report an Issue</p>
-            {/* <h2 className="text-xl font-bold text-white">Join our community</h2> */}
-          </div>
+          <div className="mt-2 text-center">
+            <h3 className="text-xl font-semibold leading-6 text-blue-600" id="modal-headline">Report an Issue</h3>
+            <div className="mt-2">
+                <p className="px-3 text-sm leading-5 text-gray-600">
+                    We would love to know what you think of our service! Please take a moment to rate us.
+                </p>
+            </div>
+            </div>
+          
           <div className="flex flex-col space-y-2 px-4 py-1">
             <label className="text-slate-900 font-mabrybold">
               Type of Problem
