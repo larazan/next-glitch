@@ -20,7 +20,7 @@ export default function Profile() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Notice />
+      {/* <Notice /> */}
       <GoTop />
 
       <section className="bg-white">

@@ -127,13 +127,14 @@ export default function Header() {
 
             <MiniCart />
             <Menu />
-            <Link href={"/login"} className="hidden md:flex">
+            <UserMenu />
+            {/* <Link href={"/login"} className="hidden md:flex">
               <button className="flex button bg-mint items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5  bg-green-100 opacity-90 hover:opacity-100">
                 <span className="text-xs font-semibold font-mabrybold">
                   Masuk
                 </span>
               </button>
-            </Link>
+            </Link> */}
             {/* <Link href={"/register"} className="hidden md:flex">
               <button className="flex button items-center justify-center rounded border-2 border-gray-800 px-4 py-1.5 bg-yellow-100 opacity-90 hover:opacity-100">
                 <span className="text-xs font-semibold font-mabrybold">

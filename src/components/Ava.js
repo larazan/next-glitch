@@ -57,8 +57,8 @@ function Ava({ username, size }) {
         <div
           className=" sb-avatar__text"
           style={{
-            width: '30px', 
-            height: '30px', 
+            width: '45px', 
+            height: '45px', 
             lineHeight: 'initial', 
             textAlign: 'center',
             color: 'rgb(255, 255, 255)', 
@@ -74,7 +74,7 @@ function Ava({ username, size }) {
             tableLayout: 'fixed', 
             width: '100%',
             height: '100%', 
-            fontSize: '10px' 
+            fontSize: '15px' 
             }}
         >
             <span style={{
@@ -82,6 +82,7 @@ function Ava({ username, size }) {
                 verticalAlign: 'middle', 
                 whiteSpace: 'nowrap', }}>
               <span>{getInitials(username)}</span>
+              
             </span>
           </div>
         </div>

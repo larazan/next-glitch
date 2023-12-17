@@ -44,10 +44,15 @@ export default function UserMenu() {
         aria-haspopup="true"
         onClick={() => setDropdownOpen(!dropdownOpen)}
         aria-expanded={dropdownOpen}
-        className="rounded-full border-2 border-gray-800 shadow-menu"
+        className="rounded-full border-2 border-gray-800 shadow-menu bg-[#d54215] p-[4px]"
       >
         {/* <Avatar name="Selena gomes" size={"30"} round={true} /> */}
-        <Ava username={'Selena gomes'} />
+        {/* <Ava username={'Selena gomes'} /> */}
+        <span className="text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+  <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clipRule="evenodd" />
+</svg>
+              </span>
       </button>
 
       <Transition
@@ -65,16 +70,19 @@ export default function UserMenu() {
           onFocus={() => setDropdownOpen(true)}
           onBlur={() => setDropdownOpen(false)}
         >
+          <div className="flex justify-center py-2 pb-3 md:mr-2">
+            <Ava username={'Selena gomes'} size={45} />
+          </div>
           <div className="flex flex-col text-sm font-semibold font-mabrybold text-slate-800 capitalize pt-1.5 pb-1 px-4">
             Selena gomes <span className="text-slate-500 font-mabry">@selenagomes</span>
           </div>
           <ul>
             <li className="border-b border-slate-200 last:border-0">
               <Link
-                className="block py-2 px-4 hover:bg-slate-50"
-                to="profile"
+                className="block py-2 px-4 hover:bg-blue-200"
+  
                 onClick={() => setDropdownOpen(!dropdownOpen)}
-                href={""}
+                href={"/profile"}
               >
                 <span className="block text-xs mb-0 font-semibold">
                   <span className="text-slate-900 capitalize font-mabrybold">
@@ -85,7 +93,7 @@ export default function UserMenu() {
             </li>
             <li className="last:border-0">
               <Link
-                className="block pt-3 py-1 px-4 hover:bg-gray-200 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
+                className="block py-1.5 px-4 hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
                 to="settings"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
@@ -97,7 +105,7 @@ export default function UserMenu() {
             </li>
             <li className="last:border-0">
               <Link
-                className="block py-1 px-4 hover:bg-gray-200 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
+                className="block py-1.5 px-4  hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
                 to="settings/account"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
@@ -109,7 +117,7 @@ export default function UserMenu() {
             </li>
             <li className="border-b border-slate-00 last:border-0">
               <Link
-                className="block pb-3 py-1 px-4 hover:bg-gray-200 hover:text-white text-slate-500  md:hover:bg-slate-50 md:hover:text-gray-900"
+                className="block py-1.5 px-4  hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
                 to="settings/account"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
@@ -121,14 +129,14 @@ export default function UserMenu() {
               <div
                 className="flex items-center space-x-2 py-1.5 px-4 "
               >
-                <button onClick={() => setDropdownOpen(!dropdownOpen)} className="flex shadow-menu items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-2 bg-red-100 opacity-90 hover:opacity-100">
+                <button onClick={() => setDropdownOpen(!dropdownOpen)} className="flex shadow-menu items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-2 bg-[#e31c2d] opacity-90 hover:opacity-100">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    strokeWidth={2}
                     stroke="currentColor"
-                    className="w-4 h-4"
+                    className="w-5 h-5 text-white"
                   >
                     <path
                       strokeLinecap="round"
@@ -137,7 +145,7 @@ export default function UserMenu() {
                     />
                   </svg>
 
-                  <span className="text-xs font-semibold font-mabrybold text-gray-900">Logout</span>
+                  <span className="text-xs font-semibold font-mabrybold text-white">Logout</span>
                 </button>
               </div>
             </li>
