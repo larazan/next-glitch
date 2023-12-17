@@ -3,7 +3,6 @@ import { Logo } from "@/components/Logo";
 import Link from "next/link";
 import Image from "next/image";
 
-import google from "@/img/google.png";
 
 export default function Register() {
   return (
@@ -27,7 +26,7 @@ export default function Register() {
               </h1>
            <div className='space-y-2'>
               <p className="text-lg font-semibold">Already have an account?</p>
-              <Link to={"/login"} className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
+              <Link href={"/login"} className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
                 Signin here
               </Link>
               </div>
@@ -45,7 +44,7 @@ export default function Register() {
               </div>
               <div className="flex items-center space-x-2">
                 <span>Already have account? </span>
-                <Link to="/login" className="underline font-medium text-[#070eff]">
+                <Link href="/login" className="underline font-medium text-[#070eff]">
                   Signin now
                 </Link>
               </div>

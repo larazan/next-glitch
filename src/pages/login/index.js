@@ -20,7 +20,7 @@ export default function Login() {
               </h1>
               <div className="space-y-2">
               <p className="text-lg font-semibold">You do not have an account?</p>
-              <Link to={"/register"} className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
+              <Link href={"/register"} className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
                 Create account here
               </Link>
               </div>
@@ -38,7 +38,7 @@ export default function Login() {
               </div>
               <div className="flex items-center space-x-2">
                 <span>Not a member? </span>
-                <Link to="/register" className="underline font-medium text-[#070eff]">
+                <Link href="/register" className="underline font-medium text-[#070eff]">
                   Sign up now
                 </Link>
               </div>
