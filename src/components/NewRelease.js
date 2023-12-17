@@ -50,7 +50,7 @@ export default function NewRelease() {
           <div className="flex space-x-2 items-center ">
             <span className="text-xl font-mabrybold text-gray-900">New Release</span>
             <Link href={"/"} className="flex items-end hover:opacity-80 underline underline-offset-2">
-              <span className="text-xs font-semibold text-gray-500 uppercase">
+              <span className="text-xs font-mabrybold text-gray-500 uppercase">
                 See All
               </span>
             </Link>

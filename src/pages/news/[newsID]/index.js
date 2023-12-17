@@ -12,8 +12,12 @@ import GoTop from "@/components/GoTop";
 import mine from "@/img/mine.jpg";
 import lastofus2 from "@/img/lastofus2.jpg";
 import godofwar from "@/img/godofwar.jpg";
-import pravatar from "@/img/300.jpg";
+
 import { Help } from "@/components/Help";
+import Breadcrumb from "@/components/Breadcrumb";
+import Tags from "@/components/Tags";
+import Author from "@/components/Author";
+import RelatedNews from "@/components/RelatedNews";
 
 export default function Detail() {
   const [reportModalOpen, setReportModalOpen] = useState(false);
@@ -31,50 +35,23 @@ export default function Detail() {
       </Head>
       <Header />
       <GoTop />
-      <div className="flex mx-auto w-full pt-16 pb-2 px-4 bg-white">
+      <div className="flex mx-auto w-full pt-16 pb-2 px-4 bg-[#f6f8f7]">
         <div className="flex justify-center items-center w-full bg-green-100 h-20">
           <div className="text-gray-500">advertising</div>
         </div>
       </div>
       <section className="bg-[#f6f8f7] mt-2 md:mt-0 px-2">
-        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-4  px-2 md:px-4">
+        <div className="container w-full md:max-w-3xl mx-auto pt-4 md:pt-4 px-2 md:px-6">
           {/* breadcrumb */}
-          <nav className="text-sm my-0" aria-label="Breadcrumb">
-            <ol className="list-none p-0 inline-flex">
-              <li className="flex items-center">
-                <a
-                  href="#"
-                  className="capitalize text-gray-900 font-mabrybold hover:underline"
-                >
-                  Home
-                </a>
-                <svg
-                  className="fill-current text-gray-900 w-2 h-2 md:w-3 md:h-3 mx-1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 320 512"
-                >
-                  <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
-                </svg>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-900 capitalize font-mabrybold hover:underline"
-                  aria-current="page"
-                >
-                  news
-                </a>
-              </li>
-            </ol>
-          </nav>
+          <Breadcrumb />
           <div className="flex flex-col py-2 md:py-4">
-            <span className="font-mabryblack leading-tight md:leading-snug text-2xl pb-2 text-gray-900">
+            <span className="font-mabryblack uppercase leading-tight md:leading-11 text-2xl md:text-5xl pb-2 text-gray-900">
               Silent Hill 2 Remake Dev Bloober Team Giving Up Psychological
               Horror for 'Mass Market'
             </span>
-            <div className="flex flex-col md:flex-row space-y-1 md:justify-between border-t-4 border-slate-200 pt-2 md:pt-3">
+            <div className="flex flex-col md:flex-row space-y-1 md:justify-between border-t-2 border-[#d54215] pt-2 md:pt-2">
               <span>
-                <p className="text-sm md:text-base font-mabry text-gray-400">
+                <p className="text-sm md:text-sm font-mabry text-gray-900">
                   Published 19 February 2019
                 </p>
               </span>
@@ -176,78 +153,36 @@ export default function Detail() {
           </div>
           <div className="py-6 w-full text-lg text-gray-800 leading-normal">
             <div className="flex flex-col md:flex-row w-full md:space-x-3">
-              <div className="w-full md:w-2/3">
+              <div className="w-full md:w-full">
                 {/* CONTENT */}
 
                 <div className="text-md font-mabry leading-snug">
                   <p className="md:py-3">
-                    👋 Welcome fellow{" "}
-                    <a
-                      className="text-green-500 no-underline hover:underline"
-                      href="https://www.tailwindcss.com"
-                    >
-                      Tailwind CSS
-                    </a>{" "}
-                    and miminal monochrome blog fan. This starter template
-                    provides a starting point to create your own minimal
-                    monochrome blog using Tailwind CSS and vanilla Javascript.
+                    The upcoming film adaptation of Norman Reedus Walking Simulator - aka Death Stranding - has signed up arthouse darlings A24.
                   </p>
 
                   <p className="py-3">
-                    The basic blog page layout is available and all using the
-                    default Tailwind CSS classes (although there are a few
-                    hardcoded style tags). If you are going to use this in your
-                    project, you will want to convert the classes into
-                    components.
+                  As we first heard last year, the movie will be based on the debut release from Hideo Kojima’s post-Konami studio Kojima Productions. The game follows Norman Reedus’ Sam Porter Bridges as he trots his way across a very Iceland-looking North America with a massive stack of crates on his back and a baby in a jar on his front. Along the way he runs into Kojima’s rolodex of Hollywood buddies, including Guillermo Del Toro, Léa Seydoux and Mads Mikkelsen. There’s some stuff about setting up a nationwide W-Fi network, Troy Baker floating around in a skull mask and acid rain that summons inky ghosts.
                   </p>
 
                   <p className="py-3">
-                    Sed dignissim lectus ut tincidunt vulputate. Fusce tincidunt
-                    lacus purus, in mattis tortor sollicitudin pretium.
-                    Phasellus at diam posuere, scelerisque nisl sit amet,
-                    tincidunt urna. Cras nisi diam, pulvinar ut molestie eget,
-                    eleifend ac magna. Sed at lorem condimentum, dignissim lorem
-                    eu, blandit massa. Phasellus eleifend turpis vel erat
-                    bibendum scelerisque. Maecenas id risus dictum, rhoncus odio
-                    vitae, maximus purus. Etiam efficitur dolor in dolor
-                    molestie ornare. Aenean pulvinar diam nec neque tincidunt,
-                    vitae molestie quam fermentum. Donec ac pretium diam.
-                    Suspendisse sed odio risus. Nunc nec luctus nisi. Class
-                    aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. Duis nec nulla eget sem
-                    dictum elementum.
+                  In fairness, that’s all a fairly good fit for A24, the studio behind more artsy, offbeat and eclectic fare such as Everything Everywhere All At Once, Hereditary, The Witch and The Whale, to name but a few.
                   </p>
 
                   <p className="py-3">
-                    Maecenas accumsan lacus sit amet elementum porta. Aliquam eu
-                    libero lectus. Fusce vehicula dictum mi. In non dolor at sem
-                    ullamcorper venenatis ut sed dui. Ut ut est quam.
-                    Suspendisse quam quam, commodo sit amet placerat in,
-                    interdum a ipsum. Morbi sit amet tellus scelerisque tortor
-                    semper posuere.
+                  While Death Stranding is already packed with actors, don’t expect a direct adaptation - not least because it’d presumably be seven hours of Reedus grunting and picking up boxes he’s dropped. Echoing his past comments that “there's no real need" for straight video game-movie adaptations, the designer said that the Death Stranding film will aim for something that can only be done via film, rather than video games.
                   </p>
                   <p className="py-3">
-                    Morbi varius posuere blandit. Praesent gravida bibendum
-                    neque eget commodo. Duis auctor ornare mauris, eu accumsan
-                    odio viverra in. Proin sagittis maximus pharetra. Nullam
-                    lorem mauris, faucibus ut odio tempus, ultrices aliquet ex.
-                    Nam id quam eget ipsum luctus hendrerit. Ut eros magna,
-                    eleifend ac ornare vulputate, pretium nec felis.
+                  “There are a lot of ‘game adaptation films’ out there but what we are creating is not just a direct translation of the game,” he said. “The intention is that our audience will not only be fans of the games, but our film will be for anyone who loves cinema.
                   </p>
                   <p className="py-3">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia Curae; Nunc vitae pretium elit.
-                    Cras leo mauris, tristique in risus ac, tristique rutrum
-                    velit. Mauris accumsan tempor felis vitae gravida. Cras
-                    egestas convallis malesuada. Etiam ac ante id tortor
-                    vulputate pretium. Maecenas vel sapien suscipit, elementum
-                    odio et, consequat tellus.
+                  What we do know is that the film will share the video game’s exploration of the titular apocalyptic event which led to all the ghosts, beaches full of dead crabs and Geoff Keighley living in a random bunker somewhere.
                   </p>
                 </div>
 
                 <Help />
 
-                <div className="md:text-sm text-gray-500 px-2 md:px-4 py-3 font-mabry">
+                <div className="md:text-sm text-gray-500 px-2 md:px-0 py-3 font-mabry">
                   Source:{" "}
                   <a
                     href="https://mydramalist.com/article/an-ultra-fan-guide-to-lee-elijah"
@@ -258,69 +193,13 @@ export default function Detail() {
                 </div>
 
                 {/* TAGS */}
-                <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-2 md:px-4 py-2">
-                  <span> Tags: </span>
-                  <div className="flex flex-wrap space-x-1 w-60">
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-indigo-500 border border-indigo-500 py-1 px-2 rounded-full bg-indigo-200 capitalize "
-                    >
-                      action
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 py-1 px-2 rounded-full bg-green-200 capitalize "
-                    >
-                      adventure
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-orange-500 border border-orange-500 py-1 px-2 rounded-full bg-orange-200 capitalize "
-                    >
-                      adventure
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-blue-500 border border-blue-500 py-1 px-2 rounded-full bg-blue-200 capitalize "
-                    >
-                      rpg
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-yellow-500 border border-yellow-500 py-1 px-2 rounded-full bg-yellow-200 capitalize "
-                    >
-                      sport
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 py-1 px-2 rounded-full bg-red-200 capitalize "
-                    >
-                      racing
-                    </a>{" "}
-                  </div>
-                </div>
-
+                <Tags />
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
-
-                <div className="flex w-full items-center font-mabry px-2 py-4 md:px-4 md:py-8">
-                  <Image
-                    className="w-16 h-16 border border-gray-700 rounded-full mr-1 md:mr-4"
-                    src={pravatar}
-                    alt="Avatar of Author"
-                  />
-                  <div className="flex flex-col space-y-1 px-2">
-                    <p className="font-mabrybold text-base md:text-xl leading-none ">
-                      Jo Bloggerson
-                    </p>
-                    <p className="text-gray-600 text-xs md:text-base font-mabry">
-                      Minimal Blog Tailwind CSS template by{" "}
-                    </p>
-                  </div>
-                </div>
+                <Author />
                 <Comment />
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
               </div>
-              <div className="w-full md:w-1/3 bg-green-100">
+              {/* <div className="w-full md:w-1/3 bg-green-100">
                 <div className="flex flex-col space-y-5">
                   <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
                     <a
@@ -357,11 +236,12 @@ export default function Detail() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
+      <RelatedNews />
       <Footer />
     </>
   );

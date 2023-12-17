@@ -36,7 +36,10 @@ export default function News() {
         <div className="py-8 flex flex-col-reverse md:flex-row mx-auto w-11/12  md:space-x-6">
           <div className="flex flex-col w-full md:w-1/2 space-y-0.5 pt-2 leading-tight">
             <div className="flex space-x-2 items-center">
-              <Link href={""} className="p-0.5 bg-[#ffff00]">
+              <Link
+                href={"/news/news-one"}
+                className="py-0.5 px-1 bg-[#ffff00]"
+              >
                 <span className="font-mabryblack text-xs text-slate-900">
                   NEWS
                 </span>
@@ -47,7 +50,7 @@ export default function News() {
             </div>
             <Link
               href={"/news/2"}
-              className="text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 text-slate-900"
+              className="text-[17px] py-0.5 md:py-1 md:text-[24px] font-mabryblack hover:text-pink-6002 hover:underline underline-offset-2 leading-5 md:leading-6 text-gray-900"
             >
               Pokemon Go Developer Niantic Shuttering LA Studio, Canceling
               Marvel: World of Heroes
@@ -69,10 +72,12 @@ export default function News() {
         </div>
       </div>
 
-      <div className="h-max w-full flex py-4 md:py-6 space-x-6 px-4 md:px-10 justify-center2 items-center2 bg-white">
+      <div className="h-max w-full flex flex-col md:flex-row py-4 md:py-6 space-y-6 md:space-x-6 px-4 md:px-10 justify-center2 items-center2 bg-white">
         <div className="w-full md:w-4/6 flex-col space-y-4 md:space-y-7">
           <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
-            <span className="text-3xl font-mabryblack text-gray-900">Latest news</span>
+            <span className="text-3xl font-mabryblack text-gray-900 uppercase">
+              Latest news
+            </span>
           </div>
 
           {/* <section className="flex flex-row flex-wrap mx-auto w-3/4 justify-center2 items-center3">
@@ -120,122 +125,180 @@ export default function News() {
             </div>
           </div>
         </section> */}
-          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={"/news/news-one"} className=''>
-              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
+          <div className="flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-4 pb-4 md:pb-6 border-b border-slate-300">
+            <Link href={"/news/news-one"} className="">
+              <Image
+                src={minecraft}
+                alt=""
+                className="object-cover h-36 w-96 md:h-36 md:w-96 rounded"
+              />
             </Link>
-            <div className='flex flex-col space-y-0.5 leading-tight'>
+            <div className="flex flex-col space-y-0.5 leading-tight">
               <div className="flex space-x-2 items-center">
-                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
+                <Link
+                  href={"/news/news-one"}
+                  className="py-0.5 px-1 bg-[#ffff00]"
+                >
+                  <span className="font-mabryblack text-xs text-slate-900">
+                    NEWS
+                  </span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
+                <span className="font-mabrybold text-xs text-gray-700">
+                  April 16, 2023
+                </span>
               </div>
-              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
-                Build that thing you’ve been imagining
+              <Link
+                href={"/news/news-one"}
+                className="text-[17px] py-0.5 md:py-1 md:text-[24px] font-mabryblack hover:text-pink-6002 hover:underline underline-offset-2 leading-5 md:leading-6 text-gray-900"
+              >
+                Nightdive Studios on a big 2023: acquired by Atari, begging for
+                Dark Forces, and remaking System Shock
               </Link>
-              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
-                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
+              <span className="text-[14px] leading-tight md:leading-5 font-mabry text-gray-900">
+                Millions of people use Glitch to express themselves, try new
+                things, and help others learn. We’re fun and easy,
               </span>
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={"/news/news-one"} className=''>
-              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
+          <div className="flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-4 pb-4 md:pb-6 border-b border-slate-300">
+            <Link href={"/news/news-one"} className="">
+              <Image
+                src={minecraft}
+                alt=""
+                className="object-cover h-36 w-96 md:h-36 md:w-96 rounded"
+              />
             </Link>
-            <div className='flex flex-col space-y-0.5 leading-tight'>
+            <div className="flex flex-col space-y-0.5 leading-tight">
               <div className="flex space-x-2 items-center">
-                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
+                <Link
+                  href={"/news/news-one"}
+                  className="py-0.5 px-1 bg-[#ffff00]"
+                >
+                  <span className="font-mabryblack text-xs text-slate-900">
+                    NEWS
+                  </span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
+                <span className="font-mabrybold text-xs text-gray-700">
+                  April 16, 2023
+                </span>
               </div>
-              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
-                Build that thing you’ve been imagining
+              <Link
+                href={"/news/news-one"}
+                className="text-[17px] py-0.5 md:py-1 md:text-[24px] font-mabryblack hover:text-pink-6002 hover:underline underline-offset-2 leading-5 md:leading-6 text-gray-900"
+              >
+                Death Stranding movie is being made with Hereditary studio A24,
+                will be more than a “direct translation”
               </Link>
-              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
-                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
+              <span className="text-[14px] leading-tight md:leading-5 font-mabry text-gray-900">
+                Millions of people use Glitch to express themselves, try new
+                things, and help others learn. We’re fun and easy,
               </span>
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={"/news/news-one"} className=''>
-              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
+          <div className="flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-4 pb-4 md:pb-6 border-b border-slate-300">
+            <Link href={"/news/news-one"} className="">
+              <Image
+                src={minecraft}
+                alt=""
+                className="object-cover h-36 w-96 md:h-36 md:w-96 rounded"
+              />
             </Link>
-            <div className='flex flex-col space-y-0.5 leading-tight'>
+            <div className="flex flex-col space-y-0.5 leading-tight">
               <div className="flex space-x-2 items-center">
-                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
+                <Link
+                  href={"/news/news-one"}
+                  className="py-0.5 px-1 bg-[#ffff00]"
+                >
+                  <span className="font-mabryblack text-xs text-slate-900">
+                    NEWS
+                  </span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
+                <span className="font-mabrybold text-xs text-gray-700">
+                  April 16, 2023
+                </span>
               </div>
-              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
+              <Link
+                href={"/news/news-one"}
+                className="text-[17px] py-0.5 md:py-1 md:text-[24px] font-mabryblack hover:text-pink-6002 hover:underline underline-offset-2 leading-5 md:leading-6 text-gray-900"
+              >
                 Build that thing you’ve been imagining
               </Link>
-              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
-                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
+              <span className="text-[14px] leading-tight md:leading-5 font-mabry text-gray-900">
+                Millions of people use Glitch to express themselves, try new
+                things, and help others learn. We’re fun and easy,
               </span>
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={"/news/news-one"} className=''>
-              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
+          <div className="flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-4 pb-4 md:pb-6 border-b border-slate-300">
+            <Link href={"/news/news-one"} className="">
+              <Image
+                src={minecraft}
+                alt=""
+                className="object-cover h-36 w-96 md:h-36 md:w-96 rounded"
+              />
             </Link>
-            <div className='flex flex-col space-y-0.5 leading-tight'>
+            <div className="flex flex-col space-y-0.5 leading-tight">
               <div className="flex space-x-2 items-center">
-                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
+                <Link
+                  href={"/news/news-one"}
+                  className="py-0.5 px-1 bg-[#ffff00]"
+                >
+                  <span className="font-mabryblack text-xs text-slate-900">
+                    NEWS
+                  </span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
+                <span className="font-mabrybold text-xs text-gray-700">
+                  April 16, 2023
+                </span>
               </div>
-              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
-                Build that thing you’ve been imagining
+              <Link
+                href={"/news/news-one"}
+                className="text-[17px] py-0.5 md:py-1 md:text-[24px] font-mabryblack hover:text-pink-6002 hover:underline underline-offset-2 leading-5 md:leading-6 text-gray-900"
+              >
+                Pokémon Indigo Disk version exclusives for Scarlet and Violet
               </Link>
-              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
-                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
+              <span className="text-[14px] leading-tight md:leading-5 font-mabry text-gray-900">
+                Millions of people use Glitch to express themselves, try new
+                things, and help others learn. We’re fun and easy,
               </span>
             </div>
           </div>
 
-          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={"/news/news-one"} className=''>
-              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
+          <div className="flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-4 pb-4 md:pb-6 border-b border-slate-300">
+            <Link href={"/news/news-one"} className="">
+              <Image
+                src={minecraft}
+                alt=""
+                className="object-cover h-36 w-96 md:h-36 md:w-96 rounded"
+              />
             </Link>
-            <div className='flex flex-col space-y-0.5 leading-tight'>
+            <div className="flex flex-col space-y-0.5 leading-tight">
               <div className="flex space-x-2 items-center">
-                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
+                <Link
+                  href={"/news/news-one"}
+                  className="py-0.5 px-1 bg-[#ffff00]"
+                >
+                  <span className="font-mabryblack text-xs text-slate-900">
+                    NEWS
+                  </span>
                 </Link>
-                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
+                <span className="font-mabrybold text-xs text-gray-700">
+                  April 16, 2023
+                </span>
               </div>
-              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
-                Build that thing you’ve been imagining
+              <Link
+                href={"/news/news-one"}
+                className="text-[17px] py-0.5 md:py-1 md:text-[24px] font-mabryblack hover:text-pink-6002 hover:underline underline-offset-2 leading-5 md:leading-6 text-gray-900"
+              >
+                Shadow Gambit: The Cursed Crew gets mod support in surprise
+                final update
               </Link>
-              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
-                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
-              </span>
-            </div>
-          </div>
-          
-          <div className='flex flex-row mx-auto w-full md:w-4/4 space-x-3 md:space-x-6 pb-4 md:pb-6 border-b border-slate-300'>
-            <Link href={"/news/news-one"} className=''>
-              <Image src={minecraft} alt="" className="object-cover h-36 w-96 md:h-36 md:w-96 rounded" />
-            </Link>
-            <div className='flex flex-col space-y-0.5 leading-tight'>
-              <div className="flex space-x-2 items-center">
-                <Link href={"/news/news-one"} className="p-0.5 bg-[#ffff00]">
-                  <span className="font-mabryblack text-xs text-slate-900">NEWS</span>
-                </Link>
-                <span className="font-mabrybold text-xs text-gray-700">April 16, 2023</span>
-              </div>
-              <Link href={"/news/news-one"} className='text-[17px] md:text-[24px] font-mabryblack hover:text-pink-600 leading-tight text-gray-900'>
-                Build that thing you’ve been imagining
-              </Link>
-              <span className='text-[14px] leading-tight md:leading-relaxed font-mabry text-gray-900'>
-                Millions of people use Glitch to express themselves, try new things, and help others learn. We’re fun and easy, 
+              <span className="text-[14px] leading-tight md:leading-5 font-mabry text-gray-900">
+                Millions of people use Glitch to express themselves, try new
+                things, and help others learn. We’re fun and easy,
               </span>
             </div>
           </div>
@@ -256,42 +319,136 @@ export default function News() {
             </div>
           </div>
         </div>
-        <div className="hidden md:block w-2/6">
-          <div className="flex flex-col space-y-5">
-            <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
-              <a
-                href="https://statamic.com/blog/statamic-4-unleashed"
-                className="relative"
-              >
-                <Image src={lastofus2} alt="" className="w-full" />{" "}
-                <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
-              </a>{" "}
-              <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                <h3 className="font-mabrybold text-md">
-                  <a href="https://statamic.com/blog/statamic-4-unleashed">
-                    Statamic 4 Has Been Unleashed
-                  </a>
+        <div className=" w-full md:w-2/6 pb-10">
+          <div className="flex flex-col space-y-3">
+            <div className="rounded bg-white border group flex flex-col overflow-hidden  ">
+              <div className="flex ml-2 py-1">
+                <span className="font-mabrybold tracking-tighter text-[#e31c2d] uppercase text-[13px]">
+                  Return of the king
+                </span>
+              </div>
+              <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    Ninja Issen perfects retro, cyberpunk, platforming action to
+                    deliver nostalgic 90s magic
+                  </Link>
                 </h3>{" "}
-                <div className="font-mabry text-xs">May 9th, 2023</div>
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
               </div>
             </div>
-            <div className="rounded bg-white border border-gray-800 shadow-stack-sm group flex flex-col overflow-hidden hover:scale-105 ">
-              <a
-                href="https://statamic.com/blog/statamic-4-unleashed"
-                className="relative"
-              >
-                <Image src={godofwar} alt="" className="w-full" />{" "}
-                <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
-              </a>{" "}
-              <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                <h3 className="font-mabrybold text-md">
-                  <a href="https://statamic.com/blog/statamic-4-unleashed">
-                    Statamic 4 Has Been Unleashed
-                  </a>
+            {/*  */}
+            <div className="rounded bg-white border group flex flex-col overflow-hidden ">
+              <div className="flex ml-2 py-1">
+                <span className="font-mabrybold tracking-tighter text-[#e31c2d] uppercase text-[13px]">
+                  Return of the king
+                </span>
+              </div>
+              <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    The unlikely is happening: Battlefield 2042 is getting a new
+                    season in March 2024
+                  </Link>
                 </h3>{" "}
-                <div className="font-mabry text-xs">May 9th, 2023</div>
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
               </div>
             </div>
+            {/*  */}
+            <div className="rounded bg-white border group flex flex-col overflow-hidden  ">
+              <div className="flex ml-2 py-1">
+                <span className="font-mabrybold tracking-tighter text-[#e31c2d] uppercase text-[13px]">
+                  Return of the king
+                </span>
+              </div>
+              <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    DC Studios head James Gunn forgets The Flash exists, roasts
+                    pointless cameos in comic book movies
+                  </Link>
+                </h3>{" "}
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="rounded bg-white border group flex flex-col overflow-hidden ">
+              <div className="px-3 py-2 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    Netflix's Leave the World Behind is crushing the streaming
+                    charts despite divided opinions
+                  </Link>
+                </h3>{" "}
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="rounded bg-white border group flex flex-col overflow-hidden  ">
+              <div className="flex ml-2 py-1">
+                <span className="font-mabrybold tracking-tighter text-[#e31c2d] uppercase text-[13px]">
+                  Return of the king
+                </span>
+              </div>
+              <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    Expensive T-shirt seemingly confirms A24 and Hideo Kojima
+                    are joining forces for the Death Stranding movie
+                  </Link>
+                </h3>{" "}
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="rounded bg-white border group flex flex-col overflow-hidden ">
+              <div className="flex ml-2 py-1">
+                <span className="font-mabrybold tracking-tighter text-[#e31c2d] uppercase text-[13px]">
+                  Return of the king
+                </span>
+              </div>
+              <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    Naughty Dog cancels The Last of Us multiplayer, will stick
+                    to its single player roots
+                  </Link>
+                </h3>{" "}
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="rounded bg-white border group flex flex-col overflow-hidden ">
+              <div className="flex ml-2 py-1">
+                <span className="font-mabrybold tracking-tighter text-[#e31c2d] uppercase text-[13px]">
+                  Return of the king
+                </span>
+              </div>
+              <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                  <Link href="/news/news-one">
+                    Tekken 8 gets a massive offline PS5 demo this week, Xbox and
+                    PC coming soon
+                  </Link>
+                </h3>{" "}
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                  May 9th, 2023
+                </div>
+              </div>
+            </div>
+            {/*  */}
           </div>
         </div>
       </div>

@@ -265,7 +265,7 @@ export default function ReviewLine() {
             modules={[Pagination, A11y]}
             slidesPerView={2}
             centeredSlides={false}
-            spaceBetween={150}
+            spaceBetween={60}
             loop={true}
             autoplay={{
               delay: 4000,
@@ -286,7 +286,7 @@ export default function ReviewLine() {
                       </div>
                       <div className="flex flex-col md:flex-row text-sm font-semibold font-mabrybold">
                         <div><span>John Lucas •</span></div>
-                        <span className="font-mabry"> 5 minutes ago</span>
+                        <span className="font-mabry text-xs text-gray-500"> 5 minutes ago</span>
                       </div>
                     </div>
                   </div>
@@ -348,7 +348,7 @@ export default function ReviewLine() {
                       </div>
                       <div className="text-sm font-semibold font-mabrybold">
                         John Lucas •{" "}
-                        <span className="font-mabry"> 5 minutes ago</span>
+                        <span className="font-mabry text-xs text-gray-500"> 5 minutes ago</span>
                       </div>
                     </div>
                   </div>
@@ -410,7 +410,7 @@ export default function ReviewLine() {
                       </div>
                       <div className="text-sm font-semibold font-mabrybold">
                         John Lucas •{" "}
-                        <span className="font-mabry"> 5 minutes ago</span>
+                        <span className="font-mabry text-xs text-gray-500"> 5 minutes ago</span>
                       </div>
                     </div>
                   </div>

@@ -41,12 +41,12 @@ export default function HomeNews() {
   };
   return (
     <>
-      <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-white border-t">
+      <div className="h-max flex  flex-col space-y-4 md:px-10 py-8 md:py-14 justify-center2 items-center2 bg-[#f6f6f6] border-t">
         <div className="flex flex-row justify-between mx-auto w-11/12 md:w-12/12 space-x-6 items-center">
         <div className="flex space-x-2 items-center ">
             <span className="text-xl font-mabrybold text-gray-900">Most Popular</span>
             <Link href={"/"} className="flex items-end hover:opacity-80 underline underline-offset-2">
-              <span className="text-xs font-semibold text-gray-500 uppercase">
+              <span className="text-xs font-mabrybold text-gray-500 uppercase">
                 See All
               </span>
             </Link>

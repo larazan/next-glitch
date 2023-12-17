@@ -14,7 +14,7 @@ export default function CookieConfirm() {
     <>
       {isShow ? (
         <section
-          className=" w-full z-30 p-6 md:px-12 fixed bottom-0 border-t border-gray-200 bg-[#ffff00]2 bg-white shadow-md md:shadow-lg"
+          className=" w-full z-50 p-6 md:px-12 fixed bottom-0 border-t border-gray-200 bg-[#ffff00]2 bg-white shadow-md md:shadow-lg"
           x-show="showCookieBanner"
         >
           <div className="absolute top-1 right-1 flex justify-end">

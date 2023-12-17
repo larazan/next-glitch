@@ -10,7 +10,7 @@ export default function Comment() {
       <div className="mb-12 pb-2">
         <div className="flex-col pt-4">
           <div>
-            <span className="font-mabrybold text-lg  capitalize">Comments</span>
+            <span className="font-mabrybold text-lg uppercase tracking-tight">Comments</span>
           </div>
           <div className="py-0">
             <div className="antialiased md:p-3 mx-auto max-w-screen-sm bg-transparent">
