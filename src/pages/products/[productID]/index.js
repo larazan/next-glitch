@@ -21,23 +21,19 @@ export default function Product() {
       <Header />
       <GoTop />
 
-      <div className="h-max flex py-20 flex-col space-y-10 px-10 justify-center2 items-center2 bg-slate-300">
-        <div className="flex flex-row mx-auto  space-x-6 justify-center2 items-center">
-          <span className="text-3xl font-mabrybold">Deals</span>
-        </div>
-      </div>
+      
 
-      <div className="h-max flex flex-col">
+      <div className="pt-12 h-max flex flex-col">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex justify-between w-full  px-8 py-4 border-y border-gray-800 bg-white">
-            <div className="flex w-2/3 space-x-4 items-center">
+          <div className="flex flex-col  md:flex-row justify-between w-full  px-4 py-4 border-y border-gray-800 bg-white">
+            <div className="flex w-full md:w-2/3 space-x-4 items-center">
               {/* <div className="text-lg font-mabrybold ">Rp 2.500.000</div> */}
               <div className="text-lg font-mabrybold ">
                 Roronoa Zoro Action Figure One Piece Grandista Zorro
               </div>
             </div>
 
-            <div className="flex space-x-2 items-center">
+            <div className="flex justify-between space-x-2 items-center">
               <div className="text-sm font-mabry hover:underline underline-offset-4 cursor-pointer">
                 <div className="flex items-center space-x-0">
                   <svg
@@ -114,7 +110,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="h-max flex py-6 flex-col px-10 justify-center2 items-center2 bg-[#f6f8f7]">
+      <div className="h-max flex py-6 flex-col px-4 md:px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-col  w-full rounded border border-gray-800 bg-white">
           <div className="flex w-full items-stretch min-h-full bg-green-100 border-b border-gray-800">
             <div className="">
@@ -125,8 +121,8 @@ export default function Product() {
               />
             </div>
           </div>
-          <div className="flex w-full ">
-            <div className="flex flex-col w-2/3 bg-white border-r border-gray-800">
+          <div className="flex flex-col md:flex-row w-full ">
+            <div className="flex flex-col w-full md:w-2/3 bg-white border-r border-gray-800">
               <div className="flex w-full h-28 items-center py-10 px-4 bg-white border-b border-gray-800">
                 <div className="text-3xl py-10 font-mabry leading-tight">
                   Roronoa Zoro Action Figure One Piece Grandista Zorro
@@ -246,14 +242,13 @@ export default function Product() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col w-1/3 bg-white">
+            <div className="flex flex-col w-full md:w-1/3 bg-white">
               <div className="flex w-full flex-col px-4 py-4 border-b border-gray-800">
                 <Link href={""} className="relative inline-block text-lg group">
-                  <span className="relative flex z-10 button px-3 text-center w-full py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                  <span className="relative flex z-10 button px-3 text-center w-full py-5 justify-center overflow-hidden leading-tight text-lg font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                     <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
                     <span className="relative">Add to cart</span>
                   </span>
-                
                 </Link>
 
                 <div className="flex w-full justify-center py-3">
