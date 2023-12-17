@@ -14,7 +14,7 @@ import bri from "@/icons/bri.svg";
 import gopay from "@/icons/gopay.svg";
 import bca from "@/icons/bca.svg";
 
-const checkout = () => {
+export default function Checkout() {
   const [show, setShow] = useState(false);
 
   const handleClick = () => {
@@ -675,4 +675,3 @@ const checkout = () => {
   );
 };
 
-export default checkout;

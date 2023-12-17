@@ -31,6 +31,7 @@ export default function Profile() {
             <Image
               src={person}
               className="bg-gray-50 rounded-full -mt-24 w-48 h-48 border-8 border-white"
+              alt=""
             />
           </div>
 
@@ -139,6 +140,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -261,6 +263,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -369,6 +372,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -491,6 +495,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -621,6 +626,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -726,6 +732,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -795,6 +802,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -864,6 +872,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -933,6 +942,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 
@@ -1002,6 +1012,7 @@ export default function Profile() {
                               <Image
                                 src={person}
                                 className="bg-gray-50 rounded-full w-6 h-6 mr-2"
+                                alt=""
                               />
                             </a>
 

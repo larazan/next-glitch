@@ -231,6 +231,7 @@ export default function Settings() {
                             <Image
                               src={person}
                               className="border bg-gray-50 rounded-full h-32 w-32 mt-4"
+                              alt=""
                             />
 
                             <span className="mt-4 inline-block text-sm text-gray-500 font-mabry">

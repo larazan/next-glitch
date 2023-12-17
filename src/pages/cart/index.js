@@ -11,7 +11,7 @@ import CartItem from "@/components/CartItem";
 import empty from "@/img/empty-cart.jpg";
 import spinner from "@/img/spinner.svg";
 
-const cart = () => {
+export default function Cart() {
   const [loading, setLoading] = useState(false);
   const [items, setItems] = useState(false);
 
@@ -109,4 +109,3 @@ const cart = () => {
   );
 };
 
-export default cart;
