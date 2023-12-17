@@ -8,159 +8,122 @@ import google from "@/img/google.png";
 export default function Register() {
   return (
     <>
-      <section className="flex flex-col justify-center items-center h-screen bg-[#f4f4f0]">
-        <div className="py-2">
-          <Link href={"/"}>
-            <Logo className="w-full h-8 text-red-600" />
-          </Link>
-        </div>
-        <div className="max-w-md w-full border-2 border-gray-800 rounded shadow-stack-sm space-y-3 shadow bg-white">
-          <div className="mb-4 border-b-2 border-gray-800 px-4 py-3 ">
-            <p className="text-slate-800 font-mabrybold">Register</p>
-            {/* <h2 className="text-xl font-bold text-white">Join our community</h2> */}
-          </div>
-          <div className="px-4 py-1">
-            <input
-              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
-              type="text"
-              placeholder="Username"
-            />
-          </div>
-          <div className="px-4 py-1">
-            <input
-              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
-              type="email"
-              placeholder="Email"
-            />
-          </div>
-          <div className="px-4 py-1">
-            <input
-              className="w-full py-3 px-3 text-sm  focus:outline-none outline-none focus:border-pink-400 border-2 border-gray-800 rounded text-gray-800 font-mabry"
-              type="text"
-              placeholder="Password"
-            />
-          </div>
-          <div className="px-4 py-1">
-          <button className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 border-2 border-gray-800 rounded text-sm font-bold text-gray-50 transition duration-200 font-mabrybold">
-              Register Now
-            </button>
-          </div>
-          <div className="px-4 pb-2 text-xs leading-tight font-mabry">
-            By signing into Glitch, you agree to our{" "}
-            <a href="#" className="text-blue-400">
-              Terms of Services and Privacy Statement
-            </a>
-          </div>
-          {/* <div className="flex items-center justify-between">
-            <div className="flex flex-row items-center">
-                <input type="checkbox" className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded" />
-                <label for="comments" className="ml-2 text-sm font-normal text-gray-400">Remember me</label>
+      <div className="flex min-h-screen">
+        <div className="flex flex-row w-full">
+          <div className="hidden lg:flex flex-col justify-between bg-[#5cd68d] lg:p-8 xl:p-12 lg:max-w-sm xl:max-w-lg" 
+          >
+            <div className="flex items-center justify-start space-x-3">
+              <span className="bg-black rounded-full w-8 h-8"></span>
+              <a href="#" className="font-medium text-xl">
+                Brand
+              </a>
             </div>
-        </div> */}
-        </div>
-        <div className="flex max-w-md w-full p-2 justify-between">
-          <div className="flex flex-col space-y-3 items-center">
-            {/* <button className="flex items-center space-x-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border-2 border-gray-800 rounded  transition duration-200 shadow-lg shadow-indigo-500/50">
-              <span className="text-xs font-semibold text-blue-400">
-                Register via Github
-              </span>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-brand-github-filled"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  strokeWidth="2"
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z"
-                    strokeWidth="0"
-                    fill="currentColor"
-                  ></path>
-                </svg>
+            <div className="space-y-8">
+              {/* <h1 className="lg:text-3xl xl:text-5xl xl:leading-snug font-extrabold ">
+                Get benefits with being member
+              </h1> */}
+              <h1 className="lg:text-3xl xl:text-4xl md:leading-tight tracking-1 font-extrabold ">
+              Find something to watch on your subscribed streaming services & track of your favourite movies and TV shows
+              </h1>
+           <div className='space-y-2'>
+              <p className="text-lg font-semibold">Already have an account?</p>
+              <Link to={"/login"} className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
+                Signin here
+              </Link>
               </div>
-            </button> */}
-            {/* <button className="flex items-center space-x-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border-2 border-gray-800 rounded  transition duration-200 shadow-lg shadow-indigo-500/50">
-              <span className="text-xs font-semibold text-blue-400">
-                Register via Google
-              </span>
-              <div className="w-4 ">
-                <Image src={google} alt="" />
-              </div>
-            </button> */}
-            <Link href={"/login"} className="relative inline-block text-lg group">
-              <span className="relative z-10 block px-3 py-2 shadow-menu overflow-hidden leading-tight text-xs font-semibold font-mabrybold transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
-                <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-slate-100 group-hover:bg-slate-200"></span>
-                {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
-                <div className="relative flex items-center space-x-1">
-                  <span className="text-xs font-semibold text-blue-400">
-                    Register via Github
-                  </span>
-                  <div className="">
-                  <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-brand-github-filled"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  strokeWidth="2"
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z"
-                    strokeWidth="0"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-                  </div>
-                </div>
-              </span>
-              
-            </Link>
-            <Link href={"/login"} className="relative inline-block text-lg group">
-              <span className="relative z-10 block px-3 py-2 shadow-menu overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
-                <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-slate-100 group-hover:bg-slate-200"></span>
-                {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
-                <div className="relative flex items-center space-x-1">
-                  <span className="text-xs font-semibold text-blue-400">
-                    Register via Google
-                  </span>
-                  <div className="w-4 ">
-                    <Image src={google} alt="" />
-                  </div>
-                </div>
-              </span>
-             
-            </Link>
+            </div>
+            <p className="font-medium">© 2022 Company</p>
           </div>
-          <div className="flex flex-col space-y-1 items-center p-2">
-            <span className="text-xs font-mabry">Already have an account?</span>
-            {/* <Link href={"/login"}>
-            <button className="py-2 px-3 bg-green-100 hover:bg-green-200 border-2 border-gray-800 rounded text-xs font-semibold text-blue-400 transition duration-200 shadow-lg shadow-indigo-500/50">
-              Sign In
-            </button>
-            </Link> */}
-            <Link href={"/login"} className="relative inline-block text-lg group">
-              <span className="relative z-10 block px-7 py-2 button overflow-hidden leading-tight text-xs font-semibold font-mabrybold text-blue-400 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
-                <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-green-100 group-hover:bg-green-200"></span>
-                {/* <span className="absolute left-0 w-22 h-22 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span> */}
-                <span className="relative">Sign In</span>
-              </span>
-              
-            </Link>
+
+          <div className="flex flex-1 flex-col items-center justify-center px-10 relative">
+            <div className="flex lg:hidden justify-between items-center w-full py-4">
+              <div className="flex items-center justify-start space-x-3">
+                <span className="bg-black rounded-full w-6 h-6"></span>
+                <a href="#" className="font-medium text-lg">
+                  Brand
+                </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span>Already have account? </span>
+                <Link to="/login" className="underline font-medium text-[#070eff]">
+                  Signin now
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-1 flex-col  justify-center space-y-5 max-w-md">
+              <div className="flex flex-col space-y-2 text-center">
+                <h2 className="text-3xl md:text-4xl font-bold capitalize">
+                  Sign up
+                </h2>
+                <p className="text-md md:text-xl">
+                Signing up for an account is free and easy. Fill out the form below to get started.
+                </p>
+              </div>
+              <div className="flex flex-col max-w-md space-y-5">
+                <input
+                  type="text"
+                  placeholder="Username"
+                  className="flex px-3 py-2 md:px-4 md:py-3 border-2 border-black rounded-lg font-medium placeholder:font-normal"
+                />
+                <input
+                  type="text"
+                  placeholder="Password"
+                  className="flex px-3 py-2 md:px-4 md:py-3 border-2 border-black rounded-lg font-medium placeholder:font-normal"
+                />
+                <input
+                  type="text"
+                  placeholder="Confirm Password"
+                  className="flex px-3 py-2 md:px-4 md:py-3 border-2 border-black rounded-lg font-medium placeholder:font-normal"
+                />
+                <input
+                  type="text"
+                  placeholder="Email"
+                  className="flex px-3 py-2 md:px-4 md:py-3 border-2 border-black rounded-lg font-medium placeholder:font-normal"
+                />
+                <button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
+                  Submit
+                </button>
+                <div className="flex justify-center items-center">
+                  <span className="w-full border border-black"></span>
+                  <span className="px-4">Or</span>
+                  <span className="w-full border border-black"></span>
+                </div>
+                <button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black relative">
+                  <span className="absolute left-4">
+                    <svg
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      // xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <path
+                        fill="#EA4335 "
+                        d="M5.26620003,9.76452941 C6.19878754,6.93863203 8.85444915,4.90909091 12,4.90909091 C13.6909091,4.90909091 15.2181818,5.50909091 16.4181818,6.49090909 L19.9090909,3 C17.7818182,1.14545455 15.0545455,0 12,0 C7.27006974,0 3.1977497,2.69829785 1.23999023,6.65002441 L5.26620003,9.76452941 Z"
+                      />
+                      <path
+                        fill="#34A853"
+                        d="M16.0407269,18.0125889 C14.9509167,18.7163016 13.5660892,19.0909091 12,19.0909091 C8.86648613,19.0909091 6.21911939,17.076871 5.27698177,14.2678769 L1.23746264,17.3349879 C3.19279051,21.2936293 7.26500293,24 12,24 C14.9328362,24 17.7353462,22.9573905 19.834192,20.9995801 L16.0407269,18.0125889 Z"
+                      />
+                      <path
+                        fill="#4A90E2"
+                        d="M19.834192,20.9995801 C22.0291676,18.9520994 23.4545455,15.903663 23.4545455,12 C23.4545455,11.2909091 23.3454545,10.5272727 23.1818182,9.81818182 L12,9.81818182 L12,14.4545455 L18.4363636,14.4545455 C18.1187732,16.013626 17.2662994,17.2212117 16.0407269,18.0125889 L19.834192,20.9995801 Z"
+                      />
+                      <path
+                        fill="#FBBC05"
+                        d="M5.27698177,14.2678769 C5.03832634,13.556323 4.90909091,12.7937589 4.90909091,12 C4.90909091,11.2182781 5.03443647,10.4668121 5.26620003,9.76452941 L1.23999023,6.65002441 C0.43658717,8.26043162 0,10.0753848 0,12 C0,13.9195484 0.444780743,15.7301709 1.23746264,17.3349879 L5.27698177,14.2678769 Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>Sign in with Google</span>
+                </button>
+              </div>
+            </div>
+
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }
