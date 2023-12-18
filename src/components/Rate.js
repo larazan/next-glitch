@@ -44,8 +44,26 @@ function Rate({ modalOpen, setModalOpen }) {
       >
         <div
           ref={modalContent}
-          className="bg-white overflow-auto shadow-menu max-w-lg p-4 w-full max-h-full rounded-lg shadow-lg"
+          className="relative bg-white overflow-auto shadow-menu max-w-lg p-4 w-full max-h-full rounded-lg shadow-lg"
         >
+          <div className="absolute top-1 right-1 flex justify-end">
+            <div className="cursor-pointer px-1 py-1 rounded-full border border-gray-900 bg-white" onClick={() => setModalOpen(false)}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-5 h-5 md:w-6 md:h-6 text-gray-900"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          </div>
          <div className="mt-2 text-center">
             <h3 className="text-xl font-semibold leading-6 text-blue-600" id="modal-headline">Rate your experience</h3>
             <div className="mt-2">

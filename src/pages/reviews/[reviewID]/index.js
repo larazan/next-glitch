@@ -178,10 +178,7 @@ export default function Review() {
                         </span>
                       </div>
                     </button>
-                    <Report
-                      modalOpen={reportModalOpen}
-                      setModalOpen={setReportModalOpen}
-                    />
+                    
                   </div>
                 </div>
               </div>
@@ -193,7 +190,7 @@ export default function Review() {
         </div>
         <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col md:flex-row items-center mt-4 px-4 md:px-4">
           <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-            <div className="flex flex-col md:flex-row w-full md:justify-between space-y-3 md:space-x-3">
+            <div className="flex flex-col md:flex-row w-full md:justify-between space-y-3 md:space-y-0 md:space-x-3">
               
               <div className="flex flex-col w-full md:w-2/3 px-3 py-2 md:px-3 md:py-2 rounded border-2 border-gray-800 bg-[#114388] shadow-menu">
                 <div className="text-lg font-mabrybold uppercase text-white">
@@ -235,7 +232,7 @@ export default function Review() {
       </div>
 
       <div className="bg-[#f6f8f7]">
-        <div className="container w-full md:max-w-3xl mx-auto pt-4 md:pt-4 px-4 md:px-0">
+        <div className="container w-full md:max-w-3xl mx-auto pt-4 md:pt-4 px-0 md:px-0">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
               <div className="w-full">
@@ -287,7 +284,7 @@ export default function Review() {
                         Generally favorable reviews based on 201 Ratings{" "}
                       </div>
                       <div
-                        className="flex w-16 shadow-menu bg-orange-600 border border-gray-800 px-1 text-xs text-white rounded cursor-pointer"
+                        className="flex justify-center w-20 shadow-menu bg-orange-600 border border-gray-800 px-2 py-1 text-xs text-white rounded cursor-pointer"
                         onClick={(e) => {
                           e.stopPropagation();
                           setRateModalOpen(true);
@@ -412,6 +409,10 @@ export default function Review() {
           </div>
         </div>
       </div>
+      <Report
+        modalOpen={reportModalOpen}
+        setModalOpen={setReportModalOpen}
+      />
       <Footer />
     </>
   );
