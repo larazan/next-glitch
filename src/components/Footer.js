@@ -62,12 +62,12 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href="/contact"
                         className="text-white transition hover:text-[#ffff00]"
                       >
-                        Blog
-                      </a>
+                        Contact
+                      </Link>
                     </li>
 
                     <li>
@@ -101,6 +101,15 @@ export default function Footer() {
                       >
                         Features
                       </a>
+                    </li>
+
+                    <li>
+                      <Link
+                        href="/news"
+                        className="text-white transition hover:text-[#ffff00]"
+                      >
+                        News
+                      </Link>
                     </li>
 
                     <li>

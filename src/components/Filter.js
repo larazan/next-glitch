@@ -42,6 +42,7 @@ export default function Filter({ open }) {
                     value={value}
                   >
                     <option value="">Pilih</option>
+                    <option value={"true"}>Popular</option>
                     <option value={"true"}>Newest</option>
                     <option value={"false"}>Trending</option>
                     <option value={"false"}>Top</option>

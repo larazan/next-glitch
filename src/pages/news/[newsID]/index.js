@@ -139,10 +139,7 @@ export default function Detail() {
                         </span>
                       </div>
                     </button>
-                    <Report
-                      modalOpen={reportModalOpen}
-                      setModalOpen={setReportModalOpen}
-                    />
+                    
                   </div>
                 </div>
               </div>
@@ -241,6 +238,10 @@ export default function Detail() {
           </div>
         </div>
       </section>
+      <Report
+        modalOpen={reportModalOpen}
+        setModalOpen={setReportModalOpen}
+      />
       <RelatedNews />
       <Footer />
     </>

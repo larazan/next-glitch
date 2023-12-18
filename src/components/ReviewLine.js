@@ -284,9 +284,9 @@ export default function ReviewLine() {
                           alt=""
                         />
                       </div>
-                      <div className="flex flex-col items-center md:flex-row text-sm font-semibold font-mabrybold">
+                      <div className="flex flex-col items-center md:flex-col text-sm font-semibold font-mabrybold">
                         <div><span>John Lucas •</span></div>
-                        <span className="md:ml-1 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
+                        <span className="md:ml-0 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
                       </div>
                     </div>
                   </div>
@@ -354,9 +354,9 @@ export default function ReviewLine() {
                           alt=""
                         />
                       </div>
-                      <div className="flex flex-col items-center md:flex-row text-sm font-semibold font-mabrybold">
+                      <div className="flex flex-col items-center md:flex-col text-sm font-semibold font-mabrybold">
                         <div><span>John Lucas •</span></div>
-                        <span className="md:ml-1 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
+                        <span className="md:ml-0 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
                       </div>
                     </div>
                   </div>
@@ -424,9 +424,9 @@ export default function ReviewLine() {
                           alt=""
                         />
                       </div>
-                      <div className="flex flex-col items-center md:flex-row text-sm font-semibold font-mabrybold">
+                      <div className="flex flex-col items-center md:flex-col text-sm font-semibold font-mabrybold">
                         <div><span>John Lucas •</span></div>
-                        <span className="md:ml-1 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
+                        <span className="md:ml-0 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
                       </div>
                     </div>
                   </div>
