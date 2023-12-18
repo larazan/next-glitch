@@ -18,15 +18,16 @@ const events = () => {
       </Head>
       <Header />
       <GoTop />
-      <div className="bg-[#f4f2ef] relative py-12 ">
-        <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
-          <div className="container bg-white mx-auto mt-12 p-6 rounded-xl">
+      <div className="bg-[#f6f8f7] relative md:py-12 ">
+        <article className="max-w-3xl mx-auto relative z-10 py-8 px-2 md:px-4 markdown">
+          <div className="container bg-white mx-auto mt-12 p-4 md:p-6 rounded-xl shadow-lg">
   
             <div className="py-6 flex w-full md:w-2/3 font-mabrybold mx-auto">
               <div className="mx-auto">
               <div className="bg-mint mx-auto hover:bg-white border-2 border-gray-800 shadow text-black uppercase px-2 font-display font-mabryblack leading-tight text-3xl md:text-3xl tracking-tight l transform -rotate-2 md:-rotate-2">Upcoming event</div>
               </div>         
             </div>
+            <div>
             <div className="flex  my-4 py-2 px-4 bg-gray-900">
               <h2 className=" uppercase font-mabrybold  tracking-tight text-lg text-white font-light font-display">
                 May 2023
@@ -75,6 +76,7 @@ const events = () => {
                   </div>
                 </div>
               </Link>
+            </div>
             </div>
           </div>
         </article>

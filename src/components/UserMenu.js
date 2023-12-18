@@ -70,7 +70,7 @@ export default function UserMenu() {
           onFocus={() => setDropdownOpen(true)}
           onBlur={() => setDropdownOpen(false)}
         >
-          <div className="flex justify-center py-2 pb-3 md:mr-2">
+          <div className="flex bg-pink-501 justify-center w-full  py-2 pb-3 md:pr-1.5">
             <Ava username={'Selena gomes'} size={45} />
           </div>
           <div className="flex flex-col text-sm font-semibold font-mabrybold text-slate-800 capitalize pt-1.5 pb-1 px-4">
@@ -123,9 +123,9 @@ export default function UserMenu() {
             </li>
             <li className="border-b border-slate-200 last:border-0">
               <div
-                className="flex items-center space-x-2 py-1.5 px-4 "
+                className="flex w-full items-center space-x-2 py-1.5 px-4 "
               >
-                <button onClick={() => setDropdownOpen(!dropdownOpen)} className="flex shadow-menu items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-2 bg-[#e31c2d] opacity-90 hover:opacity-100">
+                <button onClick={() => setDropdownOpen(!dropdownOpen)} className="flex w-full shadow-menu items-center justify-center rounded border-2 border-gray-800 px-2 py-1.5 space-x-2 bg-[#e31c2d] opacity-90 hover:opacity-100">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

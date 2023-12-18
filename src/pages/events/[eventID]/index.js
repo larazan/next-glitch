@@ -19,9 +19,9 @@ const Detail = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="bg-[#f4f2ef] relative py-6 md:py-12 ">
+      <div className="bg-[#f6f8f7] relative py-6 md:py-12 ">
         <article className="max-w-3xl mx-auto relative z-10 py-4 md:py-8 px-1.5 md:px-4 markdown">
-          <div className="container bg-white mx-auto mt-12 px-3 md:p-6 rounded-xl">
+          <div className="container bg-white mx-auto mt-12 px-3 md:p-6 rounded-xl shadow-lg">
             <div className="px-4">
               <h1 className="py-5 font-mabryblack leading-tight text-3xl md:text-5xl tracking-tight font-display font-bold text-center">
                 Bali Major 2023
