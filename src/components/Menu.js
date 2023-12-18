@@ -65,7 +65,7 @@ export default function Menu() {
         
   
         <Transition
-          className="origin-top-right shadow-menu  absolute top-full right-0 -mr-2 md:-mr-16 sm:mr-0 min-w-80 w-64 bg-white border-2 border-gray-600 py-1.5 rounded shadow-lg overflow-hidden mt-2 md:mt-1"
+          className="origin-top-right shadow-menu  absolute top-full right-0 -mr-2 md:-mr-12 sm:mr-0 min-w-80 w-64 bg-white border-2 border-gray-600 py-1.5 rounded shadow-lg overflow-hidden mt-2 md:mt-1.5"
           show={dropdownOpen}
           enter="transition ease-out duration-200 transform"
           enterStart="opacity-0 -translate-y-2"

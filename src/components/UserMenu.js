@@ -56,7 +56,7 @@ export default function UserMenu() {
       </button>
 
       <Transition
-        className="origin-top-right z-10 absolute top-full shadow-menu right-0 -mr-2 md:-mr-2 sm:mr-0 min-w-80 w-40 bg-white border-2 border-slate-600 py-1.5 rounded shadow-lg overflow-hidden mt-2 md:mt-1"
+        className="origin-top-right z-10 absolute top-full shadow-menu right-0 -mr-2 md:-mr-2 sm:mr-0 min-w-80 w-40 bg-white border-2 border-slate-600 py-1.5 rounded shadow-lg overflow-hidden mt-2 md:mt-1.5"
         show={dropdownOpen}
         enter="transition ease-out duration-200 transform"
         enterStart="opacity-0 -translate-y-2"
