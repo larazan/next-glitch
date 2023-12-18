@@ -105,10 +105,10 @@ export default function Footer() {
 
                     <li>
                       <Link
-                        href="/profile"
+                        href="/events"
                         className="text-white transition hover:text-[#ffff00]"
                       >
-                        Profile
+                        Events
                       </Link>
                     </li>
 

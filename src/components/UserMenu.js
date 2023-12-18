@@ -80,7 +80,6 @@ export default function UserMenu() {
             <li className="border-b border-slate-200 last:border-0">
               <Link
                 className="block py-2 px-4 hover:bg-blue-200"
-  
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={"/profile"}
               >
@@ -94,7 +93,6 @@ export default function UserMenu() {
             <li className="last:border-0">
               <Link
                 className="block py-1.5 px-4 hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
-                to="settings"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
               >
@@ -106,7 +104,6 @@ export default function UserMenu() {
             <li className="last:border-0">
               <Link
                 className="block py-1.5 px-4  hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
-                to="settings/account"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 href={""}
               >
@@ -118,9 +115,8 @@ export default function UserMenu() {
             <li className="border-b border-slate-00 last:border-0">
               <Link
                 className="block py-1.5 px-4  hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
-                to="settings/account"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
-                href={""}
+                href={"/faqs"}
               >
                 <span className="block text-sm text-gray-900 font-semibold font-mabry mb-0">Help</span>
               </Link>

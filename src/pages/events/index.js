@@ -5,6 +5,7 @@ import Head from "next/head";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GoTop from "@/components/GoTop";
 
 const events = () => {
   return (
@@ -16,19 +17,23 @@ const events = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
       <div className="bg-[#f4f2ef] relative py-12 ">
         <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
           <div className="container bg-white mx-auto mt-12 p-6 rounded-xl">
-            <div className="px-4">
-              <h1 className="py-8 font-mabryblack leading-tight text-3xl md:text-5xl tracking-tight font-display font-bold text-center">
-                Upcoming event
-              </h1>
-            </div>{" "}
-            <h2 className="pb-4 mt-2 font-mabrybold px-4 tracking-tight text-lg text-black font-light font-display">
-              May 2023
-            </h2>
+  
+            <div className="py-6 flex w-full md:w-2/3 font-mabrybold mx-auto">
+              <div className="mx-auto">
+              <div className="bg-mint mx-auto hover:bg-white border-2 border-gray-800 shadow text-black uppercase px-2 font-display font-mabryblack leading-tight text-3xl md:text-3xl tracking-tight l transform -rotate-2 md:-rotate-2">Upcoming event</div>
+              </div>         
+            </div>
+            <div className="flex  my-4 py-2 px-4 bg-gray-900">
+              <h2 className=" uppercase font-mabrybold  tracking-tight text-lg text-white font-light font-display">
+                May 2023
+              </h2>
+            </div>
             <div className=" columns-1 md:columns-2 lg:columns-3 ">
-              <div className="mb-4 rounded-md bg-[#f4f2ef]  flex  overflow-hidden justify-center items-center cursor-zoom-in">
+              <Link href={"/events/event-one"} className="mb-4 rounded-md bg-[#f4f2ef]  flex  overflow-hidden justify-center items-center cursor-zoom-in">
                 <div className="flex flex-col justify-center items-center w-16 text-white bg-slate-900 p-2">
                   <span className="text-sm font-mabry">Jul</span>
                   <span className="font-mabrybold text-lg">15</span>
@@ -37,12 +42,12 @@ const events = () => {
                   <p className="leading-tight md:leading-tight text-black font-mabryblack text-lg md:text-2xl lg:text-2xl">
                     Champs-Elysées Film Festival
                   </p>
-                  <div className="font-mabry flex ">
+                  <div className="font-mabry flex text-gray-900">
                     @ 6:30 pm - 10:30 pm
                   </div>
                 </div>
-              </div>
-              <div className="mb-4 rounded-md bg-[#f4f2ef]  flex overflow-hidden justify-center items-center cursor-zoom-in">
+              </Link>
+              <Link href={"/events/event-one"} className="mb-4 rounded-md bg-[#f4f2ef]  flex overflow-hidden justify-center items-center cursor-zoom-in">
               <div className="flex flex-col justify-center items-center w-16 text-white bg-slate-900 p-2">
                   <span className="text-sm font-mabry">Jul</span>
                   <span className="font-mabrybold text-lg">15</span>
@@ -51,12 +56,12 @@ const events = () => {
                   <p className="leading-tight md:leading-tight text-black font-mabryblack text-lg md:text-2xl lg:text-2xl">
                     L’Amour et les Forêts
                   </p>
-                  <div className="font-mabry flex ">
+                  <div className="font-mabry flex  text-gray-900">
                     @ 6:30 pm - 10:30 pm
                   </div>
                 </div>
-              </div>
-              <div className="mb-4 rounded-md bg-[#f4f2ef]  flex  overflow-hidden justify-center items-center cursor-zoom-in">
+              </Link>
+              <Link href={"/events/event-one"} className="mb-4 rounded-md bg-[#f4f2ef]  flex  overflow-hidden justify-center items-center cursor-zoom-in">
               <div className="flex flex-col justify-center items-center w-16 text-white bg-slate-900 p-2">
                   <span className="text-sm font-mabry">Jul</span>
                   <span className="font-mabrybold text-lg">15</span>
@@ -65,11 +70,11 @@ const events = () => {
                   <p className="leading-tight md:leading-tight text-black font-mabryblack text-lg md:text-2xl lg:text-2xl">
                     Mobile Apps with Svelte and Capacitor
                   </p>
-                  <div className="font-mabry flex ">
+                  <div className="font-mabry flex  text-gray-900">
                     @ 6:30 pm - 10:30 pm
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </article>

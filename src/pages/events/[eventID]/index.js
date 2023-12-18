@@ -19,9 +19,9 @@ const Detail = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="bg-[#f4f2ef] relative py-12 ">
-        <article className="max-w-3xl mx-auto relative z-10 py-8 px-4 markdown">
-          <div className="container bg-white mx-auto mt-12 p-6 rounded-xl">
+      <div className="bg-[#f4f2ef] relative py-6 md:py-12 ">
+        <article className="max-w-3xl mx-auto relative z-10 py-4 md:py-8 px-1.5 md:px-4 markdown">
+          <div className="container bg-white mx-auto mt-12 px-3 md:p-6 rounded-xl">
             <div className="px-4">
               <h1 className="py-5 font-mabryblack leading-tight text-3xl md:text-5xl tracking-tight font-display font-bold text-center">
                 Bali Major 2023
@@ -30,16 +30,16 @@ const Detail = () => {
             <div className="mt-2 md:mt-2 flex justify-center  text-sm">
               <Image src={tournament} alt="" className="rounded-lg" />
             </div>
-            <div className="w-full py-6 flex space-x-4">
-              <div className="w-3/5 bg-[#f4f2ef] rounded-lg p-4">
-                <p className="font-mabry text-lg ">
+            <div className="w-full py-6 flex flex-col-reverse md:flex-row md:space-x-4">
+              <div className="w-full md:w-3/5 bg-[#f4f2ef] rounded-lg p-4 mt-4 md:mt-0">
+                <p className="font-mabry md:text-lg leading-tight">
                   While on PTO I more or less accidentally found a lot of
                   companies storing sensitive data in publicly accessible cloud
                   storage that can easily be scraped.
                 </p>
               </div>
-              <div className="w-2/5 bg-[#4a5568] rounded-lg  text-white">
-                <div className="flex flex-col w-full py-3">
+              <div className="w-full md:w-2/5 bg-[#4a5568] rounded-lg  text-white">
+                <div className="flex flex-col w-full py-3 leading-tight">
                     <div className="flex justify-center items-center py-3">
                         <Image src={dota} alt="" />
                     </div>
