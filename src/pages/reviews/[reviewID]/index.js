@@ -81,7 +81,7 @@ export default function Review() {
         </div>
       </div>
       <div className="bg-[#f6f8f7]">
-        <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col  items-center px-2 md:px-4">
+        <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col  items-center px-4 md:px-4">
           <div className="flex flex-col py-2 md:py-4">
             <Breadcrumb />
             <span className="font-mabryblack uppercase leading-tight md:leading-11 text-2xl md:text-5xl pb-2 text-gray-900">
@@ -191,9 +191,10 @@ export default function Review() {
             <Image src={lastofus} quality={100} alt="" />
           </div>
         </div>
-        <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
+        <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col md:flex-row items-center mt-4 px-4 md:px-4">
           <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-            <div className="flex flex-col md:flex-row w-full md:justify-between space-x-3">
+            <div className="flex flex-col md:flex-row w-full md:justify-between space-y-3 md:space-x-3">
+              
               <div className="flex flex-col w-full md:w-2/3 px-3 py-2 md:px-3 md:py-2 rounded border-2 border-gray-800 bg-[#114388] shadow-menu">
                 <div className="text-lg font-mabrybold uppercase text-white">
                   The last of us part I
@@ -234,14 +235,14 @@ export default function Review() {
       </div>
 
       <div className="bg-[#f6f8f7]">
-        <div className="container w-full md:max-w-3xl mx-auto pt-4 md:pt-4 px-0 md:px-0">
+        <div className="container w-full md:max-w-3xl mx-auto pt-4 md:pt-4 px-4 md:px-0">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
               <div className="w-full">
-                {/* SOCMED */}
-                
-                <div className="flex flex-row w-full px-0 py-4 space-x-4">
-                  <div className="w-1/2 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
+               
+                <div className="flex flex-col md:flex-row w-full px-0 py-4 space-y-3 md:space-x-4">
+
+                  <div className="w-full md:w-1/2 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
                     <div className="flex flex-col w-full text-gray-900">
                       <div className="border-b border-gray-800 py-3 px-3 leading-tight">
                         <span className="text-sm font-mabrybold text-gray-900">
@@ -272,7 +273,7 @@ export default function Review() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-1/2 flex space-x-3">
+                  <div className="w-full md:w-1/2 flex space-x-3">
                     <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
                       <span className="text-lg font-mabrybold text-gray-900">
                         8.7

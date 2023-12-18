@@ -328,13 +328,13 @@ export default function News() {
                 </span>
               </div>
               <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     Ninja Issen perfects retro, cyberpunk, platforming action to
                     deliver nostalgic 90s magic
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs text-gray-900">
                   May 9th, 2023
                 </div>
               </div>
@@ -347,13 +347,13 @@ export default function News() {
                 </span>
               </div>
               <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new
                     season in March 2024
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs text-gray-900">
                   May 9th, 2023
                 </div>
               </div>
@@ -366,13 +366,13 @@ export default function News() {
                 </span>
               </div>
               <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     DC Studios head James Gunn forgets The Flash exists, roasts
                     pointless cameos in comic book movies
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs text-gray-900">
                   May 9th, 2023
                 </div>
               </div>
@@ -380,13 +380,13 @@ export default function News() {
             {/*  */}
             <div className="rounded bg-white border group flex flex-col overflow-hidden ">
               <div className="px-3 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     Netflix's Leave the World Behind is crushing the streaming
                     charts despite divided opinions
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs text-gray-900">
                   May 9th, 2023
                 </div>
               </div>
@@ -399,13 +399,13 @@ export default function News() {
                 </span>
               </div>
               <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     Expensive T-shirt seemingly confirms A24 and Hideo Kojima
                     are joining forces for the Death Stranding movie
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs text-gray-900">
                   May 9th, 2023
                 </div>
               </div>
@@ -418,13 +418,13 @@ export default function News() {
                 </span>
               </div>
               <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     Naughty Dog cancels The Last of Us multiplayer, will stick
                     to its single player roots
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs text-gray-900">
                   May 9th, 2023
                 </div>
               </div>
@@ -437,13 +437,13 @@ export default function News() {
                 </span>
               </div>
               <div className="px-3 py-1 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-lg leading-5 hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     Tekken 8 gets a massive offline PS5 demo this week, Xbox and
                     PC coming soon
                   </Link>
                 </h3>{" "}
-                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs">
+                <div className="flex justify-end pt-1.5 font-mabry mt-1 text-xs  text-gray-900">
                   May 9th, 2023
                 </div>
               </div>

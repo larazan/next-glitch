@@ -93,7 +93,7 @@ const RelatedNews = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={3}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-gray-900"
                 >
                   <path
                     strokeLinecap="round"
@@ -126,7 +126,7 @@ const RelatedNews = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={3}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-gray-900"
                 >
                   <path
                     strokeLinecap="round"
@@ -154,12 +154,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </Link>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>
@@ -173,12 +173,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </div>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>
@@ -192,12 +192,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </div>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>
@@ -211,12 +211,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </div>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>
@@ -230,12 +230,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </div>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>
@@ -249,12 +249,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </div>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>
@@ -268,12 +268,12 @@ const RelatedNews = () => {
                 <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
               </div>
               <div className="px-1 py-2 flex flex-col justify-between leading-tight ">
-                <h3 className="font-mabrybold text-md hover:underline underline-offset-2">
+                <h3 className="font-mabrybold text-md hover:underline underline-offset-2 text-gray-900">
                   <Link href="/news/news-one">
                     The unlikely is happening: Battlefield 2042 is getting a new season in March 2024                    
                   </Link>
                 </h3>{" "}
-                <div className="font-mabry mt-1 text-xs">May 9th, 2023</div>
+                <div className="font-mabry mt-1 text-xs text-gray-800">May 9th, 2023</div>
               </div>
               </div>
             </div>

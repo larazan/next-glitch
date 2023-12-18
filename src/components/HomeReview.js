@@ -107,7 +107,7 @@ export default function HomeReview() {
                   viewBox="0 0 24 24"
                   strokeWidth={3}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-gray-900"
                 >
                   <path
                     strokeLinecap="round"
@@ -140,7 +140,7 @@ export default function HomeReview() {
                   viewBox="0 0 24 24"
                   strokeWidth={3}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-gray-900"
                 >
                   <path
                     strokeLinecap="round"

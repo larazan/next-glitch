@@ -248,14 +248,14 @@ export default function Checkout() {
           <div className="flex w-full flex-col rounded bg-[#f4f4f4] mt-3">
             <div className="flex justify-between py-3 px-4 rounded bg-blue-100 border border-[#006eff]">
               <div>
-                <span className="text-[14px]">Standard</span>
+                <span className="text-[14px] text-gray-900">Standard</span>
               </div>
               <div className="flex flex-col space-y-1">
                 <div>
-                  <span className="text-xs">$ 5.00</span>
+                  <span className="text-xs text-gray-900">$ 5.00</span>
                 </div>
                 <div>
-                  <span className="text-sm font-semibold">Free</span>
+                  <span className="text-sm font-semibold text-gray-900">Free</span>
                 </div>
               </div>
             </div>
@@ -327,8 +327,8 @@ export default function Checkout() {
           </span>
           <div className="flex w-full flex-col rounded bg-[#f4f4f4] mt-3">
             <div className="flex justify-between py-3 px-3 rounded-t bg-blue-100 border border-[#006eff]">
-              <div>
-                <span className="text-[14px]">Payments via Midtrans</span>
+              <div className="leading-tight">
+                <span className="text-[14px] text-gray-900">Payments via Midtrans</span>
               </div>
               <div className="flex items-center space-x-1">
                 <Image src={bri} alt="" />
@@ -338,7 +338,7 @@ export default function Checkout() {
               </div>
             </div>
             <div className="flex w-full border rounded-b justify-center items-center flex-col space-y-4 py-4">
-              <div>
+              <div className=" text-gray-900">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="-252.3 356.1 163 80.9"
@@ -379,7 +379,7 @@ export default function Checkout() {
                 </svg>
               </div>
               <div className="flex w-8/12 text-center">
-                <span className="text-[13px]">
+                <span className="text-[13px] text-gray-900">
                   After clicking “Pay now”, you will be redirected to Payments
                   via Midtrans to complete your purchase securely.
                 </span>

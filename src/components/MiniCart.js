@@ -321,7 +321,7 @@ export default function MiniCart() {
                   <div className="flex w-full pt-3">
                     <Link
                       className="relative w-full inline-block  group text-center"
-                      href="/"
+                      href="/checkout"
                     >
                       <span className="relative flex button w-full px-2 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
                         <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>

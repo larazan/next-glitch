@@ -28,7 +28,7 @@ export default function Product() {
           <div className="flex flex-col  md:flex-row justify-between w-full  px-4 py-4 border-y border-gray-800 bg-white">
             <div className="flex w-full md:w-2/3 space-x-4 items-center">
               {/* <div className="text-lg font-mabrybold ">Rp 2.500.000</div> */}
-              <div className="text-lg font-mabrybold ">
+              <div className="text-lg font-mabrybold text-gray-900">
                 Roronoa Zoro Action Figure One Piece Grandista Zorro
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Product() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-4 h-4"
+                    className="w-4 h-4 text-gray-900"
                   >
                     <path
                       fillRule="evenodd"
@@ -52,7 +52,7 @@ export default function Product() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-4 h-4"
+                    className="w-4 h-4 text-gray-900"
                   >
                     <path
                       fillRule="evenodd"
@@ -64,7 +64,7 @@ export default function Product() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-4 h-4"
+                    className="w-4 h-4 text-gray-900"
                   >
                     <path
                       fillRule="evenodd"
@@ -76,7 +76,7 @@ export default function Product() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-4 h-4"
+                    className="w-4 h-4 text-gray-900"
                   >
                     <path
                       fillRule="evenodd"
@@ -88,7 +88,7 @@ export default function Product() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-4 h-4"
+                    className="w-4 h-4 text-gray-900"
                   >
                     <path
                       fillRule="evenodd"
@@ -96,7 +96,7 @@ export default function Product() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-xs font-mabry">(50)</span>
+                  <span className="text-xs font-mabry text-gray-900">(50)</span>
                 </div>
               </div>
                 <Link href={""} className="relative inline-block text-lg group">
@@ -124,13 +124,13 @@ export default function Product() {
           <div className="flex flex-col md:flex-row w-full ">
             <div className="flex flex-col w-full md:w-2/3 bg-white border-r border-gray-800">
               <div className="flex w-full h-28 items-center py-10 px-4 bg-white border-b border-gray-800">
-                <div className="text-3xl py-10 font-mabry leading-tight">
+                <div className="text-3xl py-10 font-mabry leading-tight text-gray-900">
                   Roronoa Zoro Action Figure One Piece Grandista Zorro
                 </div>
               </div>
               <div className="flex flex-row w-full items-center px-4  bg-white border-b border-gray-800">
                 <div className="flex w-1/2 space-x-4 h-12 items-center border-r border-gray-800">
-                  <div className="text-lg font-mabrybold">Rp 2.500.000</div>
+                  <div className="text-lg font-mabrybold  text-gray-900">Rp 2.500.000</div>
                 </div>
                 <div className="flex w-1/2 items-center justify-center">
                   <div className="flex items-center space-x-1 ">
@@ -140,7 +140,7 @@ export default function Product() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -154,7 +154,7 @@ export default function Product() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -168,7 +168,7 @@ export default function Product() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -182,7 +182,7 @@ export default function Product() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             fillRule="evenodd"
@@ -198,7 +198,7 @@ export default function Product() {
                           viewBox="0 0 24 24"
                           strokeWidth={1.5}
                           stroke="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-gray-900"
                         >
                           <path
                             strokeLinecap="round"
@@ -208,7 +208,7 @@ export default function Product() {
                         </svg>
                       </span>
                     </div>
-                    <span className="text-xs font-mabrybold">(50)</span>
+                    <span className="text-xs font-mabrybold text-gray-900">(50)</span>
                   </div>
                 </div>
               </div>
@@ -252,31 +252,31 @@ export default function Product() {
                 </Link>
 
                 <div className="flex w-full justify-center py-3">
-                  <span className="text-sm font-mabrybold">5,226 sales</span>
+                  <span className="text-sm font-mabrybold text-gray-900">5,226 sales</span>
                 </div>
 
                 <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
                   <div className="flex flex-col w-full ">
                     <div className="border-b border-gray-800 py-3 px-3 leading-tight">
-                      <span className="text-sm font-mabry ">
+                      <span className="text-sm font-mabry  text-gray-900">
                         Roronoa Zoro Action Figure One Piece Grandista Zorro
                       </span>
                     </div>
                     <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                      <div className="text-sm font-mabrybold">Kategori</div>
-                      <div className="text-sm font-mabry">Action Figure</div>
+                      <div className="text-sm font-mabrybold  text-gray-900">Kategori</div>
+                      <div className="text-sm font-mabry text-gray-900">Action Figure</div>
                     </div>
                     <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                      <div className="text-sm font-mabrybold">Ukuran</div>
-                      <div className="text-sm font-mabry">28 cm</div>
+                      <div className="text-sm font-mabrybold text-gray-900">Ukuran</div>
+                      <div className="text-sm font-mabry text-gray-900">28 cm</div>
                     </div>
                     <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                      <div className="text-sm font-mabrybold">Berat</div>
-                      <div className="text-sm font-mabry">0,3 kg</div>
+                      <div className="text-sm font-mabrybold text-gray-900">Berat</div>
+                      <div className="text-sm font-mabry text-gray-900">0,3 kg</div>
                     </div>
                     <div className="flex justify-between items-center border-gray-800 py-3 px-3">
-                      <div className="text-sm font-mabrybold">Material</div>
-                      <div className="text-sm font-mabry">Pvc</div>
+                      <div className="text-sm font-mabrybold text-gray-900">Material</div>
+                      <div className="text-sm font-mabry text-gray-900">Pvc</div>
                     </div>
                   </div>
                 </div>
@@ -294,7 +294,7 @@ export default function Product() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="w-4 h-4"
+                            className="w-4 h-4 text-gray-900"
                           >
                             <path
                               fillRule="evenodd"
@@ -303,16 +303,16 @@ export default function Product() {
                             />
                           </svg>
                         </span>
-                        <div className="text-xs ml-1 font-mabrybold">5.0</div>
+                        <div className="text-xs ml-1 font-mabrybold text-gray-900">5.0</div>
                       </div>
-                      <span className="text-xs font-mabry">(200)</span>
+                      <span className="text-xs font-mabry text-gray-900">(200)</span>
                     </div>
                   </div>
 
                   <div className="  pb-3">
                     <div className="flex items-center mt-1">
                       <div className="mr-3 text-xs font-mabry ">
-                        <div className="flex items-center space-x-1">
+                        <div className="flex items-center space-x-1 text-gray-900">
                           <div>5</div>
                           <span className="tracking-tight">starts</span>
                         </div>
@@ -323,14 +323,14 @@ export default function Product() {
                         </div>
                       </div>
                       <div className="mr-3 font-mabry pl-3">
-                        <span className="text-xs">51%</span>
+                        <span className="text-xs text-gray-900">51%</span>
                       </div>
                     </div>
                     <div className="flex items-center mt-1">
                       <div className="mr-3 text-xs font-mabry ">
-                        <div className="flex items-center space-x-1">
+                        <div className="flex items-center space-x-1 text-gray-900">
                           <div>4</div>
-                          <span className="tracking-tight">starts</span>
+                          <span className="tracking-tight text-gray-900">starts</span>
                         </div>
                       </div>
                       <div className="w-3/5">
@@ -339,12 +339,12 @@ export default function Product() {
                         </div>
                       </div>
                       <div className="mr-3 font-mabry pl-3">
-                        <span className="text-xs">21%</span>
+                        <span className="text-xs text-gray-900">21%</span>
                       </div>
                     </div>
                     <div className="flex items-center mt-1">
                       <div className="mr-3 text-xs font-mabry ">
-                        <div className="flex items-center space-x-1">
+                        <div className="flex items-center space-x-1 text-gray-900">
                           <div>3</div>
                           <span className="tracking-tight">starts</span>
                         </div>
@@ -354,13 +354,13 @@ export default function Product() {
                           <div className=" w-1/12 bg-green-200 rounded-sm h-3"></div>
                         </div>
                       </div>
-                      <div className="mr-3 font-mabry pl-3">
+                      <div className="mr-3 font-mabry pl-3 text-gray-900">
                         <span className="text-xs">5%</span>
                       </div>
                     </div>
                     <div className="flex items-center mt-1">
                       <div className="mr-3 text-xs font-mabry ">
-                        <div className="flex items-center space-x-1">
+                        <div className="flex items-center space-x-1 text-gray-900">
                           <div>2</div>
                           <span className="tracking-tight">starts</span>
                         </div>
@@ -370,13 +370,13 @@ export default function Product() {
                           {/* <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
                         </div>
                       </div>
-                      <div className="mr-3 font-mabry pl-3">
+                      <div className="mr-3 font-mabry pl-3 text-gray-900">
                         <span className="text-xs">0%</span>
                       </div>
                     </div>
                     <div className="flex items-center mt-1">
                       <div className="mr-3 text-xs font-mabry ">
-                        <div className="flex items-center space-x-1">
+                        <div className="flex items-center space-x-1 text-gray-900">
                           <div>1</div>
                           <span className="tracking-tight">starts</span>
                         </div>
@@ -386,7 +386,7 @@ export default function Product() {
                           {/* <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
                         </div>
                       </div>
-                      <div className="mr-3 font-mabry pl-3">
+                      <div className="mr-3 font-mabry pl-3 text-gray-900">
                         <span className="text-xs">0%</span>
                       </div>
                     </div>

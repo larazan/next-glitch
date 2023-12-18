@@ -8,7 +8,7 @@ const Author = () => {
     <>
         <div className="flex w-full items-center2 font-mabry px-2 py-4 md:px-0 md:py-8">
             <Image
-            className="w-16 h-16 border border-gray-700 rounded-full mr-1 md:mr-2"
+            className="w-14 h-14 md:w-16 md:h-16 border border-gray-700 rounded-full mr-1 md:mr-2"
             src={pravatar}
             alt="Avatar of Author"
             />
