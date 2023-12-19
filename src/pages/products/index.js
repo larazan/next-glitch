@@ -62,7 +62,7 @@ export default function Products() {
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <section className="grid gap-3 md:gap-4 grid-cols-2 md:grid-cols-3 flex2 flex-row2 flex-wrap2 mx-auto justify-center2 items-center3">
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -71,7 +71,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -104,7 +104,7 @@ export default function Products() {
               </div>
             </Link> 
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -113,7 +113,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -146,7 +146,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -155,7 +155,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -188,7 +188,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -197,7 +197,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -230,7 +230,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -239,7 +239,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -272,7 +272,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -281,7 +281,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -314,7 +314,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -323,7 +323,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -356,7 +356,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -365,7 +365,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -398,7 +398,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -407,7 +407,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -440,7 +440,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -449,7 +449,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -482,7 +482,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -491,7 +491,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>
@@ -524,7 +524,7 @@ export default function Products() {
               </div>
             </Link>
             {/*  */}
-            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer">
+            <Link href={"/products/antman"} className=" transition-all duration-150 flex w-full  md:w-1/32 lg:w-1/32  cursor-pointer hover:scale-105 group">
               <div className=" flex flex-col border border-gray-600 items-stretch min-h-full  transition-all duration-150 bg-white rounded-md shadow hover:shadow">
                 <div className=" md:flex-shrink-0 border-b">
                   <Image
@@ -533,7 +533,7 @@ export default function Products() {
                     alt=""
                   />
                 </div>
-                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900">
+                <div className="px-3 py-2 leading-tight h-16 font-mabry text-gray-900 group-hover:underline underline-offset-1">
                   <span className="leading-tight">
                     Lorem Ipsum dolor sit amet
                   </span>

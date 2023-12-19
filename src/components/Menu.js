@@ -85,7 +85,7 @@ export default function Menu() {
             <ul>
               <li className="">
                 <Link
-                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-3 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/news'}
@@ -106,7 +106,7 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-3 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/reviews'}
@@ -127,7 +127,7 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-3 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/forums'}
@@ -148,7 +148,7 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-3 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/guides'}
@@ -169,7 +169,7 @@ export default function Menu() {
               </li>
               <li className="">
                 <Link
-                  className="block px-3 py-2 md:py-4 md:px-4 hover:bg-blue-200"
+                  className="block px-3 py-2 md:py-3 md:px-4 hover:bg-blue-200"
                   to="#0"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={'/products'}

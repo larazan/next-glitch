@@ -52,8 +52,8 @@ export default function Reviews() {
         <div className="flex flex-row mx-auto w-full space-x-6 justify-center2 items-center">
           <section className="mt-4 flex flex-row flex-wrap mx-auto items-center2">
             
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={colosous}
@@ -67,7 +67,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -78,7 +78,7 @@ export default function Reviews() {
                     </div>
                   </div>
                   <div className="leading-tight">
-                    <span className="font-mabry text-sm text-gray-900 leading-tight">
+                    <span className="font-mabry text-sm text-gray-900 leading-tight ">
                       If you have played any Diablo game, then you already know
                       what Dungeon Hunter: Alliance will be like. You take on
                       the role of the recently deceased king...
@@ -88,8 +88,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800  hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800   px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={diablo}
@@ -103,7 +103,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between ">
                     <div className="leading-tight ">
-                      <span className="text-lg font-mabrybold leading-tight  hover:text-blue-400">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -124,8 +124,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={murdered}
@@ -139,7 +139,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -160,8 +160,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={north}
@@ -175,7 +175,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -196,8 +196,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={saboteur}
@@ -211,7 +211,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -232,8 +232,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={skyrim}
@@ -247,7 +247,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -268,8 +268,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={spiderman}
@@ -283,7 +283,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -304,8 +304,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={toad}
@@ -319,7 +319,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>
@@ -340,8 +340,8 @@ export default function Reviews() {
               </div>
             </Link>
 
-            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 ">
-              <div className="flex w-full space-x-3 rounded border-2 border-gray-800 hover:border-blue-400 px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
+            <Link href={"/reviews/review-one"} className="transition-all duration-150 flex w-full py-2 px-3 md:py-4  md:w-1/2 lg:w-1/3 group hover:scale-105">
+              <div className="flex w-full space-x-3 bg-white rounded border-2 border-gray-800  px-2 py-3 shadow-stack-sm hover:shadow-stack-yellow-sm">
                 <div className="flex flex-col space-y-1.5 w-1/4">
                   <Image
                     src={unpacking}
@@ -355,7 +355,7 @@ export default function Reviews() {
                 <div className="w-3/4 flex flex-col space-y-1.5">
                   <div className="flex justify-between">
                     <div className="leading-tight">
-                      <span className="text-lg font-mabrybold leading-tight text-gray-900">
+                      <span className="text-lg font-mabrybold leading-tight text-gray-900 underline-offset-2 group-hover:underline">
                         A Solid Diablo Clone For The Vita.
                       </span>
                     </div>

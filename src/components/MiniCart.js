@@ -91,30 +91,32 @@ export default function MiniCart() {
               <ProductItem />
             </div>
             <div className="flex h-2/6 items-end justify-end flex-col gap-y-3 pt-8 mt-0">
-          <div className="flex w-full justify-between items-center">
-            <div className=" font-mabrybold text-slate-900">
-              <span className="mr-2">Subtotal:</span>
-            </div>
-            <div className="uppercase font-mabrybold">$ 200.00</div>
-          </div>
-          {/* <Link
+              <div className="flex w-full justify-between items-center">
+                <div className=" font-mabrybold text-slate-900">
+                  <span className="mr-2">Subtotal:</span>
+                </div>
+                <div className="uppercase font-mabrybold text-slate-900">
+                  $ 200.00
+                </div>
+              </div>
+              {/* <Link
             href={"/cart"}
             className="bg-[#001838] hover:opacity-80 uppercase tracking-tight text-white rounded flex p-3 justify-center items-center w-full font-semibold"
           >
             View Cart
           </Link> */}
-          <Link
-                    className="relative w-full inline-block  group text-center"
-                    href="/checkout"
-                  >
-                    <span className="relative flex button w-full px-2 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
-                      <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                      <span className="relative text-md font-mabrybold">
-                        Checkout
-                      </span>
-                    </span>
-                  </Link>
-        </div>
+              <Link
+                className="relative w-full inline-block  group text-center"
+                href="/checkout"
+              >
+                <span className="relative flex button w-full px-2 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
+                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-pink-200 group-hover:bg-pink-300"></span>
+                  <span className="relative text-md font-mabrybold">
+                    Checkout
+                  </span>
+                </span>
+              </Link>
+            </div>
           </div>
 
           <ul className="hidden">

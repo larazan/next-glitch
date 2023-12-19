@@ -30,8 +30,91 @@ export default function ReviewLine() {
                   Generally favorable reviews based on 201 Ratings
                 </div>
               </div>
+              <div className="flex justify-center w-20 shadow-menu bg-orange-600 border border-gray-800 px-2 py-1.5 text-sm text-white text-mabrybold rounded cursor-pointer">Rate now</div>
             </div>
-            <div className="flex flex-wrap items-center justify-around md:justify-start mt-2">
+            <div className="w-full md:w-1/2  pb-3">
+              <div className="flex items-center mt-1">
+                <div className="mr-3 text-xs font-mabry ">
+                  <div className="flex items-center space-x-1 text-gray-900">
+                    <div>5</div>
+                    <span className="tracking-tight">starts</span>
+                  </div>
+                </div>
+                <div className="w-3/5">
+                  <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                    <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div>
+                  </div>
+                </div>
+                <div className="mr-3 font-mabry pl-3">
+                  <span className="text-xs text-gray-900">51%</span>
+                </div>
+              </div>
+              <div className="flex items-center mt-1">
+                <div className="mr-3 text-xs font-mabry ">
+                  <div className="flex items-center space-x-1 text-gray-900">
+                    <div>4</div>
+                    <span className="tracking-tight text-gray-900">starts</span>
+                  </div>
+                </div>
+                <div className="w-3/5">
+                  <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                    <div className=" w-2/12 bg-green-200 rounded-sm h-3"></div>
+                  </div>
+                </div>
+                <div className="mr-3 font-mabry pl-3">
+                  <span className="text-xs text-gray-900">21%</span>
+                </div>
+              </div>
+              <div className="flex items-center mt-1">
+                <div className="mr-3 text-xs font-mabry ">
+                  <div className="flex items-center space-x-1 text-gray-900">
+                    <div>3</div>
+                    <span className="tracking-tight">starts</span>
+                  </div>
+                </div>
+                <div className="w-3/5">
+                  <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                    <div className=" w-1/12 bg-green-200 rounded-sm h-3"></div>
+                  </div>
+                </div>
+                <div className="mr-3 font-mabry pl-3 text-gray-900">
+                  <span className="text-xs">5%</span>
+                </div>
+              </div>
+              <div className="flex items-center mt-1">
+                <div className="mr-3 text-xs font-mabry ">
+                  <div className="flex items-center space-x-1 text-gray-900">
+                    <div>2</div>
+                    <span className="tracking-tight">starts</span>
+                  </div>
+                </div>
+                <div className="w-3/5">
+                  <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                    {/* <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
+                  </div>
+                </div>
+                <div className="mr-3 font-mabry pl-3 text-gray-900">
+                  <span className="text-xs">0%</span>
+                </div>
+              </div>
+              <div className="flex items-center mt-1">
+                <div className="mr-3 text-xs font-mabry ">
+                  <div className="flex items-center space-x-1 text-gray-900">
+                    <div>1</div>
+                    <span className="tracking-tight">starts</span>
+                  </div>
+                </div>
+                <div className="w-3/5">
+                  <div className="bg-white w-full rounded-sm border border-gray-800 h-3.5">
+                    {/* <div className=" w-7/12 bg-green-200 rounded-sm h-3"></div> */}
+                  </div>
+                </div>
+                <div className="mr-3 font-mabry pl-3 text-gray-900">
+                  <span className="text-xs">0%</span>
+                </div>
+              </div>
+            </div>
+            {/* <div className="flex flex-wrap items-center justify-around md:justify-start mt-2">
               <div className="flex-initial flex flex-col justify-center items-center">
                 <svg
                   className="w-12 text-gray-600 transition-all duration-300 ease-out transform fill-current stroke-current hover:text-blue-600 hover:scale-110"
@@ -238,7 +321,7 @@ export default function ReviewLine() {
                 </svg>
                 <span className="text-xs font-mabry">102</span>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flex justify-end mt-4">
             <button className="flex space-x-1 items-center font-mabry uppercase text-xs ">
@@ -285,8 +368,13 @@ export default function ReviewLine() {
                         />
                       </div>
                       <div className="flex flex-col items-center md:flex-col text-sm font-semibold font-mabrybold">
-                        <div><span>John Lucas •</span></div>
-                        <span className="md:ml-0 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
+                        <div>
+                          <span>John Lucas •</span>
+                        </div>
+                        <span className="md:ml-0 font-mabry text-xs text-gray-500">
+                          {" "}
+                          5 minutes ago
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -355,8 +443,13 @@ export default function ReviewLine() {
                         />
                       </div>
                       <div className="flex flex-col items-center md:flex-col text-sm font-semibold font-mabrybold">
-                        <div><span>John Lucas •</span></div>
-                        <span className="md:ml-0 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
+                        <div>
+                          <span>John Lucas •</span>
+                        </div>
+                        <span className="md:ml-0 font-mabry text-xs text-gray-500">
+                          {" "}
+                          5 minutes ago
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -425,8 +518,13 @@ export default function ReviewLine() {
                         />
                       </div>
                       <div className="flex flex-col items-center md:flex-col text-sm font-semibold font-mabrybold">
-                        <div><span>John Lucas •</span></div>
-                        <span className="md:ml-0 font-mabry text-xs text-gray-500"> 5 minutes ago</span>
+                        <div>
+                          <span>John Lucas •</span>
+                        </div>
+                        <span className="md:ml-0 font-mabry text-xs text-gray-500">
+                          {" "}
+                          5 minutes ago
+                        </span>
                       </div>
                     </div>
                   </div>
