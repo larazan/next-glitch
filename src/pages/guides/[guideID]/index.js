@@ -6,11 +6,15 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Report from "@/components/Report";
+import Breadcrumb from "@/components/Breadcrumb";
 
 import pravatar from "@/img/300.jpg";
 import lastofus from "@/img/lastofus.jpg";
 import { Help } from "@/components/Help";
 import GoTop from "@/components/GoTop";
+import Tags from "@/components/Tags";
+import Author from "@/components/Author";
+import Comment from "@/components/Comment";
 
 export default function Guide() {
   const [reportModalOpen, setReportModalOpen] = useState(false);
@@ -29,90 +33,156 @@ export default function Guide() {
       <Header />
       <GoTop />
 
-      <div className="flex mx-auto w-full pt-16 pb-2 px-4 bg-white">
+      <div className="flex mx-auto w-full pt-16 pb-2 px-4 bg-[#f6f8f7]">
         <div className="flex justify-center items-center w-full bg-green-100 h-20">
           <div className="text-gray-500">advertising</div>
         </div>
       </div>
-      <div className="container w-full bg-white md:max-w-4xl mx-auto flex flex-col md:flex-row items-center mt-4 px-2 md:px-4">
-        <div className="w-full md:w-2/3 z-10">
-          <Image src={lastofus} quality={100} alt="" />
-        </div>
-        <div className="flex flex-col w-full  md:w-1/3 px-3 py-4 space-y-4">
-          <div className="flex w-full space-x-3">
-            <div className="flex  h-12 w-12 items-center justify-center border shadow-menu border-gray-800 bg-green-300 rounded-full px-2 py-2">
-              <span className="text-lg font-mabrybold text-gray-900">8.7</span>
-            </div>
-            <div className="flex w-2/3 flex-col leading-tight">
-              <div className="text-sm font-mabrybold text-gray-900">User Score</div>
-              <div className="text-xs font-mabry leading-snug text-gray-900">
-                Generally favorable reviews based on 201 Ratings {" "} 
-              </div>
-             
-            </div>
-          </div>
-          <div className="flex justify-center border border-gray-800 rounded shadow-stack-sm">
-            <div className="flex flex-col w-full ">
-              <div className="border-b border-gray-800 py-3 px-3 leading-tight">
-                <span className="text-sm font-mabrybold text-gray-900">The Last of us</span>
-              </div>
-              <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                <div className="text-sm font-mabrybold text-gray-900">Rating</div>
-                <div className="text-sm font-mabry text-gray-900">M</div>
-              </div>
-              <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                <div className="text-sm font-mabrybold text-gray-900">Developer</div>
-                <div className="text-sm font-mabry text-gray-900">CD Projekt Red Studio</div>
-              </div>
-              <div className="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                <div className="text-sm font-mabrybold text-gray-900">Genre</div>
-                <div className="text-sm font-mabry text-gray-900">
-                  Role-Playing, Action RPG
+      <div className="bg-[#f6f8f7]">
+        <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col  items-center px-4 md:px-4">
+          <div className="flex flex-col py-2 md:py-4">
+            <Breadcrumb />
+            <span className="font-mabryblack uppercase leading-tight md:leading-11 text-2xl md:text-5xl pb-2 text-gray-900">
+              Dead Space remake review: A masterclass in survival horror, all
+              over again
+            </span>
+            <div className="flex flex-col md:flex-row space-y-1 md:justify-between border-t-2 border-[#d54215] pt-2 md:pt-2">
+              <span>
+                <p className="text-sm md:text-sm font-mabry text-gray-900">
+                  Published 19 February 2019
+                </p>
+              </span>
+              <div className="font-mabry">
+                <div className=" flex justify-between items-center text-base md:text-sm text-green-500 font-bold">
+                  <div className="flex justify-end space-x-2">
+                    <button>
+                      <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-blue-500/50 ">
+                        <span className="hidden md:block text-white font-mabrybold">
+                          Facebook
+                        </span>
+                        <svg
+                          className="w-5 h-5 md:w-4 md:h-4 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                            clipRule="evenodd"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                    <button>
+                      <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
+                        <span className="hidden md:block text-white font-mabrybold">
+                          Twitter
+                        </span>
+                        <svg
+                          className="w-5 h-5 md:w-4 md:h-4 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                      </div>
+                    </button>
+                    <button>
+                      <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black  hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth={1.5}
+                          stroke="currentColor"
+                          className="w-5 h-5 md:w-4 md:h-4 text-white"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                          />
+                        </svg>
+
+                        <span className="hidden md:block text-white font-mabry">
+                          Copy url
+                        </span>
+                      </div>
+                    </button>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setReportModalOpen(true);
+                      }}
+                    >
+                      <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-white hover:bg-white text-black hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-5 h-5 md:w-4 md:h-4"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+
+                        <span className="hidden md:block text-black font-mabry">
+                          Report
+                        </span>
+                      </div>
+                    </button>
+                    
+                  </div>
                 </div>
               </div>
-              <div className="flex justify-between items-center  border-gray-800 py-3 px-3">
-                <div className="text-sm font-mabrybold text-gray-900">Multiplayer</div>
-                <div className="text-sm font-mabry text-gray-900">No</div>
-              </div>
             </div>
           </div>
+          <div className="w-full md:w-full z-10">
+            <Image src={lastofus} quality={100} alt="" />
+          </div>
         </div>
-      </div>
-      <div className=" h-max flex flex-col ">
-        <div className="flex flex-row mx-auto w-full justify-center2 items-center">
-          <div className="flex flex-col md:flex-row w-full md:justify-between px-3 py-2 md:px-8 md:py-4 border-y border-gray-800 bg-white">
-            <div className="flex flex-col w-full md:w-2/3 ">
-              <div className="text-lg font-mabrybold text-gray-900">
-                The last of us part I
+        <div className="container w-full bg-[#f6f8f7] md:max-w-3xl mx-auto flex flex-col md:flex-row items-center mt-4 px-4 md:px-4">
+          <div className="flex flex-row mx-auto w-full justify-center2 items-center">
+            <div className="flex flex-col md:flex-row w-full md:justify-between space-y-3 md:space-y-0 md:space-x-3">
+              
+              <div className="flex flex-col w-full md:w-2/3 px-3 py-2 md:px-3 md:py-2 rounded border-2 border-gray-800 bg-[#114388] shadow-menu">
+                <div className="text-lg font-mabrybold uppercase text-white">
+                  The last of us part I
+                </div>
+                <div className="text-xs font-mabry text-white">
+                  Release Date: Sep 2, 2022
+                </div>
               </div>
-              <div className="text-xs font-mabry text-gray-500">
-                Release Date: Sep 2, 2022
-              </div>
-            </div>
 
-            <div className="flex md:justify-end text-gray-900">
-              <div className="flex flex-wrap justify-end text-xs font-mabry  cursor-pointer">
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  PlayStation 5
-                </span>
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  Nintendo
-                </span>
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  PC
-                </span>
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  Xbox
-                </span>
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  Console
-                </span>
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  Google
-                </span>
-                <span className="m-0.5 hover:underline underline-offset-2">
-                  Smartphone
-                </span>
+              <div className="flex md:justify-end text-white uppercase px-3 py-2 md:px-3 md:py-2 rounded border-2 border-gray-800 bg-[#f25c34] shadow-menu">
+                <div className="flex flex-wrap justify-end text-xs font-mabrybold cursor-pointer">
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    PlayStation 5
+                  </span>
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    Nintendo
+                  </span>
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    PC / MAC
+                  </span>
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    Xbox
+                  </span>
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    Console
+                  </span>
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    Google
+                  </span>
+                  <span className="m-0.5 hover:underline underline-offset-2">
+                    Smartphone
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -120,100 +190,10 @@ export default function Guide() {
       </div>
 
       <div className="bg-[#f6f8f7]">
-        <div className="container w-full md:max-w-4xl mx-auto pt-4 md:pt-6 ">
+        <div className="container w-full md:max-w-3xl mx-auto pt-4 md:pt-4 px-0 md:px-0">
           <div className="w-full px-4 md:px-6 text-lg text-gray-800 leading-normal">
             <div className="flex w-full space-x-3">
-              <div className="w-full md:w-2/3">
-                {/* SOCMED */}
-                <div className="font-mabry">
-                  <div className=" flex justify-between items-center text-base md:text-sm text-green-500 font-bold">
-                  <div className="flex justify-end space-x-2">
-                      <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-blue-500/50 ">
-                          <span className="hidden md:block text-white font-mabrybold">
-                            Facebook
-                          </span>
-                          <svg
-                            className="w-5 h-5 md:w-4 md:h-4 text-white"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                              clipRule="evenodd"
-                            ></path>
-                          </svg>
-                        </div>
-                      </button>
-                      <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
-                          <span className="hidden md:block text-white font-mabrybold">
-                            Twitter
-                          </span>
-                          <svg
-                            className="w-5 h-5 md:w-4 md:h-4 text-white"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                          >
-                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
-                          </svg>
-                        </div>
-                      </button>
-                      <button>
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-gray-800 hover:bg-black  hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-5 h-5 md:w-4 md:h-4 text-white"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                            />
-                          </svg>
-
-                          <span className="hidden md:block text-white font-mabry">
-                            Copy url
-                          </span>
-                        </div>
-                      </button>
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setReportModalOpen(true);
-                        }}
-                      >
-                        <div className="flex rounded border py-1.5 px-2 shadow-menu border-gray-800 bg-white hover:bg-white text-black hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            className="w-5 h-5 md:w-4 md:h-4"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-
-                          <span className="hidden md:block text-black font-mabry">Report</span>
-                        </div>
-                      </button>
-                      <Report
-                        modalOpen={reportModalOpen}
-                        setModalOpen={setReportModalOpen}
-                      />
-                    </div>
-                  </div>
-                </div>
+              <div className="w-full">
 
                 {/* CONTENT */}
                 <div className=" text-md font-mabry leading-snug">
@@ -322,7 +302,7 @@ export default function Guide() {
                 <Help />
 
                 {/* SOURCE */}
-                <div className="md:text-sm text-gray-500 px-2 md:px-4 py-3 font-mabry">
+                <div className="text-sm text-gray-500 px-2 md:px-0 py-3 font-mabry">
                   Source:{" "}
                   <a
                     href="https://mydramalist.com/article/an-ultra-fan-guide-to-lee-elijah"
@@ -333,69 +313,13 @@ export default function Guide() {
                 </div>
 
                 {/* TAGS */}
-                <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-2 md:px-4 py-2">
-                  <span> Tags: </span>
-                  <div className="flex flex-wrap space-x-1 w-60">
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-indigo-500 border border-indigo-500 py-1 px-2 rounded-full bg-indigo-200 capitalize "
-                    >
-                      action
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-green-500 border border-green-500 py-1 px-2 rounded-full bg-green-200 capitalize "
-                    >
-                      adventure
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-orange-500 border border-orange-500 py-1 px-2 rounded-full bg-orange-200 capitalize "
-                    >
-                      adventure
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-blue-500 border border-blue-500 py-1 px-2 rounded-full bg-blue-200 capitalize "
-                    >
-                      rpg
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-yellow-500 border border-yellow-500 py-1 px-2 rounded-full bg-yellow-200 capitalize "
-                    >
-                      sport
-                    </a>{" "}
-                    <a
-                      href="#"
-                      className="m-1 flex flex-wrap items-center text-xs font-mabry md:text-xs text-red-500 border border-red-500 py-1 px-2 rounded-full bg-red-200 capitalize "
-                    >
-                      racing
-                    </a>{" "}
-                  </div>
-                </div>
+                <Tags />
 
-                {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
-
-                <div className="flex w-full items-center font-mabry px-2 md:px-4 py-4 md:py-8">
-                  <Image
-                    className="w-16 h-16 border border-gray-700 rounded-full mr-1 md:mr-4"
-                    src={pravatar}
-                    alt="Avatar of Author"
-                  />
-                  <div className="flex flex-col px-2">
-                    <p className="font-mabrybold text-base md:text-xl leading-none ">
-                      Jo Bloggerson
-                    </p>
-                    <p className="text-gray-600 text-xs md:text-base font-mabry">
-                      Minimal Blog Tailwind CSS template by{" "}
-                    </p>
-                  </div>
-                </div>
-                {/* <DetailComment /> */}
+                <Author />
+                <Comment />
                 {/* <hr className="border-b-2 border-gray-400 mb-8 mx-4" /> */}
               </div>
-              <div className="hidden md:block w-1/3 bg-green-100"></div>
+              {/* <div className="hidden md:block w-1/3 bg-green-100"></div> */}
             </div>
           </div>
         </div>

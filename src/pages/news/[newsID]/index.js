@@ -179,7 +179,7 @@ export default function Detail() {
 
                 <Help />
 
-                <div className="md:text-sm text-gray-500 px-2 md:px-0 py-3 font-mabry">
+                <div className="text-sm text-gray-500 px-2 md:px-0 py-3 font-mabry">
                   Source:{" "}
                   <a
                     href="https://mydramalist.com/article/an-ultra-fan-guide-to-lee-elijah"
