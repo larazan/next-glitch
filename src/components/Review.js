@@ -145,8 +145,8 @@ const Review = () => {
                     <Image src={data.img} alt="" className="rounded-t w-full" />
                   </div>
                   <div className="flex flex-col leading-tight py-1">
-                    <h3 className="md:text-lg font-mabrybold">{data.name}</h3>
-                    <span className="text-xs font-mabry">{data.location}</span>
+                    <h3 className="md:text-lg font-mabrybold text-gray-900">{data.name}</h3>
+                    <span className="text-xs font-mabry text-gray-900">{data.location}</span>
                   </div>
                   <div className="text-sm font-mabry">
                     <div className="flex items-center space-x-0">
@@ -214,7 +214,7 @@ const Review = () => {
                   </div>
                 </div>
                 <div className="flex px-3 leading-tight pb-5">
-                  <span className="font-mabry">{data.testimoni}</span>
+                  <span className="font-mabry text-gray-900">{data.testimoni}</span>
                 </div>
               </div>
             );

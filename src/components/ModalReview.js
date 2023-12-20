@@ -60,7 +60,7 @@ function ModalReview({ id, modalOpen, setModalOpen }) {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth={1.5}
+                strokeWidth={2}
                 stroke="currentColor"
                 className="w-5 h-5 md:w-6 md:h-6 text-white"
               >
@@ -83,7 +83,7 @@ function ModalReview({ id, modalOpen, setModalOpen }) {
             <div className="flex flex-col p-4  sm:p-6 md:col-span-2 lg:p-8">
               <div className="flex justify-between ">
                 <div>
-                  <span className="">Valerie F.</span>
+                  <span className="text-gray-900">Valerie F.</span>
                 </div>
                 <div className="flex space-x-1 items-center">
                   <div>
@@ -92,7 +92,7 @@ function ModalReview({ id, modalOpen, setModalOpen }) {
                       viewBox="0 0 24 24"
                       fill="currentColor"
                       dataSlot="icon"
-                      className="w-5 h-5"
+                      className="w-5 h-5 text-gray-900"
                     >
                       <path
                         fillRule="evenodd"
@@ -101,7 +101,7 @@ function ModalReview({ id, modalOpen, setModalOpen }) {
                       />
                     </svg>
                   </div>
-                  <span className="text-xs">Verified purchase</span>
+                  <span className="text-xs text-gray-900">Verified purchase</span>
                 </div>
               </div>
               <div className="flex justify-between items-center">
@@ -186,7 +186,7 @@ function ModalReview({ id, modalOpen, setModalOpen }) {
 
               <div className="mt-4 flex flex-col">
                 <div className="text-xs text-gray-400">item type:</div>
-                <span className="text-sm capitalize">
+                <span className="text-sm capitalize text-gray-900">
                   obsolete die cast - sku234
                 </span>
               </div>

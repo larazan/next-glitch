@@ -14,11 +14,13 @@ export default function Register() {
 
             <div className="flex flex-1 flex-col w-10/12 justify-center space-y-3 md:space-y-5 max-w-md">
               <div className="flex justify-center pb-3 border-b w-full mx-auto">
+              <Link href={""}>
                 <Logo />
+                </Link>
                 {/* <span className="text-3xl font-bold text-gray-900 uppercase tracking-tight">Business Insider</span> */}
               </div>
               <div className="flex flex-col space-y-1 md:space-y-2">
-                <h2 className="text-2xl md:text-2xl tracking-tight font-bold">
+                <h2 className="text-2xl md:text-2xl tracking-tight font-bold text-gray-900">
                   Create an account
                 </h2>
                 <p className="text-md md:text-md text-gray-400">
@@ -33,7 +35,7 @@ export default function Register() {
                   <input
                     type="text"
                     placeholder="Enter your email"
-                    className="flex w-full px-3 py-3 md:px-4 md:py-4 border-2 border-gray-300 rounded font-medium placeholder:font-normal"
+                    className="flex w-full px-3 py-3 md:px-4 md:py-4 border-2 bg-white border-gray-300 rounded font-medium placeholder:font-normal"
                   />
                 </div>
                 {/* <div className="relative w-full">
@@ -73,7 +75,7 @@ export default function Register() {
                 </button>
                 <div className="flex justify-center items-center">
                   <span className="w-full border"></span>
-                  <span className="px-4">Or</span>
+                  <span className="px-4 text-gray-900">Or</span>
                   <span className="w-full border"></span>
                 </div>
                 <button className="flex items-center justify-center flex-none px-3 py-3 md:px-4 md:py-3 border border-gray-400 hover:border-blue-300 rounded-md font-medium relative">
@@ -103,7 +105,7 @@ export default function Register() {
                       />
                     </svg>
                   </span>
-                  <span>Sign in with Google</span>
+                  <span className="text-gray-900">Sign in with Google</span>
                 </button>
               </div>
             </div>
