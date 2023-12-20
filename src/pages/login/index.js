@@ -1,73 +1,80 @@
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import { Logo } from "@/components/Logo";
+import Image from "next/image";
 
 export default function Login() {
   return (
     <>
-      <div className="flex min-h-screen">
+      <div className="flex min-h-screen bg-white">
         <div className="flex flex-row w-full">
-          <div className="hidden lg:flex flex-col justify-between bg-[#ffe85c] lg:p-8 xl:p-12 lg:max-w-sm xl:max-w-lg">
-            <div className="flex items-center justify-start space-x-3">
-              <span className="bg-black rounded-full w-8 h-8"></span>
-              <a href="#" className="font-medium text-xl">
-                Brand
-              </a>
-            </div>
-            <div className="space-y-7">
-              <h1 className="lg:text-3xl xl:text-5xl xl:leading-snug font-extrabold">
-                Enter your account and discover new experiences
-              </h1>
-              <div className="space-y-2">
-              <p className="text-lg font-semibold">You do not have an account?</p>
-              <Link href={"/register"} className="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
-                Create account here
-              </Link>
-              </div>
-            </div>
-            <p className="font-medium">© 2022 Company</p>
-          </div>
+          <div className="flex flex-1 flex-col items-center justify-center px-0 md:px-10 relative">
+           
 
-          <div className="flex flex-1 flex-col items-center justify-center px-10 relative">
-            <div className="flex lg:hidden justify-between items-center w-full py-4">
-              <div className="flex items-center justify-start space-x-3">
-                <span className="bg-black rounded-full w-6 h-6"></span>
-                <a href="#" className="font-medium text-lg">
-                  Brand
-                </a>
+            <div className="flex flex-1 flex-col w-10/12 justify-center space-y-3 md:space-y-5 max-w-md">
+              <div className="flex justify-center pb-3 border-b w-full mx-auto">
+                <Logo />
+                {/* <span className="text-3xl font-bold text-gray-900 uppercase tracking-tight">Business Insider</span> */}
               </div>
-              <div className="flex items-center space-x-2">
-                <span>Not a member? </span>
-                <Link href="/register" className="underline font-medium text-[#070eff]">
-                  Sign up now
-                </Link>
-              </div>
-            </div>
-
-            <div className="flex flex-1 flex-col  justify-center space-y-5 max-w-md">
-              <div className="flex flex-col space-y-2 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold">
-                  Sign in to account
+              <div className="flex flex-col space-y-1 md:space-y-2">
+                <h2 className="text-2xl md:text-2xl tracking-tight font-bold">
+                  Log in
                 </h2>
-                <p className="text-md md:text-xl">
-                  Sign up or log in to place the order,no password require!
+                <p className="text-md md:text-md text-gray-400">
+                  New to Game Zone?{" "}
+                  <Link href={"/register"}>
+                  <span className="text-[#2680fb] hover:opacity-70">Create an account</span>
+                  </Link>
                 </p>
               </div>
-              <div className="flex flex-col max-w-md space-y-5">
-                <input
-                  type="text"
-                  placeholder="Username"
-                  className="flex px-3 py-2 md:px-4 md:py-3 border-2 border-black rounded-lg font-medium placeholder:font-normal"
-                />
-                <button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black bg-black text-white">
-                  Confirm with email
+              <div className="flex flex-col max-w-md space-y-4 md:space-y-5">
+                <div className="relative w-full">
+                  <input
+                    type="text"
+                    placeholder="Enter your email"
+                    className="flex w-full px-3 py-3 md:px-4 md:py-4 border-2 border-gray-300 rounded font-medium placeholder:font-normal"
+                  />
+                </div>
+                <div className="relative w-full">
+                  <input
+                    type="password"
+                    placeholder="Enter your password"
+                    className="flex w-full px-3 py-3 md:px-4 md:py-4 border-2 border-gray-300 rounded font-medium placeholder:font-normal"
+                  />
+                  <div className="absolute top-3 md:top-4 right-3 cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6 text-gray-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <Link href={"/forgot"} className="cursor-pointer text-gray-500 hover:text-gray-400">
+                  <span className="text-sm">Forgot password?</span>
+                </Link>
+                <button className="flex items-center uppercase tracking-wide justify-center flex-none px-3 py-3 md:px-4 md:py-3 border-2 rounded-3xl font-bold hover:opacity-80 border-black bg-black text-sm text-white">
+                  Log in
                 </button>
                 <div className="flex justify-center items-center">
-                  <span className="w-full border border-black"></span>
+                  <span className="w-full border"></span>
                   <span className="px-4">Or</span>
-                  <span className="w-full border border-black"></span>
+                  <span className="w-full border"></span>
                 </div>
-                <button className="flex items-center justify-center flex-none px-3 py-2 md:px-4 md:py-3 border-2 rounded-lg font-medium border-black relative">
+                <button className="flex items-center justify-center flex-none px-3 py-3 md:px-4 md:py-3 border border-gray-400 hover:border-blue-300 rounded-md font-medium relative">
                   <span className="absolute left-4">
                     <svg
                       width="24px"

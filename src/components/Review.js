@@ -124,7 +124,7 @@ const Review = () => {
           </div>
           <Link href={""} className="relative inline-block text-lg group">
             <span className="relative flex z-10 button px-3 py-3 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded ">
-              <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
+              <span className="absolute inset-0 w-full h-full px-5 py-3 rounded bg-green-200 group-hover:bg-green-300"></span>
               <span className="relative">Write a review</span>
             </span>
           </Link>
@@ -144,7 +144,7 @@ const Review = () => {
                   <div className="flex justify-center items-center">
                     <Image src={data.img} alt="" className="rounded-t w-full" />
                   </div>
-                  <div className="flex flex-col leading-tight">
+                  <div className="flex flex-col leading-tight py-1">
                     <h3 className="md:text-lg font-mabrybold">{data.name}</h3>
                     <span className="text-xs font-mabry">{data.location}</span>
                   </div>

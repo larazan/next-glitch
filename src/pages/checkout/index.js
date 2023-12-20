@@ -63,7 +63,7 @@ export default function Checkout() {
             </div>
             <div className="mt-2">
               <div className="inline-flex items-center">
-                <input type="checkbox" name="" id="" className="bg-white" />
+                <input type="checkbox" name="" id="" className="bg-white dark:bg-white" />
                 <label for="" className="text-sm  ml-2 text-gray-500">
                   Email me with news and offers
                 </label>
@@ -233,7 +233,7 @@ export default function Checkout() {
                   type="checkbox"
                   name=""
                   id=""
-                  className="border-gray-300 bg-white shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                  className="border-gray-300 bg-white dark:bg-white shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                 />
                 <label for="" className="text-sm ml-2 text-gray-500">
                   Save this information for next time
@@ -400,7 +400,7 @@ export default function Checkout() {
                   type="radio"
                   name="countries"
                   value="USA"
-                  class="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
+                  class="h-4 w-4 bg-white dark:bg-white border-gray-300 focus:ring-2 focus:ring-blue-300"
                   aria-labelledby="country-option-1"
                   aria-describedby="country-option-1"
                   checked=""
@@ -420,7 +420,7 @@ export default function Checkout() {
                   type="radio"
                   name="countries"
                   value="USA"
-                  class="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
+                  class="h-4 w-4 bg-white dark:bg-white border-gray-300 focus:ring-2 focus:ring-blue-300"
                   aria-labelledby="country-option-2"
                   aria-describedby="country-option-2"
                   checked=""
@@ -616,7 +616,7 @@ export default function Checkout() {
             <span>Return to cart</span>
           </Link>
 
-          <div className="mt-6 pt-1.5 border-t">
+          <div className="hidden md:block mt-6 pt-1.5 border-t">
             <span className="text-xs text-gray-500">All rights reserved IGN</span>
           </div>
         </div>
@@ -667,7 +667,11 @@ export default function Checkout() {
           <button className="mt-4 mb-8 w-full rounded-md bg-[#006eff] hover:opacity-80 px-6 py-3 font-medium text-white">
             Pay Now
           </button>
+          <div className="block md:hidden mt-6 pt-1.5 border-t">
+            <span className="text-xs text-gray-500">All rights reserved IGN</span>
+          </div>
         </div>
+        
       </div>
 
 
