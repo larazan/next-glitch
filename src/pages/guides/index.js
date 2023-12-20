@@ -68,9 +68,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -124,9 +122,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -180,9 +176,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -236,9 +230,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -292,9 +284,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -348,9 +338,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -404,9 +392,7 @@ export default function Guides() {
                         </span>
                       </div>
                       <div className="flex justify-end pt-2 space-x-3 items-center">
-                        <div className="text-[12px] font-mabry py-1 px-2 border-red-700 rounded-lg bg-red-300 text-red-700 capitalize">
-                          call of duty
-                        </div>
+                        
                         <div className="flex space-x-1 items-center">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

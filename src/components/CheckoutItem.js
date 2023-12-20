@@ -32,7 +32,7 @@ const CheckoutItem = () => {
             £ 91,00
         </div>
         
-        <div className="flex items-center justify-end mt-3">
+        {/* <div className="flex items-center justify-end mt-3">
           <span className="cursor-pointer text-black/[0.5] hover:text-red-600 text-[16px] md:text-[18px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const CheckoutItem = () => {
               />
             </svg>
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   )

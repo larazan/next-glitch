@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 
 import antman from "@/img/antman.jpg";
 import GoTop from "@/components/GoTop";
+import Review from "@/components/Review";
 
 export default function Product() {
   return (
@@ -24,7 +25,7 @@ export default function Product() {
       <div className="pt-12 h-max flex flex-col">
         <div className="flex flex-row mx-auto w-full justify-center2 items-center">
           <div className="flex flex-col  md:flex-row justify-between w-full px-0 py-4 border-y border-gray-800 bg-white">
-            <div className="flex mx-auto w-full md:w-11/12">
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 mx-auto w-11/12 md:w-11/12">
               <div className="flex w-full md:w-2/3 space-x-4 items-center">
                 {/* <div className="text-lg font-mabrybold ">Rp 2.500.000</div> */}
                 <div className="text-lg md:text-2xl font-mabryblack leading-tight text-gray-900">
@@ -32,7 +33,7 @@ export default function Product() {
                 </div>
               </div>
 
-              <div className="flex w-1/3 justify-end space-x-2 items-center">
+              <div className="flex w-full md:w-1/3 justify-end space-x-2 items-center">
                 <div className="text-sm font-mabry hover:underline underline-offset-4 cursor-pointer">
                   <div className="flex items-center space-x-0">
                     <svg
@@ -125,7 +126,7 @@ export default function Product() {
           </div>
           <div className="flex flex-col md:flex-row w-full ">
             <div className="flex flex-col w-full md:w-2/3 bg-white border-r border-gray-800">
-              <div className="flex w-full h-28 items-center py-10 px-4 bg-white border-b border-gray-800">
+              <div className="flex w-full min-h-20 items-center py-0 md:py-0 px-4 bg-white border-b border-gray-800">
                 <div className="text-3xl py-10 font-mabry leading-tight text-gray-900">
                   Roronoa Zoro Action Figure One Piece Grandista Zorro
                 </div>
@@ -425,6 +426,7 @@ export default function Product() {
               </div>
             </div>
           </div>
+          <Review />
         </div>
       </div>
 

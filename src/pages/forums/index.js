@@ -213,7 +213,7 @@ export default function Forums() {
 
             <div className="flex flex-col space-y-4 md:space-y-6">
               {/*  */}
-              <div className="flex border-2 border-gray-700 p-3 hover:border-blue-500 cursor-pointer">
+              <div className="flex border-2 border-gray-700 p-3 hover:border-indigo-600 cursor-pointer group">
                 <div className="flex-shrink  flex flex-col space-y-2  items-center">
                   <button className="border border-gray-500 p-2 rounded text-center text-sm shadow-sm bg-[#fcfcfc] flex flex-col justify-center items-center font-mabry">
                     <svg
@@ -236,7 +236,7 @@ export default function Forums() {
                 </div>
                 <div className="flex flex-col ml-4">
                   <Link href={"/forums/2"}>
-                    <div className="pb-1.5 cursor-pointer text-gray-900 text-md font-mabrybold hover:text-indigo-600 leading-tight">
+                    <div className="pb-1.5 cursor-pointer text-gray-900 text-md font-mabrybold group-hover:text-indigo-600 leading-tight">
                       <span>
                         Prompt for Teams: Create Teams, Share Prompts &
                         Collaborate (at work)
