@@ -8,6 +8,8 @@ import Footer from "@/components/Footer";
 
 import tournament from "@/img/dota-tournament.jpg";
 import dota from "@/img/dota-logo.png";
+import flyer from "@/img/flyer.png";
+import GoTop from "@/components/GoTop";
 
 const Detail = () => {
   return (
@@ -19,62 +21,135 @@ const Detail = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <GoTop />
       <div className="bg-[#f6f8f7] relative py-6 md:py-12 ">
         <article className="max-w-3xl mx-auto relative z-10 py-4 md:py-8 px-1.5 md:px-4 markdown">
-          <div className="container bg-white mx-auto mt-12 px-3 md:p-6 rounded-xl shadow-lg">
-            <div className="px-4">
-              <h1 className="py-5 font-mabryblack leading-tight text-3xl md:text-5xl tracking-tight font-display font-bold text-center">
-                Bali Major 2023
+          <div className="container bg-white mx-auto mt-12 px-0 md:p-0 rounded-xl shadow-lg border-2 border-gray-800 shadow-menu">
+            <div className="px-4 bg-gray-500 rounded-t-xl">
+              <h1 className="py-2 font-bold leading-tight text-md md:text-xl text-white uppercase tracking-tight font-display font-bold text-center">
+                Dota tournament 2023
               </h1>
             </div>{" "}
-            <div className="mt-2 md:mt-2 flex justify-center  text-sm">
-              <Image src={tournament} alt="" className="rounded-lg" />
+            <div className="mt-0 md:mt-0 flex justify-center  text-sm">
+              <Image src={flyer} alt="" className="" />
             </div>
-            <div className="w-full py-6 flex flex-col-reverse md:flex-row md:space-x-4">
-              <div className="w-full md:w-3/5 bg-[#f4f2ef] rounded-lg p-4 mt-4 md:mt-0">
-                <p className="font-mabry md:text-lg leading-tight">
-                  While on PTO I more or less accidentally found a lot of
-                  companies storing sensitive data in publicly accessible cloud
-                  storage that can easily be scraped.
+            <div className="flex py-3 md:py-6 mx-auto w-11/12">
+              <div className="flex flex-col w-full space-y-0">
+                <div>
+                  <span className="text-sm uppercase font-semibold tracking-wide">
+                    Tournament :
+                  </span>
+                </div>
+                <p className="font-semibold text-lg md:text-lg leading-tight md:tracking-tight uppercase">
+                  DreamLeague season 23
                 </p>
               </div>
-              <div className="w-full md:w-2/5 bg-[#4a5568] rounded-lg  text-white">
-                <div className="flex flex-col w-full py-3 leading-tight">
-                    <div className="flex justify-center items-center py-3">
-                        <Image src={dota} alt="" />
-                    </div>
-                  <div className="flex justify-between items-center  py-2 px-3">
-                    <div className="text-sm font-mabrybold">Disipline:</div>
-                    <div className="text-sm font-mabry">Dota 2</div>
+            </div>
+            {/* <div className="flex flex-col py-3 mx-auto w-11/12 space-y-0">
+              <div>
+                <span className="text-sm uppercase font-semibold tracking-normal">
+                  guest star :
+                </span>
+              </div>
+              <div className="flex space-x-4">
+                <div className="flex flex-col w-40 py-3 items-center  space-y-1">
+                  <div className="flex p-2 w-20 h-20 justify-center items-center bg-gray-300 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      dataSlot="icon"
+                      className="w-12 h-12 text-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                      />
+                    </svg>
                   </div>
-                  <div className="flex justify-between items-center  py-2 px-3">
-                    <div className="text-sm font-mabrybold">Date:</div>
-                    <div className="text-sm font-mabry">
-                      29.06.23 - 09.07.23
-                    </div>
+                  <div className="flex flex-col items-center">
+                    <p className="text-sm font-semibold capitalize">
+                      Axel Rose
+                    </p>
+                    <span className="text-xs capitalize">winner</span>
                   </div>
-                  <div className="flex justify-between items-center  py-2 px-3">
-                    <div className="text-sm font-mabrybold">Prize:</div>
-                    <div className="text-sm font-mabry">$500 000</div>
+                </div>
+                <div className="flex flex-col w-40 py-3 items-center  space-y-1">
+                  <div className="flex p-2 w-20 h-20 justify-center items-center bg-gray-300 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      dataSlot="icon"
+                      className="w-12 h-12 text-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                      />
+                    </svg>
                   </div>
-                  <div className="flex justify-between items-center  border-gray-800 py-2 px-3">
-                    <div className="text-sm font-mabrybold">Type:</div>
-                    <div className="text-sm font-mabry">Offline</div>
-                  </div>
-                  <div className="flex justify-between items-center  border-gray-800 py-2 px-3">
-                    <div className="text-sm font-mabrybold">Organizers:</div>
-                    <div className="text-sm font-mabry">Epulze IO Sport</div>
-                  </div>
-                  <div className="flex justify-between items-center  border-gray-800 py-2 px-3">
-                    <div className="text-sm font-mabrybold">Venue:</div>
-                    <div className="text-sm font-mabry">Ayana</div>
-                  </div>
-                  <div className="flex justify-between items-center  border-gray-800 py-2 px-3">
-                    <div className="text-sm font-mabrybold">Sponsor:</div>
-                    <div className="text-sm font-mabry">Ayana</div>
+                  <div className="flex flex-col items-center">
+                    <p className="text-sm font-semibold capitalize">
+                      Axel Rose
+                    </p>
+                    <span className="text-xs capitalize">winner</span>
                   </div>
                 </div>
               </div>
+            </div> */}
+            <div className="flex flex-col py-3 mx-auto w-11/12 space-y-0 leading-3">
+              <div>
+                <span className="text-sm uppercase font-semibold tracking-normal">
+                  Place :
+                </span>
+              </div>
+              <span className="flex w-4/6 font-bold text-lg md:text-2xl leading-5 md:leading-2 md:tracking-tight uppercase">
+                Main Atrium <br />
+                tunjungan plaza 3, surabaya
+              </span>
+            </div>
+            <div className="flex py-3 md:py-6 mx-auto w-11/12">
+              <div className="flex flex-col space-y-0 w-1/2">
+                <div>
+                  <span className="text-sm uppercase font-semibold tracking-normal">Match day :</span>
+                </div>
+                <p className="font-bold md:text-3xl leading-tight tracking-tight uppercase">
+                  22 - 23 Dec
+                </p>
+              </div>
+              <div className="flex flex-col space-y-0 w-1/2">
+                <div>
+                  <span className="text-sm uppercase font-semibold tracking-normal">Start :</span>
+                </div>
+                <p className="font-bold md:text-3xl leading-tight tracking-tight uppercase">
+                  13:00
+                </p>
+              </div>
+            </div>
+            <div className="flex py-3 md:py-6 mx-auto w-11/12">
+              <div className="flex flex-col w-full space-y-0">
+                <div>
+                  <span className="text-sm uppercase font-semibold tracking-wide">
+                     Prize pool :
+                  </span>
+                </div>
+                <p className="font-semibold md:text-5xl leading-tight tracking-tight uppercase">
+                 $23.000.000.00
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between items-center py-2 px-4 bg-[#faebd7] rounded-b-xl">
+              <h1 className="py-2 font-bold leading-tight text-sm text-gray-900 uppercase tracking-tight font-display font-bold text-center2">
+                Dota tournament 2023
+              </h1>
+              <span className="text-xs capitalize">please come on time according to the boarding time</span>
             </div>
           </div>
         </article>

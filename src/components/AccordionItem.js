@@ -2,8 +2,8 @@ import React from "react";
 
 const AccordionItem = ({ open, toggle, title, desc }) => {
   return (
-    <div className="w-full py-3 px-3 md:py-6 md:px-6 border-2 border-gray-800 shadow-menu rounded-lg bg-white">
-      <dt className="w-full md:text-lg">
+    <div className="w-full py-0 px-0 md:py-0 md:px-0 border-2 border-gray-800 shadow-menu bg-white">
+      <dt className="w-full md:text-lg bg-[#faebd7] p-3 md:py-4 md:px-4 border-b border-gray-800">
         <button
           className="flex items-start justify-between w-full text-left text-gray-400"
           id="headlessui-disclosure-button-11"
@@ -51,7 +51,7 @@ const AccordionItem = ({ open, toggle, title, desc }) => {
         </button>
       </dt>
       {open ? (
-        <dd className="pr-12 mt-2" id="headlessui-disclosure-panel-12">
+        <dd className="pr-12 mt-0 p-4 md:p-4" id="headlessui-disclosure-panel-12">
           <p className="text-base font-mabry text-gray-700">
             <div>{desc}</div>
           </p>

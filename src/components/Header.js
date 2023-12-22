@@ -45,7 +45,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed z-30 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between bg-[#f8f4f2] border-b2 shadow2 ${show} `}
+        className={`fixed z-30 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between bg-[#faebd7] border-b2 shadow2 ${show} `}
       >
         <div className="flex w-full md:w-3/12 justify-between space-x-4">
           <div className="flex justify-between w-full md:w-[100px]">
@@ -181,11 +181,11 @@ export default function Header() {
         modalOpen={searchModalOpen}
         setModalOpen={setSearchModalOpen}
       />
-      <AdsModal
+      {/* <AdsModal
         id="ads-modal"
         modalOpen={adsModalOpen}
         setModalOpen={setAdsModalOpen}
-      />
+      /> */}
     </>
   );
 }

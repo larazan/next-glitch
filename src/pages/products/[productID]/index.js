@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import antman from "@/img/antman.jpg";
 import GoTop from "@/components/GoTop";
 import Review from "@/components/Review";
+import ProductSlider from "@/components/ProductSlider";
 
 export default function Product() {
   return (
@@ -116,13 +117,14 @@ export default function Product() {
       <div className="h-max flex py-6 flex-col px-4 md:px-10 justify-center2 items-center2 bg-[#f6f8f7]">
         <div className="flex flex-col  w-full rounded border border-gray-800 bg-white">
           <div className="flex w-full items-stretch min-h-full bg-green-100 border-b border-gray-800">
-            <div className="">
+            {/* <div className="">
               <Image
                 src={antman}
                 className="object-fill rounded rounded-b-none "
                 alt=""
               />
-            </div>
+            </div> */}
+            <ProductSlider />
           </div>
           <div className="flex flex-col md:flex-row w-full ">
             <div className="flex flex-col w-full md:w-2/3 bg-white border-r border-gray-800">

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import detail1 from "@/img/products/bumble.jpg";
+import detail1 from "@/img/antman.jpg";
+import detail4 from "@/img/products/bumble.jpg";
 import detail2 from "@/img/products/cpo.jpg";
 import detail3 from "@/img/products/hulk.jpg";
-import detail4 from "@/img/products/decepticon.jpg";
+// import detail4 from "@/img/products/decepticon.jpg";
 
 
 const ProductSlider = () => {
@@ -46,9 +47,9 @@ const ProductSlider = () => {
       <div className="h-full w-full m-auto py-0 px-0 relative group">
         <div
           // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-          className="w-full h-full rounded-2xl2 bg-center bg-cover object-cover duration-500"
+          className=""
         >
-          <Image src={slides[currentIndex].url} alt="" className="h-full object-cover" />
+          <Image src={slides[currentIndex].url} alt="" className="object-fill rounded rounded-b-none" />
         </div>
         {/* Left Arrow */}
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full px-1.5 py-.5 bg-black/20 hover:bg-gray-700 text-white cursor-pointer">
