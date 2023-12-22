@@ -36,11 +36,11 @@ const Detail = () => {
             <div className="flex py-3 md:py-6 mx-auto w-11/12">
               <div className="flex flex-col w-full space-y-0">
                 <div>
-                  <span className="text-sm uppercase font-semibold tracking-wide">
+                  <span className="text-sm uppercase font-semibold tracking-wide text-gray-900">
                     Tournament :
                   </span>
                 </div>
-                <p className="font-semibold text-lg md:text-lg leading-tight md:tracking-tight uppercase">
+                <p className="font-semibold text-lg md:text-lg leading-tight md:tracking-tight uppercase text-gray-900">
                   DreamLeague season 23
                 </p>
               </div>
@@ -106,11 +106,11 @@ const Detail = () => {
             </div> */}
             <div className="flex flex-col py-3 mx-auto w-11/12 space-y-0 leading-3">
               <div>
-                <span className="text-sm uppercase font-semibold tracking-normal">
+                <span className="text-sm uppercase font-semibold tracking-normal text-gray-900">
                   Place :
                 </span>
               </div>
-              <span className="flex w-4/6 font-bold text-lg md:text-2xl leading-5 md:leading-2 md:tracking-tight uppercase">
+              <span className="flex w-4/6 font-bold text-lg md:text-2xl leading-5 md:leading-2 md:tracking-tight uppercase text-gray-900">
                 Main Atrium <br />
                 tunjungan plaza 3, surabaya
               </span>
@@ -118,17 +118,17 @@ const Detail = () => {
             <div className="flex py-3 md:py-6 mx-auto w-11/12">
               <div className="flex flex-col space-y-0 w-1/2">
                 <div>
-                  <span className="text-sm uppercase font-semibold tracking-normal">Match day :</span>
+                  <span className="text-sm uppercase font-semibold tracking-normal text-gray-900">Match day :</span>
                 </div>
-                <p className="font-bold md:text-3xl leading-tight tracking-tight uppercase">
+                <p className="font-bold md:text-3xl leading-tight tracking-tight uppercase text-gray-900">
                   22 - 23 Dec
                 </p>
               </div>
               <div className="flex flex-col space-y-0 w-1/2">
                 <div>
-                  <span className="text-sm uppercase font-semibold tracking-normal">Start :</span>
+                  <span className="text-sm uppercase font-semibold tracking-normal text-gray-900">Start :</span>
                 </div>
-                <p className="font-bold md:text-3xl leading-tight tracking-tight uppercase">
+                <p className="font-bold md:text-3xl leading-tight tracking-tight uppercase text-gray-900">
                   13:00
                 </p>
               </div>
@@ -136,20 +136,20 @@ const Detail = () => {
             <div className="flex py-3 md:py-6 mx-auto w-11/12">
               <div className="flex flex-col w-full space-y-0">
                 <div>
-                  <span className="text-sm uppercase font-semibold tracking-wide">
+                  <span className="text-sm uppercase font-semibold tracking-wide text-gray-900">
                      Prize pool :
                   </span>
                 </div>
-                <p className="font-semibold md:text-5xl leading-tight tracking-tight uppercase">
+                <p className="font-semibold md:text-5xl leading-tight tracking-tight uppercase text-gray-900">
                  $23.000.000.00
                 </p>
               </div>
             </div>
             <div className="flex justify-between items-center py-2 px-4 bg-[#faebd7] rounded-b-xl">
-              <h1 className="py-2 font-bold leading-tight text-sm text-gray-900 uppercase tracking-tight font-display font-bold text-center2">
+              <h1 className="py-2 font-bold leading-tight text-sm text-gray-900 uppercase tracking-tight font-display font-bold text-center2 text-gray-900">
                 Dota tournament 2023
               </h1>
-              <span className="text-xs capitalize">please come on time according to the boarding time</span>
+              <span className="text-xs capitalize text-gray-900">please come on time according to the boarding time</span>
             </div>
           </div>
         </article>
